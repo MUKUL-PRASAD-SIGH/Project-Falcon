@@ -1,0 +1,53 @@
+# Project Falcon - CrimeGPT
+# Catalyst-Native Monorepo
+
+# Node/React (Frontend)
+node_modules/
+dist/
+build/
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Python (Backend & ML)
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+.venv/
+.env
+*.log
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Catalyst specific
+.catalyst/
+catalyst.log
+catalyst-debug.log
+
+# IDEs & Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Data / Checkpoints
+data/raw/
+*.csv
+*.json
+!data/schema_mapping.json
+!docs/*.json
+*.geojson
+*.sqlite3
+
+# Checkpoints
+.ipynb_checkpoints/
+checkpoints/
