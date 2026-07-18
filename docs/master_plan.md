@@ -135,12 +135,12 @@
 
 ---
 
-### Step 0.0 - Strategic Mandate: Sovereign AI Initialization [Sequential - Start]
+### Step 0.0 - Strategic Mandate: Global Hybrid Framework Initialization [Sequential - Start]
 **Owner: ALL**
 
 #### 📌 Execution Plan Details
-- **Strategic Value:** Adopt the Israeli Sovereign AI model. Ensure 100% of the architecture runs locally within Zoho Catalyst to defend against corporate dependency and regulatory vulnerabilities. Zero third-party LLMs (OpenAI/Anthropic) allowed.
-- **Clear Outcomes:** A completely sealed, auditable, and cost-efficient sovereign digital platform.
+- **Strategic Value:** Adopt a **Global Best Practices Hybrid Model**. Ensure 100% of the architecture runs locally within Zoho Catalyst to defend against corporate dependency (Israeli model). Implement strict PII masking (EU AI Act). Secure API microservices (Estonian X-Road).
+- **Clear Outcomes:** A completely sealed, interoperable, and cost-efficient sovereign digital platform.
 
 #### 🤖 AI Can Do
 - [ ] Generate sovereign architecture validation checklist
@@ -476,16 +476,16 @@
 
 ---
 
-### Step 1.3 - Serverless Data Validation (Catalyst Functions) [Runs Parallel with Step 1.4]
+### Step 1.3 - Serverless Data Validation & PRISMA Funnel [Runs Parallel with Step 1.4]
 
 #### 📌 Execution Plan Details
-- **Execution Mode:** Sequential (Runs after previous step)
-- **Clear Outcomes:** Successful execution and validation of the tasks listed below.
+- **Execution Mode:** Parallel
+- **Clear Outcomes:** Deployed Serverless Functions acting as a **PRISMA funnel** to clean CSV data and tag records as `Identified`, `Screened`, or `Excluded`.
 - **Possible Mistakes/Risks:** Misconfiguration of services, incomplete code resulting in runtime errors, data pipeline failures.
 - **External Sources Required:** KSP Dataset, Zoho Catalyst Documentation, relevant library docs.
 
 **Owner: P2**
-> Replaces manual one-off validation script. Functions run on every new record insert.
+> Replaces manual one-off validation script. Functions run on every new record insert to maintain PRISMA compliance.
 
 #### 🤖 AI Can Do
 - [ ] Generate Catalyst Serverless Function for GPS bounding box validation

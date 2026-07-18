@@ -76,22 +76,20 @@
 | **Automation** | Catalyst Mail | Investigator email alerts |
 | **Reports/Forensics** | SmartBrowz | Headless verification (Kapoun criteria) & PDF export |
 
-## Sovereign AI & Data Governance
-*Adapted from the Israeli National Security Model for Sovereign AI.*
-To mitigate the risk of corporate dependency and regulatory vulnerabilities inherent in third-party APIs (e.g., OpenAI, Anthropic), Project Falcon is built **exclusively on Zoho Catalyst**. 
-- **Absolute Local Oversight**: Data never leaves the ecosystem.
-- **Auditable Logic**: Algorithms and RAG infrastructure are entirely contained within the state's administrative control.
-- **Cost-Efficiency**: Avoids the pay-per-token model of third-party platforms.
+## 🌍 Global Hybrid Data Governance
+*Adapted from a blend of the world's most robust data protection models.*
+To mitigate the risk of corporate dependency and regulatory vulnerabilities inherent in third-party APIs (e.g., OpenAI, Anthropic), Project Falcon utilizes a **Global Best Practices Hybrid Model** built **exclusively on Zoho Catalyst**:
+- **Israeli Sovereign AI (Autonomy)**: Total administrative oversight. Data never leaves the ecosystem.
+- **EU AI Act & GDPR (Explainability & Privacy)**: Catalyst QuickML RAG provides explicit citations. Catalyst DataStore enforces strict data masking for PII.
+- **Estonian X-Road (Interoperability)**: Catalyst API Gateway provides a secure, decentralized microservice layer between the ML AppSail container and Slate UI.
 
-## Forensic Discovery & Verification Layer
-Digital intelligence harvested from external sources requires academic-level scrutiny. Project Falcon implements:
+## 🔬 Forensic Discovery & PRISMA Verification Layer
+Digital intelligence harvested from external sources requires academic-level scrutiny. Project Falcon implements the **PRISMA (Preferred Reporting Items for Systematic Reviews)** workflow for its investigative funnel:
+- **Identified**: Raw intelligence and FIRs ingested into DataStore.
+- **Screened**: Catalyst Serverless Functions filter out low-signal tips.
+- **Excluded**: **Catalyst SmartBrowz** (headless automation) scrapes external intelligence and rejects any that fail the **Kapoun Criteria** (Accuracy, Authority, Objectivity, Currency, Coverage).
+- **Included**: The verified suspect graph is generated.
 - **Police Evidence Mandate**: Modeled on ROAR/ROARMAP, treating Catalyst DataStore as a centralized registry of all investigative data locations and legal access policies.
-- **Kapoun Criteria Validation**: Using **Catalyst SmartBrowz** (headless automation), the platform scrapes and validates external open-source intelligence based on:
-  1. **Accuracy**: Cross-referencing author credentials.
-  2. **Authority**: Verifying `.gov`/`.edu` domains.
-  3. **Objectivity**: Running quick sentiment sweeps via Zia Services.
-  4. **Currency**: Validating update timestamps.
-  5. **Coverage**: Ensuring full headless visibility without proprietary paywalls.
 
 ## PS2 Requirements Coverage
 | # | Requirement | Status | Catalyst Service |

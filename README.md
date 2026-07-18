@@ -16,13 +16,13 @@ Project Falcon is a sophisticated, 100% **Zoho Catalyst-native** intelligence pl
 
 By leveraging Catalyst QuickML, Zia Services, AppSail, and DataStore, the platform offers an end-to-end investigative ecosystem tailored for deep criminal analysis and spatial forecasting.
 
-## 🛡️ Strategic Foundation: The Sovereign AI Mandate
-In the modern threat landscape, relying on third-party, black-box AI providers poses significant regulatory and security risks. Project Falcon explicitly adapts the **Israeli National Security Model for Sovereign AI**. 
+## 🌍 Strategic Foundation: The Global Hybrid Framework
+In the modern threat landscape, relying on generic third-party AI providers poses significant regulatory and security risks. Project Falcon adapts a **Global Best Practices Hybrid Model**, ensuring world-class security while remaining completely within Zoho Catalyst's native free-tier ecosystem:
 
-Why this is adapted:
-*   **Total Data Autonomy**: By keeping 100% of the architecture within the Zoho Catalyst ecosystem, we eliminate corporate dependency on foreign AI vendors (e.g., OpenAI, Anthropic). The state, not the corporation, calls the shots.
-*   **Auditable Logic**: Algorithms and RAG infrastructure are entirely contained within the state's administrative control.
-*   **Cost & Compliance**: Operating strictly within Catalyst's environment avoids pay-per-token models of third parties while ensuring data doesn't exit secure boundaries.
+1.  **Israeli Sovereign AI Model (Data Autonomy):** By keeping 100% of the architecture within the Zoho Catalyst ecosystem, we eliminate corporate dependency on foreign AI vendors (e.g., OpenAI, Anthropic). The state maintains absolute administrative control.
+2.  **EU AI Act (Explainable AI & Privacy):** Every AI decision must be traceable. Catalyst QuickML RAG provides explicit citations to FIRs. Furthermore, Catalyst DataStore enforces strict data masking for PII, satisfying GDPR-level privacy requirements for Analyst roles.
+3.  **Estonian X-Road (Secure Interoperability):** Adapted for our microservice architecture, Catalyst API Gateway and AppSail create a decentralized, highly secure data exchange layer between the machine learning backend and the React frontend.
+4.  **2026 Academic Discovery Standards:** Treating digital evidence with rigorous scientific precision.
 
 ## 🚀 Core Features & Capabilities
 
@@ -41,10 +41,13 @@ Not just a chatbot, but a semantic routing engine utilizing professional scholar
 *   **M5: Criminal Network Discovery (Louvain Algorithm)**: Analyzes the Accused ↔ Case ↔ Victim graph to uncover organized syndicates.
 *   **M6: Case Similarity Engine (TF-IDF)**: Surfaces historically identical cases based on modus operandi.
 
-### 3. Forensic Discovery & Evidence Architecture
-Project Falcon treats digital evidence with rigorous academic standards, moving away from simple "keyword guessing."
-*   **Police Evidence Mandate**: Modeled after ROAR (Registry of Open Access Repositories) and ROARMAP. DataStore acts as a centralized registry tracking the location and access mandates for all investigative data.
-*   **Kapoun's Criteria Verification**: Utilizing **Catalyst SmartBrowz** (headless browsing components), the platform can ingest external open-source intelligence and rate it against the Kapoun Criteria (Accuracy, Authority, Objectivity, Currency, Coverage) before it's admitted to the active investigation base—at zero extra API cost.
+### 3. Forensic Discovery & The PRISMA Funnel
+Project Falcon treats digital evidence with rigorous academic standards, replacing manual keyword guessing with the **PRISMA (Preferred Reporting Items for Systematic Reviews)** workflow for investigations:
+*   **Identified**: Raw FIRs and tips ingested into DataStore.
+*   **Screened**: Catalyst Serverless Functions apply anomaly detection filtering.
+*   **Excluded**: **Catalyst SmartBrowz** (headless automation) acts as a forensic gatekeeper, rejecting open-source intelligence that fails the **Kapoun Criteria** (Accuracy, Authority, Objectivity, Currency, Coverage) without external API costs.
+*   **Included**: The final verified suspect graph sent to the UI.
+*   **Police Evidence Mandate**: Modeled after ROAR (Registry of Open Access Repositories). DataStore acts as a centralized registry tracking the location and access mandates for all investigative data.
 
 ### 4. Interactive Visualization (Trust Layer)
 *   **Crime Heatmaps**: Interactive Leaflet maps featuring marker clusters and temporal sliders.
