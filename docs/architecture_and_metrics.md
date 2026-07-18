@@ -1,5 +1,59 @@
 # Architecture and Metrics
 
+## System Architecture Diagram
+
+```text
+=============================================================================
+                          PROJECT FALCON ARCHITECTURE
+=============================================================================
+
+ [ FRONTEND LAYER ]
+ +---------------------------------------------------------+
+ |                 Catalyst Slate (React 18)               |<----+
+ |         Maps (Leaflet) | Networks (Cytoscape)           |     |
+ +---------------------------------------------------------+     |
+           | HTTP Requests                                       | WebSocket
+           v                                                     | Push
+ [ API & ROUTING LAYER ]                                         |
+ +---------------------------------------------------------+     |
+ | Catalyst API Gateway (Rate Limits, JWT)                 |     |
+ |      |                                                  |     |
+ |      v                                                  |     |
+ | Catalyst Circuits (Orchestrator)                        |     |
+ +---------------------------------------------------------+     |
+      |             |                   |                        |
+      | Voice IO    | NL-to-SQL / RAG   | Geo/Graph Compute      |
+      v             v                   v                        |
+ [ INTELLIGENCE ]  [ INTELLIGENCE ]    [ COMPUTE LAYER ]         |
+ +--------------+  +----------------+  +--------------------+    |
+ | Zia Services |  | Catalyst QuickML| | Catalyst AppSail   |    |
+ | (STT, TTS,   |  | (LLM + Vector   | | (FastAPI)          |    |
+ | Translation) |  |  Store)         | +--------------------+    |
+ +--------------+  +----------------+    |            |          |
+                          |              | Validate   | Predict  |
+                          | Context      v            v          |
+                          |    +--------------+  +------------+  |
+                          |    | Functions    |  | Zia AutoML |-.|
+                          |    | (Serverless) |  | (Risk/MO)  |  |
+                          v    +--------------+  +------------+  |
+                    [ STORAGE & DATA LAYER ]              |      |
+ +---------------------------------------------------+    |      |
+ |  Catalyst DataStore (28 Relational Tables)        |<---+      |
+ |  Catalyst NoSQL (Chat Session Memory)             |           |
+ |  Catalyst Stratus (GeoJSON/Graph Outputs)         |           |
+ |  Segmented Cache (Fast Access for UI Dashboards)  |           |
+ +---------------------------------------------------+           |
+                                                                 |
+ [ ALERTS & NOTIFICATIONS LAYER ]                                |
+ +---------------------------------------------------------+     |
+ | Catalyst Signals (Event Router)                         |<----+ (Anomaly)
+ |      |                                                  |
+ |      +--> Catalyst Push Notifications ------------------+
+ |      |
+ |      +--> Catalyst Mail (Investigator Email Alerts)
+ +---------------------------------------------------------+
+```
+
 ## Complete Catalyst Service Stack
 | Category | Catalyst Service | Replaces / Purpose |
 |----------|-----------------|-------------------|

@@ -1,4 +1,4 @@
-# CrimeGPT - Master Implementation Plan v2
+# Project Falcon - Master Implementation Plan v2
 
 **100% Catalyst-Native Architecture | KSP Hackathon 2025 | Problem Statement 2**
 
@@ -61,7 +61,7 @@
 
 ```
 
-/CrimeGPT-KSP
+/Project Falcon-KSP
 
 ├── /frontend # Catalyst Slate - React 18 + Leaflet + Cytoscape.js + Apache ECharts
 
@@ -196,7 +196,7 @@
 - [ ] Generate Catalyst Pipelines CI/CD YAML (trigger on push to `main` → build → deploy)
 
 #### 👤 P1 Human Must Do
-- [ ] Create private GitHub repo: `CrimeGPT-KSP`
+- [ ] Create private GitHub repo: `Project Falcon-KSP`
 - [ ] Invite P2 and P3 as collaborators (Settings → Collaborators)
 - [ ] Create branches: `main`, `dev` - set `dev` as default
 - [ ] Add branch protection on `main`: require PR + 1 review
@@ -2128,8 +2128,8 @@
 
 ---
 
-\*CrimeGPT v2 · 100% Catalyst-Native · KSP Hackathon 2025 · 3 devices, one submission\*
+\*Project Falcon v2 · 100% Catalyst-Native · KSP Hackathon 2025 · 3 devices, one submission\*
 
 ENDOFFILE
 
-echo "File written: \$(wc -l < /mnt/user-data/outputs/CrimeGPT_MasterPlan_v2.md) lines"
+echo "File written: \$(wc -l < /mnt/user-data/outputs/Project Falcon_MasterPlan_v2.md) lines"
