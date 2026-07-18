@@ -84,35 +84,35 @@
 ## Complete ER Schema - All 28 Tables
 | Priority | Table | Key Columns | FK Relationships |
 |----------|-------|-------------|-----------------|
-| ⭐⭐⭐ | **CaseMaster** | CaseMasterID (PK), CrimeNo, CrimeRegisteredDate, latitude, longitude, BriefFacts, IncidentFromDate, IncidentToDate | → Employee, Unit, CaseCategory, GravityOffence, CrimeHead, CrimeSubHead, CaseStatusMaster, Court |
-| ⭐⭐⭐ | **Accused** | AccusedMasterID (PK), CaseMasterID (FK), AccusedName, AgeYear, GenderID, PersonID (A1/A2/A3) | → CaseMaster |
-| ⭐⭐⭐ | **Victim** | VictimMasterID (PK), CaseMasterID (FK), VictimName, AgeYear, GenderID, VictimPolice | → CaseMaster |
-| ⭐⭐⭐ | **ArrestSurrender** | ArrestSurrenderID (PK), CaseMasterID (FK), AccusedMasterID (FK), ArrestSurrenderDate, IOID (FK) | → CaseMaster, Accused, State, District, Unit, Employee, Court |
-| ⭐⭐⭐ | **CrimeHead** | CrimeHeadID (PK), CrimeGroupName | - |
-| ⭐⭐⭐ | **CrimeSubHead** | CrimeSubHeadID (PK), CrimeHeadID (FK), CrimeHeadName | → CrimeHead |
-| ⭐⭐⭐ | **District** | DistrictID (PK), DistrictName, StateID (FK) | → State |
-| ⭐⭐ | **ComplainantDetails** | ComplainantID (PK), CaseMasterID (FK), ComplainantName, AgeYear, GenderID | → CaseMaster, OccupationMaster, ReligionMaster, CasteMaster |
-| ⭐⭐ | **ActSectionAssociation** | CaseMasterID (FK), ActID (FK), SectionID (FK), ActOrderID, SectionOrderID | → CaseMaster, Act, Section |
-| ⭐⭐ | **Act** | ActCode (PK), ActDescription, ShortName, Active | - |
-| ⭐⭐ | **Section** | SectionCode (PK), ActCode (FK), SectionDescription | → Act |
-| ⭐⭐ | **CrimeHeadActSection** | CrimeHeadID (FK), ActCode (FK), SectionCode | → CrimeHead, Act |
-| ⭐⭐ | **ChargesheetDetails** | CSID (PK), CaseMasterID (FK), csdate, cstype (A/B/C), PolicePersonID (FK) | → CaseMaster, Employee |
-| ⭐⭐ | **Employee** | EmployeeID (PK), DistrictID (FK), UnitID (FK), RankID (FK), DesignationID (FK), KGID | → District, Unit, Rank, Designation |
-| ⭐⭐ | **Unit** | UnitID (PK), UnitName, TypeID (FK), ParentUnit, StateID (FK), DistrictID (FK) | → UnitType, State, District |
-| ⭐⭐ | **CaseCategory** | CaseCategoryID (PK), LookupValue (FIR/UDR/PAR/Zero FIR) | - |
-| ⭐⭐ | **GravityOffence** | GravityOffenceID (PK), LookupValue (Heinous/Non-Heinous) | - |
-| ⭐⭐ | **CaseStatusMaster** | CaseStatusID (PK), CaseStatusName | - |
-| ⭐⭐ | **inv_arrestsurrenderaccused** | ArrestSurrenderID (FK), AccusedMasterID (FK) - junction table | → ArrestSurrender, Accused |
-| ⭐⭐ | **Inv_OccuranceTime** | CaseMasterID (FK) - 1:1 with CaseMaster | → CaseMaster |
-| ⭐ | **Court** | CourtID (PK), CourtName, DistrictID (FK), StateID (FK) | → District, State |
-| ⭐ | **State** | StateID (PK), StateName, NationalityID | - |
-| ⭐ | **UnitType** | UnitTypeID (PK), UnitTypeName, CityDistState, Hierarchy | - |
-| ⭐ | **Rank** | RankID (PK), RankName, Hierarchy | - |
-| ⭐ | **Designation** | DesignationID (PK), DesignationName, SortOrder | - |
-| ⭐ | **CasteMaster** | caste_master_id (PK), caste_master_name | - |
-| ⭐ | **ReligionMaster** | ReligionID (PK), ReligionName | - |
-| ⭐ | **OccupationMaster** | OccupationID (PK), OccupationName | - |
-> ⭐⭐⭐ = Migrate first on Day 1 AM | ⭐⭐ = Day 1 PM-Day 2 | ⭐ = Day 2
+| High | **CaseMaster** | CaseMasterID (PK), CrimeNo, CrimeRegisteredDate, latitude, longitude, BriefFacts, IncidentFromDate, IncidentToDate | → Employee, Unit, CaseCategory, GravityOffence, CrimeHead, CrimeSubHead, CaseStatusMaster, Court |
+| High | **Accused** | AccusedMasterID (PK), CaseMasterID (FK), AccusedName, AgeYear, GenderID, PersonID (A1/A2/A3) | → CaseMaster |
+| High | **Victim** | VictimMasterID (PK), CaseMasterID (FK), VictimName, AgeYear, GenderID, VictimPolice | → CaseMaster |
+| High | **ArrestSurrender** | ArrestSurrenderID (PK), CaseMasterID (FK), AccusedMasterID (FK), ArrestSurrenderDate, IOID (FK) | → CaseMaster, Accused, State, District, Unit, Employee, Court |
+| High | **CrimeHead** | CrimeHeadID (PK), CrimeGroupName | - |
+| High | **CrimeSubHead** | CrimeSubHeadID (PK), CrimeHeadID (FK), CrimeHeadName | → CrimeHead |
+| High | **District** | DistrictID (PK), DistrictName, StateID (FK) | → State |
+| Medium | **ComplainantDetails** | ComplainantID (PK), CaseMasterID (FK), ComplainantName, AgeYear, GenderID | → CaseMaster, OccupationMaster, ReligionMaster, CasteMaster |
+| Medium | **ActSectionAssociation** | CaseMasterID (FK), ActID (FK), SectionID (FK), ActOrderID, SectionOrderID | → CaseMaster, Act, Section |
+| Medium | **Act** | ActCode (PK), ActDescription, ShortName, Active | - |
+| Medium | **Section** | SectionCode (PK), ActCode (FK), SectionDescription | → Act |
+| Medium | **CrimeHeadActSection** | CrimeHeadID (FK), ActCode (FK), SectionCode | → CrimeHead, Act |
+| Medium | **ChargesheetDetails** | CSID (PK), CaseMasterID (FK), csdate, cstype (A/B/C), PolicePersonID (FK) | → CaseMaster, Employee |
+| Medium | **Employee** | EmployeeID (PK), DistrictID (FK), UnitID (FK), RankID (FK), DesignationID (FK), KGID | → District, Unit, Rank, Designation |
+| Medium | **Unit** | UnitID (PK), UnitName, TypeID (FK), ParentUnit, StateID (FK), DistrictID (FK) | → UnitType, State, District |
+| Medium | **CaseCategory** | CaseCategoryID (PK), LookupValue (FIR/UDR/PAR/Zero FIR) | - |
+| Medium | **GravityOffence** | GravityOffenceID (PK), LookupValue (Heinous/Non-Heinous) | - |
+| Medium | **CaseStatusMaster** | CaseStatusID (PK), CaseStatusName | - |
+| Medium | **inv_arrestsurrenderaccused** | ArrestSurrenderID (FK), AccusedMasterID (FK) - junction table | → ArrestSurrender, Accused |
+| Medium | **Inv_OccuranceTime** | CaseMasterID (FK) - 1:1 with CaseMaster | → CaseMaster |
+| Low | **Court** | CourtID (PK), CourtName, DistrictID (FK), StateID (FK) | → District, State |
+| Low | **State** | StateID (PK), StateName, NationalityID | - |
+| Low | **UnitType** | UnitTypeID (PK), UnitTypeName, CityDistState, Hierarchy | - |
+| Low | **Rank** | RankID (PK), RankName, Hierarchy | - |
+| Low | **Designation** | DesignationID (PK), DesignationName, SortOrder | - |
+| Low | **CasteMaster** | caste_master_id (PK), caste_master_name | - |
+| Low | **ReligionMaster** | ReligionID (PK), ReligionName | - |
+| Low | **OccupationMaster** | OccupationID (PK), OccupationName | - |
+> High = Migrate first on Day 1 AM | Medium = Day 1 PM-Day 2 | Low = Day 2
 
 ---
 
@@ -345,10 +345,10 @@
 - [ ] Map text chain: `CaseMaster.BriefFacts` → primary NLP/RAG corpus
 
 #### 👤 All 3 Human Must Do
-- [ ] **P1:** List ⭐⭐⭐ tables to migrate first: CaseMaster, Accused, Victim, ArrestSurrender, CrimeHead, CrimeSubHead, District
+- [ ] **P1:** List High tables to migrate first: CaseMaster, Accused, Victim, ArrestSurrender, CrimeHead, CrimeSubHead, District
 - [ ] **P2:** Confirm BriefFacts column for TF-IDF corpus, latitude/longitude for DBSCAN, CrimeRegisteredDate for SARIMA
 - [ ] **P3:** Note display fields: AccusedName, CrimeGroupName, DistrictName, CaseStatusName, GravityOffence
-- [ ] Agree: migrate 10 ⭐⭐⭐ and ⭐⭐ tables first, rest by Day 2
+- [ ] Agree: migrate 10 High and Medium tables first, rest by Day 2
 - [ ] Note `inv_arrestsurrenderaccused` junction table - needed for the network graph edge building
 - [ ] Note `Inv_OccuranceTime` is 1:1 with CaseMaster - merge data where possible
 - [ ] Set sync every 4 hours - next sync: after step 1.1
@@ -391,9 +391,9 @@
 
 #### 👤 P1 Human Must Do
 - [ ] Open Catalyst DataStore console
-- [ ] **Day 1 AM - Priority tables (⭐⭐⭐):** CaseMaster, Accused, Victim, ArrestSurrender, CrimeHead, CrimeSubHead, District
-- [ ] **Day 1 PM - Secondary tables (⭐⭐):** ComplainantDetails, ActSectionAssociation, Act, Section, Employee, Unit, ChargesheetDetails, CaseCategory, GravityOffence, CaseStatusMaster, inv_arrestsurrenderaccused, Inv_OccuranceTime
-- [ ] **Day 2 AM - Lookup tables (⭐):** Court, State, UnitType, Rank, Designation, CasteMaster, ReligionMaster, OccupationMaster, CrimeHeadActSection
+- [ ] **Day 1 AM - High Priority tables:** CaseMaster, Accused, Victim, ArrestSurrender, CrimeHead, CrimeSubHead, District
+- [ ] **Day 1 PM - Medium Priority tables:** ComplainantDetails, ActSectionAssociation, Act, Section, Employee, Unit, ChargesheetDetails, CaseCategory, GravityOffence, CaseStatusMaster, inv_arrestsurrenderaccused, Inv_OccuranceTime
+- [ ] **Day 2 AM - Low Priority tables:** Court, State, UnitType, Rank, Designation, CasteMaster, ReligionMaster, OccupationMaster, CrimeHeadActSection
 - [ ] Test: `INSERT` + `SELECT` on CaseMaster and Accused → verify rows persist
 - [ ] Share full confirmed table list with P2 so ingestion can begin
 

@@ -1,7 +1,6 @@
 # Architecture and Metrics
 
 ## Complete Catalyst Service Stack
-
 | Category | Catalyst Service | Replaces / Purpose |
 |----------|-----------------|-------------------|
 | **Compute** | AppSail | FastAPI container: geospatial, graph, SARIMA, TF-IDF |
@@ -24,7 +23,6 @@
 | **Reports** | SmartBrowz | PDF export of Evidence Trail + AI insights |
 
 ## PS2 Requirements Coverage
-
 | # | Requirement | Status | Catalyst Service |
 |---|-------------|--------|-----------------|
 | 1 | Conversational NL Interface | ✅ Full | QuickML (LLM + RAG) + Zia Services |
@@ -39,7 +37,6 @@
 | 10 | Secure RBAC & Audit Logs | ✅ Full | Authentication + API Gateway + DataStore |
 
 ## Performance Benchmarks (Non-Negotiable)
-
 | Metric | Target | Service |
 |--------|--------|---------|
 | ML inference p95 latency | < 500ms | Zia AutoML + Catalyst Cache |

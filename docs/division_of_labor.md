@@ -9,7 +9,6 @@ This framework establishes a foundation where AI agents serve as the "Engine Bui
 ##### 2\. Phase 0 & 1: Initializing Infrastructure and Data Integrity
 
 The "Foundation Setup" and "Data Layer" phases are critical; AI-driven speed is a liability if the structural integrity is unverified. In this phase, the agent handles the heavy lifting of boilerplate generation, while the human lead ensures the environment is secure and the data is exhaustive, targeting a benchmark of **10,000+ records** for high-fidelity analytics.**AI Agent Tasks**
-
 - Generating **Catalyst** CLI command sequences for service enablement and project initialization.
 - Drafting the monorepo structure (/frontend, /backend, /ml, /scripts, /data) and **Catalyst Pipelines** CI/CD YAML configurations.
 - Generating **DataStore** SQL schemas for 25+ entities including CaseMaster, Accused, and Victim.
@@ -22,9 +21,8 @@ The "Foundation Setup" and "Data Layer" phases are critical; AI-driven speed is 
 ##### 3\. Phase 2: Building the ML Engine and Analytics Intelligence
 
 In Phase 2, the division of labor shifts toward data transformation. The Human Lead (P2) acts as the scientific auditor, ensuring that the **six core ML models** meet rigorous performance benchmarks, including a **p95 latency target of <500ms** for inference.
-
 - **M1: Geospatial Detection (DBSCAN & K-Means):** AI Agent generates GeoPandas scripts. Human Lead tunes epsilon (ε) parameters to ensure clusters represent meaningful hotspots and verifies risk zones against district boundaries.
-- **M2: Repeat Offender Risk (XGBoost):** AI generates feature engineering and training scripts. Human Lead verifies AUC-ROC scores (targeting **\>0.75** ) to ensure the 0-100 risk scoring is statistically sound.
+- **M2: Repeat Offender Risk (XGBoost):** AI generates feature engineering and training scripts. Human Lead verifies AUC-ROC scores (targeting **>0.75** ) to ensure the 0-100 risk scoring is statistically sound.
 - **M3: Crime Forecasting (SARIMA):** AI handles time-series fitting. Human Lead monitors for divergence and implements Prophet fallbacks if 7-day or 30-day predictions lose variance.
 - **M4: Anomaly Detection (Isolation Forest):** AI flags outlier FIRs. Human Lead performs manual "sense checks" on the top 10 anomalies to ensure they represent genuine investigative outliers.
 - **M5: Gang/Network Detection (Louvain Community Algorithm):** AI generates the Accused-Case-Victim graph. Human Lead verifies community counts (expecting 5-20 clusters) to ensure network accuracy.
@@ -41,7 +39,6 @@ The frontend serves as the "Trust Layer." Human leads ensure that complex AI ins
 ##### 6\. Phase 5 & 6: Security, Deployment, and Final Delivery
 
 Phase 5 and 6 transition the project into a secure, production-ready environment. While AI automates the infrastructure pipelines, the Human Lead ensures full compliance with **Requirement #10 (Secure RBAC & Audit Logs)** .
-
 - **Strategic Deployment:** AI Agent generates Dockerfiles and **Catalyst Pipelines** (CI/CD) YAMLs. Human Lead monitors the **AppSail** status and verifies the production SSL/HTTPS URL.
 - **Performance QA:** AI generates k6 load test scripts. Humans verify that the system handles 50 concurrent LLM queries and renders 10K+ GPS points in **<2 seconds** .**Security & Compliance Checklist**
 - **Role-Based Access Control (RBAC):** Investigator, Analyst, and Admin roles implemented via **Catalyst Authentication** .

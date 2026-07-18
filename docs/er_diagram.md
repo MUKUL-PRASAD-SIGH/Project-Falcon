@@ -5,7 +5,6 @@
 Karnataka Police Department
 
 ## Color Legend
-
 |   | PK — Primary Key | Uniquely identifies each record in the table |
 | --- | --- | --- |
 |   | FK — Foreign Key | References the Primary Key of another table |
@@ -15,7 +14,6 @@ Karnataka Police Department
 ## Table Definitions
 
 ## CaseMaster
-
 | Column Name | Type |   | Key Description |
 | --- | --- | --- | --- |
 | CaseMasterID | INT | PK | Primary key — unique identifier for each FIR/case |
@@ -31,7 +29,6 @@ Karnataka Police Department
 | CaseStatusID | INT | FK | FK → CaseStatusMaster.CaseStatusID — current status of the case |
 | CourtID | INT | FK | FK → Court.CourtID — court where the case is being heard |
 
-
 | Column Name | Type |   | Key Description |
 | --- | --- | --- | --- |
 | IncidentFromDate | DATETIME |   | Start date and time of the incident |
@@ -42,7 +39,6 @@ Karnataka Police Department
 | BriefFacts | Nvarchar(Max) |   | Summary of the case |
 
 ## ComplainantDetails
-
 | Column Name | Type |   | Key Description |
 | --- | --- | --- | --- |
 | ComplainantID | INT | PK | Primary key — unique identifier for the complainant |
@@ -55,7 +51,6 @@ Karnataka Police Department
 | GenderID | INT |   | Gender of the complainant (lookup value) |
 
 ## ActSectionAssociation
-
 | Column Name | Type |   | Key Description |
 | --- | --- | --- | --- |
 | CaseMasterID | INT | FK | FK → CaseMaster.CaseMasterID — FIR/case this act-section applies to |
@@ -65,7 +60,6 @@ Karnataka Police Department
 | SectionOrderID | INT |   | Display/print order of the section under the act |
 
 ## Victim
-
 | Column Name | Type |   | Key Description |
 | --- | --- | --- | --- |
 | VictimMasterID | INT | PK | Primary key — unique identifier for each victim |
@@ -76,12 +70,10 @@ Karnataka Police Department
 | VictimPolice | VARCHAR |   | If Victim is police then 1else 0 |
 
 ## Accused
-
 | Column Name | Type |   | Key Description |
 | --- | --- | --- | --- |
 | AccusedMasterID | INT | PK | Primary key — unique identifier for each accused person |
 | CaseMasterID | INT | FK | FK → CaseMaster.CaseMasterID — FIR/case this accused is linked |
-
 
 | Column Name | Type |   | Key Description |
 | --- | --- | --- | --- |
@@ -92,7 +84,6 @@ Karnataka Police Department
 | PersonID | VARCHAR |   | Accused Sorting like A1, A2, A3…. |
 
 ## ArrestSurrender
-
 | Column Name | Type |   | Key Description |
 | --- | --- | --- | --- |
 | ArrestSurrenderID | INT | PK | Primary key — unique identifier for each arrest/surrender event |
@@ -109,7 +100,6 @@ Karnataka Police Department
 | IsComplainantAccused | BIT |   | Flag (0/1): whether the complainant is also listed as accused |
 
 ## Act
-
 | Column Name | Type |   | Key Description |
 | --- | --- | --- | --- |
 | ActCode | VARCHAR | PK | Primary key — unique code for the legal act (e.g. IPC, NDPS) |
@@ -118,7 +108,6 @@ Karnataka Police Department
 | Active | BIT |   | Whether the act is currently active and usable (1=Active, 0=Inactive) |
 
 ## Section
-
 | Column Name | Type |   | Key Description |
 | --- | --- | --- | --- |
 | ActCode | VARCHAR | FK | FK → Act.ActCode — parent act this section belongs to |
@@ -127,11 +116,9 @@ Karnataka Police Department
 | Active | BIT |   | Whether the section is currently active (1=Active, 0=Inactive) |
 
 ## CrimeHeadActSection
-
 | Column Name | Type |   | Key Description |
 | --- | --- | --- | --- |
 | CrimeHeadID | INT | FK | FK → CrimeHead.CrimeHeadID — crime head this act-section combination maps to |
-
 
 | Column Name | Type |   | Key Description |
 | --- | --- | --- | --- |
@@ -139,7 +126,6 @@ Karnataka Police Department
 | SectionCode | VARCHAR |   | Section code from the act applicable to this crime head |
 
 ## CrimeHead
-
 | Column Name | Type |   | Key Description |
 | --- | --- | --- | --- |
 | CrimeHeadID | INT | PK | Primary key — unique identifier for the major crime head |
@@ -147,7 +133,6 @@ Karnataka Police Department
 | Active | BIT |   | Whether this crime head is active (1=Active, 0=Inactive) |
 
 ## CrimeSubHead
-
 | Column Name | Type |   | Key Description |
 | --- | --- | --- | --- |
 | CrimeSubHeadID | INT | PK | Primary key — unique identifier for the crime sub-head |
@@ -156,36 +141,30 @@ Karnataka Police Department
 | SeqID | INT |   | Display/sort sequence number for ordering sub-heads |
 
 ## CasteMaster
-
 | Column Name | Type |   | Key Description |
 | --- | --- | --- | --- |
 | caste_master_id | INT | PK | Primary key — unique identifier for each caste. Referenced by ComplainantDetails.CasteID |
 | caste_master_name | VARCHAR |   | Name of the caste |
 
 ## ReligionMaster
-
 | Column Name | Type |   | Key Description |
 | --- | --- | --- | --- |
 | ReligionID | INT | PK | Primary key — unique identifier for each religion. Referenced by ComplainantDetails.ReligionID |
 | ReligionName | VARCHAR |   | Name of the religion (e.g. Hindu, Muslim, Christian) |
 
 ## OccupationMaster
-
 | Column Name | Type |   | Key Description |
 | --- | --- | --- | --- |
 | OccupationID | INT | PK | Primary key — unique identifier for each occupation. Referenced by ComplainantDetails.OccupationID |
 | OccupationName | VARCHAR |   | Name of the occupation (e.g. Farmer, Government Employee) |
 
 ## CaseStatusMaster
-
 | Column Name | Type |   | Key Description |
 | --- | --- | --- | --- |
 | CaseStatusID | INT | PK | Primary key — unique identifier for each case status. Referenced by CaseMaster.CaseStatusID |
 | CaseStatusName | VARCHAR |   | Name of the status (e.g. Under Investigation, Charge Sheeted, Closed) |
 
-
 ## Court
-
 | Column Name | Type |   | Key Description |
 | --- | --- | --- | --- |
 | CourtID | INT | PK | Primary key — unique identifier for the court. Referenced by CaseMaster.CourtID, ArrestSurrender.CourtID |
@@ -195,7 +174,6 @@ Karnataka Police Department
 | Active | BIT |   | Whether the court is active (1=Active, 0=Inactive) |
 
 ## District
-
 | Column Name | Type |   | Key Description |
 | --- | --- | --- | --- |
 | DistrictID | INT | PK | Primary key — unique identifier for the district. Referenced by Court, Unit, Employee, ArrestSurrender |
@@ -204,7 +182,6 @@ Karnataka Police Department
 | Active | BIT |   | Whether the district record is active (1=Active, 0=Inactive) |
 
 ## State
-
 | Column Name | Type |   | Key Description |
 | --- | --- | --- | --- |
 | StateID | INT | PK | Primary key — unique identifier for the state. Referenced by Court, District, Unit, ArrestSurrender |
@@ -213,7 +190,6 @@ Karnataka Police Department
 | Active | BIT |   | Whether the state record is active (1=Active, 0=Inactive) |
 
 ## Unit
-
 | Column Name | Type |   | Key Description |
 | --- | --- | --- | --- |
 | UnitID | INT | PK | Primary key — unique identifier for the police unit. Referenced by CaseMaster.PoliceStationID, Employee.UnitID, ArrestSurrender.PoliceStationID |
@@ -226,13 +202,11 @@ Karnataka Police Department
 | Active | BIT |   | Whether the unit is active (1=Active, 0=Inactive) |
 
 ## UnitType
-
 | Column Name | Type |   | Key Description |
 | --- | --- | --- | --- |
 | UnitTypeID | INT | PK | Primary key — unique identifier for the unit type. Referenced by Unit.TypeID |
 | UnitTypeName | VARCHAR |   | Name of the unit type (e.g. Police Station, Circle Office) |
 | CityDistState | VARCHAR |   | Operational level: City / District / State |
-
 
 | Column Name | Type |   | Key Description |
 | --- | --- | --- | --- |
@@ -240,7 +214,6 @@ Karnataka Police Department
 | Active | BIT |   | Whether the unit type is active (1=Active, 0=Inactive) |
 
 ## Rank
-
 | Column Name | Type |   | Key Description |
 | --- | --- | --- | --- |
 | RankID | INT | PK | Primary key — unique identifier for the rank. Referenced by Employee.RankID |
@@ -249,7 +222,6 @@ Karnataka Police Department
 | Active | BIT |   | Whether the rank is active (1=Active, 0=Inactive) |
 
 ## Designation
-
 | Column Name | Type |   | Key Description |
 | --- | --- | --- | --- |
 | DesignationID | INT | PK | Primary key — unique identifier for the designation. Referenced by Employee.DesignationID |
@@ -258,7 +230,6 @@ Karnataka Police Department
 | SortOrder | INT |   | Display sort order for dropdowns/reports |
 
 ## Employee
-
 | Column Name | Type |   | Key Description |
 | --- | --- | --- | --- |
 | EmployeeID | INT | PK | Primary key — unique identifier for the police employee. Referenced by CaseMaster.PolicePersonID, ArrestSurrender.IOID |
@@ -275,25 +246,21 @@ Karnataka Police Department
 | AppointmentDate | DATE |   | Date of appointment to government service |
 
 ## CaseCategory
-
 | Column Name | Type |   | Key Description |
 | --- | --- | --- | --- |
 | CaseCategoryID | INT | PK | Primary key — unique identifier for the case category. Referenced by CaseMaster.CaseCategoryID |
-
 
 | Column Name | Type |   | Key Description |
 | --- | --- | --- | --- |
 | LookupValue | VARCHAR |   | Category name (FIR, UDR, PAR..) |
 
 ## GravityOffence
-
 | Column Name | Type |   | Key Description |
 | --- | --- | --- | --- |
 | GravityOffenceID | INT | PK | Primary key — unique identifier for the gravity level. Referenced by CaseMaster.GravityOffenceID |
 | LookupValue | VARCHAR |   | Gravity description (e.g. Heinous, Non-Heinous) |
 
 ## ChargesheetDetails
-
 | Column Name | Type |   | Key Description |
 | --- | --- | --- | --- |
 | CSID | INT | PK | Primary key — unique identifier for the chargesheet |
@@ -305,7 +272,6 @@ Karnataka Police Department
 ## Relationship Matrix
 
 Defines all foreign key relationships between tables, including cardinality and a brief description.
-
 | Parent Table | Parent Column | Relationshi p | Child Table | Child Column Description |   |
 | --- | --- | --- | --- | --- | --- |
 | CaseMaster | CaseMasterID | One to Many | Victim | CaseMasterID | One FIR can have multiple victims |
@@ -314,7 +280,6 @@ Defines all foreign key relationships between tables, including cardinality and 
 | CaseMaster | CaseMasterID | One to Many | ComplainantDetails | CaseMasterID | One FIR can have multiple complainants |
 | CaseMaster | CaseMasterID | One to Many | ActSectionAssociation | CaseMasterID | One FIR can invoke multiple act-sections |
 | CaseMaster | CaseMasterID | One to One | Inv_OccuranceTime | CaseMasterID | One FIR has one occurrence time/location record |
-
 
 | Parent Table | Parent Column | Relationshi p | Child Table | Child Column Description |   |
 | --- | --- | --- | --- | --- | --- |
@@ -334,7 +299,6 @@ Defines all foreign key relationships between tables, including cardinality and 
 | ComplainantDetails | OccupationID | Many to One | OccupationMaster | OccupationID | Many complainants can share the same occupation |
 | ComplainantDetails | ReligionID | Many to One | ReligionMaster | ReligionID | Many complainants can share the same religion |
 | ComplainantDetails | CasteID | Many to One | CasteMaster | caste_master_id | Many complainants can belong to |
-
 
 | Parent Table | Parent Column | Relationshi p | Child Table | Child Column Description |   |
 | --- | --- | --- | --- | --- | --- |
