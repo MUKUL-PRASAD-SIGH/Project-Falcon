@@ -16,42 +16,53 @@ Project Falcon is a sophisticated, 100% **Zoho Catalyst-native** intelligence pl
 
 By leveraging Catalyst QuickML, Zia Services, AppSail, and DataStore, the platform offers an end-to-end investigative ecosystem tailored for deep criminal analysis and spatial forecasting.
 
+## 🛡️ Strategic Foundation: The Sovereign AI Mandate
+In the modern threat landscape, relying on third-party, black-box AI providers poses significant regulatory and security risks. Project Falcon explicitly adapts the **Israeli National Security Model for Sovereign AI**. 
+
+Why this is adapted:
+*   **Total Data Autonomy**: By keeping 100% of the architecture within the Zoho Catalyst ecosystem, we eliminate corporate dependency on foreign AI vendors (e.g., OpenAI, Anthropic). The state, not the corporation, calls the shots.
+*   **Auditable Logic**: Algorithms and RAG infrastructure are entirely contained within the state's administrative control.
+*   **Cost & Compliance**: Operating strictly within Catalyst's environment avoids pay-per-token models of third parties while ensuring data doesn't exit secure boundaries.
+
 ## 🚀 Core Features & Capabilities
 
-### 1. The Intelligence Orchestrator (Conversational UI)
-Not just a chatbot, but a routing engine triggered by Natural Language.
-*   **NL-to-SQL Pipeline:** Schema-aware Catalyst QuickML dynamically translates plain English (and Kannada) into complex SQL joins across 28 relational tables.
-*   **RAG Knowledge Base:** Retrieves BriefFacts using QuickML vector store.
-*   **Explainable AI (Evidence Trail):** Every AI response cites explicit FIR numbers (satisfying Requirement #9).
-*   **Multi-Language Voice IO:** Kannada and English speech-to-text, translation, and text-to-speech handled entirely by **Zia Services**.
+### 1. The Intelligence Orchestrator (PICO-Driven Conversational UI)
+Not just a chatbot, but a semantic routing engine utilizing professional scholarly discovery standards.
+*   **NL-to-SQL Pipeline**: Schema-aware Catalyst QuickML dynamically translates plain English (and Kannada) into complex SQL joins across 28 relational tables. Queries are structured using the **PICO Framework** (Population, Intervention, Comparison, Outcome) to map criminal patterns accurately.
+*   **Evidence-Based RAG Knowledge Base**: Retrieves BriefFacts using QuickML vector store.
+*   **Explainable AI**: Every AI response cites explicit FIR numbers (satisfying Requirement #9).
+*   **Multi-Language Voice IO**: Kannada and English speech-to-text, translation, and text-to-speech handled entirely by **Zia Services**.
 
 ### 2. Six-Pillar ML Analytics Engine
-*   **M1: Geospatial Detection (DBSCAN & K-Means):** Identifies geographical crime hotspots overlaid with district boundaries.
-*   **M2: Repeat Offender Risk (Zia AutoML):** Tabular classification grading offenders with a 0-100 risk score based on historical and demographic data (AUC-ROC >0.75).
-*   **M3: Crime Forecasting (SARIMA):** Time-series forecasting for 7-day and 30-day district-level crime volume predictions.
-*   **M4: Anomaly Detection (Isolation Forest):** Flags irregular FIRs and investigative outliers.
-*   **M5: Criminal Network Discovery (Louvain Community Algorithm):** Analyzes the Accused ↔ Case ↔ Victim graph to uncover organized syndicates.
-*   **M6: Case Similarity Engine (TF-IDF):** Surfaces historically identical cases based on modus operandi and FIR BriefFacts.
+*   **M1: Geospatial Detection (DBSCAN & K-Means)**: Identifies geographical crime hotspots overlaid with district boundaries.
+*   **M2: Repeat Offender Risk (Zia AutoML)**: Tabular classification grading offenders with a 0-100 risk score (AUC-ROC >0.75).
+*   **M3: Crime Forecasting (SARIMA)**: Time-series forecasting for 7-day and 30-day predictions.
+*   **M4: Anomaly Detection (Isolation Forest)**: Flags irregular FIRs and investigative outliers.
+*   **M5: Criminal Network Discovery (Louvain Algorithm)**: Analyzes the Accused ↔ Case ↔ Victim graph to uncover organized syndicates.
+*   **M6: Case Similarity Engine (TF-IDF)**: Surfaces historically identical cases based on modus operandi.
 
-### 3. Interactive Visualization (Trust Layer)
-*   **Crime Heatmaps:** Interactive Leaflet maps featuring marker clusters, temporal sliders, and pulsing CSS animations for high-risk zones.
-*   **Network Graphs:** Cytoscape.js rendering up to 5,000+ nodes (Accused/Victim/Case) color-coded by Louvain communities, with clickable profile cards.
-*   **Predictive Dashboards:** ECharts rendering trend lines, predictive alerts, and anomaly alert panels wired to real-time **Catalyst Push Notifications**.
+### 3. Forensic Discovery & Evidence Architecture
+Project Falcon treats digital evidence with rigorous academic standards, moving away from simple "keyword guessing."
+*   **Police Evidence Mandate**: Modeled after ROAR (Registry of Open Access Repositories) and ROARMAP. DataStore acts as a centralized registry tracking the location and access mandates for all investigative data.
+*   **Kapoun's Criteria Verification**: Utilizing **Catalyst SmartBrowz** (headless browsing components), the platform can ingest external open-source intelligence and rate it against the Kapoun Criteria (Accuracy, Authority, Objectivity, Currency, Coverage) before it's admitted to the active investigation base—at zero extra API cost.
 
-### 4. Enterprise Security & Governance
-*   **Role-Based Access Control (RBAC):** Granular access for Investigator, Analyst, and Admin roles via Catalyst Authentication.
-*   **Audit Logging:** Every query executed is recorded (User ID, Query, Timestamp, IP) in the Catalyst DataStore.
-*   **Data Masking:** Sensitive victim PII is masked (`****`) for Analyst roles, accessible only to Admin/Investigators.
-*   **API Security:** Catalyst API Gateway enforces rate limiting (100 req/min) and strict JWT Header Validation.
+### 4. Interactive Visualization (Trust Layer)
+*   **Crime Heatmaps**: Interactive Leaflet maps featuring marker clusters and temporal sliders.
+*   **Network Graphs**: Cytoscape.js rendering up to 5,000+ nodes color-coded by Louvain communities.
+*   **Predictive Dashboards**: ECharts rendering trend lines and anomaly alert panels wired to **Catalyst Push Notifications**.
+
+### 5. Enterprise Security & Governance
+*   **Role-Based Access Control (RBAC)**: Granular access for Investigator, Analyst, and Admin roles via Catalyst Authentication.
+*   **Audit Logging**: Every query executed is recorded (User ID, Query, Timestamp, IP) in the Catalyst DataStore.
+*   **API Security**: Catalyst API Gateway enforces rate limiting (100 req/min) and strict JWT Header Validation.
 
 ## 🤝 Human-Agent Synergy
-Project Falcon represents a cutting-edge division of labor:
-*   **AI as Engine Builder:** AI agents handle the rapid generation of Catalyst CLI configurations, 25+ SQL table schemas, Dockerfiles, Catalyst Pipelines (CI/CD), and boilerplate UI.
-*   **Humans as Scientific Tuners:** Human leads govern model tuning (ensuring p95 latency <500ms), architectural integrity, manual data ingestion (10,000+ records), and narrative storytelling.
+*   **AI as Engine Builder**: AI handles rapid generation of CLI configurations, schemas, Dockerfiles, Catalyst Pipelines (CI/CD), and UI boilerplate.
+*   **Humans as Scientific Tuners**: Human leads govern model tuning (p95 latency <500ms), architectural integrity, manual data ingestion (10,000+ records), and qualitative forensic validation.
 
 ## 🏗️ Architecture & Monorepo Structure
 
-Project Falcon operates on a strict microservice monorepo structure. For detailed architectural flows, please refer to the [Architecture & Metrics Guide](docs/architecture_and_metrics.md).
+For detailed architectural flows, please refer to the [Architecture & Metrics Guide](docs/architecture_and_metrics.md).
 
 ```text
 /Project Falcon
@@ -65,21 +76,18 @@ Project Falcon operates on a strict microservice monorepo structure. For detaile
 ```
 
 ## 📚 Official Documentation
-For team members and evaluators, start here to understand the execution strategy:
-
-1.  **[Master Implementation Plan](docs/master_plan.md):** The definitive 7-day playbook divided across 3 team members (P1, P2, P3).
-2.  **[Architecture & Metrics](docs/architecture_and_metrics.md):** High-level component interactions, architectural topology, and p95 latency benchmarks.
-3.  **[Database ER Diagram](docs/er_diagram.md):** Extensive map of all 28 relational tables ensuring strict referential integrity.
+For team members and evaluators:
+1.  **[Master Implementation Plan](docs/master_plan.md)**: The definitive 7-day playbook divided across 3 team members.
+2.  **[Architecture & Metrics](docs/architecture_and_metrics.md)**: High-level component interactions, architectural topology, and p95 latency benchmarks.
+3.  **[Database ER Diagram](docs/er_diagram.md)**: Extensive map of all 28 relational tables ensuring strict referential integrity.
 
 ## ⚙️ Quick Start Setup
-
 ### Prerequisites
-*   Zoho Catalyst Account (Hackathon specific workspace)
+*   Zoho Catalyst Account
 *   Node.js 18+ & Python 3.10+
 *   Catalyst CLI: `npm install -g @zohocloud/catalyst-cli`
 
 ### Installation Steps
-
 1.  **Initialize Platform**
     *   Login via `catalyst login`
     *   Enable all required Catalyst services (AppSail, QuickML, Zia AutoML, Circuits, Signals, Push, Slate)

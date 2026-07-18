@@ -135,6 +135,24 @@
 
 ---
 
+### Step 0.0 - Strategic Mandate: Sovereign AI Initialization [Sequential - Start]
+**Owner: ALL**
+
+#### 📌 Execution Plan Details
+- **Strategic Value:** Adopt the Israeli Sovereign AI model. Ensure 100% of the architecture runs locally within Zoho Catalyst to defend against corporate dependency and regulatory vulnerabilities. Zero third-party LLMs (OpenAI/Anthropic) allowed.
+- **Clear Outcomes:** A completely sealed, auditable, and cost-efficient sovereign digital platform.
+
+#### 🤖 AI Can Do
+- [ ] Generate sovereign architecture validation checklist
+- [ ] Draft compliance report confirming zero external API calls
+
+#### 👤 Human Must Do
+- [ ] Verify Catalyst organization is locked to the local data center region
+- [ ] Sign off on the Sovereign AI mandate
+| **Sovereign Boundaries Set** | |
+
+---
+
 ### Step 0.1 - Catalyst Platform Setup [Sequential - Start]
 
 #### 📌 Execution Plan Details
@@ -374,7 +392,7 @@
 
 ---
 
-### Step 1.1 - Database Schema Migration (All 28 Tables) [Depends on Step 0.4]
+### Step 1.1 - Database Schema Migration (All 28 Tables + Evidence Mandate Registry) [Depends on Step 0.4]
 
 #### 📌 Execution Plan Details
 - **Execution Mode:** Sequential (Blocking next steps in this phase)
@@ -938,7 +956,7 @@
 
 ---
 
-### Step 2.5 - AppSail REST API: Wrap All ML Outputs as Endpoints [Depends on Step 2.1b, 2.2a-d, 2.3]
+### Step 2.5 - AppSail REST API: Wrap ML & Kapoun Forensic Verification [Depends on Step 2.1b, 2.2a-d, 2.3]
 
 #### 📌 Execution Plan Details
 - **Execution Mode:** Sequential (Runs after previous step)
@@ -950,7 +968,8 @@
 > P1 takes all P2's Zia AutoML model IDs and Stratus URLs and builds FastAPI routes.
 
 #### 🤖 AI Can Do
-- [ ] Generate FastAPI routers for each module: geo, ml, graph, similarity, forecast
+- [ ] Generate FastAPI routers for each module: geo, ml, graph, similarity, forecast, forensics
+- [ ] Generate /api/forensics/verify endpoint utilizing **SmartBrowz** to headless-scrape digital evidence and rank it via **Kapoun Criteria** (Accuracy, Authority, Objectivity, Currency, Coverage)
 - [ ] Generate Pydantic request/response models for each endpoint
 - [ ] Generate Zia AutoML inference call wrapper (call by model ID + input features)
 - [ ] Generate startup Stratus asset loader (geojson, graph index)
@@ -990,7 +1009,7 @@
 
 ---
 
-### Step 3.1 - QuickML: NL-to-SQL Pipeline [Depends on Step 2.5]
+### Step 3.1 - QuickML: PICO-Driven NL-to-SQL Pipeline [Depends on Step 2.5]
 
 #### 📌 Execution Plan Details
 - **Execution Mode:** Sequential (Blocking next steps in this phase)
