@@ -132,11 +132,10 @@
 
 ## PH0 - Foundation Setup
 
-**Day 1 · First 3 Hours**
 
 ---
 
-### Step 0.1 - Catalyst Platform Setup
+### Step 0.1 - Catalyst Platform Setup [Sequential - Start]
 
 #### 📌 Execution Plan Details
 - **Execution Mode:** Sequential (Blocking next steps in this phase)
@@ -144,7 +143,7 @@
 - **Possible Mistakes/Risks:** Misconfiguration of services, incomplete code resulting in runtime errors, data pipeline failures.
 - **External Sources Required:** KSP Dataset, Zoho Catalyst Documentation, relevant library docs.
 
-**Owner: P1 · Hour 1**
+**Owner: P1**
 > P1 handles alone. P2 reads ER schema. P3 studies the PS2 requirements doc.
 
 #### 🤖 AI Can Do
@@ -182,7 +181,7 @@
 
 ---
 
-### Step 0.2 - GitHub Repository Setup
+### Step 0.2 - GitHub Repository Setup [Depends on Step 0.1]
 
 #### 📌 Execution Plan Details
 - **Execution Mode:** Sequential (Runs after previous step)
@@ -190,7 +189,7 @@
 - **Possible Mistakes/Risks:** Misconfiguration of services, incomplete code resulting in runtime errors, data pipeline failures.
 - **External Sources Required:** KSP Dataset, Zoho Catalyst Documentation, relevant library docs.
 
-**Owner: P1 · Hour 1-2**
+**Owner: P1**
 > P1 creates monorepo. P2 and P3 clone in step 0.3.
 
 #### 🤖 AI Can Do
@@ -222,7 +221,7 @@
 
 ---
 
-### Step 0.3a - Dev Environment: P1 Machine (Backend)
+### Step 0.3a - Dev Environment: P1 Machine (Backend) [Runs Parallel with Step 0.3b, 0.3c]
 
 #### 📌 Execution Plan Details
 - **Execution Mode:** Sequential (Runs after previous step)
@@ -230,7 +229,7 @@
 - **Possible Mistakes/Risks:** Misconfiguration of services, incomplete code resulting in runtime errors, data pipeline failures.
 - **External Sources Required:** KSP Dataset, Zoho Catalyst Documentation, relevant library docs.
 
-**Owner: P1 · Hour 2-3**
+**Owner: P1**
 > Do this while P2 and P3 set up theirs in parallel.
 
 #### 🤖 AI Can Do
@@ -259,7 +258,7 @@
 
 ---
 
-### Step 0.3b - Dev Environment: P2 Machine (ML / AI)
+### Step 0.3b - Dev Environment: P2 Machine (ML / AI) [Runs Parallel with Step 0.3a, 0.3c]
 
 #### 📌 Execution Plan Details
 - **Execution Mode:** Sequential (Runs after previous step)
@@ -267,7 +266,7 @@
 - **Possible Mistakes/Risks:** Misconfiguration of services, incomplete code resulting in runtime errors, data pipeline failures.
 - **External Sources Required:** KSP Dataset, Zoho Catalyst Documentation, relevant library docs.
 
-**Owner: P2 · Hour 2-3**
+**Owner: P2**
 
 #### 🤖 AI Can Do
 - [ ] Generate `ml/requirements.txt` (pandas, geopandas, scikit-learn, networkx, faker, statsmodels, python-louvain)
@@ -294,7 +293,7 @@
 
 ---
 
-### Step 0.3c - Dev Environment: P3 Machine (Frontend)
+### Step 0.3c - Dev Environment: P3 Machine (Frontend) [Runs Parallel with Step 0.3a, 0.3b]
 
 #### 📌 Execution Plan Details
 - **Execution Mode:** Sequential (Runs after previous step)
@@ -302,7 +301,7 @@
 - **Possible Mistakes/Risks:** Misconfiguration of services, incomplete code resulting in runtime errors, data pipeline failures.
 - **External Sources Required:** KSP Dataset, Zoho Catalyst Documentation, relevant library docs.
 
-**Owner: P3 · Hour 2-3**
+**Owner: P3**
 
 #### 🤖 AI Can Do
 - [ ] Generate `package.json` (React 18, Leaflet, Cytoscape.js, Apache ECharts, TailwindCSS, Axios)
@@ -331,7 +330,7 @@
 
 ---
 
-### Step 0.4 - ER Schema Study: 15-min Sync Call
+### Step 0.4 - ER Schema Study: 15-min Sync Call [Depends on Step 0.3a, 0.3b, 0.3c]
 
 #### 📌 Execution Plan Details
 - **Execution Mode:** Sequential (Runs after previous step)
@@ -339,7 +338,7 @@
 - **Possible Mistakes/Risks:** Misconfiguration of services, incomplete code resulting in runtime errors, data pipeline failures.
 - **External Sources Required:** KSP Dataset, Zoho Catalyst Documentation, relevant library docs.
 
-**Owner: ALL · Hour 2-3**
+**Owner: ALL**
 > All 3 on a video call simultaneously - each on own device - looking at ER diagram.
 
 #### 🤖 AI Can Do
@@ -372,11 +371,10 @@
 
 ## PH1 - Data & Schema Layer
 
-**Day 1-2**
 
 ---
 
-### Step 1.1 - Database Schema Migration (All 28 Tables)
+### Step 1.1 - Database Schema Migration (All 28 Tables) [Depends on Step 0.4]
 
 #### 📌 Execution Plan Details
 - **Execution Mode:** Sequential (Blocking next steps in this phase)
@@ -384,7 +382,7 @@
 - **Possible Mistakes/Risks:** Misconfiguration of services, incomplete code resulting in runtime errors, data pipeline failures.
 - **External Sources Required:** KSP Dataset, Zoho Catalyst Documentation, relevant library docs.
 
-**Owner: P1 · Day 1 afternoon**
+**Owner: P1**
 > P1's primary job for rest of Day 1. P2 cannot start ingestion until this is done.
 
 #### 🤖 AI Can Do
@@ -417,7 +415,7 @@
 
 ---
 
-### Step 1.2 - Data Ingestion Pipeline
+### Step 1.2 - Data Ingestion Pipeline [Depends on Step 1.1]
 
 #### 📌 Execution Plan Details
 - **Execution Mode:** Sequential (Runs after previous step)
@@ -425,7 +423,7 @@
 - **Possible Mistakes/Risks:** Misconfiguration of services, incomplete code resulting in runtime errors, data pipeline failures.
 - **External Sources Required:** KSP Dataset, Zoho Catalyst Documentation, relevant library docs.
 
-**Owner: P2 · Day 1-2**
+**Owner: P2**
 > Depends on P1 finishing step 1.1. Email organizers Day 1 morning for the dataset link.
 
 #### 🤖 AI Can Do
@@ -460,7 +458,7 @@
 
 ---
 
-### Step 1.3 - Serverless Data Validation (Catalyst Functions)
+### Step 1.3 - Serverless Data Validation (Catalyst Functions) [Runs Parallel with Step 1.4]
 
 #### 📌 Execution Plan Details
 - **Execution Mode:** Sequential (Runs after previous step)
@@ -468,7 +466,7 @@
 - **Possible Mistakes/Risks:** Misconfiguration of services, incomplete code resulting in runtime errors, data pipeline failures.
 - **External Sources Required:** KSP Dataset, Zoho Catalyst Documentation, relevant library docs.
 
-**Owner: P2 · Day 1-2**
+**Owner: P2**
 > Replaces manual one-off validation script. Functions run on every new record insert.
 
 #### 🤖 AI Can Do
@@ -499,7 +497,7 @@
 
 ---
 
-### Step 1.4 - Synthetic Data Generation (if < 10K FIRs)
+### Step 1.4 - Synthetic Data Generation (if < 10K FIRs) [Runs Parallel with Step 1.3]
 
 #### 📌 Execution Plan Details
 - **Execution Mode:** Sequential (Runs after previous step)
@@ -507,7 +505,7 @@
 - **Possible Mistakes/Risks:** Misconfiguration of services, incomplete code resulting in runtime errors, data pipeline failures.
 - **External Sources Required:** KSP Dataset, Zoho Catalyst Documentation, relevant library docs.
 
-**Owner: P2 · Day 1-2**
+**Owner: P2**
 > Visually dense data for Bengaluru, Mysore, Mangaluru is essential for a strong demo.
 
 #### 🤖 AI Can Do
@@ -542,7 +540,7 @@
 
 ---
 
-### Step 1.5 - Graph Index Build (Accused ↔ Case ↔ Victim Network)
+### Step 1.5 - Graph Index Build (Accused ↔ Case ↔ Victim Network) [Depends on Step 1.2]
 
 #### 📌 Execution Plan Details
 - **Execution Mode:** Sequential (Runs after previous step)
@@ -550,7 +548,7 @@
 - **Possible Mistakes/Risks:** Misconfiguration of services, incomplete code resulting in runtime errors, data pipeline failures.
 - **External Sources Required:** KSP Dataset, Zoho Catalyst Documentation, relevant library docs.
 
-**Owner: P2 · Day 2**
+**Owner: P2**
 > Uses `inv_arrestsurrenderaccused` junction table to build multi-accused edges.
 
 #### 🤖 AI Can Do
@@ -584,7 +582,7 @@
 
 ---
 
-### Step 1.6 - Data Quality Validation Report
+### Step 1.6 - Data Quality Validation Report [Depends on Step 1.3, 1.4, 1.5]
 
 #### 📌 Execution Plan Details
 - **Execution Mode:** Sequential (Runs after previous step)
@@ -592,7 +590,7 @@
 - **Possible Mistakes/Risks:** Misconfiguration of services, incomplete code resulting in runtime errors, data pipeline failures.
 - **External Sources Required:** KSP Dataset, Zoho Catalyst Documentation, relevant library docs.
 
-**Owner: P2 · Day 2**
+**Owner: P2**
 > Document gaps honestly. Judges value transparency over exaggerated coverage.
 
 #### 🤖 AI Can Do
@@ -624,11 +622,10 @@
 
 ## PH2 - Analytics & ML Engine
 
-**Day 2-4 · P2 builds models, P1 wraps as APIs**
 
 ---
 
-### Step 2.1a - AppSail: DBSCAN Geospatial Crime Clusters
+### Step 2.1a - AppSail: DBSCAN Geospatial Crime Clusters [Depends on Step 1.6]
 
 #### 📌 Execution Plan Details
 - **Execution Mode:** Sequential (Blocking next steps in this phase)
@@ -636,7 +633,7 @@
 - **Possible Mistakes/Risks:** Misconfiguration of services, incomplete code resulting in runtime errors, data pipeline failures.
 - **External Sources Required:** KSP Dataset, Zoho Catalyst Documentation, relevant library docs.
 
-**Owner: P2 · Day 2-3**
+**Owner: P2**
 > Runs on AppSail (FastAPI). GPS from `CaseMaster.latitude / CaseMaster.longitude`.
 
 #### 🤖 AI Can Do
@@ -668,7 +665,7 @@
 
 ---
 
-### Step 2.1b - AppSail: K-Means Risk Zones + District Rollup
+### Step 2.1b - AppSail: K-Means Risk Zones + District Rollup [Depends on Step 2.1a]
 
 #### 📌 Execution Plan Details
 - **Execution Mode:** Sequential (Blocking next steps in this phase)
@@ -676,7 +673,7 @@
 - **Possible Mistakes/Risks:** Misconfiguration of services, incomplete code resulting in runtime errors, data pipeline failures.
 - **External Sources Required:** KSP Dataset, Zoho Catalyst Documentation, relevant library docs.
 
-**Owner: P2 · Day 3**
+**Owner: P2**
 > District stats must be cached in Catalyst Cache - this is where the p95 < 500ms target comes from.
 
 #### 🤖 AI Can Do
@@ -704,7 +701,7 @@
 
 ---
 
-### Step 2.2a - Zia AutoML: Repeat Offender Risk Scoring (0-100)
+### Step 2.2a - Zia AutoML: Repeat Offender Risk Scoring (0-100) [Runs Parallel with Step 2.1a]
 
 #### 📌 Execution Plan Details
 - **Execution Mode:** Sequential (Runs after previous step)
@@ -712,7 +709,7 @@
 - **Possible Mistakes/Risks:** Misconfiguration of services, incomplete code resulting in runtime errors, data pipeline failures.
 - **External Sources Required:** KSP Dataset, Zoho Catalyst Documentation, relevant library docs.
 
-**Owner: P2 · Day 2-3**
+**Owner: P2**
 > **REPLACES XGBoost.** No training scripts. Zia AutoML handles this as a managed service.
 
 #### 🤖 AI Can Do
@@ -747,7 +744,7 @@
 
 ---
 
-### Step 2.2b - AppSail: SARIMA Crime Forecasting
+### Step 2.2b - AppSail: SARIMA Crime Forecasting [Runs Parallel with Step 2.1a]
 
 #### 📌 Execution Plan Details
 - **Execution Mode:** Sequential (Runs after previous step)
@@ -755,7 +752,7 @@
 - **Possible Mistakes/Risks:** Misconfiguration of services, incomplete code resulting in runtime errors, data pipeline failures.
 - **External Sources Required:** KSP Dataset, Zoho Catalyst Documentation, relevant library docs.
 
-**Owner: P2 · Day 3**
+**Owner: P2**
 > Time-series forecasting stays on AppSail (Python statsmodels). Not tabular - Zia AutoML doesn't apply here.
 
 #### 🤖 AI Can Do
@@ -786,7 +783,7 @@
 
 ---
 
-### Step 2.2c - Zia AutoML: Anomaly Detection on FIR Records
+### Step 2.2c - Zia AutoML: Anomaly Detection on FIR Records [Runs Parallel with Step 2.1a]
 
 #### 📌 Execution Plan Details
 - **Execution Mode:** Sequential (Runs after previous step)
@@ -794,7 +791,7 @@
 - **Possible Mistakes/Risks:** Misconfiguration of services, incomplete code resulting in runtime errors, data pipeline failures.
 - **External Sources Required:** KSP Dataset, Zoho Catalyst Documentation, relevant library docs.
 
-**Owner: P2 · Day 3**
+**Owner: P2**
 > **REPLACES Isolation Forest.** Zia AutoML detects outlier FIRs by Modus Operandi + frequency.
 
 #### 🤖 AI Can Do
@@ -825,7 +822,7 @@
 
 ---
 
-### Step 2.2d - AppSail: TF-IDF Case Similarity Engine
+### Step 2.2d - AppSail: TF-IDF Case Similarity Engine [Runs Parallel with Step 2.1a]
 
 #### 📌 Execution Plan Details
 - **Execution Mode:** Sequential (Runs after previous step)
@@ -833,7 +830,7 @@
 - **Possible Mistakes/Risks:** Misconfiguration of services, incomplete code resulting in runtime errors, data pipeline failures.
 - **External Sources Required:** KSP Dataset, Zoho Catalyst Documentation, relevant library docs.
 
-**Owner: P2 · Day 3-4**
+**Owner: P2**
 > NLP model - stays on AppSail. TF-IDF on `CaseMaster.BriefFacts + ActSectionAssociation.ActID` text.
 
 #### 🤖 AI Can Do
@@ -863,7 +860,7 @@
 
 ---
 
-### Step 2.3 - AppSail: NetworkX + Louvain Gang Network Engine
+### Step 2.3 - AppSail: NetworkX + Louvain Gang Network Engine [Depends on Step 1.5]
 
 #### 📌 Execution Plan Details
 - **Execution Mode:** Sequential (Runs after previous step)
@@ -871,7 +868,7 @@
 - **Possible Mistakes/Risks:** Misconfiguration of services, incomplete code resulting in runtime errors, data pipeline failures.
 - **External Sources Required:** KSP Dataset, Zoho Catalyst Documentation, relevant library docs.
 
-**Owner: P2 · Day 3-4**
+**Owner: P2**
 > Edges built from `inv_arrestsurrenderaccused` junction. Community detection = Louvain.
 
 #### 🤖 AI Can Do
@@ -902,7 +899,7 @@
 
 ---
 
-### Step 2.4 - Catalyst Cache: Performance Layer Setup
+### Step 2.4 - Catalyst Cache: Performance Layer Setup [Runs Parallel with Step 2.1a]
 
 #### 📌 Execution Plan Details
 - **Execution Mode:** Sequential (Runs after previous step)
@@ -910,7 +907,7 @@
 - **Possible Mistakes/Risks:** Misconfiguration of services, incomplete code resulting in runtime errors, data pipeline failures.
 - **External Sources Required:** KSP Dataset, Zoho Catalyst Documentation, relevant library docs.
 
-**Owner: P1 · Day 3-4**
+**Owner: P1**
 > **NEW in v2.** Cache `district_stats.json` and `crime_clusters.geojson` to hit p95 < 500ms target.
 
 #### 🤖 AI Can Do
@@ -941,7 +938,7 @@
 
 ---
 
-### Step 2.5 - AppSail REST API: Wrap All ML Outputs as Endpoints
+### Step 2.5 - AppSail REST API: Wrap All ML Outputs as Endpoints [Depends on Step 2.1b, 2.2a-d, 2.3]
 
 #### 📌 Execution Plan Details
 - **Execution Mode:** Sequential (Runs after previous step)
@@ -949,7 +946,7 @@
 - **Possible Mistakes/Risks:** Misconfiguration of services, incomplete code resulting in runtime errors, data pipeline failures.
 - **External Sources Required:** KSP Dataset, Zoho Catalyst Documentation, relevant library docs.
 
-**Owner: P1 · Day 3-4**
+**Owner: P1**
 > P1 takes all P2's Zia AutoML model IDs and Stratus URLs and builds FastAPI routes.
 
 #### 🤖 AI Can Do
@@ -990,11 +987,10 @@
 
 ## PH3 - LLM Intelligence Layer
 
-**Day 3-5**
 
 ---
 
-### Step 3.1 - QuickML: NL-to-SQL Pipeline
+### Step 3.1 - QuickML: NL-to-SQL Pipeline [Depends on Step 2.5]
 
 #### 📌 Execution Plan Details
 - **Execution Mode:** Sequential (Blocking next steps in this phase)
@@ -1002,7 +998,7 @@
 - **Possible Mistakes/Risks:** Misconfiguration of services, incomplete code resulting in runtime errors, data pipeline failures.
 - **External Sources Required:** KSP Dataset, Zoho Catalyst Documentation, relevant library docs.
 
-**Owner: P2 · Day 3-4**
+**Owner: P2**
 > P2 configures QuickML. P1 hosts the endpoint. P3 calls it from the chat UI.
 
 #### 🤖 AI Can Do
@@ -1038,7 +1034,7 @@
 
 ---
 
-### Step 3.2 - QuickML: RAG Knowledge Base (BriefFacts Corpus)
+### Step 3.2 - QuickML: RAG Knowledge Base (BriefFacts Corpus) [Runs Parallel with Step 3.1]
 
 #### 📌 Execution Plan Details
 - **Execution Mode:** Sequential (Runs after previous step)
@@ -1046,7 +1042,7 @@
 - **Possible Mistakes/Risks:** Misconfiguration of services, incomplete code resulting in runtime errors, data pipeline failures.
 - **External Sources Required:** KSP Dataset, Zoho Catalyst Documentation, relevant library docs.
 
-**Owner: P2 · Day 4**
+**Owner: P2**
 > All generative AI answers must be grounded in DataStore to prevent hallucination.
 
 #### 🤖 AI Can Do
@@ -1077,7 +1073,7 @@
 
 ---
 
-### Step 3.3 - Catalyst NoSQL: Conversation Memory
+### Step 3.3 - Catalyst NoSQL: Conversation Memory [Runs Parallel with Step 3.1]
 
 #### 📌 Execution Plan Details
 - **Execution Mode:** Sequential (Runs after previous step)
@@ -1085,7 +1081,7 @@
 - **Possible Mistakes/Risks:** Misconfiguration of services, incomplete code resulting in runtime errors, data pipeline failures.
 - **External Sources Required:** KSP Dataset, Zoho Catalyst Documentation, relevant library docs.
 
-**Owner: P1 · Day 4**
+**Owner: P1**
 > Enables follow-up queries like \*"Show those on a map"\* by retaining prior context.
 
 #### 🤖 AI Can Do
@@ -1113,7 +1109,7 @@
 
 ---
 
-### Step 3.4 - Zia Services: Voice + Translation (100% Catalyst-Native)
+### Step 3.4 - Zia Services: Voice + Translation (100% Catalyst-Native) [Runs Parallel with Step 3.1]
 
 #### 📌 Execution Plan Details
 - **Execution Mode:** Sequential (Runs after previous step)
@@ -1121,7 +1117,7 @@
 - **Possible Mistakes/Risks:** Misconfiguration of services, incomplete code resulting in runtime errors, data pipeline failures.
 - **External Sources Required:** KSP Dataset, Zoho Catalyst Documentation, relevant library docs.
 
-**Owner: P1 · Day 4-5**
+**Owner: P1**
 > ⚠️ **No Google Translate. No fallback to third-party services.** Zia Services exclusively.
 
 #### 🤖 AI Can Do
@@ -1154,7 +1150,7 @@
 
 ---
 
-### Step 3.5 - Catalyst Circuits: Orchestration Workflow
+### Step 3.5 - Catalyst Circuits: Orchestration Workflow [Depends on Step 3.1, 3.2, 3.3, 3.4]
 
 #### 📌 Execution Plan Details
 - **Execution Mode:** Sequential (Runs after previous step)
@@ -1162,7 +1158,7 @@
 - **Possible Mistakes/Risks:** Misconfiguration of services, incomplete code resulting in runtime errors, data pipeline failures.
 - **External Sources Required:** KSP Dataset, Zoho Catalyst Documentation, relevant library docs.
 
-**Owner: P1 + P2 · Day 4-5**
+**Owner: P1 + P2**
 > **REPLACES custom Python orchestrator.** Catalyst Circuits handles all intent routing as a managed workflow.
 
 #### 🤖 AI Can Do
@@ -1215,7 +1211,7 @@
 
 ---
 
-### Step 3.6 - Catalyst Signals + Push: Real-Time Anomaly Alerts
+### Step 3.6 - Catalyst Signals + Push: Real-Time Anomaly Alerts [Depends on Step 3.5]
 
 #### 📌 Execution Plan Details
 - **Execution Mode:** Sequential (Runs after previous step)
@@ -1223,7 +1219,7 @@
 - **Possible Mistakes/Risks:** Misconfiguration of services, incomplete code resulting in runtime errors, data pipeline failures.
 - **External Sources Required:** KSP Dataset, Zoho Catalyst Documentation, relevant library docs.
 
-**Owner: P1 · Day 5**
+**Owner: P1**
 > **NEW in v2.** When Zia AutoML detects a spike, a Signal triggers Push Notification to the UI - no page refresh.
 
 #### 🤖 AI Can Do
@@ -1258,11 +1254,10 @@
 
 ## PH4 - Frontend & Visualization
 
-**Day 4-6 · P3's primary responsibility**
 
 ---
 
-### Step 4.1a - Chat Interface: Core UI
+### Step 4.1a - Chat Interface: Core UI [Runs Parallel with Phase 2 (Uses Mock Data)]
 
 #### 📌 Execution Plan Details
 - **Execution Mode:** Sequential (Blocking next steps in this phase)
@@ -1270,7 +1265,7 @@
 - **Possible Mistakes/Risks:** Misconfiguration of services, incomplete code resulting in runtime errors, data pipeline failures.
 - **External Sources Required:** KSP Dataset, Zoho Catalyst Documentation, relevant library docs.
 
-**Owner: P3 · Day 4**
+**Owner: P3**
 > Use mock/hardcoded data first. Wire real API only after P1 deploys backend.
 
 #### 🤖 AI Can Do
@@ -1300,7 +1295,7 @@
 
 ---
 
-### Step 4.1b - Chat Interface: Zia Voice + Language Toggle
+### Step 4.1b - Chat Interface: Zia Voice + Language Toggle [Depends on Step 4.1a]
 
 #### 📌 Execution Plan Details
 - **Execution Mode:** Sequential (Blocking next steps in this phase)
@@ -1308,7 +1303,7 @@
 - **Possible Mistakes/Risks:** Misconfiguration of services, incomplete code resulting in runtime errors, data pipeline failures.
 - **External Sources Required:** KSP Dataset, Zoho Catalyst Documentation, relevant library docs.
 
-**Owner: P3 · Day 4-5**
+**Owner: P3**
 > Wire exclusively to Zia Services (P1's step 3.4). No browser Web Speech API for Kannada.
 
 #### 🤖 AI Can Do
@@ -1337,7 +1332,7 @@
 
 ---
 
-### Step 4.1c - Chat Interface: SmartBrowz PDF Export
+### Step 4.1c - Chat Interface: SmartBrowz PDF Export [Depends on Step 4.1a]
 
 #### 📌 Execution Plan Details
 - **Execution Mode:** Sequential (Blocking next steps in this phase)
@@ -1345,7 +1340,7 @@
 - **Possible Mistakes/Risks:** Misconfiguration of services, incomplete code resulting in runtime errors, data pipeline failures.
 - **External Sources Required:** KSP Dataset, Zoho Catalyst Documentation, relevant library docs.
 
-**Owner: P3 · Day 5**
+**Owner: P3**
 > Evidence Trail variables (FIR citations + AI explanations) must appear in the PDF - required for Req. #9.
 
 #### 🤖 AI Can Do
@@ -1372,7 +1367,7 @@
 
 ---
 
-### Step 4.2a - Crime Heatmap: Leaflet Base Map
+### Step 4.2a - Crime Heatmap: Leaflet Base Map [Runs Parallel with Step 4.1a]
 
 #### 📌 Execution Plan Details
 - **Execution Mode:** Sequential (Runs after previous step)
@@ -1380,7 +1375,7 @@
 - **Possible Mistakes/Risks:** Misconfiguration of services, incomplete code resulting in runtime errors, data pipeline failures.
 - **External Sources Required:** KSP Dataset, Zoho Catalyst Documentation, relevant library docs.
 
-**Owner: P3 · Day 4-5**
+**Owner: P3**
 > Load Stratus `crime_clusters.geojson` immediately - don't wait for live API.
 
 #### 🤖 AI Can Do
@@ -1409,7 +1404,7 @@
 
 ---
 
-### Step 4.2b - Crime Heatmap: Time Slider + District Drill-Down
+### Step 4.2b - Crime Heatmap: Time Slider + District Drill-Down [Depends on Step 4.2a]
 
 #### 📌 Execution Plan Details
 - **Execution Mode:** Sequential (Runs after previous step)
@@ -1417,7 +1412,7 @@
 - **Possible Mistakes/Risks:** Misconfiguration of services, incomplete code resulting in runtime errors, data pipeline failures.
 - **External Sources Required:** KSP Dataset, Zoho Catalyst Documentation, relevant library docs.
 
-**Owner: P3 · Day 5**
+**Owner: P3**
 > Pulsing spike zones (from Signals) are the visual wow factor for the heatmap demo.
 
 #### 🤖 AI Can Do
@@ -1448,7 +1443,7 @@
 
 ---
 
-### Step 4.3 - Cytoscape.js: Criminal Network Graph
+### Step 4.3 - Cytoscape.js: Criminal Network Graph [Runs Parallel with Step 4.2a]
 
 #### 📌 Execution Plan Details
 - **Execution Mode:** Sequential (Runs after previous step)
@@ -1456,7 +1451,7 @@
 - **Possible Mistakes/Risks:** Misconfiguration of services, incomplete code resulting in runtime errors, data pipeline failures.
 - **External Sources Required:** KSP Dataset, Zoho Catalyst Documentation, relevant library docs.
 
-**Owner: P3 · Day 5**
+**Owner: P3**
 > Load `sample_subgraph.json` from Stratus first. Test with 5K nodes for performance.
 
 #### 🤖 AI Can Do
@@ -1488,7 +1483,7 @@
 
 ---
 
-### Step 4.4 - Apache ECharts: Analytics Dashboard
+### Step 4.4 - Apache ECharts: Analytics Dashboard [Runs Parallel with Step 4.2a]
 
 #### 📌 Execution Plan Details
 - **Execution Mode:** Sequential (Runs after previous step)
@@ -1496,7 +1491,7 @@
 - **Possible Mistakes/Risks:** Misconfiguration of services, incomplete code resulting in runtime errors, data pipeline failures.
 - **External Sources Required:** KSP Dataset, Zoho Catalyst Documentation, relevant library docs.
 
-**Owner: P3 · Day 5-6**
+**Owner: P3**
 > Wire all charts to real API endpoints. Anomaly alerts feed from Catalyst Push (step 4.5).
 
 #### 🤖 AI Can Do
@@ -1530,7 +1525,7 @@
 
 ---
 
-### Step 4.5 - React Hook: Catalyst Push + Signals Real-Time Alerts
+### Step 4.5 - React Hook: Catalyst Push + Signals Real-Time Alerts [Depends on Step 3.6]
 
 #### 📌 Execution Plan Details
 - **Execution Mode:** Sequential (Runs after previous step)
@@ -1538,7 +1533,7 @@
 - **Possible Mistakes/Risks:** Misconfiguration of services, incomplete code resulting in runtime errors, data pipeline failures.
 - **External Sources Required:** KSP Dataset, Zoho Catalyst Documentation, relevant library docs.
 
-**Owner: P3 · Day 5-6**
+**Owner: P3**
 > **NEW in v2.** When a spike anomaly Signal fires, the anomaly panel updates without page refresh.
 
 #### 🤖 AI Can Do
@@ -1567,7 +1562,7 @@
 
 ---
 
-### Step 4.6 - Catalyst Authentication: Auth + RBAC UI
+### Step 4.6 - Catalyst Authentication: Auth + RBAC UI [Runs Parallel with Step 4.5]
 
 #### 📌 Execution Plan Details
 - **Execution Mode:** Sequential (Runs after previous step)
@@ -1575,7 +1570,7 @@
 - **Possible Mistakes/Risks:** Misconfiguration of services, incomplete code resulting in runtime errors, data pipeline failures.
 - **External Sources Required:** KSP Dataset, Zoho Catalyst Documentation, relevant library docs.
 
-**Owner: P3 · Day 5-6**
+**Owner: P3**
 > Live role-switch (Investigator → Admin) with audit log reveal is the Req. #10 demo moment.
 
 #### 🤖 AI Can Do
@@ -1609,11 +1604,10 @@
 
 ## PH5 - Integration, Security & Deployment
 
-**Day 6-7 · All Catalyst-Native Deployment**
 
 ---
 
-### Step 5.1a - Catalyst API Gateway + CORS
+### Step 5.1a - Catalyst API Gateway + CORS [Depends on Step 3.6]
 
 #### 📌 Execution Plan Details
 - **Execution Mode:** Sequential (Blocking next steps in this phase)
@@ -1621,7 +1615,7 @@
 - **Possible Mistakes/Risks:** Misconfiguration of services, incomplete code resulting in runtime errors, data pipeline failures.
 - **External Sources Required:** KSP Dataset, Zoho Catalyst Documentation, relevant library docs.
 
-**Owner: P1 · Day 6**
+**Owner: P1**
 > Must be done before P3 can wire real API calls.
 
 #### 🤖 AI Can Do
@@ -1652,7 +1646,7 @@
 
 ---
 
-### Step 5.1b - Frontend: Replace All Mock Data with Real API Calls
+### Step 5.1b - Frontend: Replace All Mock Data with Real API Calls [Depends on Step 2.5, 4.6]
 
 #### 📌 Execution Plan Details
 - **Execution Mode:** Sequential (Blocking next steps in this phase)
@@ -1660,7 +1654,7 @@
 - **Possible Mistakes/Risks:** Misconfiguration of services, incomplete code resulting in runtime errors, data pipeline failures.
 - **External Sources Required:** KSP Dataset, Zoho Catalyst Documentation, relevant library docs.
 
-**Owner: P3 · Day 6**
+**Owner: P3**
 > Get AppSail URL from P1 before starting. Replace every hardcoded dataset.
 
 #### 🤖 AI Can Do
@@ -1692,7 +1686,7 @@
 
 ---
 
-### Step 5.2 - Security: RBAC, Audit Logs, Data Masking
+### Step 5.2 - Security: RBAC, Audit Logs, Data Masking [Depends on Step 5.1a]
 
 #### 📌 Execution Plan Details
 - **Execution Mode:** Sequential (Runs after previous step)
@@ -1700,7 +1694,7 @@
 - **Possible Mistakes/Risks:** Misconfiguration of services, incomplete code resulting in runtime errors, data pipeline failures.
 - **External Sources Required:** KSP Dataset, Zoho Catalyst Documentation, relevant library docs.
 
-**Owner: P1 · Day 6**
+**Owner: P1**
 > Audit logs are PS2 Requirement #10. Show them live in the Admin demo.
 
 #### 🤖 AI Can Do
@@ -1733,7 +1727,7 @@
 
 ---
 
-### Step 5.3a - Catalyst AppSail: Backend Deployment
+### Step 5.3a - Catalyst AppSail: Backend Deployment [Depends on Step 5.2]
 
 #### 📌 Execution Plan Details
 - **Execution Mode:** Sequential (Runs after previous step)
@@ -1741,7 +1735,7 @@
 - **Possible Mistakes/Risks:** Misconfiguration of services, incomplete code resulting in runtime errors, data pipeline failures.
 - **External Sources Required:** KSP Dataset, Zoho Catalyst Documentation, relevant library docs.
 
-**Owner: P1 · Day 6**
+**Owner: P1**
 > Share live AppSail URL with P2 and P3 immediately after successful deploy.
 
 #### 🤖 AI Can Do
@@ -1773,7 +1767,7 @@
 
 ---
 
-### Step 5.3b - Catalyst Slate: Frontend Deployment
+### Step 5.3b - Catalyst Slate: Frontend Deployment [Depends on Step 5.1b]
 
 #### 📌 Execution Plan Details
 - **Execution Mode:** Sequential (Runs after previous step)
@@ -1781,7 +1775,7 @@
 - **Possible Mistakes/Risks:** Misconfiguration of services, incomplete code resulting in runtime errors, data pipeline failures.
 - **External Sources Required:** KSP Dataset, Zoho Catalyst Documentation, relevant library docs.
 
-**Owner: P1 · Day 6-7**
+**Owner: P1**
 > Set production API env var before building. CORS on AppSail must match Slate domain.
 
 #### 🤖 AI Can Do
@@ -1812,7 +1806,7 @@
 
 ---
 
-### Step 5.3c - Catalyst Pipelines: CI/CD + SSL
+### Step 5.3c - Catalyst Pipelines: CI/CD + SSL [Depends on Step 5.3a, 5.3b]
 
 #### 📌 Execution Plan Details
 - **Execution Mode:** Sequential (Runs after previous step)
@@ -1820,7 +1814,7 @@
 - **Possible Mistakes/Risks:** Misconfiguration of services, incomplete code resulting in runtime errors, data pipeline failures.
 - **External Sources Required:** KSP Dataset, Zoho Catalyst Documentation, relevant library docs.
 
-**Owner: P1 · Day 7**
+**Owner: P1**
 > Auto-deploy on every push to `main`. Required for clean final submission flow.
 
 #### 🤖 AI Can Do
@@ -1850,7 +1844,7 @@
 
 ---
 
-### Step 5.4 - Catalyst Mail: Investigator Alert Emails
+### Step 5.4 - Catalyst Mail: Investigator Alert Emails [Depends on Step 5.2]
 
 #### 📌 Execution Plan Details
 - **Execution Mode:** Sequential (Runs after previous step)
@@ -1858,7 +1852,7 @@
 - **Possible Mistakes/Risks:** Misconfiguration of services, incomplete code resulting in runtime errors, data pipeline failures.
 - **External Sources Required:** KSP Dataset, Zoho Catalyst Documentation, relevant library docs.
 
-**Owner: P1 · Day 6-7**
+**Owner: P1**
 > **NEW in v2.** When Zia AutoML detects a spike, Mail alerts the responsible district investigator.
 
 #### 🤖 AI Can Do
@@ -1887,7 +1881,7 @@
 
 ---
 
-### Step 5.5 - Performance QA + Load Testing
+### Step 5.5 - Performance QA + Load Testing [Depends on Step 5.3c]
 
 #### 📌 Execution Plan Details
 - **Execution Mode:** Sequential (Runs after previous step)
@@ -1895,7 +1889,7 @@
 - **Possible Mistakes/Risks:** Misconfiguration of services, incomplete code resulting in runtime errors, data pipeline failures.
 - **External Sources Required:** KSP Dataset, Zoho Catalyst Documentation, relevant library docs.
 
-**Owner: ALL · Day 7**
+**Owner: ALL**
 > Fix any bottleneck now - not during the live judge demo.
 
 #### 🤖 AI Can Do
@@ -1931,11 +1925,10 @@
 
 ## PH6 - Demo Prep & Final Submission
 
-**Day 7 · Last Push**
 
 ---
 
-### Step 6.1 - Seed Dense Demo Data on Production
+### Step 6.1 - Seed Dense Demo Data on Production [Depends on Step 5.5]
 
 #### 📌 Execution Plan Details
 - **Execution Mode:** Sequential (Blocking next steps in this phase)
@@ -1943,7 +1936,7 @@
 - **Possible Mistakes/Risks:** Misconfiguration of services, incomplete code resulting in runtime errors, data pipeline failures.
 - **External Sources Required:** KSP Dataset, Zoho Catalyst Documentation, relevant library docs.
 
-**Owner: P2 · Day 7 morning**
+**Owner: P2**
 > Run on PRODUCTION DataStore - not local. Rich Bengaluru heatmap = better visual demo.
 
 #### 🤖 AI Can Do
@@ -1974,7 +1967,7 @@
 
 ---
 
-### Step 6.2 - Demo Script: 3 Winning Scenarios (30-min Rehearsal)
+### Step 6.2 - Demo Script: 3 Winning Scenarios (30-min Rehearsal) [Depends on Step 6.1]
 
 #### 📌 Execution Plan Details
 - **Execution Mode:** Sequential (Runs after previous step)
@@ -1982,7 +1975,7 @@
 - **Possible Mistakes/Risks:** Misconfiguration of services, incomplete code resulting in runtime errors, data pipeline failures.
 - **External Sources Required:** KSP Dataset, Zoho Catalyst Documentation, relevant library docs.
 
-**Owner: ALL · Day 7**
+**Owner: ALL**
 > Rehearse on production Slate URL. Assign who presents each scenario before the judges arrive.
 
 #### 🤖 AI Can Do
@@ -2013,7 +2006,7 @@
 
 ---
 
-### Step 6.3 - 3-Minute Video Walkthrough
+### Step 6.3 - 3-Minute Video Walkthrough [Depends on Step 6.2]
 
 #### 📌 Execution Plan Details
 - **Execution Mode:** Sequential (Runs after previous step)
@@ -2021,7 +2014,7 @@
 - **Possible Mistakes/Risks:** Misconfiguration of services, incomplete code resulting in runtime errors, data pipeline failures.
 - **External Sources Required:** KSP Dataset, Zoho Catalyst Documentation, relevant library docs.
 
-**Owner: P3 · Day 7**
+**Owner: P3**
 
 #### 🤖 AI Can Do
 - [ ] Generate narration script covering all 10 PS2 requirements in 3 minutes
@@ -2045,7 +2038,7 @@
 
 ---
 
-### Step 6.4 - Final Submission (1 Hour Before Deadline)
+### Step 6.4 - Final Submission (1 Hour Before Deadline) [Depends on Step 6.3]
 
 #### 📌 Execution Plan Details
 - **Execution Mode:** Sequential (Runs after previous step)
@@ -2053,7 +2046,7 @@
 - **Possible Mistakes/Risks:** Misconfiguration of services, incomplete code resulting in runtime errors, data pipeline failures.
 - **External Sources Required:** KSP Dataset, Zoho Catalyst Documentation, relevant library docs.
 
-**Owner: ALL · Day 7**
+**Owner: ALL**
 > Never submit at the last minute. Submit 1 hour early to handle portal issues.
 
 #### 🤖 AI Can Do
