@@ -18,6 +18,10 @@
 | **P1** | Backend Lead | AppSail, DataStore, Auth, API Gateway, Circuits, NoSQL, Cache, Pipelines |
 | **P2** | ML / AI Lead | QuickML (LLM/RAG), Zia AutoML, AppSail (geo/graph/SARIMA/TF-IDF), Functions |
 | **P3** | Frontend Lead | Slate (React 18), Leaflet, Cytoscape.js, ECharts, Push Notifications, Signals |
+
+> **Human-Agent Synergy Framework:** 
+> Project Falcon is built on a targeted division of labor where AI agents act as **Engine Builders** (rapid prototyping of CLI commands, schemas, CI/CD pipelines, UI skeletons) while human leads act as **Scientific Tuners** (verifying statistical integrity, optimizing p95 latency, refining the Evidence Trail, and executing high-impact demos).
+
 > **Sync cadence:** Every 4 hours or when a phase completes. Document blockers immediately.
 
 ---

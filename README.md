@@ -16,20 +16,45 @@ Project Falcon is a sophisticated, 100% **Zoho Catalyst-native** intelligence pl
 
 By leveraging Catalyst QuickML, Zia Services, AppSail, and DataStore, the platform offers an end-to-end investigative ecosystem tailored for deep criminal analysis and spatial forecasting.
 
-## 🚀 Key Features
+## 🚀 Core Features & Capabilities
 
-*   **Conversational Intelligence:** Query case files naturally using **Catalyst QuickML** (LLM + RAG). Voice input is handled directly via **Zia Services** for Speech-to-Text and Translation (Kannada ↔ English).
-*   **Predictive Hotspot Forecasting:** Utilizing SARIMA models hosted on **Catalyst AppSail** to predict future crime spikes, combined with real-time **Catalyst Push Notifications** for live dashboard alerts.
-*   **Automated Offender Profiling:** A 0-100 risk scoring engine trained entirely via **Zia AutoML**, continuously classifying repeat offenders based on demographic and operational data.
-*   **Criminal Network Discovery:** Interactive node graphs (Cytoscape.js) resolving Accused ↔ FIR ↔ Victim links through Louvain community detection.
-*   **Explainable AI (Evidence Trail):** Every generative response is grounded in the database; **Catalyst Circuits** enforces strict RAG pipelines ensuring all AI claims cite the specific FIR number.
+### 1. The Intelligence Orchestrator (Conversational UI)
+Not just a chatbot, but a routing engine triggered by Natural Language.
+*   **NL-to-SQL Pipeline:** Schema-aware Catalyst QuickML dynamically translates plain English (and Kannada) into complex SQL joins across 28 relational tables.
+*   **RAG Knowledge Base:** Retrieves BriefFacts using QuickML vector store.
+*   **Explainable AI (Evidence Trail):** Every AI response cites explicit FIR numbers (satisfying Requirement #9).
+*   **Multi-Language Voice IO:** Kannada and English speech-to-text, translation, and text-to-speech handled entirely by **Zia Services**.
+
+### 2. Six-Pillar ML Analytics Engine
+*   **M1: Geospatial Detection (DBSCAN & K-Means):** Identifies geographical crime hotspots overlaid with district boundaries.
+*   **M2: Repeat Offender Risk (Zia AutoML):** Tabular classification grading offenders with a 0-100 risk score based on historical and demographic data (AUC-ROC >0.75).
+*   **M3: Crime Forecasting (SARIMA):** Time-series forecasting for 7-day and 30-day district-level crime volume predictions.
+*   **M4: Anomaly Detection (Isolation Forest):** Flags irregular FIRs and investigative outliers.
+*   **M5: Criminal Network Discovery (Louvain Community Algorithm):** Analyzes the Accused ↔ Case ↔ Victim graph to uncover organized syndicates.
+*   **M6: Case Similarity Engine (TF-IDF):** Surfaces historically identical cases based on modus operandi and FIR BriefFacts.
+
+### 3. Interactive Visualization (Trust Layer)
+*   **Crime Heatmaps:** Interactive Leaflet maps featuring marker clusters, temporal sliders, and pulsing CSS animations for high-risk zones.
+*   **Network Graphs:** Cytoscape.js rendering up to 5,000+ nodes (Accused/Victim/Case) color-coded by Louvain communities, with clickable profile cards.
+*   **Predictive Dashboards:** ECharts rendering trend lines, predictive alerts, and anomaly alert panels wired to real-time **Catalyst Push Notifications**.
+
+### 4. Enterprise Security & Governance
+*   **Role-Based Access Control (RBAC):** Granular access for Investigator, Analyst, and Admin roles via Catalyst Authentication.
+*   **Audit Logging:** Every query executed is recorded (User ID, Query, Timestamp, IP) in the Catalyst DataStore.
+*   **Data Masking:** Sensitive victim PII is masked (`****`) for Analyst roles, accessible only to Admin/Investigators.
+*   **API Security:** Catalyst API Gateway enforces rate limiting (100 req/min) and strict JWT Header Validation.
+
+## 🤝 Human-Agent Synergy
+Project Falcon represents a cutting-edge division of labor:
+*   **AI as Engine Builder:** AI agents handle the rapid generation of Catalyst CLI configurations, 25+ SQL table schemas, Dockerfiles, Catalyst Pipelines (CI/CD), and boilerplate UI.
+*   **Humans as Scientific Tuners:** Human leads govern model tuning (ensuring p95 latency <500ms), architectural integrity, manual data ingestion (10,000+ records), and narrative storytelling.
 
 ## 🏗️ Architecture & Monorepo Structure
 
 Project Falcon operates on a strict microservice monorepo structure. For detailed architectural flows, please refer to the [Architecture & Metrics Guide](docs/architecture_and_metrics.md).
 
 ```text
-/Project Falcon-KSP
+/Project Falcon
 ├── /docs       # Comprehensive Implementation Plans, Architecture, & ER Diagrams
 ├── /frontend   # Catalyst Slate (React 18, Leaflet, Cytoscape.js, ECharts)
 ├── /backend    # Catalyst AppSail (FastAPI container: geo/graph computing)
@@ -45,7 +70,6 @@ For team members and evaluators, start here to understand the execution strategy
 1.  **[Master Implementation Plan](docs/master_plan.md):** The definitive 7-day playbook divided across 3 team members (P1, P2, P3).
 2.  **[Architecture & Metrics](docs/architecture_and_metrics.md):** High-level component interactions, architectural topology, and p95 latency benchmarks.
 3.  **[Database ER Diagram](docs/er_diagram.md):** Extensive map of all 28 relational tables ensuring strict referential integrity.
-4.  **[Division of Labor](docs/division_of_labor.md):** Human-Agent collaboration framework.
 
 ## ⚙️ Quick Start Setup
 
@@ -56,12 +80,12 @@ For team members and evaluators, start here to understand the execution strategy
 
 ### Installation Steps
 
-1.  **Initialize Platform (P1)**
+1.  **Initialize Platform**
     *   Login via `catalyst login`
     *   Enable all required Catalyst services (AppSail, QuickML, Zia AutoML, Circuits, Signals, Push, Slate)
     *   Run data migrations from `/data` via the Catalyst DataStore console.
 
-2.  **Spin Up Backend (P1/P2)**
+2.  **Spin Up Backend**
     ```bash
     cd backend
     python -m venv venv
@@ -70,18 +94,12 @@ For team members and evaluators, start here to understand the execution strategy
     docker compose up
     ```
 
-3.  **Launch Frontend (P3)**
+3.  **Launch Frontend**
     ```bash
     cd frontend
     npm install
     npm run dev
     ```
-
-## 🔐 Security & Governance
-Project Falcon adheres to strict governance models suitable for law enforcement:
-*   **Catalyst API Gateway:** Rate limiting enforced at 100 requests/minute.
-*   **Audit Logging:** Every query executed is logged with the user's ID, timestamp, and IP address.
-*   **RBAC & Data Masking:** Role-based access via Catalyst Auth restricts sensitive victim data from Analyst roles, ensuring only high-clearance Investigators access unmasked PII.
 
 ---
 *Built by Team Project Falcon for KSP Hackathon 2025.*
