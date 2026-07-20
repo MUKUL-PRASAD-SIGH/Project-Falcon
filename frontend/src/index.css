@@ -1,0 +1,364 @@
+/* ─── Leaflet dark-theme overrides ──────────────────────────────── */
+@import 'leaflet/dist/leaflet.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ─── Role-Scoped CSS Custom Properties ─────────────────────────── */
+/* Default = Analyst (gold). Overridden by data-role on the root div. */
+:root {
+  --role-accent:     #C9A227;
+  --role-accent-dim: rgba(201, 162, 39, 0.13);
+  --role-accent-glow:rgba(201, 162, 39, 0.06);
+}
+
+[data-role="Investigator"] {
+  --role-accent:     #00B4D8;
+  --role-accent-dim: rgba(0, 180, 216, 0.13);
+  --role-accent-glow:rgba(0, 180, 216, 0.06);
+}
+
+[data-role="Admin"] {
+  --role-accent:     #A855F7;
+  --role-accent-dim: rgba(168, 85, 247, 0.13);
+  --role-accent-glow:rgba(168, 85, 247, 0.06);
+}
+
+/* ─── Leaflet Overrides ──────────────────────────────────────────── */
+.leaflet-container {
+  background: #0B132B;
+  font-family: 'Inter', sans-serif;
+}
+.leaflet-tile-pane { filter: brightness(0.45) saturate(0.2) hue-rotate(195deg) contrast(1.1); }
+.leaflet-control-zoom a {
+  background: #111C35 !important;
+  color: var(--role-accent) !important;
+  border-color: #1E293B !important;
+}
+.leaflet-popup-content-wrapper {
+  background: #111C35;
+  border: 1px solid #1E293B;
+  color: #E2E8F0;
+  border-radius: 6px;
+}
+.leaflet-popup-tip { background: #111C35; }
+
+/* ─── Base Styles ────────────────────────────────────────────────── */
+html, body, #root { height: 100%; }
+
+body {
+  @apply text-ink font-body;
+  /* Deep space gradient — replaces flat bg-navy-950 */
+  background:
+    radial-gradient(ellipse at 18% 52%, rgba(0, 22, 52, 0.98) 0%, transparent 52%),
+    radial-gradient(ellipse at 82% 16%, rgba(12, 6, 38, 0.85) 0%, transparent 50%),
+    radial-gradient(ellipse at 50% 95%, rgba(0, 10, 28, 0.95)  0%, transparent 50%),
+    #04090F;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-feature-settings: "kern" 1, "liga" 1;
+}
+
+/* Blurred police emblem watermark */
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 0;
+  background-image: url('./assets/police.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: clamp(340px, 38vw, 560px);
+  opacity: 0.10;
+  filter: grayscale(0.3) brightness(1.1) blur(10px);
+}
+
+#root {
+  position: relative;
+  z-index: 1;
+}
+
+/* ─── Typography ─────────────────────────────────────────────────── */
+body, .font-body {
+  font-size: 13px;
+  line-height: 1.6;
+  letter-spacing: -0.011em;
+}
+
+.font-display,
+[class*="font-display"] {
+  letter-spacing: -0.022em;
+  font-weight: 600;
+}
+
+h1 {
+  font-size: 1.65rem;
+  letter-spacing: -0.028em;
+  font-weight: 700;
+  color: #F8FAFC;
+}
+
+h2 {
+  font-size: 1.05rem;
+  letter-spacing: -0.02em;
+  font-weight: 600;
+  color: #F1F5F9;
+}
+
+.font-mono, code, pre {
+  font-size: 0.775rem;
+  letter-spacing: -0.008em;
+}
+
+/* ─── Panel — Glassmorphism ──────────────────────────────────────── */
+/* Replaces the old flat solid #0D1527 box */
+.panel {
+  background: rgba(9, 16, 33, 0.6);
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
+  border: 1px solid rgba(255, 255, 255, 0.07);
+  border-radius: 10px;
+  box-shadow:
+    0 4px 24px -4px rgba(0, 0, 0, 0.55),
+    inset 0 1px 0 rgba(255, 255, 255, 0.04);
+}
+
+/* ─── Buttons ────────────────────────────────────────────────────── */
+.btn-gold {
+  @apply px-3.5 py-1.5 text-[#070D18] text-xs font-semibold
+         active:scale-[0.97] transition-all;
+  background: var(--role-accent);
+  border-radius: 6px;
+  letter-spacing: -0.01em;
+  box-shadow: 0 2px 10px var(--role-accent-dim);
+}
+.btn-gold:hover {
+  filter: brightness(1.12);
+  box-shadow: 0 4px 18px var(--role-accent-dim);
+}
+
+.btn-ghost {
+  @apply px-3 py-1.5 text-ink-dim text-xs transition-all;
+  border: 1px solid rgba(255, 255, 255, 0.09);
+  border-radius: 6px;
+  background: rgba(255, 255, 255, 0.03);
+}
+.btn-ghost:hover {
+  @apply text-ink;
+  background: rgba(255, 255, 255, 0.07);
+  border-color: rgba(255, 255, 255, 0.14);
+}
+
+/* ─── Case / Evidence tag ────────────────────────────────────────── */
+/* Color adapts to the current role via CSS var */
+.case-tag {
+  @apply font-mono text-[10px] px-1.5 py-0.5;
+  color: var(--role-accent);
+  background: var(--role-accent-dim);
+  border: 1px solid var(--role-accent-glow);
+  border-radius: 4px;
+}
+
+/* ─── Greeting Banner (Investigator home) ────────────────────────── */
+.greeting-banner {
+  padding: 22px 28px;
+  border-radius: 10px;
+  background: linear-gradient(
+    135deg,
+    var(--role-accent-dim) 0%,
+    rgba(6, 13, 26, 0.55) 65%,
+    transparent 100%
+  );
+  border: 1px solid var(--role-accent-glow);
+  position: relative;
+  overflow: hidden;
+}
+.greeting-banner::after {
+  content: '';
+  position: absolute;
+  top: -55px;
+  right: -55px;
+  width: 190px;
+  height: 190px;
+  background: radial-gradient(circle, var(--role-accent-dim) 0%, transparent 70%);
+  pointer-events: none;
+}
+
+/* ─── Suggested Prompt Chips ─────────────────────────────────────── */
+.prompt-chip {
+  display: inline-flex;
+  align-items: center;
+  padding: 6px 14px;
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.09);
+  background: rgba(255, 255, 255, 0.04);
+  color: #93A0B8;
+  font-size: 11px;
+  font-weight: 500;
+  white-space: nowrap;
+  cursor: pointer;
+  transition: all 0.18s ease;
+  user-select: none;
+}
+.prompt-chip:hover:not(:disabled) {
+  background: var(--role-accent-dim);
+  border-color: var(--role-accent-glow);
+  color: var(--role-accent);
+  transform: translateY(-1px);
+}
+.prompt-chip:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+/* ─── Role Pill ──────────────────────────────────────────────────── */
+.role-pill {
+  display: inline-flex;
+  align-items: center;
+  padding: 3px 10px;
+  border-radius: 20px;
+  background: var(--role-accent-dim);
+  border: 1px solid var(--role-accent-glow);
+  color: var(--role-accent);
+  font-size: 10px;
+  font-weight: 600;
+  font-family: 'IBM Plex Mono', monospace;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+/* ─── Nav Tab active underline ───────────────────────────────────── */
+/* aria-current="page" is set automatically by React Router NavLink */
+.nav-tab {
+  position: relative;
+}
+.nav-tab[aria-current="page"]::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 55%;
+  height: 2px;
+  background: var(--role-accent);
+  border-radius: 2px;
+}
+
+/* ─── Pulse dot (urgent alerts) ──────────────────────────────────── */
+.pulse-dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #D8503A;
+  position: relative;
+  flex-shrink: 0;
+}
+.pulse-dot::before {
+  content: '';
+  position: absolute;
+  inset: -3px;
+  border-radius: 50%;
+  border: 1.5px solid rgba(216, 80, 58, 0.5);
+  animation: pulse-ring 1.6s ease-out infinite;
+}
+@keyframes pulse-ring {
+  0%   { opacity: 1; transform: scale(1); }
+  100% { opacity: 0; transform: scale(2.2); }
+}
+
+/* ─── Chat input ─────────────────────────────────────────────────── */
+.chat-input {
+  flex: 1;
+  background: rgba(6, 13, 26, 0.55);
+  border: 1px solid rgba(255, 255, 255, 0.09);
+  border-radius: 8px;
+  padding: 8px 12px;
+  font-size: 13px;
+  color: #E8E6DD;
+  outline: none;
+  transition: border-color 0.15s ease, box-shadow 0.15s ease;
+}
+.chat-input::placeholder {
+  color: rgba(147, 160, 184, 0.45);
+}
+.chat-input:focus {
+  border-color: var(--role-accent);
+  box-shadow: 0 0 0 3px var(--role-accent-dim);
+}
+.chat-input:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+/* ─── Radar Sweep (NavBar logo) ──────────────────────────────────── */
+.radar-sweep {
+  position: relative;
+  overflow: hidden;
+}
+.radar-sweep::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: conic-gradient(from 0deg, var(--role-accent-dim), transparent 30%);
+  animation: sweep 4s linear infinite;
+  border-radius: inherit;
+}
+@keyframes sweep {
+  to { transform: rotate(360deg); }
+}
+
+/* ─── Loading Skeleton ───────────────────────────────────────────── */
+.skeleton {
+  @apply overflow-hidden relative;
+  background: rgba(16, 26, 50, 0.8);
+  border-radius: 6px;
+}
+.skeleton::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    90deg,
+    transparent 0%,
+    rgba(255, 255, 255, 0.04) 50%,
+    transparent 100%
+  );
+  animation: shimmer 1.6s ease-in-out infinite;
+  transform: translateX(-100%);
+}
+@keyframes shimmer {
+  to { transform: translateX(100%); }
+}
+
+/* ─── Scrollbar ──────────────────────────────────────────────────── */
+.scroll-thin::-webkit-scrollbar { width: 4px; }
+.scroll-thin::-webkit-scrollbar-track { background: transparent; }
+.scroll-thin::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.09);
+  border-radius: 2px;
+}
+.scroll-thin::-webkit-scrollbar-thumb:hover {
+  background: var(--role-accent);
+}
+
+/* ─── Zoho Catalyst Authentication Widget overrides ──────────────── */
+#loginDivElementId {
+  background: #ffffff !important;
+  border: 1px solid rgba(255, 255, 255, 0.12) !important;
+  border-radius: 8px !important;
+  min-height: 380px !important;
+  overflow: hidden !important;
+  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.5) !important;
+  padding: 0 !important;
+}
+
+#loginDivElementId iframe {
+  width: 100% !important;
+  height: 380px !important;
+  border: none !important;
+  background: transparent !important;
+  display: block;
+}
+

@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Project Falcon — Karnataka State Police AI Intelligence Console. Real-time crime mapping, criminal network analysis, SARIMA forecasting, and explainable AI with FIR evidence trails." />
+    <meta name="theme-color" content="#0B1526" />
+    <title>Project Falcon &mdash; KSP Intelligence Console</title>
+    <!-- Preconnect for font performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- Plus Jakarta Sans (headings) | Inter (body) | IBM Plex Mono (monospace/evidence) -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&family=Inter:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=IBM+Plex+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Global Crash Interceptor to display errors directly on screen -->
+    <script>
+      window.addEventListener('error', function(e) {
+        var errorDiv = document.createElement('div');
+        errorDiv.style.position = 'fixed';
+        errorDiv.style.top = '0';
+        errorDiv.style.left = '0';
+        errorDiv.style.width = '100%';
+        errorDiv.style.background = '#800000';
+        errorDiv.style.color = '#ffffff';
+        errorDiv.style.padding = '20px';
+        errorDiv.style.zIndex = '999999';
+        errorDiv.style.fontFamily = 'monospace';
+        errorDiv.style.fontSize = '14px';
+        errorDiv.style.lineHeight = '1.5';
+        errorDiv.style.whiteSpace = 'pre-wrap';
+        errorDiv.innerHTML = '<h2>🚨 Project Falcon React App Crash Log:</h2>' + 
+                             '<strong>Error:</strong> ' + e.message + '<br/>' +
+                             '<strong>Source:</strong> ' + e.filename + ':' + e.lineno + ':' + e.colno + '<br/><br/>' +
+                             '<em>Please take a screenshot of this error message and send it back.</em>';
+        document.body.appendChild(errorDiv);
+      });
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <!-- Catalyst SDK Scripts (Loaded synchronously so they are ready before React mounts) -->
+    <script src="https://static.zohocdn.com/catalyst/sdk/js/4.6.2/catalystWebSDK.js"></script>
+    <script src="/__catalyst/sdk/init.js"></script>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
