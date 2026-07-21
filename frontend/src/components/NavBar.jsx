@@ -16,7 +16,7 @@ const KN_ROLE = {
 }
 
 export default function NavBar() {
-  const { role, can, isDev, switchRole, logout } = useAuth()
+  const { role, can, isDev, switchRole, logout, demoMode, toggleDemoMode } = useAuth()
   const { alerts } = useCatalystSignals()
   const voice = useRoleVoice()
 
@@ -104,6 +104,19 @@ export default function NavBar() {
           ) : (
             <div className="role-pill">{voice.roleLabel} · {KN_ROLE[role]}</div>
           )}
+
+          {/* Mode Toggle */}
+          <button
+            onClick={toggleDemoMode}
+            className={`text-xs px-2.5 py-1.5 rounded-md font-mono transition-colors border ${
+              demoMode
+                ? 'bg-blue-500/10 text-blue-400 border-blue-500/20 hover:bg-blue-500/20'
+                : 'bg-green-500/10 text-green-400 border-green-500/20 hover:bg-green-500/20'
+            }`}
+            title="Toggle between Synthetic Demo Data and Real Production Data"
+          >
+            {demoMode ? 'MODE: DEMO' : 'MODE: PROD'}
+          </button>
 
           <button
             onClick={logout}

@@ -87,33 +87,295 @@ For team members and evaluators:
 2.  **[Architecture & Metrics](docs/architecture_and_metrics.md)**: High-level component interactions and benchmarks.
 3.  **[Database ER Diagram](docs/er_diagram.md)**: Map of all 28 relational tables ensuring strict referential integrity.
 
-## ⚙️ Quick Start Setup
-### Prerequisites
-*   Zoho Catalyst Account
-*   Node.js 18+ & Python 3.10+
-*   Catalyst CLI: `npm install -g @zohocloud/catalyst-cli`
+---
 
-### Installation Steps
-1.  **Initialize Platform**
-    *   Login via `catalyst login`
-    *   Enable all required Catalyst services
-    *   Run data migrations from `/data`
+# Using Real Karnataka Police Dataset (Production Mode)
 
-2.  **Spin Up Backend**
-    ```bash
-    cd backend
-    python -m venv venv
-    source venv/bin/activate
-    pip install -r requirements.txt
-    docker compose up
-    ```
+## Directory Structure
 
-3.  **Launch Frontend**
-    ```bash
-    cd frontend
-    npm install
-    npm run dev
-    ```
+Place all provided CSV files inside:
+
+```text
+project-root/
+│
+├── data/
+│   ├── raw/
+│   │   ├── CaseMaster.csv
+│   │   ├── Accused.csv
+│   │   ├── Victim.csv
+│   │   ├── ArrestSurrender.csv
+│   │   ├── ComplainantDetails.csv
+│   │   ├── CrimeHead.csv
+│   │   ├── CrimeSubHead.csv
+│   │   ├── District.csv
+│   │   ├── Employee.csv
+│   │   ├── Unit.csv
+│   │   ├── ...
+│   │
+│   └── processed/
+```
+
+---
+
+## Step 0 — Obtain Dataset
+
+Obtain the official Karnataka Police dataset supplied by the organizers.
+
+Supported formats
+* CSV
+* XLSX
+* SQL Dump (convert to CSV)
+* JSON
+
+---
+
+## Step 1 — Place Files
+
+Copy every CSV into
+```text
+data/raw/
+```
+Example
+```text
+data/raw/
+    CaseMaster.csv
+    Accused.csv
+    Victim.csv
+    ...
+```
+
+---
+
+## Step 2 — Configure Environment
+
+```bash
+cp .env.example .env
+```
+Fill
+```env
+CATALYST_PROJECT_ID=
+CATALYST_CLIENT_ID=
+CATALYST_CLIENT_SECRET=
+```
+
+---
+
+## Step 3 — Validate Dataset
+
+Run
+```bash
+python data/scripts/validate_dataset.py
+```
+Checks performed
+* Missing columns
+* Duplicate IDs
+* Broken foreign keys
+* Invalid dates
+* Invalid GPS
+* Encoding issues
+* Null mandatory fields
+
+Expected
+```text
+✓ CaseMaster.csv
+✓ Accused.csv
+✓ Victim.csv
+...
+Validation Passed
+```
+
+---
+
+## Step 4 — Create Database
+
+```bash
+python data/migrations/run_migration.py
+```
+Creates
+* Tables
+* Indexes
+* Foreign Keys
+No data inserted yet.
+
+---
+
+## Step 5 — Import Dataset
+
+```bash
+python data/scripts/ingest.py --real
+```
+Expected
+```text
+Reading CaseMaster.csv...
+Inserted 127,394 rows
+
+Reading Accused.csv...
+Inserted 186,553 rows
+
+Reading Victim.csv...
+Inserted 143,220 rows
+...
+Import Complete
+```
+
+---
+
+## Step 6 — Verify Import
+
+Run
+```bash
+python data/scripts/check_database.py
+```
+Example output
+```text
+CaseMaster
+127394
+
+Victim
+143220
+
+Accused
+186553
+
+Employee
+10244
+
+Validation Passed
+```
+
+---
+
+## Step 7 — Build Derived Features
+
+Run
+```bash
+python ml/scripts/build_features.py
+```
+Creates
+* TF-IDF corpus
+* Text chunks
+* Embeddings
+* Hotspot features
+* Time-series features
+* Graph edges
+
+This is required before ML models can run.
+
+---
+
+## Step 8 — Train AI Models
+
+Run
+```bash
+python ml/scripts/train_all.py
+```
+Trains
+* DBSCAN
+* XGBoost
+* SARIMA
+* Isolation Forest
+* TF-IDF
+* Louvain Network Detection
+
+Saved to `ml/models/`
+
+---
+
+## Step 9 — Build Vector Database
+
+```bash
+python ml/scripts/build_vector_store.py
+```
+Creates embeddings from `CaseMaster.BriefFacts`. Used by RAG, Semantic Search, Chatbot.
+
+---
+
+## Step 10 — Build Criminal Network
+
+```bash
+python data/scripts/build_graph.py --real
+```
+Creates `graph_index.json` used by Cytoscape visualization.
+
+---
+
+## Step 11 — Start Backend
+
+```bash
+cd backend
+python -m uvicorn main:app --reload
+```
+
+---
+
+## Step 12 — Start Frontend
+
+```bash
+cd frontend
+npm install
+npm run dev
+```
+
+Visit `http://localhost:5173`
+
+---
+
+# Updating with a New Dataset
+
+Whenever the organizers release an updated dataset:
+
+1. Replace the CSV files inside `data/raw/`
+2. Run `python data/scripts/validate_dataset.py`
+3. Run `python data/scripts/ingest.py --real`
+4. Rebuild derived features `python ml/scripts/build_features.py`
+5. Rebuild vector database `python ml/scripts/build_vector_store.py`
+6. Rebuild criminal network `python data/scripts/build_graph.py --real`
+7. Retrain machine learning models `python ml/scripts/train_all.py`
+8. Restart backend
+
+---
+
+# When do I need to retrain?
+
+| Dataset Change              | Retrain Models?               | Rebuild Vector DB? | Rebuild Graph? |
+| --------------------------- | ----------------------------- | ------------------ | -------------- |
+| Added new FIRs              | ✅ Yes                         | ✅ Yes              | ✅ Yes          |
+| Updated `BriefFacts`        | ❌ No (unless features change) | ✅ Yes              | ❌ No           |
+| Added GPS coordinates       | ✅ DBSCAN only                 | ❌ No               | ❌ No           |
+| Added new accused/arrests   | ❌ Most models                 | ❌ No               | ✅ Yes          |
+| Changed crime dates         | ✅ SARIMA                      | ❌ No               | ❌ No           |
+| Fixed typo in district name | ❌ No                          | ❌ No               | ❌ No           |
+| Complete new dataset        | ✅ Yes (all models)            | ✅ Yes              | ✅ Yes          |
+
+---
+
+# Quick Commands
+
+```bash
+# Validate dataset
+python data/scripts/validate_dataset.py
+
+# Import data
+python data/scripts/ingest.py --real
+
+# Build derived features
+python ml/scripts/build_features.py
+
+# Train all AI models
+python ml/scripts/train_all.py
+
+# Build vector database
+python ml/scripts/build_vector_store.py
+
+# Build graph
+python data/scripts/build_graph.py --real
+
+# Start backend
+cd backend && uvicorn main:app --reload
+
+# Start frontend
+cd frontend && npm run dev
+```
 
 ---
 *Built by Team Project Falcon for KSP Hackathon 2025.*

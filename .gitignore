@@ -51,3 +51,6 @@ data/raw/
 # Checkpoints
 .ipynb_checkpoints/
 checkpoints/
+
+# Ignored folder
+ignore/

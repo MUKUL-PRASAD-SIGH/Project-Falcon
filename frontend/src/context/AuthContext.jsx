@@ -8,6 +8,9 @@ export function AuthProvider({ children }) {
   const [user, setUser] = useState(null)
   const [loading, setLoading] = useState(true)
   const [isDev, setIsDev] = useState(true)
+  const [demoMode, setDemoMode] = useState(() => {
+    return localStorage.getItem('falcon_demo_mode') !== 'false'
+  })
 
   // Initialize authentication state
   useEffect(() => {
@@ -100,6 +103,14 @@ export function AuthProvider({ children }) {
     }
   }, [isDev, loginDev])
 
+  const toggleDemoMode = useCallback(() => {
+    setDemoMode((prev) => {
+      const newVal = !prev
+      localStorage.setItem('falcon_demo_mode', String(newVal))
+      return newVal
+    })
+  }, [])
+
   /** Returns true when the signed-in role has at least the given permission level */
   const can = useCallback((requiredRole) => {
     if (!role) return false
@@ -108,7 +119,7 @@ export function AuthProvider({ children }) {
   }, [role])
 
   return (
-    <AuthContext.Provider value={{ role, user, loading, isDev, loginDev, logout, switchRole, can }}>
+    <AuthContext.Provider value={{ role, user, loading, isDev, loginDev, logout, switchRole, can, demoMode, toggleDemoMode }}>
       {!loading && children}
     </AuthContext.Provider>
   )
