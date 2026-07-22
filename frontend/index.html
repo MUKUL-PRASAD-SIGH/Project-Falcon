@@ -42,7 +42,18 @@
     <div id="root"></div>
     <!-- Catalyst SDK Scripts (Loaded synchronously so they are ready before React mounts) -->
     <script src="https://static.zohocdn.com/catalyst/sdk/js/4.6.2/catalystWebSDK.js"></script>
-    <script src="/__catalyst/sdk/init.js"></script>
+    <!-- Catalyst AppSail init — only exists on Catalyst hosting, skip on localhost -->
+    <script>
+      (function() {
+        var host = window.location.hostname;
+        var isCatalyst = host !== 'localhost' && host !== '127.0.0.1' && !host.startsWith('192.');
+        if (isCatalyst) {
+          var s = document.createElement('script');
+          s.src = '/__catalyst/sdk/init.js';
+          document.head.appendChild(s);
+        }
+      })();
+    </script>
     <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>

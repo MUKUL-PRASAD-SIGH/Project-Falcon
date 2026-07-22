@@ -25,7 +25,10 @@ function riskBadge(risk) {
 }
 
 export default function DistrictTable({ districts, isLoading }) {
-  const rows = districts ?? MOCK_DISTRICTS
+  // Handle both old (array) and new cache-aware (object with districts + source) shapes
+  const source = districts?.source       // 'cache' | 'disk' | undefined
+  const latency = districts?.latency_ms
+  const rows = districts?.districts ?? districts?.data ?? districts ?? MOCK_DISTRICTS
 
   return (
     <div className="panel p-4">
@@ -33,7 +36,22 @@ export default function DistrictTable({ districts, isLoading }) {
         <h2 className="font-display text-sm tracking-wide text-ink-dim uppercase">
           District Risk Rollup
         </h2>
-        <span className="case-tag">K-Means · District</span>
+        <div className="flex items-center gap-2">
+          {source && (
+            <span
+              className="text-[9px] font-mono px-1.5 py-0.5 rounded border"
+              style={
+                source === 'cache'
+                  ? { color: '#4A9EDB', borderColor: 'rgba(74,158,219,0.3)', background: 'rgba(74,158,219,0.06)' }
+                  : { color: '#93A0B8', borderColor: 'rgba(255,255,255,0.12)', background: 'transparent' }
+              }
+              title={latency ? `Loaded in ${latency}ms` : undefined}
+            >
+              {source === 'cache' ? '⚡ Cache Hit' : `Disk · ${latency}ms`}
+            </span>
+          )}
+          <span className="case-tag">K-Means · District</span>
+        </div>
       </div>
 
       {isLoading ? (
@@ -49,16 +67,22 @@ export default function DistrictTable({ districts, isLoading }) {
             </tr>
           </thead>
           <tbody>
-            {rows.map((d) => (
-              <tr key={d.name} className="border-b border-border/50 hover:bg-navy-800/40 transition-colors">
-                <td className="py-2">{d.name}</td>
+            {rows.map((d) => {
+              const name = d.name || d.district;
+              const risk = d.risk || d.risk_tier;
+              const count = d.count || d.incident_count || 0;
+              const crimeHead = d.crimeHead || 'Mixed';
+              
+              return (
+              <tr key={name} className="border-b border-border/50 hover:bg-navy-800/40 transition-colors">
+                <td className="py-2">{name}</td>
                 <td className="py-2">
-                  <span className={riskBadge(d.risk)}>{d.risk}</span>
+                  <span className={riskBadge(risk)}>{risk}</span>
                 </td>
-                <td className="py-2 text-ink-dim text-xs">{d.crimeHead ?? '—'}</td>
-                <td className="py-2 font-mono text-right">{d.count.toLocaleString()}</td>
+                <td className="py-2 text-ink-dim text-xs">{crimeHead}</td>
+                <td className="py-2 font-mono text-right">{count.toLocaleString()}</td>
               </tr>
-            ))}
+            )})}
           </tbody>
         </table>
       )}

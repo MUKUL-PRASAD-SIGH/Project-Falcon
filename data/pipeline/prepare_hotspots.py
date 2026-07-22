@@ -8,13 +8,15 @@ def extract_hotspot_features(df: pd.DataFrame) -> pd.DataFrame:
     - Selects relevant columns
     - Drops NaNs
     """
-    required_cols = ['CaseMasterID', 'latitude', 'longitude', 'CrimeHeadID']
+    required_cols = ['CaseMasterID', 'latitude', 'longitude', 'CrimeHeadID', 'DistrictID']
     
-    missing = [c for c in required_cols if c not in df.columns]
-    if missing:
-        raise ValueError(f"Missing columns for hotspot features: {missing}")
+    # Only require columns that exist; DistrictID may be absent in legacy data
+    available_cols = [c for c in required_cols if c in df.columns]
+    missing_critical = [c for c in ['CaseMasterID', 'latitude', 'longitude'] if c not in df.columns]
+    if missing_critical:
+        raise ValueError(f"Missing critical columns for hotspot features: {missing_critical}")
         
-    df_hotspots = df[required_cols].copy()
+    df_hotspots = df[available_cols].copy()
     
     # Ensure they are numeric
     df_hotspots['latitude'] = pd.to_numeric(df_hotspots['latitude'], errors='coerce')
@@ -25,3 +27,4 @@ def extract_hotspot_features(df: pd.DataFrame) -> pd.DataFrame:
     
     print(f"[PREPARE_HOTSPOTS] Extracted {len(df_hotspots)} rows for spatial clustering.")
     return df_hotspots
+

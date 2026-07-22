@@ -7,7 +7,7 @@
  */
 import { useState, useEffect } from 'react'
 import { useAuth } from '@/context/AuthContext'
-import { fetchAuditLog } from '@/api/endpoints'
+import { fetchAuditLog, fetchAdminStats, fetchVictims } from '@/api/endpoints'
 import LoadingSkeleton from '@/components/common/LoadingSkeleton'
 import CitationChip from '@/components/Chat/CitationChip'
 import policeEmblem from '@/assets/police.png'
@@ -38,16 +38,34 @@ export default function AdminDashboard() {
   const isAdmin = role === 'Admin'
 
   const [auditLogs, setAuditLogs] = useState(null)
+  const [adminStats, setAdminStats] = useState(null)
+  const [victims,   setVictims]   = useState(null)
   const [loading,   setLoading]   = useState(false)
   const [unmasked,  setUnmasked]  = useState(false)
 
   useEffect(() => {
     if (!isAdmin) return
     setLoading(true)
-    fetchAuditLog()
-      .then((data) => { setAuditLogs(data.logs ?? data); setLoading(false) })
-      .catch(() => { setAuditLogs(MOCK_AUDIT_ROWS); setLoading(false) })
+    Promise.allSettled([fetchAuditLog(), fetchAdminStats(), fetchVictims()]).then(([logRes, statRes, vicRes]) => {
+      setLoading(false)
+      if (logRes.status === 'fulfilled') setAuditLogs(logRes.value.logs ?? logRes.value)
+      else setAuditLogs(MOCK_AUDIT_ROWS)
+      
+      if (statRes.status === 'fulfilled') setAdminStats(statRes.value.data)
+      if (vicRes.status === 'fulfilled') setVictims(vicRes.value.victims)
+    })
   }, [isAdmin])
+
+  const getStatValue = (label, mock) => {
+    if (!adminStats) return mock;
+    switch (label) {
+      case 'Active Sessions': return adminStats.active_sessions;
+      case 'Audit Events': return adminStats.audit_event_count?.toLocaleString();
+      case 'PII Unmask Events': return adminStats.pii_unmask_events;
+      case 'System Health': return adminStats.system_health;
+      default: return mock;
+    }
+  }
 
   return (
     <div className="max-w-[1400px] mx-auto px-6 py-8 space-y-6">
@@ -111,7 +129,7 @@ export default function AdminDashboard() {
             <div className="text-[10px] uppercase tracking-wider text-ink-dim font-medium pl-1">{s.label}</div>
             <div className="text-[10px] text-ink-dim/50 font-medium pl-1 mt-0.5">{s.labelKN}</div>
             <div className={`font-display text-[1.7rem] font-bold leading-none mt-1.5 pl-1 ${s.alert ? 'text-[#D8503A]' : 'text-ink'}`}>
-              {s.value}
+              {getStatValue(s.label, s.value)}
             </div>
             <div className="mt-2 pl-1"><span className="case-tag">{s.tag}</span></div>
           </div>
@@ -172,7 +190,7 @@ export default function AdminDashboard() {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-          {MOCK_VICTIMS.map((v) => (
+          {(victims || MOCK_VICTIMS).map((v) => (
             <div
               key={v.case}
               className="rounded-lg p-4 flex flex-col justify-between gap-3"

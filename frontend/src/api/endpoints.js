@@ -2,39 +2,66 @@
  * Named API call functions — one for every backend endpoint defined in master_plan.md.
  * All calls go through the shared Axios client (auth interceptors included).
  *
- * Replace mock data fallbacks with real calls as each AppSail endpoint comes online.
+ * Phase 2 complete: all ML + forensics + cache endpoints wired.
  */
 import client from './client'
 
 /* ── Dashboard / Command Center ─────────────────────────────────── */
 
-/** GET /api/districts — district risk stats (Catalyst Cache p95 < 500ms) */
+/** GET /api/stats — KPI metrics from ML outputs */
+export const fetchStats = () =>
+  client.get('/api/stats').then((r) => r.data)
+
+/**
+ * GET /api/districts — K-Means district risk stats.
+ * Served from Catalyst Cache (p95 < 500ms target).
+ * Returns: { status, source, cache_ttl_s?, latency_ms?, districts: [] }
+ */
 export const fetchDistricts = () =>
   client.get('/api/districts').then((r) => r.data)
 
-/** GET /api/anomalies — Zia AutoML flagged FIR anomalies */
-export const fetchAnomalies = () =>
-  client.get('/api/anomalies').then((r) => r.data)
+/** GET /api/anomalies?min_score=0.5 — QuickML flagged FIR anomalies */
+export const fetchAnomalies = (minScore = 0.5) =>
+  client.get('/api/anomalies', { params: { min_score: minScore } }).then((r) => r.data)
 
-/** GET /api/forecast?district={id} — SARIMA 7d + 30d prediction */
-export const fetchForecast = (districtId) =>
-  client.get('/api/forecast', { params: { district: districtId } }).then((r) => r.data)
+/** GET /api/forecast?district={name} — SARIMA 7d + 30d prediction */
+export const fetchForecast = (district) =>
+  client.get('/api/forecast', { params: district ? { district } : undefined }).then((r) => r.data)
 
 /* ── Crime Map ──────────────────────────────────────────────────── */
 
-/** GET /api/clusters?time={bucket} — DBSCAN crime clusters GeoJSON */
-export const fetchClusters = (time = 'All') =>
-  client.get('/api/clusters', { params: { time } }).then((r) => r.data)
+/**
+ * GET /api/clusters?time={bucket}&district={name} — DBSCAN crime clusters GeoJSON.
+ * Cache-backed (TTL = 30 min).
+ */
+export const fetchClusters = (time = 'All', district = null) => {
+  const params = {}
+  if (time && time !== 'All') params.time = time
+  if (district) params.district = district
+  return client.get('/api/clusters', { params }).then((r) => r.data)
+}
 
 /* ── Network Graph ──────────────────────────────────────────────── */
 
-/** GET /api/graph/accused/{accusedId} — Louvain subgraph JSON */
-export const fetchAccusedGraph = (accusedId) =>
-  client.get(`/api/graph/accused/${accusedId}`).then((r) => r.data)
+/** GET /api/graph/accused/{accusedId}?depth={1-3} — Louvain subgraph JSON */
+export const fetchAccusedGraph = (accusedId, depth = 2) =>
+  client.get(`/api/graph/accused/${accusedId}`, { params: { depth } }).then((r) => r.data)
 
-/** GET /api/risk/{accusedId} — Zia AutoML 0-100 risk score */
+/** GET /api/graph/gangs — Gang network community overview */
+export const fetchGangs = () =>
+  client.get('/api/graph/gangs').then((r) => r.data)
+
+/* ── Risk & Anomalies ───────────────────────────────────────────── */
+
+/** GET /api/offender/risk/{accusedId} — QuickML 0-100 risk score */
 export const fetchRiskScore = (accusedId) =>
-  client.get(`/api/risk/${accusedId}`).then((r) => r.data)
+  client.get(`/api/offender/risk/${accusedId}`).then((r) => r.data)
+
+/* ── Case Similarity ────────────────────────────────────────────── */
+
+/** GET /api/cases/similar?case_id={id} — TF-IDF cosine top-5 similar cases */
+export const fetchSimilarCases = (caseId) =>
+  client.get('/api/cases/similar', { params: { case_id: caseId } }).then((r) => r.data)
 
 /* ── Intelligence Chat ──────────────────────────────────────────── */
 
@@ -45,9 +72,40 @@ export const fetchRiskScore = (accusedId) =>
 export const postQuery = (text, sessionId, language = 'EN') =>
   client.post('/api/query', { text, session_id: sessionId, language }).then((r) => r.data)
 
-/** GET /api/cases/similar?case_id={id} — TF-IDF top-5 similar cases */
-export const fetchSimilarCases = (caseId) =>
-  client.get('/api/cases/similar', { params: { case_id: caseId } }).then((r) => r.data)
+/* ── Forensic Evidence Verification (Kapoun Criteria) ───────────── */
+
+/**
+ * POST /api/forensics/verify
+ *
+ * Body: {
+ *   urls: [{ url: string, label?: string, case_id?: number }],
+ *   case_context?: string,
+ *   analyst?: string
+ * }
+ *
+ * Returns ranked evidence list with Kapoun scores (0-100 each).
+ * Grade: A (85+), B (70+), C (55+), D (40+), F (<40)
+ */
+export const verifyEvidence = (urls, caseContext = null, analyst = null) =>
+  client.post('/api/forensics/verify', {
+    urls,
+    case_context: caseContext,
+    analyst: analyst || 'analyst@ksp.gov.in',
+  }).then((r) => r.data)
+
+/** GET /api/forensics/criteria — Kapoun Criteria rubric definition */
+export const fetchKapounCriteria = () =>
+  client.get('/api/forensics/criteria').then((r) => r.data)
+
+/** GET /api/forensics/case/{caseId} — Evidence refs linked to a case */
+export const fetchCaseEvidence = (caseId) =>
+  client.get(`/api/forensics/case/${caseId}`).then((r) => r.data)
+
+/* ── Cache Management ───────────────────────────────────────────── */
+
+/** POST /api/cache/invalidate — Flush district + cluster cache (Admin) */
+export const invalidateGeoCache = () =>
+  client.post('/api/cache/invalidate').then((r) => r.data)
 
 /* ── Voice (Zia STT) ────────────────────────────────────────────── */
 
@@ -86,3 +144,15 @@ export const fetchAuditLog = () =>
 /** GET /api/admin/users — user list (Admin role only) */
 export const fetchUsers = () =>
   client.get('/api/admin/users').then((r) => r.data)
+
+/** GET /api/admin/stats — system health stats (Admin role only) */
+export const fetchAdminStats = () =>
+  client.get('/api/admin/stats').then((r) => r.data)
+
+/** GET /api/admin/victims — PII victim registry (Admin role only) */
+export const fetchVictims = () =>
+  client.get('/api/admin/victims').then((r) => r.data)
+
+/** GET /health — Lightweight backend health probe */
+export const fetchHealth = () =>
+  client.get('/health').then((r) => r.data)

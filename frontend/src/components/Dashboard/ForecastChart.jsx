@@ -130,11 +130,14 @@ export default function ForecastChart({ data, isLoading }) {
     return <LoadingSkeleton className="h-56 w-full" />
   }
 
-  const dates    = data?.dates    ?? MOCK_DATES
-  const actual   = data?.actual   ?? MOCK_ACTUAL
-  const forecast = data?.forecast7 ?? MOCK_FORECAST7
-  const upper    = data?.upper    ?? MOCK_FORECAST30_UPPER
-  const lower    = data?.lower    ?? MOCK_FORECAST30_LOWER
+  // Prefer the ECharts-ready chart_data block from the upgraded /api/forecast endpoint
+  const cd = data?.chart_data ?? data
+
+  const dates    = cd?.dates     ?? MOCK_DATES
+  const actual   = cd?.actual    ?? MOCK_ACTUAL
+  const forecast = cd?.forecast7 ?? MOCK_FORECAST7
+  const upper    = cd?.upper     ?? MOCK_FORECAST30_UPPER
+  const lower    = cd?.lower     ?? MOCK_FORECAST30_LOWER
 
   return (
     <ReactECharts

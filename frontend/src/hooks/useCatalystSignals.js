@@ -32,13 +32,31 @@ const MOCK_ALERTS = [
   }
 ]
 
+import { fetchAnomalies } from '@/api/endpoints'
+
 export function useCatalystSignals() {
-  const [alerts, setAlerts] = useState(MOCK_ALERTS)
+  const [alerts, setAlerts] = useState([])
   const wsRef = useRef(null)
   const wsUrl = import.meta.env.VITE_PUSH_WS_URL
 
   useEffect(() => {
-    if (!wsUrl) return // no WS URL yet — using mock data
+    if (!wsUrl) {
+      // Fall back to polling/fetching from the REST API if WS isn't configured
+      fetchAnomalies().then((res) => {
+        if (res && res.anomalies) {
+          const formatted = res.anomalies.map((a) => ({
+            id: a.CaseMasterID || a.CrimeNo,
+            district: a.district_id ? `District ${a.district_id}` : 'Unknown',
+            crimeType: a.reasons ? a.reasons[1] : 'Anomaly',
+            firCount: 1,
+            severity: 'High',
+            ts: a.registered_date || new Date().toISOString()
+          }))
+          setAlerts(formatted.slice(0, 20))
+        }
+      }).catch(console.error)
+      return
+    }
 
     const ws = new WebSocket(wsUrl)
     wsRef.current = ws

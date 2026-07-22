@@ -1,4 +1,6 @@
 pandas
+numpy
+pyarrow
 geopandas
 scikit-learn
 networkx

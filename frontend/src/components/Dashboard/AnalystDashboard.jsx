@@ -11,7 +11,7 @@ import AnomalyFeed from './AnomalyFeed'
 import DistrictTable from './DistrictTable'
 import { useCatalystSignals } from '@/hooks/useCatalystSignals'
 import { useRoleVoice } from '@/hooks/useRoleVoice'
-import { fetchDistricts, fetchForecast } from '@/api/endpoints'
+import { fetchDistricts, fetchForecast, fetchStats } from '@/api/endpoints'
 import policeEmblem from '@/assets/police.png'
 
 export default function AnalystDashboard() {
@@ -20,18 +20,31 @@ export default function AnalystDashboard() {
 
   const [districts,  setDistricts]  = useState(null)
   const [forecast,   setForecast]   = useState(null)
+  const [stats,      setStats]      = useState(null)
   const [loadingMap, setLoadingMap] = useState(true)
 
   useEffect(() => {
     let cancelled = false
-    Promise.allSettled([fetchDistricts(), fetchForecast()]).then(([dRes, fRes]) => {
+    Promise.allSettled([fetchDistricts(), fetchForecast(), fetchStats()]).then(([dRes, fRes, sRes]) => {
       if (cancelled) return
       if (dRes.status === 'fulfilled') setDistricts(dRes.value)
       if (fRes.status === 'fulfilled') setForecast(fRes.value)
+      if (sRes.status === 'fulfilled') setStats(sRes.value.data)
       setLoadingMap(false)
     })
     return () => { cancelled = true }
   }, [])
+
+  const getStatValue = (key, mock) => {
+    if (!stats) return mock;
+    switch (key) {
+      case 'activeFirs': return stats.total_firs?.toLocaleString() || mock;
+      case 'avgRisk': return stats.avg_risk_score ? `${stats.avg_risk_score} / 100` : mock;
+      case 'anomalyCount': return stats.anomaly_count?.toLocaleString() || mock;
+      case 'p95Latency': return stats.api_latency_ms || mock;
+      default: return mock;
+    }
+  }
 
   return (
     <div className="max-w-[1400px] mx-auto px-6 py-8 space-y-5">
@@ -72,7 +85,7 @@ export default function AnalystDashboard() {
           <StatCard
             key={s.key}
             label={s.label}
-            value={s.mock}
+            value={getStatValue(s.key, s.mock)}
             tag={s.tag}
             alert={s.alert}
           />

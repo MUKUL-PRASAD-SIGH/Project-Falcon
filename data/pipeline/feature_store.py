@@ -1,8 +1,13 @@
+import sys
 import os
 import json
 import pandas as pd
 from datetime import datetime
 from pathlib import Path
+
+# Add workspace root to sys.path
+BASE_DIR = Path(__file__).resolve().parent.parent.parent
+sys.path.insert(0, str(BASE_DIR))
 
 # Pipeline Modules
 from data.pipeline.validator import validate_firs, validate_accused

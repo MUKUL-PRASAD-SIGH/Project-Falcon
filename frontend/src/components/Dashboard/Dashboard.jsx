@@ -10,7 +10,7 @@ import CitationChip from '@/components/Chat/CitationChip'
 import { useCatalystSignals } from '@/hooks/useCatalystSignals'
 import { useRoleVoice, getTimeOfDay } from '@/hooks/useRoleVoice'
 import { useAuth } from '@/context/AuthContext'
-import { fetchDistricts, fetchForecast } from '@/api/endpoints'
+import { fetchDistricts, fetchForecast, fetchStats, fetchClusters } from '@/api/endpoints'
 import policeEmblem from '@/assets/police.png'
 
 // Fix Leaflet icon paths
@@ -54,18 +54,33 @@ export default function Dashboard() {
   const [drillCluster, setDrillCluster] = useState(null)
   const [districts,    setDistricts]    = useState(null)
   const [forecast,     setForecast]     = useState(null)
+  const [stats,        setStats]        = useState(null)
+  const [clusters,     setClusters]     = useState(null)
   const [loadingMap,   setLoadingMap]   = useState(true)
 
   useEffect(() => {
     let cancelled = false
-    Promise.allSettled([fetchDistricts(), fetchForecast()]).then(([dRes, fRes]) => {
+    Promise.allSettled([fetchDistricts(), fetchForecast(), fetchStats(), fetchClusters()]).then(([dRes, fRes, sRes, cRes]) => {
       if (cancelled) return
       if (dRes.status === 'fulfilled') setDistricts(dRes.value)
       if (fRes.status === 'fulfilled') setForecast(fRes.value)
+      if (sRes.status === 'fulfilled') setStats(sRes.value.data)
+      if (cRes.status === 'fulfilled') setClusters(cRes.value.features || [])
       setLoadingMap(false)
     })
     return () => { cancelled = true }
   }, [])
+
+  const getStatValue = (key, mock) => {
+    if (!stats) return mock;
+    switch (key) {
+      case 'activeFirs': return stats.total_firs?.toLocaleString() || mock;
+      case 'avgRisk': return stats.avg_risk_score ? `${stats.avg_risk_score} / 100` : mock;
+      case 'anomalyCount': return stats.anomaly_count?.toLocaleString() || mock;
+      case 'p95Latency': return voice.roleLabel === 'Field Investigator' ? stats.system_status : stats.api_latency_ms;
+      default: return mock;
+    }
+  }
 
   const officerName = (user?.firstName && user.firstName !== 'Dev') ? user.firstName : 'Officer'
 
@@ -86,26 +101,40 @@ export default function Dashboard() {
         >
           <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
           {flyTarget && <FlyTo target={flyTarget} />}
-          {MOCK_CLUSTERS.map((c) => (
+          {(clusters || MOCK_CLUSTERS).map((c) => {
+            const isMock = !c.properties;
+            const lat = isMock ? c.lat : c.geometry.coordinates[1];
+            const lng = isMock ? c.lng : c.geometry.coordinates[0];
+            const id = isMock ? c.id : c.properties.cluster_id;
+            const risk = isMock ? c.risk : c.properties.risk_level;
+            const label = isMock ? c.label : c.properties.district;
+            const count = isMock ? c.count : c.properties.incident_count;
+            const crimeHead = isMock ? c.crimeHead : c.properties.crime_type;
+            return (
             <CircleMarker
-              key={c.id}
-              center={[c.lat, c.lng]}
-              radius={c.risk === 'High' ? 14 : c.risk === 'Medium' ? 10 : 7}
+              key={id}
+              center={[lat, lng]}
+              radius={risk === 'High' ? 14 : risk === 'Medium' ? 10 : 7}
               pathOptions={{
-                color:       RISK_COLORS[c.risk],
-                fillColor:   RISK_COLORS[c.risk],
+                color:       RISK_COLORS[risk] || RISK_COLORS['Medium'],
+                fillColor:   RISK_COLORS[risk] || RISK_COLORS['Medium'],
                 fillOpacity: 0.45,
-                weight:      c.risk === 'High' ? 2.5 : 1.5,
+                weight:      risk === 'High' ? 2.5 : 1.5,
               }}
-              eventHandlers={{ click: () => { setDrillCluster(c); setFlyTarget([c.lat, c.lng]) } }}
+              eventHandlers={{ click: () => { 
+                const data = { id, lat, lng, risk, label, count, crimeHead }
+                setDrillCluster(data); 
+                setFlyTarget([lat, lng]) 
+              } }}
             >
               <Popup>
-                <div className="text-sm font-semibold">{c.label}</div>
-                <div className="text-xs text-gray-400 mt-0.5">{c.crimeHead} · {c.count} FIRs</div>
-                <div className="mt-1.5"><CitationChip firId={c.id} /></div>
+                <div className="text-sm font-semibold">{label}</div>
+                <div className="text-xs text-gray-400 mt-0.5">{crimeHead} · {count} FIRs</div>
+                <div className="mt-1.5"><CitationChip firId={id} /></div>
               </Popup>
             </CircleMarker>
-          ))}
+            )
+          })}
         </MapContainer>
 
         {/* Gradient vignette — bottom fade so content below reads cleanly */}
@@ -151,7 +180,7 @@ export default function Dashboard() {
                   }}
                 >
                   <div className={`font-display text-base font-bold leading-tight ${s.alert ? 'text-[#D8503A]' : 'text-white'}`}>
-                    {s.mock}
+                    {getStatValue(s.key, s.mock)}
                   </div>
                   <div className="text-[9px] font-mono uppercase tracking-wider text-gray-400 mt-0.5">
                     {s.label}
@@ -260,7 +289,7 @@ export default function Dashboard() {
             {/* Stat cards — 2×2 left column */}
             <div className="lg:col-span-1 grid grid-cols-2 lg:grid-cols-1 gap-4">
               {voice.stats.map((s) => (
-                <StatCard key={s.key} label={s.label} value={s.mock} tag={s.tag} alert={s.alert} />
+                <StatCard key={s.key} label={s.label} value={getStatValue(s.key, s.mock)} tag={s.tag} alert={s.alert} />
               ))}
             </div>
 
