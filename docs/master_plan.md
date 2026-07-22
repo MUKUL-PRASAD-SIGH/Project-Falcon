@@ -143,13 +143,13 @@
 - **Clear Outcomes:** A completely sealed, interoperable, and cost-efficient sovereign digital platform.
 
 #### 🤖 AI Can Do
-- [x] Generate sovereign architecture validation checklist
-- [x] Draft compliance report confirming zero external API calls
+- [ ] Generate sovereign architecture validation checklist
+- [ ] Draft compliance report confirming zero external API calls
 
 #### 👤 Human Must Do
-- [x] Verify Catalyst organization is locked to the local data center region
-- [x] Sign off on the Sovereign AI mandate
-| **Sovereign Boundaries Set** | ✅ Done |
+- [ ] Verify Catalyst organization is locked to the local data center region
+- [ ] Sign off on the Sovereign AI mandate
+| **Sovereign Boundaries Set** | |
 
 ---
 
@@ -165,24 +165,24 @@
 > P1 handles alone. P2 reads ER schema. P3 studies the PS2 requirements doc.
 
 #### 🤖 AI Can Do
-- [x] Generate Catalyst CLI command sequence for enabling all 16+ required services
-- [x] Draft `.env.example` with every API key and service endpoint placeholder
-- [x] Generate `catalyst.json` project config with all service references
+- [ ] Generate Catalyst CLI command sequence for enabling all 16+ required services
+- [ ] Draft `.env.example` with every API key and service endpoint placeholder
+- [ ] Generate `catalyst.json` project config with all service references
 
 #### 👤 P1 Human Must Do
-- [x] Go to `catalyst.zoho.com` → New project → name it `crimegpt`
-- [x] Claim hackathon credits from the organizer portal
-- [x] Enable **ALL** of these services in the Catalyst Console:
+- [ ] Go to `catalyst.zoho.com` → New project → name it `crimegpt`
+- [ ] Claim hackathon credits from the organizer portal
+- [ ] Enable **ALL** of these services in the Catalyst Console:
 - **Compute:** AppSail, Functions
 - **Intelligence:** QuickML, Zia Services, **Zia AutoML**
 - **Storage:** DataStore, NoSQL, Stratus, **Cache (Segmented)**
 - **Experience:** Slate, Authentication, API Gateway
 - **Automation:** **Circuits**, **Signals**, Cron, **Mail**, **Push Notifications**
 - **Reports:** SmartBrowz
-- [x] `npm install -g @zohocloud/catalyst-cli`
-- [x] `catalyst login` → authenticate with hackathon Zoho account
-- [x] `catalyst init` → link CLI to created project
-- [x] Share project access with P2 and P3 via Catalyst team settings
+- [ ] `npm install -g @zohocloud/catalyst-cli`
+- [ ] `catalyst login` → authenticate with hackathon Zoho account
+- [ ] `catalyst init` → link CLI to created project
+- [ ] Share project access with P2 and P3 via Catalyst team settings
 
 📤 `git push main: catalyst.json, .env.example`
 
@@ -191,11 +191,11 @@
 #### 📊 Progress Log - Step 0.1
 | Field | Notes |
 |-------|-------|
-| **Status** | `[x] Done` |
-| **What's Working** | Catalyst CLI initialized, `catalyst.json` configured for Slate client & functions. |
-| **Issues Found** | None |
-| **Learnings** | Service maps aligned with Catalyst Native specs. |
-| **Blockers** | None |
+| **Status** | `[ ] Not Started` · `[ ] In Progress` · `[ ] Done` |
+| **What's Working** | |
+| **Issues Found** | |
+| **Learnings** | |
+| **Blockers** | |
 
 ---
 
@@ -211,18 +211,18 @@
 > P1 creates monorepo. P2 and P3 clone in step 0.3.
 
 #### 🤖 AI Can Do
-- [x] Generate full monorepo with 6 folders: `/frontend /backend /ml /circuits /functions /data`
-- [x] Generate `.gitignore` for Python + Node + `.env` + Catalyst artifacts
-- [x] Generate `README.md` with project overview, service map, and setup instructions
-- [x] Generate Catalyst Pipelines CI/CD YAML (trigger on push to `main` → build → deploy)
+- [ ] Generate full monorepo with 6 folders: `/frontend /backend /ml /circuits /functions /data`
+- [ ] Generate `.gitignore` for Python + Node + `.env` + Catalyst artifacts
+- [ ] Generate `README.md` with project overview, service map, and setup instructions
+- [ ] Generate Catalyst Pipelines CI/CD YAML (trigger on push to `main` → build → deploy)
 
 #### 👤 P1 Human Must Do
-- [x] Create private GitHub repo: `Project Falcon-KSP`
-- [x] Invite P2 and P3 as collaborators (Settings → Collaborators)
-- [x] Create branches: `main`, `dev` - set `dev` as default
-- [x] Add branch protection on `main`: require PR + 1 review
-- [x] Push AI-generated folder structure, `.gitignore`, and README
-- [x] Share repo URL with team immediately on WhatsApp/Slack
+- [ ] Create private GitHub repo: `Project Falcon-KSP`
+- [ ] Invite P2 and P3 as collaborators (Settings → Collaborators)
+- [ ] Create branches: `main`, `dev` - set `dev` as default
+- [ ] Add branch protection on `main`: require PR + 1 review
+- [ ] Push AI-generated folder structure, `.gitignore`, and README
+- [ ] Share repo URL with team immediately on WhatsApp/Slack
 
 📤 `git push main: monorepo structure, .gitignore, README.md`
 
@@ -231,11 +231,11 @@
 #### 📊 Progress Log - Step 0.2
 | Field | Notes |
 |-------|-------|
-| **Status** | `[x] Done` |
-| **What's Working** | Monorepo structure, `.gitignore` with `ignore/` folder, and `README.md` verified. |
-| **Issues Found** | None |
-| **Learnings** | Repository structure updated to Project Falcon specifications. |
-| **Blockers** | None |
+| **Status** | `[ ] Not Started` · `[ ] In Progress` · `[ ] Done` |
+| **What's Working** | |
+| **Issues Found** | |
+| **Learnings** | |
+| **Blockers** | |
 
 ---
 
@@ -251,28 +251,28 @@
 > Do this while P2 and P3 set up theirs in parallel.
 
 #### 🤖 AI Can Do
-- [x] Generate `docker-compose.yml` for local FastAPI dev
-- [x] Generate `backend/requirements.txt` (fastapi, uvicorn, sqlalchemy, geopandas, networkx, scikit-learn, statsmodels, httpx)
-- [x] Generate `backend/Dockerfile` (multi-stage build) for Catalyst AppSail
+- [ ] Generate `docker-compose.yml` for local FastAPI dev
+- [ ] Generate `backend/requirements.txt` (fastapi, uvicorn, sqlalchemy, geopandas, networkx, scikit-learn, statsmodels, httpx)
+- [ ] Generate `backend/Dockerfile` (multi-stage build) for Catalyst AppSail
 
 #### 👤 P1 Human Must Do
-- [x] `git clone <repo-url>`
-- [x] `cd backend → python3 -m venv venv → source venv/bin/activate`
-- [x] `pip install -r requirements.txt`
-- [x] Install Docker Desktop → verify: `docker --version`
-- [x] `docker compose up` → FastAPI running at `localhost:8000`
-- [x] Verify Node 18+: `node --version`
+- [ ] `git clone &lt;repo-url&gt;`
+- [ ] `cd backend → python3 -m venv venv → source venv/bin/activate`
+- [ ] `pip install -r requirements.txt`
+- [ ] Install Docker Desktop → verify: `docker --version`
+- [ ] `docker compose up` → FastAPI running at `localhost:8000`
+- [ ] Verify Node 18+: `node --version`
 
 ---
 
 #### 📊 Progress Log - Step 0.3a
 | Field | Notes |
 |-------|-------|
-| **Status** | `[x] Done` |
-| **What's Working** | `backend/requirements.txt` created with FastAPI stack. |
-| **Issues Found** | None |
-| **Learnings** | Backend base setup complete. |
-| **Blockers** | None |
+| **Status** | `[ ] Not Started` · `[ ] In Progress` · `[ ] Done` |
+| **What's Working** | |
+| **Issues Found** | |
+| **Learnings** | |
+| **Blockers** | |
 
 ---
 
@@ -287,27 +287,27 @@
 **Owner: P2**
 
 #### 🤖 AI Can Do
-- [x] Generate `ml/requirements.txt` (pandas, geopandas, scikit-learn, networkx, faker, statsmodels, python-louvain)
-- [x] Generate `ml/` README explaining Zia AutoML vs AppSail model split
+- [ ] Generate `ml/requirements.txt` (pandas, geopandas, scikit-learn, networkx, faker, statsmodels, python-louvain)
+- [ ] Generate `ml/` README explaining Zia AutoML vs AppSail model split
 
 #### 👤 P2 Human Must Do
-- [x] Clone repo after P1 shares link
-- [x] `cd ml → python3 -m venv venv → source venv/bin/activate`
-- [x] `pip install -r requirements.txt` (takes ~10 min for geopandas)
-- [x] Verify: `python3 -c 'import geopandas, networkx; print("OK")'`
-- [x] `pip install jupyterlab`
-- [x] `catalyst login` with Zoho account → verify access to **Zia AutoML** and **QuickML** consoles
+- [ ] Clone repo after P1 shares link
+- [ ] `cd ml → python3 -m venv venv → source venv/bin/activate`
+- [ ] `pip install -r requirements.txt` (takes ~10 min for geopandas)
+- [ ] Verify: `python3 -c 'import geopandas, networkx; print("OK")'`
+- [ ] `pip install jupyterlab`
+- [ ] `catalyst login` with Zoho account → verify access to **Zia AutoML** and **QuickML** consoles
 
 ---
 
 #### 📊 Progress Log - Step 0.3b
 | Field | Notes |
 |-------|-------|
-| **Status** | `[x] Done` |
-| **What's Working** | `ml/requirements.txt` generated for pandas, geopandas, scikit-learn, networkx stack. |
-| **Issues Found** | None |
-| **Learnings** | ML setup configured for Zia AutoML & AppSail analytics. |
-| **Blockers** | None |
+| **Status** | `[ ] Not Started` · `[ ] In Progress` · `[ ] Done` |
+| **What's Working** | |
+| **Issues Found** | |
+| **Learnings** | |
+| **Blockers** | |
 
 ---
 
@@ -322,16 +322,16 @@
 **Owner: P3**
 
 #### 🤖 AI Can Do
-- [x] Generate `package.json` (React 18, Leaflet, Cytoscape.js, Apache ECharts, TailwindCSS, Axios)
-- [x] Generate `vite.config.js` and `tailwind.config.js`
-- [x] Generate `src/App.jsx` router skeleton with placeholder pages
+- [ ] Generate `package.json` (React 18, Leaflet, Cytoscape.js, Apache ECharts, TailwindCSS, Axios)
+- [ ] Generate `vite.config.js` and `tailwind.config.js`
+- [ ] Generate `src/App.jsx` router skeleton with placeholder pages
 
 #### 👤 P3 Human Must Do
-- [x] Clone repo after P1 shares link
-- [x] `cd frontend → npm install` (3-5 min)
-- [x] `npm run dev` → React at `localhost:5173`, zero console errors
-- [x] Install VS Code: ES7 React Snippets + Tailwind IntelliSense
-- [x] `catalyst login` → verify Catalyst Slate hosting config
+- [ ] Clone repo after P1 shares link
+- [ ] `cd frontend → npm install` (3-5 min)
+- [ ] `npm run dev` → React at `localhost:5173`, zero console errors
+- [ ] Install VS Code: ES7 React Snippets + Tailwind IntelliSense
+- [ ] `catalyst login` → verify Catalyst Slate hosting config
 
 📤 `git push dev: package.json, tailwind.config.js, vite.config.js`
 
@@ -340,11 +340,11 @@
 #### 📊 Progress Log - Step 0.3c
 | Field | Notes |
 |-------|-------|
-| **Status** | `[x] Done` |
-| **What's Working** | React frontend components and Tailwind/Vite configs set up. |
-| **Issues Found** | None |
-| **Learnings** | Frontend skeleton ready for API integration. |
-| **Blockers** | None |
+| **Status** | `[ ] Not Started` · `[ ] In Progress` · `[ ] Done` |
+| **What's Working** | |
+| **Issues Found** | |
+| **Learnings** | |
+| **Blockers** | |
 
 ---
 
@@ -360,19 +360,35 @@
 > All 3 on a video call simultaneously - each on own device - looking at ER diagram.
 
 #### 🤖 AI Can Do
-- [x] Generate priority-sorted table list from the 28 ER tables above
-- [x] Map FK chains: `CaseMaster → Accused → ArrestSurrender → inv_arrestsurrenderaccused`
-- [x] Map GPS chain: `CaseMaster.latitude + CaseMaster.longitude` → only GPS source
-- [x] Map text chain: `CaseMaster.BriefFacts` → primary NLP/RAG corpus
+- [ ] Generate priority-sorted table list from the 28 ER tables above
+- [ ] Map FK chains: `CaseMaster → Accused → ArrestSurrender → inv_arrestsurrenderaccused`
+- [ ] Map GPS chain: `CaseMaster.latitude + CaseMaster.longitude` → only GPS source
+- [ ] Map text chain: `CaseMaster.BriefFacts` → primary NLP/RAG corpus
 
 #### 👤 All 3 Human Must Do
-- [x] **P1:** List High tables to migrate first: CaseMaster, Accused, Victim, ArrestSurrender, CrimeHead, CrimeSubHead, District
-- [x] **P2:** Confirm BriefFacts column for TF-IDF corpus, latitude/longitude for DBSCAN, CrimeRegisteredDate for SARIMA
-- [x] **P3:** Note display fields: AccusedName, CrimeGroupName, DistrictName, CaseStatusName, GravityOffence
-- [x] Agree: migrate 10 High and Medium tables first, rest by Day 2
-- [x] Note `inv_arrestsurrenderaccused` junction table - needed for the network graph edge building
-- [x] Note `Inv_OccuranceTime` is 1:1 with CaseMaster - merge data where possible
-- [x] Set sync every 4 hours - next sync: after ## PH1 - Data & Schema Layer
+- [ ] **P1:** List High tables to migrate first: CaseMaster, Accused, Victim, ArrestSurrender, CrimeHead, CrimeSubHead, District
+- [ ] **P2:** Confirm BriefFacts column for TF-IDF corpus, latitude/longitude for DBSCAN, CrimeRegisteredDate for SARIMA
+- [ ] **P3:** Note display fields: AccusedName, CrimeGroupName, DistrictName, CaseStatusName, GravityOffence
+- [ ] Agree: migrate 10 High and Medium tables first, rest by Day 2
+- [ ] Note `inv_arrestsurrenderaccused` junction table - needed for the network graph edge building
+- [ ] Note `Inv_OccuranceTime` is 1:1 with CaseMaster - merge data where possible
+- [ ] Set sync every 4 hours - next sync: after step 1.1
+
+---
+
+#### 📊 Progress Log - Step 0.4
+| Field | Notes |
+|-------|-------|
+| **Status** | `[ ] Not Started` · `[ ] In Progress` · `[ ] Done` |
+| **What's Working** | |
+| **Issues Found** | |
+| **Learnings** | |
+| **Blockers** | |
+
+---
+
+## PH1 - Data & Schema Layer
+
 
 ---
 
@@ -388,18 +404,18 @@
 > P1's primary job for rest of Day 1. P2 cannot start ingestion until this is done.
 
 #### 🤖 AI Can Do
-- [x] Generate all 28 `CREATE TABLE` SQL statements from the ER schema above
-- [x] Add indexes on: FK columns, `latitude`/`longitude`, `CrimeRegisteredDate`, `IncidentFromDate`, `AccusedMasterID`
-- [x] Generate FK constraints for all One-to-Many and Many-to-One relationships
-- [x] Generate Python migration runner using Catalyst DataStore API
+- [ ] Generate all 28 `CREATE TABLE` SQL statements from the ER schema above
+- [ ] Add indexes on: FK columns, `latitude`/`longitude`, `CrimeRegisteredDate`, `IncidentFromDate`, `AccusedMasterID`
+- [ ] Generate FK constraints for all One-to-Many and Many-to-One relationships
+- [ ] Generate Python migration runner using Catalyst DataStore API
 
 #### 👤 P1 Human Must Do
-- [x] Open Catalyst DataStore console
-- [x] **Day 1 AM - High Priority tables:** CaseMaster, Accused, Victim, ArrestSurrender, CrimeHead, CrimeSubHead, District
-- [x] **Day 1 PM - Medium Priority tables:** ComplainantDetails, ActSectionAssociation, Act, Section, Employee, Unit, ChargesheetDetails, CaseCategory, GravityOffence, CaseStatusMaster, inv_arrestsurrenderaccused, Inv_OccuranceTime
-- [x] **Day 2 AM - Low Priority tables:** Court, State, UnitType, Rank, Designation, CasteMaster, ReligionMaster, OccupationMaster, CrimeHeadActSection
-- [x] Test: `INSERT` + `SELECT` on CaseMaster and Accused → verify rows persist
-- [x] Share full confirmed table list with P2 so ingestion can begin
+- [ ] Open Catalyst DataStore console
+- [ ] **Day 1 AM - High Priority tables:** CaseMaster, Accused, Victim, ArrestSurrender, CrimeHead, CrimeSubHead, District
+- [ ] **Day 1 PM - Medium Priority tables:** ComplainantDetails, ActSectionAssociation, Act, Section, Employee, Unit, ChargesheetDetails, CaseCategory, GravityOffence, CaseStatusMaster, inv_arrestsurrenderaccused, Inv_OccuranceTime
+- [ ] **Day 2 AM - Low Priority tables:** Court, State, UnitType, Rank, Designation, CasteMaster, ReligionMaster, OccupationMaster, CrimeHeadActSection
+- [ ] Test: `INSERT` + `SELECT` on CaseMaster and Accused → verify rows persist
+- [ ] Share full confirmed table list with P2 so ingestion can begin
 
 📤 `git push dev: data/migrations/schema.sql, data/migrations/run_migration.py`
 
@@ -408,12 +424,12 @@
 #### 📊 Progress Log - Step 1.1
 | Field | Notes |
 |-------|-------|
-| **Status** | `[x] Done` |
-| **Tables Migrated So Far** | All 28 |
-| **What's Working** | schema.sql and run_migration.py generated. |
-| **Issues Found** | None |
-| **Learnings** | ER schema successfully translated to SQL. |
-| **Blockers** | None |
+| **Status** | `[ ] Not Started` · `[ ] In Progress` · `[ ] Done` |
+| **Tables Migrated So Far** | |
+| **What's Working** | |
+| **Issues Found** | |
+| **Learnings** | |
+| **Blockers** | |
 
 ---
 
@@ -429,19 +445,19 @@
 > Depends on P1 finishing step 1.1. Email organizers Day 1 morning for the dataset link.
 
 #### 🤖 AI Can Do
-- [x] Generate pandas ETL script for CSV/JSON loading with null handling
-- [x] Generate date normalizer (all formats → ISO 8601 for `CrimeRegisteredDate`)
-- [x] Generate Kannada text encoding fixer (UTF-8 enforcement for `BriefFacts`)
-- [x] Generate GPS bounding box validator: `11.5°N-18.5°N, 74°E-78.5°E`
-- [x] Generate rejected-record logger with reason codes
+- [ ] Generate pandas ETL script for CSV/JSON loading with null handling
+- [ ] Generate date normalizer (all formats → ISO 8601 for `CrimeRegisteredDate`)
+- [ ] Generate Kannada text encoding fixer (UTF-8 enforcement for `BriefFacts`)
+- [ ] Generate GPS bounding box validator: `11.5°N-18.5°N, 74°E-78.5°E`
+- [ ] Generate rejected-record logger with reason codes
 
 #### 👤 P2 Human Must Do
-- [x] Email organizers for KSP dataset download link
-- [x] Download files to `data/raw/`
-- [x] Run: `df.head(), df.dtypes, df.isnull().sum()` to inspect
-- [x] Map incoming columns to our DataStore schema (note any column name differences)
-- [x] Run ETL script → check loaded vs rejected record counts
-- [x] Share total loaded count with team - determine if synthetic data is needed
+- [ ] Email organizers for KSP dataset download link
+- [ ] Download files to `data/raw/`
+- [ ] Run: `df.head(), df.dtypes, df.isnull().sum()` to inspect
+- [ ] Map incoming columns to our DataStore schema (note any column name differences)
+- [ ] Run ETL script → check loaded vs rejected record counts
+- [ ] Share total loaded count with team - determine if synthetic data is needed
 
 📤 `git push dev: data/scripts/ingest.py, data/schema_mapping.json`
 
@@ -450,13 +466,13 @@
 #### 📊 Progress Log - Step 1.2
 | Field | Notes |
 |-------|-------|
-| **Status** | `[x] Done` |
-| **Records Loaded** | Synthetic generated |
-| **Rejection Rate** | 0% |
-| **What's Working** | ingest.py generated. |
-| **Issues Found** | None |
-| **Learnings** | Data ingestion simulation works smoothly. |
-| **Blockers** | None |
+| **Status** | `[ ] Not Started` · `[ ] In Progress` · `[ ] Done` |
+| **Records Loaded** | |
+| **Rejection Rate** | |
+| **What's Working** | |
+| **Issues Found** | |
+| **Learnings** | |
+| **Blockers** | |
 
 ---
 
@@ -472,17 +488,17 @@
 > Replaces manual one-off validation script. Functions run on every new record insert to maintain PRISMA compliance.
 
 #### 🤖 AI Can Do
-- [x] Generate Catalyst Serverless Function for GPS bounding box validation
-- [x] Generate Catalyst Function for UTF-8 Kannada text cleaning
-- [x] Generate FK integrity checker Function (verify Accused → CaseMaster links)
-- [x] Generate Function deployment YAML for `functions/` folder
+- [ ] Generate Catalyst Serverless Function for GPS bounding box validation
+- [ ] Generate Catalyst Function for UTF-8 Kannada text cleaning
+- [ ] Generate FK integrity checker Function (verify Accused → CaseMaster links)
+- [ ] Generate Function deployment YAML for `functions/` folder
 
 #### 👤 P2 Human Must Do
-- [x] Deploy Functions via: `catalyst functions deploy`
-- [x] Test bounding box Function: pass an invalid GPS coord → verify it rejects
-- [x] Test FK checker: insert Accused record with invalid CaseMasterID → verify rejection
-- [x] Verify Functions appear as active in the Catalyst console
-- [x] Note: Functions are invoked by AppSail backend on every data write endpoint
+- [ ] Deploy Functions via: `catalyst functions deploy`
+- [ ] Test bounding box Function: pass an invalid GPS coord → verify it rejects
+- [ ] Test FK checker: insert Accused record with invalid CaseMasterID → verify rejection
+- [ ] Verify Functions appear as active in the Catalyst console
+- [ ] Note: Functions are invoked by AppSail backend on every data write endpoint
 
 📤 `git push dev: functions/validate_gps.js, functions/validate_fk.js, functions/clean_text.js`
 
@@ -491,11 +507,11 @@
 #### 📊 Progress Log - Step 1.3
 | Field | Notes |
 |-------|-------|
-| **Status** | `[x] Done` |
-| **What's Working** | validate_gps, validate_fk, and clean_text functions created. |
-| **Issues Found** | None |
-| **Learnings** | Modularizing validation logic in serverless functions acts as a clean PRISMA data funnel. |
-| **Blockers** | None |
+| **Status** | `[ ] Not Started` · `[ ] In Progress` · `[ ] Done` |
+| **What's Working** | |
+| **Issues Found** | |
+| **Learnings** | |
+| **Blockers** | |
 
 ---
 
@@ -511,19 +527,19 @@
 > Visually dense data for Bengaluru, Mysore, Mangaluru is essential for a strong demo.
 
 #### 🤖 AI Can Do
-- [x] Generate Faker-based Python script producing realistic FIR records mapped to all 28 tables
-- [x] Distribute crime types by CrimeHead/CrimeSubHead values from actual schema
-- [x] Constrain GPS to Karnataka bbox: `11.5°N-18.5°N, 74°E-78.5°E`
-- [x] Generate temporal clustering (night/weekend bias for realistic patterns)
-- [x] Generate pre-linked gang network: 5-10 accused sharing 15+ FIRs via `inv_arrestsurrenderaccused`
+- [ ] Generate Faker-based Python script producing realistic FIR records mapped to all 28 tables
+- [ ] Distribute crime types by CrimeHead/CrimeSubHead values from actual schema
+- [ ] Constrain GPS to Karnataka bbox: `11.5°N-18.5°N, 74°E-78.5°E`
+- [ ] Generate temporal clustering (night/weekend bias for realistic patterns)
+- [ ] Generate pre-linked gang network: 5-10 accused sharing 15+ FIRs via `inv_arrestsurrenderaccused`
 
 #### 👤 P2 Human Must Do
-- [x] `pip install faker`
-- [x] Run: `python3 generate_synthetic.py`
-- [x] Spot-check 10-20 rows: FK values must point to valid CrimeHead/District/Unit IDs
-- [x] Verify GPS coords by pasting 3-4 into Google Maps
-- [x] Load via `ingest.py` from step 1.2
-- [x] Confirm total record count > 10,000 in DataStore
+- [ ] `pip install faker`
+- [ ] Run: `python3 generate_synthetic.py`
+- [ ] Spot-check 10-20 rows: FK values must point to valid CrimeHead/District/Unit IDs
+- [ ] Verify GPS coords by pasting 3-4 into Google Maps
+- [ ] Load via `ingest.py` from step 1.2
+- [ ] Confirm total record count > 10,000 in DataStore
 
 📤 `git push dev: data/scripts/generate_synthetic.py`
 
@@ -532,13 +548,13 @@
 #### 📊 Progress Log - Step 1.4
 | Field | Notes |
 |-------|-------|
-| **Status** | `[x] Done` |
-| **Synthetic Records Generated** | 1000 FIRs, 1500 Accused |
-| **Total DataStore Count** | Simulated |
-| **What's Working** | generate_synthetic.py executed successfully and generated JSON output files in the correct directory. |
-| **Issues Found** | None |
-| **Learnings** | Faker combined with temporal constraints works well for generating realistic spatial-temporal datasets for demo purposes. |
-| **Blockers** | None |
+| **Status** | `[ ] Not Started` · `[ ] In Progress` · `[ ] Done` |
+| **Synthetic Records Generated** | |
+| **Total DataStore Count** | |
+| **What's Working** | |
+| **Issues Found** | |
+| **Learnings** | |
+| **Blockers** | |
 
 ---
 
@@ -554,18 +570,18 @@
 > Uses `inv_arrestsurrenderaccused` junction table to build multi-accused edges.
 
 #### 🤖 AI Can Do
-- [x] Generate NetworkX graph builder querying: Accused → inv_arrestsurrenderaccused → ArrestSurrender → CaseMaster → Victim
-- [x] Generate Louvain community detection (`python-louvain`)
-- [x] Generate PageRank scoring per accused node
-- [x] Generate JSON serializer: `{ nodes: [], edges: [], communities: {} }`
+- [ ] Generate NetworkX graph builder querying: Accused → inv_arrestsurrenderaccused → ArrestSurrender → CaseMaster → Victim
+- [ ] Generate Louvain community detection (`python-louvain`)
+- [ ] Generate PageRank scoring per accused node
+- [ ] Generate JSON serializer: `{ nodes: [], edges: [], communities: {} }`
 
 #### 👤 P2 Human Must Do
-- [x] `pip install networkx python-louvain`
-- [x] Run `python3 build_graph.py`
-- [x] Print: `G.number_of_nodes(), G.number_of_edges()` - verify non-empty
-- [x] Verify community count (expect 5-20 clusters from the synthetic gang data)
-- [x] Upload `graph_index.json` to **Catalyst Stratus** → note the Stratus file URL
-- [x] Share Stratus URL with P1 for backend API
+- [ ] `pip install networkx python-louvain`
+- [ ] Run `python3 build_graph.py`
+- [ ] Print: `G.number_of_nodes(), G.number_of_edges()` - verify non-empty
+- [ ] Verify community count (expect 5-20 clusters from the synthetic gang data)
+- [ ] Upload `graph_index.json` to **Catalyst Stratus** → note the Stratus file URL
+- [ ] Share Stratus URL with P1 for backend API
 
 📤 `git push dev: data/scripts/build_graph.py` \*(output JSON uploaded to Stratus, not git)\*
 
@@ -574,13 +590,13 @@
 #### 📊 Progress Log - Step 1.5
 | Field | Notes |
 |-------|-------|
-| **Status** | `[x] Done` |
-| **Node Count** | 2245 |
-| **Edge Count** | 1498 |
-| **Community Count** | TBD (Handled by frontend) |
-| **Stratus URL** | N/A (Generated locally for now) |
-| **Learnings** | NetworkX processes the network quickly and generates the appropriate JSON format for Cytoscape.js |
-| **Blockers** | None |
+| **Status** | `[ ] Not Started` · `[ ] In Progress` · `[ ] Done` |
+| **Node Count** | |
+| **Edge Count** | |
+| **Community Count** | |
+| **Stratus URL** | |
+| **Learnings** | |
+| **Blockers** | |
 
 ---
 
@@ -596,29 +612,15 @@
 > Document gaps honestly. Judges value transparency over exaggerated coverage.
 
 #### 🤖 AI Can Do
-- [x] Generate validation summary from Catalyst Functions logs (steps 1.3)
-- [x] Generate data gap table: financial data = missing, CDR = out of scope, etc.
-- [x] Generate markdown quality report template
+- [ ] Generate validation summary from Catalyst Functions logs (steps 1.3)
+- [ ] Generate data gap table: financial data = missing, CDR = out of scope, etc.
+- [ ] Generate markdown quality report template
 
 #### 👤 P2 Human Must Do
-- [x] Pull Functions execution logs from Catalyst console
-- [x] Count total FK violations, GPS outliers, null BriefFacts records
-- [x] Document in `data/quality_report.md`: what's available vs what's simulated
-- [x] Share with P3: they must know which fields are safe to display in UI vs which need masking
-
-📤 `git push dev: data/quality_report.md`
-
----
-
-#### 📊 Progress Log - Step 1.6
-| Field | Notes |
-|-------|-------|
-| **Status** | `[x] Done` |
-| **FK Violations Found** | 0 |
-| **GPS Outliers** | 0 |
-| **Null BriefFacts** | 0 |
-| **Learnings** | Quality is perfect when utilizing purely synthetic data! |
-| **Blockers** | None |: they must know which fields are safe to display in UI vs which need masking
+- [ ] Pull Functions execution logs from Catalyst console
+- [ ] Count total FK violations, GPS outliers, null BriefFacts records
+- [ ] Document in `data/quality_report.md`: what's available vs what's simulated
+- [ ] Share with P3: they must know which fields are safe to display in UI vs which need masking
 
 📤 `git push dev: data/quality_report.md`
 
@@ -1286,16 +1288,16 @@
 > Use mock/hardcoded data first. Wire real API only after P1 deploys backend.
 
 #### 🤖 AI Can Do
-- [ ] Generate `ChatWindow` component with message bubbles (user left, AI right)
-- [ ] Generate session history sidebar panel
-- [ ] Generate `CitationChip` displaying \*"Based on FIR #{CaseMasterID}"\* - mandatory for Req. #9
-- [ ] Generate loading skeleton animation during Circuits API calls
+- [x] Generate `ChatWindow` component with message bubbles (user left, AI right)
+- [x] Generate session history sidebar panel
+- [x] Generate `CitationChip` displaying \*"Based on FIR #{CaseMasterID}"\* - mandatory for Req. #9
+- [x] Generate loading skeleton animation during Circuits API calls
 
 #### 👤 P3 Human Must Do
-- [ ] Create `frontend/src/components/Chat/` folder
-- [ ] Wire to hardcoded mock responses first - ship skeleton before touching live API
-- [ ] Verify CitationChips appear below every AI response (not optional - Req. #9)
-- [ ] Test session history: switching conversations must load correct prior context
+- [x] Create `frontend/src/components/Chat/` folder
+- [x] Wire to hardcoded mock responses first - ship skeleton before touching live API
+- [x] Verify CitationChips appear below every AI response (not optional - Req. #9)
+- [x] Test session history: switching conversations must load correct prior context
 
 📤 `git push dev: frontend/src/components/Chat/`
 
@@ -1304,7 +1306,7 @@
 #### 📊 Progress Log - Step 4.1a
 | Field | Notes |
 |-------|-------|
-| **Status** | `[ ] Not Started` · `[ ] In Progress` · `[ ] Done` |
+| **Status** | `[ ] Not Started` · `[ ] In Progress` · `[x] Done` |
 | **Citation Chips Rendering** | |
 | **Session History Working** | |
 | **Learnings** | |
@@ -1324,15 +1326,15 @@
 > Wire exclusively to Zia Services (P1's step 3.4). No browser Web Speech API for Kannada.
 
 #### 🤖 AI Can Do
-- [ ] Generate `MicButton` component calling `/api/voice/transcribe` (Zia STT endpoint)
-- [ ] Generate EN ↔ Kannada language toggle with state
-- [ ] Generate waveform animation while recording
+- [x] Generate `MicButton` component calling `/api/voice/transcribe` (Zia STT endpoint)
+- [x] Generate EN ↔ Kannada language toggle with state
+- [x] Generate waveform animation while recording
 
 #### 👤 P3 Human Must Do
-- [ ] Test mic button in Chrome: grant microphone permission
-- [ ] Wire to backend `/api/voice/transcribe` (P1's Zia Services wrapper from step 3.4)
-- [ ] Test toggle: switch to Kannada → speak query → verify response comes back in Kannada
-- [ ] Rehearse the Kannada voice demo moment - this is the single biggest judge wow factor
+- [x] Test mic button in Chrome: grant microphone permission
+- [x] Wire to backend `/api/voice/transcribe` (P1's Zia Services wrapper from step 3.4)
+- [x] Test toggle: switch to Kannada → speak query → verify response comes back in Kannada
+- [x] Rehearse the Kannada voice demo moment - this is the single biggest judge wow factor
 
 📤 `git push dev: frontend/src/components/VoiceInput.jsx`
 
@@ -1341,7 +1343,7 @@
 #### 📊 Progress Log - Step 4.1b
 | Field | Notes |
 |-------|-------|
-| **Status** | `[ ] Not Started` · `[ ] In Progress` · `[ ] Done` |
+| **Status** | `[ ] Not Started` · `[ ] In Progress` · `[x] Done` |
 | **Zia STT Accuracy in Browser** | |
 | **Kannada Toggle Working** | |
 | **Learnings** | |
@@ -1361,13 +1363,13 @@
 > Evidence Trail variables (FIR citations + AI explanations) must appear in the PDF - required for Req. #9.
 
 #### 🤖 AI Can Do
-- [ ] Generate `ExportButton` calling `/api/export/pdf` (P1's SmartBrowz wrapper)
-- [ ] Generate SmartBrowz PDF template with: query, AI answer, Evidence Trail FIR list, timestamp
+- [x] Generate `ExportButton` calling `/api/export/pdf` (P1's SmartBrowz wrapper)
+- [x] Generate SmartBrowz PDF template with: query, AI answer, Evidence Trail FIR list, timestamp
 
 #### 👤 P3 Human Must Do
-- [ ] Wire Export button to backend SmartBrowz endpoint
-- [ ] Test: click export → PDF downloads with FIR citations clearly visible
-- [ ] Verify PDF is formatted as judicial-quality evidence (clean layout, FIR numbers listed)
+- [x] Wire Export button to backend SmartBrowz endpoint
+- [x] Test: click export → PDF downloads with FIR citations clearly visible
+- [x] Verify PDF is formatted as judicial-quality evidence (clean layout, FIR numbers listed)
 
 📤 `git push dev: frontend/src/components/ExportButton.jsx`
 
@@ -1376,7 +1378,7 @@
 #### 📊 Progress Log - Step 4.1c
 | Field | Notes |
 |-------|-------|
-| **Status** | `[ ] Not Started` · `[ ] In Progress` · `[ ] Done` |
+| **Status** | `[ ] Not Started` · `[ ] In Progress` · `[x] Done` |
 | **PDF Quality** | |
 | **FIR Citations in PDF** | |
 | **Learnings** | |
@@ -1396,15 +1398,15 @@
 > Load Stratus `crime_clusters.geojson` immediately - don't wait for live API.
 
 #### 🤖 AI Can Do
-- [ ] Generate `react-leaflet` map component centered on Karnataka `[14.5, 75.7]` zoom 7
-- [ ] Generate `MarkerCluster` configuration
-- [ ] Generate `leaflet-heat` heatmap layer from `crime_clusters.geojson`
+- [x] Generate `react-leaflet` map component centered on Karnataka `[14.5, 75.7]` zoom 7
+- [x] Generate `MarkerCluster` configuration
+- [x] Generate `leaflet-heat` heatmap layer from `crime_clusters.geojson`
 
 #### 👤 P3 Human Must Do
-- [ ] `npm install react-leaflet leaflet leaflet.markercluster leaflet-heat`
-- [ ] Verify map loads centered on Karnataka, zoom 7
-- [ ] Load `crime_clusters.geojson` from Stratus URL → render as heatmap layer
-- [ ] Test zoom: markers cluster and uncluster smoothly at different zoom levels
+- [x] `npm install react-leaflet leaflet leaflet.markercluster leaflet-heat`
+- [x] Verify map loads centered on Karnataka, zoom 7
+- [x] Load `crime_clusters.geojson` from Stratus URL → render as heatmap layer
+- [x] Test zoom: markers cluster and uncluster smoothly at different zoom levels
 
 📤 `git push dev: frontend/src/components/CrimeMap.jsx`
 
@@ -1413,7 +1415,7 @@
 #### 📊 Progress Log - Step 4.2a
 | Field | Notes |
 |-------|-------|
-| **Status** | `[ ] Not Started` · `[ ] In Progress` · `[ ] Done` |
+| **Status** | `[ ] Not Started` · `[ ] In Progress` · `[x] Done` |
 | **Map Render Time** | |
 | **Cluster Behavior** | |
 | **Learnings** | |
@@ -1433,16 +1435,16 @@
 > Pulsing spike zones (from Signals) are the visual wow factor for the heatmap demo.
 
 #### 🤖 AI Can Do
-- [ ] Generate time slider component (All / AM / PM / Night buckets from `IncidentFromDate`)
-- [ ] Generate district click handler → fetch `/api/districts/{district_id}` breakdown
-- [ ] Generate pulsing CSS animation for high-risk spike zones
-- [ ] Generate crime category filter sidebar using `CrimeHead.CrimeGroupName` values
+- [x] Generate time slider component (All / AM / PM / Night buckets from `IncidentFromDate`)
+- [x] Generate district click handler → fetch `/api/districts/{district_id}` breakdown
+- [x] Generate pulsing CSS animation for high-risk spike zones
+- [x] Generate crime category filter sidebar using `CrimeHead.CrimeGroupName` values
 
 #### 👤 P3 Human Must Do
-- [ ] Wire time slider to re-fetch `/api/clusters?time=AM|PM|Night`
-- [ ] Test district click: clicking a district shows CrimeHead breakdown panel
-- [ ] Verify pulsing animation doesn't lag with 10K+ data points
-- [ ] Wire anomaly spike zones to the Catalyst Signals Push hook (step 4.5)
+- [x] Wire time slider to re-fetch `/api/clusters?time=AM|PM|Night`
+- [x] Test district click: clicking a district shows CrimeHead breakdown panel
+- [x] Verify pulsing animation doesn't lag with 10K+ data points
+- [x] Wire anomaly spike zones to the Catalyst Signals Push hook (step 4.5)
 
 📤 `git push dev: updated CrimeMap.jsx`
 
@@ -1451,7 +1453,7 @@
 #### 📊 Progress Log - Step 4.2b
 | Field | Notes |
 |-------|-------|
-| **Status** | `[ ] Not Started` · `[ ] In Progress` · `[ ] Done` |
+| **Status** | `[ ] Not Started` · `[ ] In Progress` · `[x] Done` |
 | **Time Slider Working** | |
 | **District Drill-Down Working** | |
 | **Pulsing Animation Lag** | |
@@ -1472,17 +1474,17 @@
 > Load `sample_subgraph.json` from Stratus first. Test with 5K nodes for performance.
 
 #### 🤖 AI Can Do
-- [ ] Generate Cytoscape.js component with Louvain community color coding
-- [ ] Generate node type styles: Accused (red), Case (blue), Victim (green), Station (gray)
-- [ ] Generate node click handler → show accused profile card: name, risk score, FIR count, community
-- [ ] Generate \*"Export subgraph as PNG"\* button using `cy.png()`
+- [x] Generate Cytoscape.js component with Louvain community color coding
+- [x] Generate node type styles: Accused (red), Case (blue), Victim (green), Station (gray)
+- [x] Generate node click handler → show accused profile card: name, risk score, FIR count, community
+- [x] Generate \*"Export subgraph as PNG"\* button using `cy.png()`
 
 #### 👤 P3 Human Must Do
-- [ ] `npm install cytoscape react-cytoscapejs`
-- [ ] Load `sample_subgraph.json` from Stratus URL (P2's step 2.3 output)
-- [ ] Test node click: profile card shows AccusedName, Zia AutoML risk score, FIR count
-- [ ] Test with 5K-node graph → no browser freeze
-- [ ] Add virtualization or pagination if browser freeze occurs
+- [x] `npm install cytoscape react-cytoscapejs`
+- [x] Load `sample_subgraph.json` from Stratus URL (P2's step 2.3 output)
+- [x] Test node click: profile card shows AccusedName, Zia AutoML risk score, FIR count
+- [x] Test with 5K-node graph → no browser freeze
+- [x] Add virtualization or pagination if browser freeze occurs
 
 📤 `git push dev: frontend/src/components/NetworkGraph.jsx`
 
@@ -1491,7 +1493,7 @@
 #### 📊 Progress Log - Step 4.3
 | Field | Notes |
 |-------|-------|
-| **Status** | `[ ] Not Started` · `[ ] In Progress` · `[ ] Done` |
+| **Status** | `[ ] Not Started` · `[ ] In Progress` · `[x] Done` |
 | **Node Click Working** | |
 | **5K Node Performance** | |
 | **Risk Score in Profile Card** | |
@@ -1512,19 +1514,19 @@
 > Wire all charts to real API endpoints. Anomaly alerts feed from Catalyst Push (step 4.5).
 
 #### 🤖 AI Can Do
-- [ ] Generate ECharts trend line per `CrimeHead.CrimeGroupName`
-- [ ] Generate ECharts bar chart of arrests per district from `ArrestSurrender + District`
-- [ ] Generate offender risk score leaderboard from Zia AutoML scores
-- [ ] Generate 7-day + 30-day SARIMA forecast chart with confidence intervals
-- [ ] Generate case status pie chart from `CaseStatusMaster` distribution
-- [ ] Generate chargesheet type breakdown (`cstype` A/B/C from `ChargesheetDetails`)
+- [x] Generate ECharts trend line per `CrimeHead.CrimeGroupName`
+- [x] Generate ECharts bar chart of arrests per district from `ArrestSurrender + District`
+- [x] Generate offender risk score leaderboard from Zia AutoML scores
+- [x] Generate 7-day + 30-day SARIMA forecast chart with confidence intervals
+- [x] Generate case status pie chart from `CaseStatusMaster` distribution
+- [x] Generate chargesheet type breakdown (`cstype` A/B/C from `ChargesheetDetails`)
 
 #### 👤 P3 Human Must Do
-- [ ] `npm install echarts echarts-for-react`
-- [ ] Wire each chart to its API endpoint
-- [ ] Verify risk score leaderboard sorts by Zia AutoML score descending
-- [ ] Verify forecast chart shows 7-day and 30-day confidence bands clearly
-- [ ] Add anomaly alert panel placeholder - will connect in step 4.5
+- [x] `npm install echarts echarts-for-react`
+- [x] Wire each chart to its API endpoint
+- [x] Verify risk score leaderboard sorts by Zia AutoML score descending
+- [x] Verify forecast chart shows 7-day and 30-day confidence bands clearly
+- [x] Add anomaly alert panel placeholder - will connect in step 4.5
 
 📤 `git push dev: frontend/src/components/Dashboard/`
 
@@ -1533,7 +1535,7 @@
 #### 📊 Progress Log - Step 4.4
 | Field | Notes |
 |-------|-------|
-| **Status** | `[ ] Not Started` · `[ ] In Progress` · `[ ] Done` |
+| **Status** | `[ ] Not Started` · `[ ] In Progress` · `[x] Done` |
 | **Charts Wired to API** | |
 | **Leaderboard Working** | |
 | **Forecast Chart Quality** | |
@@ -1554,15 +1556,15 @@
 > **NEW in v2.** When a spike anomaly Signal fires, the anomaly panel updates without page refresh.
 
 #### 🤖 AI Can Do
-- [ ] Generate React custom hook `useCatalystSignals()` that subscribes to the `anomaly_spike` Signal
-- [ ] Generate anomaly alert panel component that re-renders on new Push messages
-- [ ] Generate WebSocket or SSE connection to Catalyst Push endpoint
+- [x] Generate React custom hook `useCatalystSignals()` that subscribes to the `anomaly_spike` Signal
+- [x] Generate anomaly alert panel component that re-renders on new Push messages
+- [x] Generate WebSocket or SSE connection to Catalyst Push endpoint
 
 #### 👤 P3 Human Must Do
-- [ ] Request Catalyst Push webhook URL from P1 (from step 3.6)
-- [ ] Integrate `useCatalystSignals()` hook in the Dashboard component
-- [ ] Test: P1 inserts a high-anomaly FIR in DataStore → verify Dashboard anomaly panel updates in real-time without refresh
-- [ ] Verify the anomaly panel shows: district name, crime type, FIR count, severity
+- [x] Request Catalyst Push webhook URL from P1 (from step 3.6)
+- [x] Integrate `useCatalystSignals()` hook in the Dashboard component
+- [x] Test: P1 inserts a high-anomaly FIR in DataStore → verify Dashboard anomaly panel updates in real-time without refresh
+- [x] Verify the anomaly panel shows: district name, crime type, FIR count, severity
 
 📤 `git push dev: frontend/src/hooks/useCatalystSignals.js, updated Dashboard`
 
@@ -1571,7 +1573,7 @@
 #### 📊 Progress Log - Step 4.5
 | Field | Notes |
 |-------|-------|
-| **Status** | `[ ] Not Started` · `[ ] In Progress` · `[ ] Done` |
+| **Status** | `[ ] Not Started` · `[ ] In Progress` · `[x] Done` |
 | **Real-Time Update Working** | |
 | **Signal Latency to UI** | |
 | **Learnings** | |
@@ -1591,17 +1593,17 @@
 > Live role-switch (Investigator → Admin) with audit log reveal is the Req. #10 demo moment.
 
 #### 🤖 AI Can Do
-- [ ] Generate Catalyst Auth login page component
-- [ ] Generate React route guard HOC checking role from Auth JWT
-- [ ] Generate role-based nav: Investigator (cases only), Analyst (analytics), Admin (all + users + audit)
-- [ ] Generate victim data masking: `VictimName`, `ComplainantName` → `****` for non-admin
+- [x] Generate Catalyst Auth login page component
+- [x] Generate React route guard HOC checking role from Auth JWT
+- [x] Generate role-based nav: Investigator (cases only), Analyst (analytics), Admin (all + users + audit)
+- [x] Generate victim data masking: `VictimName`, `ComplainantName` → `****` for non-admin
 
 #### 👤 P3 Human Must Do
-- [ ] Get Catalyst Auth project credentials from P1
-- [ ] Create 3 test accounts in Catalyst Auth: `investigator@`, `analyst@`, `admin@`
-- [ ] Test each login → verify role-based nav changes correctly
-- [ ] Verify analyst is blocked from admin routes (403)
-- [ ] Verify `VictimName` and `ComplainantName` are redacted in API response for non-admin
+- [x] Get Catalyst Auth project credentials from P1
+- [x] Create 3 test accounts in Catalyst Auth: `investigator@`, `analyst@`, `admin@`
+- [x] Test each login → verify role-based nav changes correctly
+- [x] Verify analyst is blocked from admin routes (403)
+- [x] Verify `VictimName` and `ComplainantName` are redacted in API response for non-admin
 
 📤 `git push dev: frontend/src/auth/, NavBar.jsx`
 
@@ -1610,7 +1612,7 @@
 #### 📊 Progress Log - Step 4.6
 | Field | Notes |
 |-------|-------|
-| **Status** | `[ ] Not Started` · `[ ] In Progress` · `[ ] Done` |
+| **Status** | `[ ] Not Started` · `[ ] In Progress` · `[x] Done` |
 | **3 Roles Working** | |
 | **Victim Data Masking** | |
 | **Route Guard Working** | |
@@ -2098,22 +2100,22 @@
 ## Security & Compliance Master Checklist
 | Requirement | Implementation | Status |
 |-------------|---------------|--------|
-| RBAC: Investigator role | Can view cases, run queries, use chat | `[ ]` |
-| RBAC: Analyst role | Can access analytics dashboard, no admin | `[ ]` |
-| RBAC: Admin role | Full access including user management + audit | `[ ]` |
+| RBAC: Investigator role | Can view cases, run queries, use chat | `[x]` |
+| RBAC: Analyst role | Can access analytics dashboard, no admin | `[x]` |
+| RBAC: Admin role | Full access including user management + audit | `[x]` |
 | Audit Log: user_id | Logged in `AuditLog.user_id` per query | `[ ]` |
 | Audit Log: query_string | Full query text logged | `[ ]` |
 | Audit Log: timestamp | ISO 8601 timestamp per entry | `[ ]` |
 | Audit Log: result_count | Row count of query result logged | `[ ]` |
 | Audit Log: request_IP | Client IP logged | `[ ]` |
-| Data Masking: VictimName | `****` for non-admin | `[ ]` |
-| Data Masking: ComplainantName | `****` for non-admin | `[ ]` |
+| Data Masking: VictimName | `****` for non-admin | `[x]` |
+| Data Masking: ComplainantName | `****` for non-admin | `[x]` |
 | Rate Limiting | 100 req/min via Catalyst API Gateway | `[ ]` |
 | JWT Validation | Active on all protected endpoints | `[ ]` |
 | HTTPS/SSL | Active on AppSail + Slate | `[ ]` |
 | CORS | Slate domain only | `[ ]` |
-| Evidence Trail | FIR citation in every AI answer | `[ ]` |
-| Explainable AI | PDF export includes FIR citations | `[ ]` |
+| Evidence Trail | FIR citation in every AI answer | `[x]` |
+| Explainable AI | PDF export includes FIR citations | `[x]` |
 
 ---
 
@@ -2130,15 +2132,15 @@
 | NoSQL | `[ ]` | Chat sessions | |
 | Stratus | `[ ]` | Model artifacts + GeoJSON | |
 | Cache (Segmented) | `[ ]` | District stats cache | |
-| Slate | `[ ]` | React frontend | |
-| Authentication | `[ ]` | RBAC login | |
+| Slate | `[x]` | React frontend | |
+| Authentication | `[x]` | RBAC login | |
 | API Gateway | `[ ]` | Rate limit + JWT | |
 | Circuits | `[ ]` | Orchestration | |
-| Signals | `[ ]` | Anomaly event routing | |
-| Push Notifications | `[ ]` | Real-time UI alerts | |
+| Signals | `[x]` | Anomaly event routing | |
+| Push Notifications | `[x]` | Real-time UI alerts | |
 | Cron | `[ ]` | Session cleanup + daily mail | |
 | Mail | `[ ]` | Investigator alerts | |
-| SmartBrowz | `[ ]` | PDF Evidence Trail | |
+| SmartBrowz | `[x]` | PDF Evidence Trail | |
 
 ---
 
