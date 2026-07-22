@@ -211,9 +211,9 @@
 > P1 creates monorepo. P2 and P3 clone in step 0.3.
 
 #### 🤖 AI Can Do
-- [ ] Generate full monorepo with 6 folders: `/frontend /backend /ml /circuits /functions /data`
-- [ ] Generate `.gitignore` for Python + Node + `.env` + Catalyst artifacts
-- [ ] Generate `README.md` with project overview, service map, and setup instructions
+- [x] Generate full monorepo with 6 folders: `/frontend /backend /ml /circuits /functions /data`
+- [x] Generate `.gitignore` for Python + Node + `.env` + Catalyst artifacts
+- [x] Generate `README.md` with project overview, service map, and setup instructions
 - [ ] Generate Catalyst Pipelines CI/CD YAML (trigger on push to `main` → build → deploy)
 
 #### 👤 P1 Human Must Do
@@ -231,8 +231,8 @@
 #### 📊 Progress Log - Step 0.2
 | Field | Notes |
 |-------|-------|
-| **Status** | `[ ] Not Started` · `[ ] In Progress` · `[ ] Done` |
-| **What's Working** | |
+| **Status** | `[ ] Not Started` · `[ ] In Progress` · `[x] Done` |
+| **What's Working** | Monorepo structure, .gitignore, README.md all present |
 | **Issues Found** | |
 | **Learnings** | |
 | **Blockers** | |
@@ -252,7 +252,7 @@
 
 #### 🤖 AI Can Do
 - [ ] Generate `docker-compose.yml` for local FastAPI dev
-- [ ] Generate `backend/requirements.txt` (fastapi, uvicorn, sqlalchemy, geopandas, networkx, scikit-learn, statsmodels, httpx)
+- [x] Generate `backend/requirements.txt` (fastapi, uvicorn, sqlalchemy, geopandas, networkx, scikit-learn, statsmodels, httpx)
 - [ ] Generate `backend/Dockerfile` (multi-stage build) for Catalyst AppSail
 
 #### 👤 P1 Human Must Do
@@ -268,9 +268,9 @@
 #### 📊 Progress Log - Step 0.3a
 | Field | Notes |
 |-------|-------|
-| **Status** | `[ ] Not Started` · `[ ] In Progress` · `[ ] Done` |
-| **What's Working** | |
-| **Issues Found** | |
+| **Status** | `[ ] Not Started` · `[x] In Progress` · `[ ] Done` |
+| **What's Working** | backend/requirements.txt exists; main.py running locally |
+| **Issues Found** | No Dockerfile or docker-compose yet |
 | **Learnings** | |
 | **Blockers** | |
 
@@ -287,7 +287,7 @@
 **Owner: P2**
 
 #### 🤖 AI Can Do
-- [ ] Generate `ml/requirements.txt` (pandas, geopandas, scikit-learn, networkx, faker, statsmodels, python-louvain)
+- [x] Generate `ml/requirements.txt` (pandas, geopandas, scikit-learn, networkx, faker, statsmodels, python-louvain)
 - [ ] Generate `ml/` README explaining Zia AutoML vs AppSail model split
 
 #### 👤 P2 Human Must Do
@@ -303,8 +303,8 @@
 #### 📊 Progress Log - Step 0.3b
 | Field | Notes |
 |-------|-------|
-| **Status** | `[ ] Not Started` · `[ ] In Progress` · `[ ] Done` |
-| **What's Working** | |
+| **Status** | `[ ] Not Started` · `[x] In Progress` · `[ ] Done` |
+| **What's Working** | ml/requirements.txt exists; venv present; synthetic data scripts working |
 | **Issues Found** | |
 | **Learnings** | |
 | **Blockers** | |
@@ -322,9 +322,9 @@
 **Owner: P3**
 
 #### 🤖 AI Can Do
-- [ ] Generate `package.json` (React 18, Leaflet, Cytoscape.js, Apache ECharts, TailwindCSS, Axios)
-- [ ] Generate `vite.config.js` and `tailwind.config.js`
-- [ ] Generate `src/App.jsx` router skeleton with placeholder pages
+- [x] Generate `package.json` (React 18, Leaflet, Cytoscape.js, Apache ECharts, TailwindCSS, Axios)
+- [x] Generate `vite.config.js` and `tailwind.config.js`
+- [x] Generate `src/App.jsx` router skeleton with placeholder pages
 
 #### 👤 P3 Human Must Do
 - [ ] Clone repo after P1 shares link
@@ -340,8 +340,8 @@
 #### 📊 Progress Log - Step 0.3c
 | Field | Notes |
 |-------|-------|
-| **Status** | `[ ] Not Started` · `[ ] In Progress` · `[ ] Done` |
-| **What's Working** | |
+| **Status** | `[ ] Not Started` · `[ ] In Progress` · `[x] Done` |
+| **What's Working** | package.json, vite.config.js, tailwind.config.js, App.jsx all exist; node_modules installed |
 | **Issues Found** | |
 | **Learnings** | |
 | **Blockers** | |
@@ -404,10 +404,10 @@
 > P1's primary job for rest of Day 1. P2 cannot start ingestion until this is done.
 
 #### 🤖 AI Can Do
-- [ ] Generate all 28 `CREATE TABLE` SQL statements from the ER schema above
-- [ ] Add indexes on: FK columns, `latitude`/`longitude`, `CrimeRegisteredDate`, `IncidentFromDate`, `AccusedMasterID`
-- [ ] Generate FK constraints for all One-to-Many and Many-to-One relationships
-- [ ] Generate Python migration runner using Catalyst DataStore API
+- [x] Generate all 28 `CREATE TABLE` SQL statements from the ER schema above
+- [x] Add indexes on: FK columns, `latitude`/`longitude`, `CrimeRegisteredDate`, `IncidentFromDate`, `AccusedMasterID`
+- [x] Generate FK constraints for all One-to-Many and Many-to-One relationships
+- [x] Generate Python migration runner using Catalyst DataStore API
 
 #### 👤 P1 Human Must Do
 - [ ] Open Catalyst DataStore console
@@ -424,12 +424,12 @@
 #### 📊 Progress Log - Step 1.1
 | Field | Notes |
 |-------|-------|
-| **Status** | `[ ] Not Started` · `[ ] In Progress` · `[ ] Done` |
-| **Tables Migrated So Far** | |
-| **What's Working** | |
-| **Issues Found** | |
+| **Status** | `[ ] Not Started` · `[x] In Progress` · `[ ] Done` |
+| **Tables Migrated So Far** | schema.sql with all 28 tables generated; run_migration.py ready |
+| **What's Working** | SQL schema file complete; migration runner script exists |
+| **Issues Found** | Catalyst DataStore migration not confirmed (cloud step) |
 | **Learnings** | |
-| **Blockers** | |
+| **Blockers** | Need Catalyst DataStore access to apply migration |
 
 ---
 
@@ -445,11 +445,11 @@
 > Depends on P1 finishing step 1.1. Email organizers Day 1 morning for the dataset link.
 
 #### 🤖 AI Can Do
-- [ ] Generate pandas ETL script for CSV/JSON loading with null handling
-- [ ] Generate date normalizer (all formats → ISO 8601 for `CrimeRegisteredDate`)
-- [ ] Generate Kannada text encoding fixer (UTF-8 enforcement for `BriefFacts`)
-- [ ] Generate GPS bounding box validator: `11.5°N-18.5°N, 74°E-78.5°E`
-- [ ] Generate rejected-record logger with reason codes
+- [x] Generate pandas ETL script for CSV/JSON loading with null handling
+- [x] Generate date normalizer (all formats → ISO 8601 for `CrimeRegisteredDate`)
+- [x] Generate Kannada text encoding fixer (UTF-8 enforcement for `BriefFacts`)
+- [x] Generate GPS bounding box validator: `11.5°N-18.5°N, 74°E-78.5°E`
+- [x] Generate rejected-record logger with reason codes
 
 #### 👤 P2 Human Must Do
 - [ ] Email organizers for KSP dataset download link
@@ -466,13 +466,13 @@
 #### 📊 Progress Log - Step 1.2
 | Field | Notes |
 |-------|-------|
-| **Status** | `[ ] Not Started` · `[ ] In Progress` · `[ ] Done` |
-| **Records Loaded** | |
+| **Status** | `[ ] Not Started` · `[x] In Progress` · `[ ] Done` |
+| **Records Loaded** | data/scripts/ingest.py exists; synthetic data ingested locally |
 | **Rejection Rate** | |
-| **What's Working** | |
-| **Issues Found** | |
+| **What's Working** | ingest.py script complete |
+| **Issues Found** | Real KSP dataset not received yet |
 | **Learnings** | |
-| **Blockers** | |
+| **Blockers** | Awaiting KSP dataset from organizers |
 
 ---
 
@@ -527,11 +527,11 @@
 > Visually dense data for Bengaluru, Mysore, Mangaluru is essential for a strong demo.
 
 #### 🤖 AI Can Do
-- [ ] Generate Faker-based Python script producing realistic FIR records mapped to all 28 tables
-- [ ] Distribute crime types by CrimeHead/CrimeSubHead values from actual schema
-- [ ] Constrain GPS to Karnataka bbox: `11.5°N-18.5°N, 74°E-78.5°E`
-- [ ] Generate temporal clustering (night/weekend bias for realistic patterns)
-- [ ] Generate pre-linked gang network: 5-10 accused sharing 15+ FIRs via `inv_arrestsurrenderaccused`
+- [x] Generate Faker-based Python script producing realistic FIR records mapped to all 28 tables
+- [x] Distribute crime types by CrimeHead/CrimeSubHead values from actual schema
+- [x] Constrain GPS to Karnataka bbox: `11.5°N-18.5°N, 74°E-78.5°E`
+- [x] Generate temporal clustering (night/weekend bias for realistic patterns)
+- [x] Generate pre-linked gang network: 5-10 accused sharing 15+ FIRs via `inv_arrestsurrenderaccused`
 
 #### 👤 P2 Human Must Do
 - [ ] `pip install faker`
@@ -548,10 +548,10 @@
 #### 📊 Progress Log - Step 1.4
 | Field | Notes |
 |-------|-------|
-| **Status** | `[ ] Not Started` · `[ ] In Progress` · `[ ] Done` |
-| **Synthetic Records Generated** | |
-| **Total DataStore Count** | |
-| **What's Working** | |
+| **Status** | `[ ] Not Started` · `[ ] In Progress` · `[x] Done` |
+| **Synthetic Records Generated** | firs_synthetic.json + accused_synthetic.json present in ml/scripts and data/scripts |
+| **Total DataStore Count** | Local synthetic JSON; DataStore load pending cloud setup |
+| **What's Working** | generate_synthetic.py runs and produces valid JSON output |
 | **Issues Found** | |
 | **Learnings** | |
 | **Blockers** | |
@@ -570,10 +570,10 @@
 > Uses `inv_arrestsurrenderaccused` junction table to build multi-accused edges.
 
 #### 🤖 AI Can Do
-- [ ] Generate NetworkX graph builder querying: Accused → inv_arrestsurrenderaccused → ArrestSurrender → CaseMaster → Victim
-- [ ] Generate Louvain community detection (`python-louvain`)
-- [ ] Generate PageRank scoring per accused node
-- [ ] Generate JSON serializer: `{ nodes: [], edges: [], communities: {} }`
+- [x] Generate NetworkX graph builder querying: Accused → inv_arrestsurrenderaccused → ArrestSurrender → CaseMaster → Victim
+- [x] Generate Louvain community detection (`python-louvain`)
+- [x] Generate PageRank scoring per accused node
+- [x] Generate JSON serializer: `{ nodes: [], edges: [], communities: {} }`
 
 #### 👤 P2 Human Must Do
 - [ ] `pip install networkx python-louvain`
@@ -590,13 +590,13 @@
 #### 📊 Progress Log - Step 1.5
 | Field | Notes |
 |-------|-------|
-| **Status** | `[ ] Not Started` · `[ ] In Progress` · `[ ] Done` |
-| **Node Count** | |
-| **Edge Count** | |
-| **Community Count** | |
-| **Stratus URL** | |
-| **Learnings** | |
-| **Blockers** | |
+| **Status** | `[ ] Not Started` · `[x] In Progress` · `[ ] Done` |
+| **Node Count** | graph_index.json generated locally |
+| **Edge Count** | Present in graph_index.json |
+| **Community Count** | Communities computed via Louvain |
+| **Stratus URL** | Pending cloud upload |
+| **Learnings** | build_graph.py + graph_index.json both present |
+| **Blockers** | Stratus upload requires Catalyst cloud access |
 
 ---
 
@@ -655,10 +655,10 @@
 > Runs on AppSail (FastAPI). GPS from `CaseMaster.latitude / CaseMaster.longitude`.
 
 #### 🤖 AI Can Do
-- [ ] Generate GeoPandas script querying CaseMaster GPS + CrimeHead via DataStore API
-- [ ] Generate DBSCAN (`ε=0.5km, min_samples=5`) cluster computation
-- [ ] Generate GeoJSON export with risk tier labels (Low / Medium / High)
-- [ ] Generate time-of-day aggregation using `IncidentFromDate` (AM / PM / Night)
+- [x] Generate GeoPandas script querying CaseMaster GPS + CrimeHead via DataStore API
+- [x] Generate DBSCAN (`ε=0.5km, min_samples=5`) cluster computation
+- [x] Generate GeoJSON export with risk tier labels (Low / Medium / High)
+- [x] Generate time-of-day aggregation using `IncidentFromDate` (AM / PM / Night)
 
 #### 👤 P2 Human Must Do
 - [ ] Run DBSCAN → tune `ε` if clusters are too large or too small
@@ -695,9 +695,9 @@
 > District stats must be cached in Catalyst Cache - this is where the p95 < 500ms target comes from.
 
 #### 🤖 AI Can Do
-- [ ] Generate K-Means per-district risk zone (3 tiers: Low/Medium/High)
-- [ ] Generate district crime count rollup grouped by `CrimeHead.CrimeGroupName`
-- [ ] Generate FastAPI router stub for `/api/districts`
+- [x] Generate K-Means per-district risk zone (3 tiers: Low/Medium/High)
+- [x] Generate district crime count rollup grouped by `CrimeHead.CrimeGroupName`
+- [x] Generate FastAPI router stub for `/api/districts`
 
 #### 👤 P2 Human Must Do
 - [ ] Run K-Means → verify risk zones make intuitive sense
@@ -968,11 +968,11 @@
 > P1 takes all P2's Zia AutoML model IDs and Stratus URLs and builds FastAPI routes.
 
 #### 🤖 AI Can Do
-- [ ] Generate FastAPI routers for each module: geo, ml, graph, similarity, forecast, forensics
+- [x] Generate FastAPI routers for each module: geo, ml, graph, similarity, forecast, forensics
 - [ ] Generate /api/forensics/verify endpoint utilizing **SmartBrowz** to headless-scrape digital evidence and rank it via **Kapoun Criteria** (Accuracy, Authority, Objectivity, Currency, Coverage)
-- [ ] Generate Pydantic request/response models for each endpoint
+- [x] Generate Pydantic request/response models for each endpoint
 - [ ] Generate Zia AutoML inference call wrapper (call by model ID + input features)
-- [ ] Generate startup Stratus asset loader (geojson, graph index)
+- [x] Generate startup Stratus asset loader (geojson, graph index)
 
 #### 👤 P1 Human Must Do
 - [ ] Get from P2: all Zia AutoML model IDs, all Stratus file URLs
@@ -995,12 +995,12 @@
 #### 📊 Progress Log - Step 2.5
 | Field | Notes |
 |-------|-------|
-| **Status** | `[ ] Not Started` · `[ ] In Progress` · `[ ] Done` |
-| **Endpoints Passing Postman** | |
-| **Zia AutoML Latency** | |
-| **Cache Hit on Districts** | |
+| **Status** | `[ ] Not Started` · `[x] In Progress` · `[ ] Done` |
+| **Endpoints Passing Postman** | /api/districts, /api/clusters, /api/offender/risk/{id} implemented in main.py |
+| **Zia AutoML Latency** | Stubbed (returns mock score) — Zia AutoML not yet connected |
+| **Cache Hit on Districts** | Cache layer not yet implemented |
 | **Learnings** | |
-| **Blockers** | |
+| **Blockers** | Zia AutoML model ID needed; Catalyst Cache setup needed |
 
 ---
 
