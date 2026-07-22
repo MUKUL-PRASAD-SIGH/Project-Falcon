@@ -1,3 +1,5 @@
+import os
+import json
 from fastapi import FastAPI, Query
 from fastapi.middleware.cors import CORSMiddleware
 from typing import Optional
@@ -7,6 +9,14 @@ app = FastAPI(
     description="Catalyst AppSail FastAPI backend for crime analytics, geospatial clustering, and network graph data.",
     version="1.0.0"
 )
+
+# Helper function to load ML output files
+def load_ml_json(filename):
+    filepath = os.path.join(os.path.dirname(__file__), '..', 'ml', 'scripts', filename)
+    if os.path.exists(filepath):
+        with open(filepath, 'r') as f:
+            return json.load(f)
+    return None
 
 app.add_middleware(
     CORSMiddleware,
@@ -26,34 +36,29 @@ def read_root():
 
 @app.get("/api/districts")
 def get_districts():
+    data = load_ml_json('district_stats.json')
+    if data:
+        return data
+        
     return {
-        "status": "success",
-        "districts": [
-            {"id": 1, "name": "Bengaluru City", "risk": "High", "crimeCount": 3420},
-            {"id": 2, "name": "Mysuru City", "risk": "Medium", "crimeCount": 1240},
-            {"id": 3, "name": "Mangaluru City", "risk": "High", "crimeCount": 1890},
-            {"id": 4, "name": "Hubballi-Dharwad", "risk": "Medium", "crimeCount": 980},
-            {"id": 5, "name": "Belagavi", "risk": "Low", "crimeCount": 650}
-        ]
+        "status": "error",
+        "message": "district_stats.json not found. Run ML pipeline first."
     }
 
 @app.get("/api/clusters")
 def get_clusters(district: Optional[str] = None):
+    data = load_ml_json('clusters.geojson')
+    if data:
+        # Note: In production we could filter `data['features']` by district
+        return {
+            "status": "success",
+            "type": "FeatureCollection",
+            "features": data['features']
+        }
+        
     return {
-        "status": "success",
-        "type": "FeatureCollection",
-        "features": [
-            {
-                "type": "Feature",
-                "geometry": {"type": "Point", "coordinates": [77.5946, 12.9716]},
-                "properties": {"cluster_id": 1, "district": "Bengaluru City", "crime_type": "Theft", "risk_level": "High"}
-            },
-            {
-                "type": "Feature",
-                "geometry": {"type": "Point", "coordinates": [76.6394, 12.2958]},
-                "properties": {"cluster_id": 2, "district": "Mysuru City", "crime_type": "Robbery", "risk_level": "Medium"}
-            }
-        ]
+        "status": "error",
+        "message": "clusters.geojson not found. Run ML pipeline first."
     }
 
 @app.get("/api/offender/risk/{accused_id}")

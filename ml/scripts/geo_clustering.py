@@ -34,12 +34,12 @@ def build_geo_clusters(is_real=False):
         
     coords = np.array(coords)
     
-    # Run DBSCAN (epsilon = 0.5km approx 0.005 degrees, min_samples=5)
+    # Run DBSCAN (epsilon = 5km approx, min_samples=3)
     print("Running DBSCAN for Hotspot Detection...")
-    # Convert km to radians for haversine (epsilon = 0.5km)
+    # Convert km to radians for haversine (epsilon = 5.0km)
     kms_per_radian = 6371.0088
-    epsilon = 0.5 / kms_per_radian
-    db = DBSCAN(eps=epsilon, min_samples=5, algorithm='ball_tree', metric='haversine').fit(np.radians(coords))
+    epsilon = 5.0 / kms_per_radian
+    db = DBSCAN(eps=epsilon, min_samples=3, algorithm='ball_tree', metric='haversine').fit(np.radians(coords))
     
     labels = db.labels_
     n_clusters = len(set(labels)) - (1 if -1 in labels else 0)
@@ -114,9 +114,26 @@ def build_geo_clusters(is_real=False):
         5: "Belagavi"
     }
     
+    crime_heads_map = {
+        1: "Theft",
+        2: "Robbery",
+        3: "Assault",
+        4: "Cybercrime",
+        5: "Fraud",
+        6: "Narcotics",
+        7: "Homicide"
+    }
+    
     district_counts = {did: 0 for did in districts_map.keys()}
+    district_crime_groups = {did: {name: 0 for name in crime_heads_map.values()} for did in districts_map.keys()}
+    
     for fir in firs:
-        district_counts[fir['DistrictID']] += 1
+        did = fir['DistrictID']
+        cid = fir['CrimeHeadID']
+        district_counts[did] += 1
+        c_name = crime_heads_map.get(cid, "Unknown")
+        if c_name in district_crime_groups[did]:
+            district_crime_groups[did][c_name] += 1
         
     districts_list = []
     for did, count in district_counts.items():
@@ -129,7 +146,8 @@ def build_geo_clusters(is_real=False):
             "id": did,
             "name": districts_map[did],
             "crimeCount": count,
-            "risk": risk
+            "risk": risk,
+            "crimeGroups": district_crime_groups[did]
         })
         
     districts_output = {
@@ -143,10 +161,10 @@ def build_geo_clusters(is_real=False):
     with open(os.path.join(out_dir, 'clusters.geojson'), 'w') as f:
         json.dump(geojson, f, indent=2)
         
-    with open(os.path.join(out_dir, 'districts_rollup.json'), 'w') as f:
+    with open(os.path.join(out_dir, 'district_stats.json'), 'w') as f:
         json.dump(districts_output, f, indent=2)
         
-    print("Successfully generated clusters.geojson and districts_rollup.json")
+    print("Successfully generated clusters.geojson and district_stats.json")
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Generate Geo Clusters using DBSCAN")

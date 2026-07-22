@@ -15,7 +15,7 @@
 ## Role Assignments
 | Person | Role | Owned Services |
 |--------|------|---------------|
-| **P1** | Backend Lead | AppSail, DataStore, Auth, API Gateway, Circuits, NoSQL, Cache, Pipelines |
+| **P1** | Backend Lead | AppSail, DataStore,  Auth, API Gateway, Circuits, NoSQL, Cache, Pipelines |
 | **P2** | ML / AI Lead | QuickML (LLM/RAG), Zia AutoML, AppSail (geo/graph/SARIMA/TF-IDF), Functions |
 | **P3** | Frontend Lead | Slate (React 18), Leaflet, Cytoscape.js, ECharts, Push Notifications, Signals |
 
@@ -672,12 +672,12 @@
 #### 📊 Progress Log - Step 2.1a
 | Field | Notes |
 |-------|-------|
-| **Status** | `[ ] Not Started` · `[ ] In Progress` · `[ ] Done` |
-| **Cluster Count** | |
-| **ε Tuning Notes** | |
-| **Stratus URL** | |
-| **Learnings** | |
-| **Blockers** | |
+| **Status** | `[x] Done` |
+| **Cluster Count** | 5 |
+| **ε Tuning Notes** | Tuned epsilon to 5.0km and min_samples to 3 for synthetic demo data to yield clusters across state. |
+| **Stratus URL** | local FastAPI serving from ml/scripts/clusters.geojson |
+| **Learnings** | Synthetic data requires larger DBSCAN epsilon due to wider random spread. |
+| **Blockers** | None |
 
 ---
 
@@ -709,11 +709,11 @@
 #### 📊 Progress Log - Step 2.1b
 | Field | Notes |
 |-------|-------|
-| **Status** | `[ ] Not Started` · `[ ] In Progress` · `[ ] Done` |
-| **District Count** | |
-| **Risk Zone Distribution** | |
-| **Learnings** | |
-| **Blockers** | |
+| **Status** | `[x] Done` |
+| **District Count** | 5 |
+| **Risk Zone Distribution** | Low, Medium, High risk assigned based on cluster sizes. |
+| **Learnings** | K-Means easily sorts the density of hotspots into actionable 3-tier risk levels. |
+| **Blockers** | None |
 
 ---
 
