@@ -5,7 +5,10 @@
   "functions": {
     "source": "functions",
     "targets": [
-      "get_user_role"
+      "get_user_role",
+      "validate_gps",
+      "validate_fk",
+      "clean_text"
     ]
   }
 }

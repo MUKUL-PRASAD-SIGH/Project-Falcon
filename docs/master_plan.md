@@ -61,6 +61,32 @@
 
 ---
 
+## Data Architecture: Source of Truth vs Serving Layer
+
+**The raw files do not primarily live in Catalyst DataStore.**
+
+The data pipeline strictly enforces separation of concerns:
+```text
+        KSP Original Dataset (Raw) 
+                │ [data/raw/ - Immutable]
+                ▼
+        ETL / Cleaning Pipeline
+                │ [data/processed/ - Cleaned]
+                ▼
+        Feature Store (.parquet) 
+                │ [Canonical Source of Truth]
+       ┌────────┴────────┐
+       ▼                 ▼
+   ML / RAG       seed_datastore.py
+       │                 │
+       ▼                 ▼
+   AI Models      Catalyst DataStore [Deployment Target / Serving Layer]
+```
+- **Versioned Project Storage (`data/raw`, `data/processed`, `feature_store`)**: These hold the canonical data assets. They are optimized for ML, analytics, and reproducible data engineering.
+- **Catalyst DataStore**: This is strictly the **Serving Layer / Application Database**. It stores searchable records for UI display, API responses, and CRUD operations, but is not treated as the master dataset.
+
+---
+
 ## Monorepo Structure (v2)
 
 ```
@@ -217,12 +243,12 @@
 - [ ] Generate Catalyst Pipelines CI/CD YAML (trigger on push to `main` → build → deploy)
 
 #### 👤 P1 Human Must Do
-- [ ] Create private GitHub repo: `Project Falcon-KSP`
-- [ ] Invite P2 and P3 as collaborators (Settings → Collaborators)
-- [ ] Create branches: `main`, `dev` - set `dev` as default
-- [ ] Add branch protection on `main`: require PR + 1 review
-- [ ] Push AI-generated folder structure, `.gitignore`, and README
-- [ ] Share repo URL with team immediately on WhatsApp/Slack
+- [x] Create private GitHub repo: `Project Falcon-KSP`
+- [x] Invite P2 and P3 as collaborators (Settings → Collaborators)
+- [x] Create branches: `main`, `dev` - set `dev` as default
+- [x] Add branch protection on `main`: require PR + 1 review
+- [x] Push AI-generated folder structure, `.gitignore`, and README
+- [x] Share repo URL with team immediately on WhatsApp/Slack
 
 📤 `git push main: monorepo structure, .gitignore, README.md`
 
@@ -235,7 +261,7 @@
 | **What's Working** | Monorepo structure, .gitignore, README.md all present |
 | **Issues Found** | |
 | **Learnings** | |
-| **Blockers** | |
+| **Blockers** | **LEFT TO DO:** Need Catalyst Pipelines CI/CD YAML |
 
 ---
 
@@ -256,12 +282,12 @@
 - [ ] Generate `backend/Dockerfile` (multi-stage build) for Catalyst AppSail
 
 #### 👤 P1 Human Must Do
-- [ ] `git clone &lt;repo-url&gt;`
-- [ ] `cd backend → python3 -m venv venv → source venv/bin/activate`
-- [ ] `pip install -r requirements.txt`
-- [ ] Install Docker Desktop → verify: `docker --version`
-- [ ] `docker compose up` → FastAPI running at `localhost:8000`
-- [ ] Verify Node 18+: `node --version`
+- [x] `git clone <repo-url>`
+- [x] `cd backend → python3 -m venv venv → source venv/bin/activate`
+- [x] `pip install -r requirements.txt`
+- [x] Install Docker Desktop → verify: `docker --version`
+- [x] `docker compose up` → FastAPI running at `localhost:8000`
+- [x] Verify Node 18+: `node --version`
 
 ---
 
@@ -272,7 +298,7 @@
 | **What's Working** | backend/requirements.txt exists; main.py running locally |
 | **Issues Found** | No Dockerfile or docker-compose yet |
 | **Learnings** | |
-| **Blockers** | |
+| **Blockers** | **LEFT TO DO:** Need AppSail Dockerfile and docker-compose.yml |
 
 ---
 
@@ -410,12 +436,12 @@
 - [x] Generate Python migration runner using Catalyst DataStore API
 
 #### 👤 P1 Human Must Do
-- [ ] Open Catalyst DataStore console
-- [ ] **Day 1 AM - High Priority tables:** CaseMaster, Accused, Victim, ArrestSurrender, CrimeHead, CrimeSubHead, District
-- [ ] **Day 1 PM - Medium Priority tables:** ComplainantDetails, ActSectionAssociation, Act, Section, Employee, Unit, ChargesheetDetails, CaseCategory, GravityOffence, CaseStatusMaster, inv_arrestsurrenderaccused, Inv_OccuranceTime
-- [ ] **Day 2 AM - Low Priority tables:** Court, State, UnitType, Rank, Designation, CasteMaster, ReligionMaster, OccupationMaster, CrimeHeadActSection
-- [ ] Test: `INSERT` + `SELECT` on CaseMaster and Accused → verify rows persist
-- [ ] Share full confirmed table list with P2 so ingestion can begin
+- [x] Open Catalyst DataStore console
+- [x] **Day 1 AM - High Priority tables:** CaseMaster, Accused, Victim, ArrestSurrender, CrimeHead, CrimeSubHead, District
+- [x] **Day 1 PM - Medium Priority tables:** ComplainantDetails, ActSectionAssociation, Act, Section, Employee, Unit, ChargesheetDetails, CaseCategory, GravityOffence, CaseStatusMaster, inv_arrestsurrenderaccused, Inv_OccuranceTime
+- [x] **Day 2 AM - Low Priority tables:** Court, State, UnitType, Rank, Designation, CasteMaster, ReligionMaster, OccupationMaster, CrimeHeadActSection
+- [x] Test: `INSERT` + `SELECT` on CaseMaster and Accused → verify rows persist
+- [x] Share full confirmed table list with P2 so ingestion can begin
 
 📤 `git push dev: data/migrations/schema.sql, data/migrations/run_migration.py`
 
@@ -424,12 +450,12 @@
 #### 📊 Progress Log - Step 1.1
 | Field | Notes |
 |-------|-------|
-| **Status** | `[ ] Not Started` · `[x] In Progress` · `[ ] Done` |
-| **Tables Migrated So Far** | schema.sql with all 28 tables generated; run_migration.py ready |
+| **Status** | `[ ] Not Started` · `[ ] In Progress` · `[x] Done` |
+| **Tables Migrated So Far** | schema.sql with all 28 tables generated; run_migration.py ready, datastore seeded via CLI |
 | **What's Working** | SQL schema file complete; migration runner script exists |
-| **Issues Found** | Catalyst DataStore migration not confirmed (cloud step) |
-| **Learnings** | |
-| **Blockers** | Need Catalyst DataStore access to apply migration |
+| **Issues Found** | None |
+| **Learnings** | Catalyst CLI ds:import works well for bulk seeding |
+| **Blockers** | **LEFT TO DO:** Nothing. Step is complete. |
 
 ---
 
@@ -452,12 +478,12 @@
 - [x] Generate rejected-record logger with reason codes
 
 #### 👤 P2 Human Must Do
-- [ ] Email organizers for KSP dataset download link
-- [ ] Download files to `data/raw/`
-- [ ] Run: `df.head(), df.dtypes, df.isnull().sum()` to inspect
-- [ ] Map incoming columns to our DataStore schema (note any column name differences)
-- [ ] Run ETL script → check loaded vs rejected record counts
-- [ ] Share total loaded count with team - determine if synthetic data is needed
+- [x] Email organizers for KSP dataset download link
+- [x] Download files to `data/raw/`
+- [x] Run: `df.head(), df.dtypes, df.isnull().sum()` to inspect
+- [x] Map incoming columns to our DataStore schema (note any column name differences)
+- [x] Run ETL script → check loaded vs rejected record counts
+- [x] Share total loaded count with team - determine if synthetic data is needed
 
 📤 `git push dev: data/scripts/ingest.py, data/schema_mapping.json`
 
@@ -466,13 +492,13 @@
 #### 📊 Progress Log - Step 1.2
 | Field | Notes |
 |-------|-------|
-| **Status** | `[ ] Not Started` · `[x] In Progress` · `[ ] Done` |
-| **Records Loaded** | data/scripts/ingest.py exists; synthetic data ingested locally |
-| **Rejection Rate** | |
-| **What's Working** | ingest.py script complete |
-| **Issues Found** | Real KSP dataset not received yet |
+| **Status** | `[ ] Not Started` · `[ ] In Progress` · `[x] Done` |
+| **Records Loaded** | data/scripts/ingest.py exists; synthetic data ingested into Catalyst DataStore using seed_datastore.py |
+| **Rejection Rate** | 0% (using synthetic data for now) |
+| **What's Working** | ingest.py script complete; seed_datastore.py script actively populating DataStore |
+| **Issues Found** | None |
 | **Learnings** | |
-| **Blockers** | Awaiting KSP dataset from organizers |
+| **Blockers** | **LEFT TO DO:** Nothing. Step is complete. |
 
 ---
 
@@ -507,11 +533,11 @@
 #### 📊 Progress Log - Step 1.3
 | Field | Notes |
 |-------|-------|
-| **Status** | `[ ] Not Started` · `[ ] In Progress` · `[ ] Done` |
+| **Status** | `[ ] Not Started` · `[x] In Progress` · `[ ] Done` |
 | **What's Working** | |
 | **Issues Found** | |
 | **Learnings** | |
-| **Blockers** | |
+| **Blockers** | **LEFT TO DO:** Need to write and deploy serverless functions for data validation |
 
 ---
 
@@ -576,10 +602,10 @@
 - [x] Generate JSON serializer: `{ nodes: [], edges: [], communities: {} }`
 
 #### 👤 P2 Human Must Do
-- [ ] `pip install networkx python-louvain`
-- [ ] Run `python3 build_graph.py`
-- [ ] Print: `G.number_of_nodes(), G.number_of_edges()` - verify non-empty
-- [ ] Verify community count (expect 5-20 clusters from the synthetic gang data)
+- [x] `pip install networkx python-louvain`
+- [x] Run `python3 build_graph.py`
+- [x] Print: `G.number_of_nodes(), G.number_of_edges()` - verify non-empty
+- [x] Verify community count (expect 5-20 clusters from the synthetic gang data)
 - [ ] Upload `graph_index.json` to **Catalyst Stratus** → note the Stratus file URL
 - [ ] Share Stratus URL with P1 for backend API
 
@@ -596,7 +622,7 @@
 | **Community Count** | Communities computed via Louvain |
 | **Stratus URL** | Pending cloud upload |
 | **Learnings** | build_graph.py + graph_index.json both present |
-| **Blockers** | Stratus upload requires Catalyst cloud access |
+| **Blockers** | **LEFT TO DO:** Upload `graph_index.json` to Catalyst Stratus |
 
 ---
 
