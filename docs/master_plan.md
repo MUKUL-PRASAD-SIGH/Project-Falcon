@@ -687,9 +687,9 @@ The data pipeline strictly enforces separation of concerns:
 - [x] Generate time-of-day aggregation using `IncidentFromDate` (AM / PM / Night)
 
 #### 👤 P2 Human Must Do
-- [ ] Run DBSCAN → tune `ε` if clusters are too large or too small
-- [ ] Export GeoJSON → drag into `geojson.io` to visually verify Karnataka placement
-- [ ] Download official Karnataka district GeoJSON from `data.gov.in`
+- [x] Run DBSCAN → tune `ε` if clusters are too large or too small
+- [x] Export GeoJSON → drag into `geojson.io` to visually verify Karnataka placement
+- [x] Download official Karnataka district GeoJSON from `data.gov.in`
 - [ ] Upload `crime_clusters.geojson` to **Catalyst Stratus** → note URL
 - [ ] Hand Stratus URL to P1 for the `/api/clusters` endpoint
 
@@ -726,8 +726,8 @@ The data pipeline strictly enforces separation of concerns:
 - [x] Generate FastAPI router stub for `/api/districts`
 
 #### 👤 P2 Human Must Do
-- [ ] Run K-Means → verify risk zones make intuitive sense
-- [ ] Export `district_stats.json`
+- [x] Run K-Means → verify risk zones make intuitive sense
+- [x] Export `district_stats.json`
 - [ ] Hand `district_stats.json` + router stub to P1 for step 2.4 (with Cache in step 2.4)
 
 📤 `git push dev: backend/routers/geo.py` (updated with district endpoint)
@@ -803,9 +803,9 @@ The data pipeline strictly enforces separation of concerns:
 - [x] Generate ExponentialSmoothing fallback script if SARIMA fails to converge
 
 #### 👤 P2 Human Must Do
-- [ ] Run SARIMA fitting (5-15 min for all districts)
-- [ ] Check predictions vary meaningfully across districts
-- [ ] Export to `ml/outputs/forecasts.json`
+- [x] Run SARIMA fitting (5-15 min for all districts)
+- [x] Check predictions vary meaningfully across districts
+- [x] Export to `ml/outputs/forecasts.json`
 - [ ] Upload to **Catalyst Stratus** → note URL for P1
 - [ ] Switch to Prophet fallback if SARIMA divergence errors appear
 
@@ -844,8 +844,8 @@ The data pipeline strictly enforces separation of concerns:
 #### 👤 P2 Human Must Do
 - [ ] Open Catalyst console → **QuickML** → Create new model → "Anomaly Detection"
 - [ ] Upload the anomaly feature CSV
-- [ ] Train model → check flagged anomaly rate (expect ~5% of FIRs)
-- [ ] Spot-check top anomalies and verify risk factors
+- [x] Train model → check flagged anomaly rate (expect ~5% of FIRs)
+- [x] Spot-check top anomalies and verify risk factors
 - [ ] Hand QuickML endpoint URL to P1 for `/api/anomalies` endpoint
 
 📤 `git push dev: ml/models/quickml_risk_anomaly.py`
@@ -881,8 +881,8 @@ The data pipeline strictly enforces separation of concerns:
 - [x] Generate FastAPI endpoint stub `/api/cases/similar?case_id=XXX`
 
 #### 👤 P2 Human Must Do
-- [ ] Run `vectorizer.fit()` on BriefFacts corpus
-- [ ] Test: pick CaseMaster #100, verify top-5 similar cases are thematically related
+- [x] Run `vectorizer.fit()` on BriefFacts corpus
+- [x] Test: pick CaseMaster #100, verify top-5 similar cases are thematically related
 - [ ] Save vectorizer artifact to **Catalyst Stratus**
 - [ ] Hand endpoint stub and Stratus URL to P1
 
@@ -920,8 +920,8 @@ The data pipeline strictly enforces separation of concerns:
 - [x] Generate FastAPI endpoint stub `/api/graph/accused/{accused_id}`
 
 #### 👤 P2 Human Must Do
-- [ ] Pick `AccusedMasterID` with 5+ FIRs → test subgraph extraction
-- [ ] Export sample subgraph JSON - verify `nodes[]` (with AccusedName, risk score, community) and `edges[]`
+- [x] Pick `AccusedMasterID` with 5+ FIRs → test subgraph extraction
+- [x] Export sample subgraph JSON - verify `nodes[]` (with AccusedName, risk score, community) and `edges[]`
 - [ ] Upload `sample_subgraph.json` to Stratus → share URL with P1 and P3
 - [ ] Hand endpoint stub to P1 for API wiring
 

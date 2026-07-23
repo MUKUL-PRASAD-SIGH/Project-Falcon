@@ -100,7 +100,7 @@ class QuickMLRiskAndAnomalyEngine:
                 
             score = round(min(0.99, score), 2)
             
-            if score >= 0.5:
+            if score >= 0.6:
                 anomalies_list.append({
                     "CaseMasterID": case_id,
                     "CrimeNo": str(row['CrimeNo']),
