@@ -2152,29 +2152,34 @@ The data pipeline strictly enforces separation of concerns:
 ---
 
 ## Security & Compliance Master Checklist
+> Checked only when the control is enforced by the backend or verified in a
+> deployed Catalyst environment. UI-only role gating and local/demo fallbacks
+> do not qualify as production security controls.
 | Requirement | Implementation | Status |
 |-------------|---------------|--------|
-| RBAC: Investigator role | Can view cases, run queries, use chat | `[x]` |
-| RBAC: Analyst role | Can access analytics dashboard, no admin | `[x]` |
-| RBAC: Admin role | Full access including user management + audit | `[x]` |
+| RBAC: Investigator role | Can view cases, run queries, use chat | `[ ]` |
+| RBAC: Analyst role | Can access analytics dashboard, no admin | `[ ]` |
+| RBAC: Admin role | Full access including user management + audit | `[ ]` |
 | Audit Log: user_id | Logged in `AuditLog.user_id` per query | `[ ]` |
 | Audit Log: query_string | Full query text logged | `[ ]` |
 | Audit Log: timestamp | ISO 8601 timestamp per entry | `[ ]` |
 | Audit Log: result_count | Row count of query result logged | `[ ]` |
 | Audit Log: request_IP | Client IP logged | `[ ]` |
-| Data Masking: VictimName | `****` for non-admin | `[x]` |
-| Data Masking: ComplainantName | `****` for non-admin | `[x]` |
+| Data Masking: VictimName | `****` for non-admin | `[ ]` |
+| Data Masking: ComplainantName | `****` for non-admin | `[ ]` |
 | Rate Limiting | 100 req/min via Catalyst API Gateway | `[ ]` |
 | JWT Validation | Active on all protected endpoints | `[ ]` |
 | HTTPS/SSL | Active on AppSail + Slate | `[ ]` |
 | CORS | Slate domain only | `[ ]` |
-| Evidence Trail | FIR citation in every AI answer | `[x]` |
+| Evidence Trail | FIR citation in every AI answer | `[ ]` |
 | Explainable AI | PDF export includes FIR citations | `[x]` |
 
 ---
 
 ## Catalyst Services Final Verification Checklist
 > P1 must verify all are active and used before final submission.
+> A source file, SDK reference, or local substitute is not evidence that a
+> Catalyst service is active; each item requires console verification.
 | Service | Active | Used In | Screenshot |
 |---------|--------|---------|-----------|
 | AppSail | `[ ]` | FastAPI backend | |
@@ -2186,20 +2191,38 @@ The data pipeline strictly enforces separation of concerns:
 | NoSQL | `[ ]` | Chat sessions | |
 | Stratus | `[ ]` | Model artifacts + GeoJSON | |
 | Cache (Segmented) | `[ ]` | District stats cache | |
-| Slate | `[x]` | React frontend | |
-| Authentication | `[x]` | RBAC login | |
+| Slate | `[ ]` | React frontend | |
+| Authentication | `[ ]` | RBAC login | |
 | API Gateway | `[ ]` | Rate limit + JWT | |
 | Circuits | `[ ]` | Orchestration | |
-| Signals | `[x]` | Anomaly event routing | |
-| Push Notifications | `[x]` | Real-time UI alerts | |
+| Signals | `[ ]` | Anomaly event routing | |
+| Push Notifications | `[ ]` | Real-time UI alerts | |
 | Cron | `[ ]` | Session cleanup + daily mail | |
 | Mail | `[ ]` | Investigator alerts | |
-| SmartBrowz | `[x]` | PDF Evidence Trail | |
+| SmartBrowz | `[ ]` | PDF Evidence Trail | |
 
 ---
+V2-Circuit (Zoho Premium)
 
-\*Project Falcon v2 · 100% Catalyst-Native · KSP Hackathon 2025 · 3 devices, one submission\*
+## PH7 - Catalyst Orchestration & Notification Completion
 
-ENDOFFILE
+### Step 7.1 - Circuits Workflow Artifact
+- Generate and commit `circuits/query_pipeline.yaml` or equivalent Catalyst Circuits workflow definition.
+- Include the full query routing logic for chat intents, risk scoring, anomaly alerts, forensic evidence export, and graph navigation.
+- Verify the workflow exists in the repo and is deployed in the Catalyst console.
+- Mark as complete only after the file is present and referenced by the submission.
 
-echo "File written: \$(wc -l < /mnt/user-data/outputs/Project Falcon_MasterPlan_v2.md) lines"
+### Step 7.2 - Signals + Push Notification Configuration
+- Add a repo artifact or documentation entry for the `anomaly_spike` Signal configuration.
+- Confirm the frontend `useCatalystSignals()` hook points to a real `VITE_PUSH_WS_URL` for production.
+- Verify the signal payload shape and UI alert behavior in the live app.
+- Record the Push config and deployment status for submission.
+
+### Step 7.3 - Mail Automation for Investigator Alerts
+- Create and commit a backend service file such as `backend/services/mail.py` or equivalent Cron/email automation script.
+- Ensure the Mail template and trigger logic are documented and deployed in Catalyst Mail.
+- Validate that high-anomaly events can send investigator alert emails in a production-like flow.
+- Log the Mail automation verification result in the final submission checklist.
+
+---
+Even anomaly detection is implemented as a premium feature, although its functionality is currently driven primarily by straightforward backend conditional (if-else) logic.
