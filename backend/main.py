@@ -12,7 +12,7 @@ from fastapi.middleware.cors import CORSMiddleware
 BASE_DIR = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(BASE_DIR))
 
-from backend.routers import geo, similarity, graph, forecast, risk, stats, admin, forensics, chat
+from backend.routers import geo, similarity, graph, forecast, risk, stats, admin, forensics, chat, integrations
 from backend.middleware.cache import set_cached, cache_stats
 
 # ── Output asset paths ──────────────────────────────────────────────────────
@@ -115,6 +115,7 @@ app.include_router(stats.router)        # /api/stats
 app.include_router(admin.router)        # /api/admin/*
 app.include_router(forensics.router)    # /api/forensics/*
 app.include_router(chat.router)         # /api/chat/query, /api/chat/health
+app.include_router(integrations.router) # /api/voice/transcribe, /api/export/pdf
 
 
 @app.get("/")
@@ -168,10 +169,11 @@ def health_check():
 
 
 if __name__ == "__main__":
+    port = int(os.getenv("X_ZOHO_CATALYST_LISTEN_PORT", "8000"))
     uvicorn.run(
         "backend.main:app",
         host="0.0.0.0",
-        port=8000,
+        port=port,
         reload=True,
         reload_dirs=[str(BASE_DIR / "backend")],
     )

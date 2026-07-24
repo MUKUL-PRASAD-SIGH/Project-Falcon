@@ -3,12 +3,19 @@ import axios from 'axios'
 /**
  * Axios client for Project Falcon.
  *
- * Base URL from VITE_API_BASE_URL (set in .env.local / .env.production).
+ * Base URL from VITE_API_BASE_URL. VITE_API_BASE remains supported as a
+ * legacy alias so existing local environments continue to work.
  * When Catalyst Auth JWT is live (Step 4.6), attach the token in
  * the request interceptor below.
  */
+const configuredApiBaseUrl =
+  import.meta.env.VITE_API_BASE_URL ?? import.meta.env.VITE_API_BASE
+
+export const apiBaseUrl = configuredApiBaseUrl ?? 'http://localhost:8000'
+export const isConfiguredApi = Boolean(configuredApiBaseUrl)
+
 const client = axios.create({
-  baseURL: import.meta.env.VITE_API_BASE_URL ?? 'http://localhost:8000',
+  baseURL: apiBaseUrl,
   timeout: 15000,
   headers: {
     'Content-Type': 'application/json'

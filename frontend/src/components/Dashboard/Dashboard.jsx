@@ -280,7 +280,7 @@ export default function Dashboard() {
               </button>
             ))}
           </div>
-          <span className="case-tag">{import.meta.env.VITE_API_BASE_URL ? 'Live Data' : 'Mock Data'}</span>
+          <span className="case-tag">{stats ? 'Live Data' : 'Demo Fallback'}</span>
         </div>
 
         {/* ── Overview Tab ─────────────────────────────────────────────── */}

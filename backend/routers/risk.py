@@ -14,13 +14,13 @@ FEATURE_CSV = BASE_DIR / "data" / "processed" / "accused_features.csv"
 
 # Live QuickML endpoint credentials
 QUICKML_URL = os.getenv("QUICKML_RISK_URL", "https://api.catalyst.zoho.in/quickml/v1/project/54459000000013048/endpoints/predict")
-QUICKML_KEY = os.getenv("QUICKML_RISK_KEY", "82da06ba2f8cbe0fc634e45f64e2009b288b727156c38f03117e19a42970497d2f14bee994b96eb7d27b55a20dc7de1b")
+QUICKML_KEY = os.getenv("QUICKML_RISK_KEY")
 CATALYST_ORG = os.getenv("CATALYST_ORG_ID", "60079106947")
 
 @router.get("/offender/risk/{accused_id}")
 def get_offender_risk(accused_id: str, authorization: str = Header(None)):
     # 1. Try calling the live QuickML model if Authorization token is provided
-    if authorization and FEATURE_CSV.exists():
+    if authorization and QUICKML_KEY and FEATURE_CSV.exists():
         try:
             df = pd.read_csv(FEATURE_CSV)
             row = df[df['AccusedMasterID'] == int(accused_id)]

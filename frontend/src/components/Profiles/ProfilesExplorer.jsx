@@ -50,7 +50,7 @@ export default function ProfilesExplorer() {
       setActiveSubTab('cases')
       if (caseId) setSelectedCaseId(caseId)
     }
-  }, []) // eslint-disable-line react-hooks/exhaustive-deps
+  }, [])
 
   // Load risk score when selectedAccusedId changes
   useEffect(() => {

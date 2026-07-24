@@ -1,0 +1,4 @@
+# Unified local environment for the FastAPI service and reproducible ML pipeline.
+# Component-specific files remain the source of truth for their dependencies.
+-r backend/requirements.txt
+-r ml/requirements.txt

@@ -1,0 +1,620 @@
+{
+  "Bengaluru City": {
+    "district": "Bengaluru City",
+    "historical": [
+      {
+        "date": "2026-05-10",
+        "incidents": 3
+      },
+      {
+        "date": "2026-05-17",
+        "incidents": 2
+      },
+      {
+        "date": "2026-05-24",
+        "incidents": 5
+      },
+      {
+        "date": "2026-05-31",
+        "incidents": 3
+      },
+      {
+        "date": "2026-06-07",
+        "incidents": 0
+      },
+      {
+        "date": "2026-06-14",
+        "incidents": 0
+      },
+      {
+        "date": "2026-06-21",
+        "incidents": 1
+      },
+      {
+        "date": "2026-06-28",
+        "incidents": 1
+      },
+      {
+        "date": "2026-07-05",
+        "incidents": 2
+      },
+      {
+        "date": "2026-07-12",
+        "incidents": 2
+      },
+      {
+        "date": "2026-07-19",
+        "incidents": 1
+      },
+      {
+        "date": "2026-07-26",
+        "incidents": 1
+      }
+    ],
+    "forecast": [
+      {
+        "date": "2026-08-02",
+        "predicted_incidents": 2.1,
+        "lower_bound": 1.7,
+        "upper_bound": 2.6
+      },
+      {
+        "date": "2026-08-09",
+        "predicted_incidents": 2.4,
+        "lower_bound": 1.9,
+        "upper_bound": 3.0
+      },
+      {
+        "date": "2026-08-16",
+        "predicted_incidents": 1.5,
+        "lower_bound": 1.2,
+        "upper_bound": 1.9
+      },
+      {
+        "date": "2026-08-23",
+        "predicted_incidents": 2.6,
+        "lower_bound": 2.1,
+        "upper_bound": 3.2
+      },
+      {
+        "date": "2026-08-30",
+        "predicted_incidents": 1.2,
+        "lower_bound": 1.0,
+        "upper_bound": 1.5
+      },
+      {
+        "date": "2026-09-06",
+        "predicted_incidents": 1.5,
+        "lower_bound": 1.2,
+        "upper_bound": 1.9
+      },
+      {
+        "date": "2026-09-13",
+        "predicted_incidents": 1.5,
+        "lower_bound": 1.2,
+        "upper_bound": 1.9
+      },
+      {
+        "date": "2026-09-20",
+        "predicted_incidents": 2.1,
+        "lower_bound": 1.7,
+        "upper_bound": 2.6
+      }
+    ]
+  },
+  "Mysuru City": {
+    "district": "Mysuru City",
+    "historical": [
+      {
+        "date": "2026-05-10",
+        "incidents": 1
+      },
+      {
+        "date": "2026-05-17",
+        "incidents": 0
+      },
+      {
+        "date": "2026-05-24",
+        "incidents": 3
+      },
+      {
+        "date": "2026-05-31",
+        "incidents": 2
+      },
+      {
+        "date": "2026-06-07",
+        "incidents": 1
+      },
+      {
+        "date": "2026-06-14",
+        "incidents": 0
+      },
+      {
+        "date": "2026-06-21",
+        "incidents": 0
+      },
+      {
+        "date": "2026-06-28",
+        "incidents": 0
+      },
+      {
+        "date": "2026-07-05",
+        "incidents": 3
+      },
+      {
+        "date": "2026-07-12",
+        "incidents": 8
+      },
+      {
+        "date": "2026-07-19",
+        "incidents": 2
+      },
+      {
+        "date": "2026-07-26",
+        "incidents": 2
+      }
+    ],
+    "forecast": [
+      {
+        "date": "2026-08-02",
+        "predicted_incidents": 1.8,
+        "lower_bound": 1.4,
+        "upper_bound": 2.2
+      },
+      {
+        "date": "2026-08-09",
+        "predicted_incidents": 1.9,
+        "lower_bound": 1.5,
+        "upper_bound": 2.4
+      },
+      {
+        "date": "2026-08-16",
+        "predicted_incidents": 1.9,
+        "lower_bound": 1.5,
+        "upper_bound": 2.4
+      },
+      {
+        "date": "2026-08-23",
+        "predicted_incidents": 1.9,
+        "lower_bound": 1.5,
+        "upper_bound": 2.4
+      },
+      {
+        "date": "2026-08-30",
+        "predicted_incidents": 1.9,
+        "lower_bound": 1.5,
+        "upper_bound": 2.4
+      },
+      {
+        "date": "2026-09-06",
+        "predicted_incidents": 1.9,
+        "lower_bound": 1.5,
+        "upper_bound": 2.4
+      },
+      {
+        "date": "2026-09-13",
+        "predicted_incidents": 1.9,
+        "lower_bound": 1.5,
+        "upper_bound": 2.4
+      },
+      {
+        "date": "2026-09-20",
+        "predicted_incidents": 2.2,
+        "lower_bound": 1.8,
+        "upper_bound": 2.8
+      }
+    ]
+  },
+  "Mangaluru City": {
+    "district": "Mangaluru City",
+    "historical": [
+      {
+        "date": "2026-05-10",
+        "incidents": 2
+      },
+      {
+        "date": "2026-05-17",
+        "incidents": 1
+      },
+      {
+        "date": "2026-05-24",
+        "incidents": 0
+      },
+      {
+        "date": "2026-05-31",
+        "incidents": 3
+      },
+      {
+        "date": "2026-06-07",
+        "incidents": 2
+      },
+      {
+        "date": "2026-06-14",
+        "incidents": 1
+      },
+      {
+        "date": "2026-06-21",
+        "incidents": 2
+      },
+      {
+        "date": "2026-06-28",
+        "incidents": 2
+      },
+      {
+        "date": "2026-07-05",
+        "incidents": 2
+      },
+      {
+        "date": "2026-07-12",
+        "incidents": 0
+      },
+      {
+        "date": "2026-07-19",
+        "incidents": 0
+      },
+      {
+        "date": "2026-07-26",
+        "incidents": 1
+      }
+    ],
+    "forecast": [
+      {
+        "date": "2026-08-02",
+        "predicted_incidents": 1.1,
+        "lower_bound": 0.9,
+        "upper_bound": 1.4
+      },
+      {
+        "date": "2026-08-09",
+        "predicted_incidents": 1.4,
+        "lower_bound": 1.1,
+        "upper_bound": 1.8
+      },
+      {
+        "date": "2026-08-16",
+        "predicted_incidents": 1.1,
+        "lower_bound": 0.9,
+        "upper_bound": 1.4
+      },
+      {
+        "date": "2026-08-23",
+        "predicted_incidents": 1.4,
+        "lower_bound": 1.1,
+        "upper_bound": 1.8
+      },
+      {
+        "date": "2026-08-30",
+        "predicted_incidents": 1.3,
+        "lower_bound": 1.0,
+        "upper_bound": 1.6
+      },
+      {
+        "date": "2026-09-06",
+        "predicted_incidents": 1.3,
+        "lower_bound": 1.0,
+        "upper_bound": 1.6
+      },
+      {
+        "date": "2026-09-13",
+        "predicted_incidents": 1.9,
+        "lower_bound": 1.5,
+        "upper_bound": 2.4
+      },
+      {
+        "date": "2026-09-20",
+        "predicted_incidents": 1.4,
+        "lower_bound": 1.1,
+        "upper_bound": 1.8
+      }
+    ]
+  },
+  "Hubballi-Dharwad": {
+    "district": "Hubballi-Dharwad",
+    "historical": [
+      {
+        "date": "2026-05-03",
+        "incidents": 3
+      },
+      {
+        "date": "2026-05-10",
+        "incidents": 3
+      },
+      {
+        "date": "2026-05-17",
+        "incidents": 3
+      },
+      {
+        "date": "2026-05-24",
+        "incidents": 2
+      },
+      {
+        "date": "2026-05-31",
+        "incidents": 0
+      },
+      {
+        "date": "2026-06-07",
+        "incidents": 3
+      },
+      {
+        "date": "2026-06-14",
+        "incidents": 4
+      },
+      {
+        "date": "2026-06-21",
+        "incidents": 2
+      },
+      {
+        "date": "2026-06-28",
+        "incidents": 1
+      },
+      {
+        "date": "2026-07-05",
+        "incidents": 2
+      },
+      {
+        "date": "2026-07-12",
+        "incidents": 2
+      },
+      {
+        "date": "2026-07-19",
+        "incidents": 2
+      }
+    ],
+    "forecast": [
+      {
+        "date": "2026-07-26",
+        "predicted_incidents": 1.9,
+        "lower_bound": 1.5,
+        "upper_bound": 2.4
+      },
+      {
+        "date": "2026-08-02",
+        "predicted_incidents": 1.9,
+        "lower_bound": 1.5,
+        "upper_bound": 2.4
+      },
+      {
+        "date": "2026-08-09",
+        "predicted_incidents": 1.9,
+        "lower_bound": 1.5,
+        "upper_bound": 2.4
+      },
+      {
+        "date": "2026-08-16",
+        "predicted_incidents": 1.9,
+        "lower_bound": 1.5,
+        "upper_bound": 2.4
+      },
+      {
+        "date": "2026-08-23",
+        "predicted_incidents": 1.9,
+        "lower_bound": 1.5,
+        "upper_bound": 2.4
+      },
+      {
+        "date": "2026-08-30",
+        "predicted_incidents": 1.9,
+        "lower_bound": 1.5,
+        "upper_bound": 2.4
+      },
+      {
+        "date": "2026-09-06",
+        "predicted_incidents": 1.9,
+        "lower_bound": 1.5,
+        "upper_bound": 2.4
+      },
+      {
+        "date": "2026-09-13",
+        "predicted_incidents": 1.9,
+        "lower_bound": 1.5,
+        "upper_bound": 2.4
+      }
+    ]
+  },
+  "Belagavi": {
+    "district": "Belagavi",
+    "historical": [
+      {
+        "date": "2026-05-10",
+        "incidents": 2
+      },
+      {
+        "date": "2026-05-17",
+        "incidents": 3
+      },
+      {
+        "date": "2026-05-24",
+        "incidents": 1
+      },
+      {
+        "date": "2026-05-31",
+        "incidents": 3
+      },
+      {
+        "date": "2026-06-07",
+        "incidents": 0
+      },
+      {
+        "date": "2026-06-14",
+        "incidents": 2
+      },
+      {
+        "date": "2026-06-21",
+        "incidents": 2
+      },
+      {
+        "date": "2026-06-28",
+        "incidents": 2
+      },
+      {
+        "date": "2026-07-05",
+        "incidents": 1
+      },
+      {
+        "date": "2026-07-12",
+        "incidents": 0
+      },
+      {
+        "date": "2026-07-19",
+        "incidents": 2
+      },
+      {
+        "date": "2026-07-26",
+        "incidents": 1
+      }
+    ],
+    "forecast": [
+      {
+        "date": "2026-08-02",
+        "predicted_incidents": 1.5,
+        "lower_bound": 1.2,
+        "upper_bound": 1.9
+      },
+      {
+        "date": "2026-08-09",
+        "predicted_incidents": 1.5,
+        "lower_bound": 1.2,
+        "upper_bound": 1.9
+      },
+      {
+        "date": "2026-08-16",
+        "predicted_incidents": 1.5,
+        "lower_bound": 1.2,
+        "upper_bound": 1.9
+      },
+      {
+        "date": "2026-08-23",
+        "predicted_incidents": 1.5,
+        "lower_bound": 1.2,
+        "upper_bound": 1.9
+      },
+      {
+        "date": "2026-08-30",
+        "predicted_incidents": 1.5,
+        "lower_bound": 1.2,
+        "upper_bound": 1.9
+      },
+      {
+        "date": "2026-09-06",
+        "predicted_incidents": 1.5,
+        "lower_bound": 1.2,
+        "upper_bound": 1.9
+      },
+      {
+        "date": "2026-09-13",
+        "predicted_incidents": 1.5,
+        "lower_bound": 1.2,
+        "upper_bound": 1.9
+      },
+      {
+        "date": "2026-09-20",
+        "predicted_incidents": 1.5,
+        "lower_bound": 1.2,
+        "upper_bound": 1.9
+      }
+    ]
+  },
+  "Statewide Total": {
+    "district": "Statewide Total",
+    "historical": [
+      {
+        "date": "2026-05-10",
+        "incidents": 11
+      },
+      {
+        "date": "2026-05-17",
+        "incidents": 9
+      },
+      {
+        "date": "2026-05-24",
+        "incidents": 11
+      },
+      {
+        "date": "2026-05-31",
+        "incidents": 11
+      },
+      {
+        "date": "2026-06-07",
+        "incidents": 6
+      },
+      {
+        "date": "2026-06-14",
+        "incidents": 7
+      },
+      {
+        "date": "2026-06-21",
+        "incidents": 7
+      },
+      {
+        "date": "2026-06-28",
+        "incidents": 6
+      },
+      {
+        "date": "2026-07-05",
+        "incidents": 10
+      },
+      {
+        "date": "2026-07-12",
+        "incidents": 12
+      },
+      {
+        "date": "2026-07-19",
+        "incidents": 7
+      },
+      {
+        "date": "2026-07-26",
+        "incidents": 5
+      }
+    ],
+    "forecast": [
+      {
+        "date": "2026-08-02",
+        "predicted_incidents": 8.2,
+        "lower_bound": 6.6,
+        "upper_bound": 10.2
+      },
+      {
+        "date": "2026-08-09",
+        "predicted_incidents": 9.3,
+        "lower_bound": 7.4,
+        "upper_bound": 11.6
+      },
+      {
+        "date": "2026-08-16",
+        "predicted_incidents": 8.3,
+        "lower_bound": 6.6,
+        "upper_bound": 10.4
+      },
+      {
+        "date": "2026-08-23",
+        "predicted_incidents": 10.1,
+        "lower_bound": 8.1,
+        "upper_bound": 12.6
+      },
+      {
+        "date": "2026-08-30",
+        "predicted_incidents": 9.3,
+        "lower_bound": 7.4,
+        "upper_bound": 11.6
+      },
+      {
+        "date": "2026-09-06",
+        "predicted_incidents": 8.9,
+        "lower_bound": 7.1,
+        "upper_bound": 11.1
+      },
+      {
+        "date": "2026-09-13",
+        "predicted_incidents": 10.1,
+        "lower_bound": 8.1,
+        "upper_bound": 12.6
+      },
+      {
+        "date": "2026-09-20",
+        "predicted_incidents": 9.3,
+        "lower_bound": 7.4,
+        "upper_bound": 11.6
+      }
+    ]
+  }
+}

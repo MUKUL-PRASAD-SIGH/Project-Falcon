@@ -37,9 +37,12 @@ export default function VoiceInput({ language, onTranscription, disabled }) {
         const blob = new Blob(chunksRef.current, { type: 'audio/webm' })
         try {
           const result = await transcribeAudio(blob, language)
-          onTranscription?.(result.text ?? '')
-        } catch {
-          setError('Zia STT unavailable — type your query instead')
+          if (!result.text) {
+            throw new Error(result.message || 'Zia STT is not configured')
+          }
+          onTranscription?.(result.text)
+        } catch (err) {
+          setError(err.message || 'Zia STT unavailable — type your query instead')
         }
       }
 

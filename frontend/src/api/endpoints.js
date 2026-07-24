@@ -69,7 +69,7 @@ export const fetchSimilarCases = (caseId) =>
  */
 export const postQuery = (text, sessionId, language = 'EN') =>
   client
-    .post('/api/chat/query', { query: text, session_id: sessionId })
+    .post('/api/chat/query', { query: text, session_id: sessionId, language })
     .then((r) => ({
       answer:    r.data.response ?? 'No response received.',
       citations: (r.data.retrieved_nodes ?? []).map((n) => n.document_id ?? n.document_title),

@@ -27,17 +27,21 @@ git checkout sunidhi
 
 ## 2. Environment Variables
 
-Copy the sample env file and fill in your Zoho Catalyst credentials:
+Copy the sample environment files. Catalyst credentials are optional for the
+fully local offline flow:
 
 ```bash
 cp .env.example .env
+cp frontend/.env.example frontend/.env.local
 ```
 
 Edit `.env`:
 
 ```env
-# Zoho Catalyst
-CATALYST_PROJECT_KEY=your_project_key
+# Frontend (Vite)
+VITE_API_BASE_URL=http://localhost:8000
+
+# Zoho Catalyst / QuickML (optional)
 CATALYST_ORG_ID=60079106947
 
 # QuickML Risk Scoring Endpoint
@@ -48,8 +52,9 @@ QUICKML_RISK_KEY=your_quickml_endpoint_key
 QUICKML_RAG_URL=https://api.catalyst.zoho.in/quickml/v1/project/<project_id>/endpoints/predict
 QUICKML_RAG_KEY=your_quickml_rag_key
 
-# Frontend (Vite)
-VITE_API_BASE=http://localhost:8000
+# Optional Zia STT gateway
+ZIA_STT_URL=
+ZIA_STT_KEY=
 ```
 
 > **Note:** Without Catalyst credentials the app runs fully offline using pre-computed ML artifacts in `ml/outputs/`. No keys are required for local development.
@@ -73,7 +78,7 @@ source .venv/bin/activate
 ### 3b. Install dependencies
 
 ```bash
-pip install -r requirements.txt
+python -m pip install -r requirements.txt
 ```
 
 ### 3c. Generate synthetic dataset (first-time only)
@@ -83,8 +88,8 @@ python data/scripts/generate_synthetic.py
 ```
 
 This creates:
-- `data/raw/firs.json` — 1,000 synthetic Karnataka FIR records
-- `data/raw/accused.json` — 800 accused profiles with unique co-accused gang networks
+- `data/scripts/firs_synthetic.json` — 1,000 synthetic Karnataka FIR records
+- `data/scripts/accused_synthetic.json` — synthetic accused profiles with co-accused gang networks
 
 ### 3d. Run the ML pipeline
 
@@ -103,7 +108,7 @@ This runs all 6 steps sequentially:
 ### 3e. Start the backend
 
 ```bash
-py -3 -m uvicorn backend.main:app --host 0.0.0.0 --port 8000 --reload
+python -m uvicorn backend.main:app --host 0.0.0.0 --port 8000 --reload
 ```
 
 Backend runs at: **http://localhost:8000**
@@ -116,6 +121,7 @@ API docs (Swagger): **http://localhost:8000/docs**
 ```bash
 cd frontend
 npm install
+npm run lint
 npm run dev
 ```
 
@@ -136,6 +142,25 @@ Frontend runs at: **http://localhost:5173**
 | `GET /api/anomalies` | QuickML flagged FIR anomalies |
 | `GET /api/forecast` | SARIMA 7d/30d crime forecast |
 | `POST /api/chat/query` | FALCON AI chat (RAG + LLM) |
+| `POST /api/voice/transcribe` | Optional Zia STT gateway with typed-input fallback |
+| `POST /api/export/pdf` | Local evidence-trail PDF export |
+
+---
+
+## 5a. Catalyst AppSail Deployment
+
+The repository now includes an AppSail service entry in `catalyst.json` and a
+root `app-config.json`. Configure secrets in Catalyst rather than committing
+them, then deploy from the project root:
+
+```bash
+npm --prefix frontend run build
+catalyst deploy
+```
+
+Set the deployed AppSail URL as `VITE_API_BASE_URL` before building the client.
+The local offline fallback remains available when the optional Catalyst keys are
+not configured.
 
 ---
 

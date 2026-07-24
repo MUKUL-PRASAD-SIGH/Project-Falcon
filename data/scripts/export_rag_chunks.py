@@ -59,4 +59,5 @@ if current:
 print(f"\nDone! Created {len(files_written)} chunk files in:")
 print(f"  {OUTPUT_DIR}")
 print(f"\nUpload each file to your QuickML Knowledge Base via the Catalyst Console.")
-print(f"Max file size used: {max(p.stat().st_size/1024:.1f for p in files_written)} KB")
+max_size_kb = max((p.stat().st_size / 1024 for p in files_written), default=0)
+print(f"Max file size used: {max_size_kb:.1f} KB")

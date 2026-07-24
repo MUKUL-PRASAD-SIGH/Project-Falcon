@@ -1,0 +1,8458 @@
+[
+  {
+    "community_id": 0,
+    "member_count": 5,
+    "key_leader": "Naseema Rao (Leader)",
+    "avg_risk_score": 38.8,
+    "top_members": [
+      {
+        "id": 1,
+        "name": "Naseema Rao (Leader)",
+        "risk_score": 38.8,
+        "community": 0,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 2,
+        "name": "Iqbal Bhat",
+        "risk_score": 38.8,
+        "community": 0,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 3,
+        "name": "Manjula Fernandes",
+        "risk_score": 38.8,
+        "community": 0,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 6,
+        "name": "Roopa Hegde",
+        "risk_score": 38.8,
+        "community": 0,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 7,
+        "name": "Rashmi Hegde",
+        "risk_score": 38.8,
+        "community": 0,
+        "pagerank": 0.00168
+      }
+    ]
+  },
+  {
+    "community_id": 1,
+    "member_count": 8,
+    "key_leader": "Xavier Sequeira",
+    "avg_risk_score": 55.1,
+    "top_members": [
+      {
+        "id": 673,
+        "name": "Xavier Sequeira",
+        "risk_score": 55.1,
+        "community": 1,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 4,
+        "name": "Santosh Kotian",
+        "risk_score": 55.1,
+        "community": 1,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 5,
+        "name": "Ramesh Bhat",
+        "risk_score": 55.1,
+        "community": 1,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 12,
+        "name": "Shivakumar Gowda",
+        "risk_score": 55.1,
+        "community": 1,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 13,
+        "name": "Roopa Achar",
+        "risk_score": 55.1,
+        "community": 1,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 14,
+        "name": "Rashmi Pinto",
+        "risk_score": 55.1,
+        "community": 1,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 15,
+        "name": "Rashmi Hegde",
+        "risk_score": 55.1,
+        "community": 1,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 726,
+        "name": "Joseph Kulkarni",
+        "risk_score": 55.1,
+        "community": 1,
+        "pagerank": 0.00168
+      }
+    ]
+  },
+  {
+    "community_id": 2,
+    "member_count": 5,
+    "key_leader": "Nataraj Sequeira",
+    "avg_risk_score": 38.8,
+    "top_members": [
+      {
+        "id": 16,
+        "name": "Nataraj Sequeira",
+        "risk_score": 38.8,
+        "community": 2,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 8,
+        "name": "Sudha Achar",
+        "risk_score": 38.8,
+        "community": 2,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 9,
+        "name": "Roopa Bhat",
+        "risk_score": 38.8,
+        "community": 2,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 10,
+        "name": "Lawrence Sequeira",
+        "risk_score": 38.8,
+        "community": 2,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 11,
+        "name": "Sudha Reddy",
+        "risk_score": 38.8,
+        "community": 2,
+        "pagerank": 0.00168
+      }
+    ]
+  },
+  {
+    "community_id": 3,
+    "member_count": 8,
+    "key_leader": "Sudha Reddy",
+    "avg_risk_score": 47.8,
+    "top_members": [
+      {
+        "id": 34,
+        "name": "Sudha Reddy",
+        "risk_score": 47.8,
+        "community": 3,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 37,
+        "name": "Alphonsa Shetty",
+        "risk_score": 47.8,
+        "community": 3,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 38,
+        "name": "Xavier Setty",
+        "risk_score": 47.8,
+        "community": 3,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 17,
+        "name": "Deepa Naik (Leader)",
+        "risk_score": 47.8,
+        "community": 3,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 20,
+        "name": "Rashmi Poojary",
+        "risk_score": 47.8,
+        "community": 3,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 25,
+        "name": "Deepa Sequeira",
+        "risk_score": 47.8,
+        "community": 3,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 27,
+        "name": "Deepa Naik",
+        "risk_score": 47.8,
+        "community": 3,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 31,
+        "name": "Harish Khan",
+        "risk_score": 47.8,
+        "community": 3,
+        "pagerank": 0.00168
+      }
+    ]
+  },
+  {
+    "community_id": 4,
+    "member_count": 9,
+    "key_leader": "Kalpana Shetty",
+    "avg_risk_score": 73.0,
+    "top_members": [
+      {
+        "id": 33,
+        "name": "Kalpana Shetty",
+        "risk_score": 73.0,
+        "community": 4,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 41,
+        "name": "Deepa Naik",
+        "risk_score": 73.0,
+        "community": 4,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 18,
+        "name": "Roopa Salian",
+        "risk_score": 73.0,
+        "community": 4,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 19,
+        "name": "Alphonsa Sheikh",
+        "risk_score": 73.0,
+        "community": 4,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 21,
+        "name": "Joseph Salian",
+        "risk_score": 73.0,
+        "community": 4,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 22,
+        "name": "Antony Rathod",
+        "risk_score": 73.0,
+        "community": 4,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 24,
+        "name": "Roopa Bhat",
+        "risk_score": 73.0,
+        "community": 4,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 29,
+        "name": "Vinay Poojary",
+        "risk_score": 73.0,
+        "community": 4,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 30,
+        "name": "Prakash Setty",
+        "risk_score": 73.0,
+        "community": 4,
+        "pagerank": 0.00168
+      }
+    ]
+  },
+  {
+    "community_id": 5,
+    "member_count": 8,
+    "key_leader": "Antony Pinto",
+    "avg_risk_score": 29.8,
+    "top_members": [
+      {
+        "id": 32,
+        "name": "Antony Pinto",
+        "risk_score": 29.8,
+        "community": 5,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 35,
+        "name": "Alphonsa Sheikh",
+        "risk_score": 29.8,
+        "community": 5,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 36,
+        "name": "Roopa Salian",
+        "risk_score": 29.8,
+        "community": 5,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 39,
+        "name": "Imran Patil",
+        "risk_score": 29.8,
+        "community": 5,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 40,
+        "name": "Iqbal Patil",
+        "risk_score": 29.8,
+        "community": 5,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 23,
+        "name": "Deepa Kotian",
+        "risk_score": 29.8,
+        "community": 5,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 26,
+        "name": "Deepa Sequeira",
+        "risk_score": 29.8,
+        "community": 5,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 28,
+        "name": "Puneeth Bhat",
+        "risk_score": 29.8,
+        "community": 5,
+        "pagerank": 0.00168
+      }
+    ]
+  },
+  {
+    "community_id": 6,
+    "member_count": 5,
+    "key_leader": "Deepa Kulkarni",
+    "avg_risk_score": 46.3,
+    "top_members": [
+      {
+        "id": 58,
+        "name": "Deepa Kulkarni",
+        "risk_score": 46.3,
+        "community": 6,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 53,
+        "name": "Manjunath Pinto",
+        "risk_score": 46.3,
+        "community": 6,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 54,
+        "name": "Sridhar D'Souza",
+        "risk_score": 46.3,
+        "community": 6,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 42,
+        "name": "Mahmood Hegde (Leader)",
+        "risk_score": 46.3,
+        "community": 6,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 62,
+        "name": "Imran Sheikh",
+        "risk_score": 46.3,
+        "community": 6,
+        "pagerank": 0.00168
+      }
+    ]
+  },
+  {
+    "community_id": 7,
+    "member_count": 6,
+    "key_leader": "Fathima Mendes",
+    "avg_risk_score": 35.8,
+    "top_members": [
+      {
+        "id": 50,
+        "name": "Fathima Mendes",
+        "risk_score": 35.8,
+        "community": 7,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 52,
+        "name": "Anand Naik",
+        "risk_score": 35.8,
+        "community": 7,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 43,
+        "name": "Ganesh Desai",
+        "risk_score": 35.8,
+        "community": 7,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 59,
+        "name": "Sandra Jadhav",
+        "risk_score": 35.8,
+        "community": 7,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 63,
+        "name": "Sridhar Rao",
+        "risk_score": 35.8,
+        "community": 7,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 57,
+        "name": "Santosh Kotian",
+        "risk_score": 35.8,
+        "community": 7,
+        "pagerank": 0.00168
+      }
+    ]
+  },
+  {
+    "community_id": 8,
+    "member_count": 6,
+    "key_leader": "Mahmood Hegde",
+    "avg_risk_score": 65.1,
+    "top_members": [
+      {
+        "id": 65,
+        "name": "Mahmood Hegde",
+        "risk_score": 65.1,
+        "community": 8,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 66,
+        "name": "Prakash Rathod",
+        "risk_score": 65.1,
+        "community": 8,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 55,
+        "name": "Nataraj Sequeira",
+        "risk_score": 65.1,
+        "community": 8,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 44,
+        "name": "Ganesh Shetty",
+        "risk_score": 65.1,
+        "community": 8,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 61,
+        "name": "Nataraj D'Souza",
+        "risk_score": 65.1,
+        "community": 8,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 47,
+        "name": "Rekha Kulkarni",
+        "risk_score": 65.1,
+        "community": 8,
+        "pagerank": 0.00168
+      }
+    ]
+  },
+  {
+    "community_id": 9,
+    "member_count": 2,
+    "key_leader": "Harish Fernandes",
+    "avg_risk_score": 35.8,
+    "top_members": [
+      {
+        "id": 60,
+        "name": "Harish Fernandes",
+        "risk_score": 35.8,
+        "community": 9,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 45,
+        "name": "Pooja Gowda",
+        "risk_score": 35.8,
+        "community": 9,
+        "pagerank": 0.00168
+      }
+    ]
+  },
+  {
+    "community_id": 10,
+    "member_count": 6,
+    "key_leader": "Lakshmi Jadhav",
+    "avg_risk_score": 46.8,
+    "top_members": [
+      {
+        "id": 64,
+        "name": "Lakshmi Jadhav",
+        "risk_score": 46.8,
+        "community": 10,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 48,
+        "name": "Sudha Kamath",
+        "risk_score": 46.8,
+        "community": 10,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 49,
+        "name": "Vijayalakshmi Bhat",
+        "risk_score": 46.8,
+        "community": 10,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 51,
+        "name": "Maria Reddy",
+        "risk_score": 46.8,
+        "community": 10,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 56,
+        "name": "Manjula Fernandes",
+        "risk_score": 46.8,
+        "community": 10,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 46,
+        "name": "Ayesha Prabhu",
+        "risk_score": 46.8,
+        "community": 10,
+        "pagerank": 0.00168
+      }
+    ]
+  },
+  {
+    "community_id": 11,
+    "member_count": 6,
+    "key_leader": "Roopa Bhat",
+    "avg_risk_score": 41.8,
+    "top_members": [
+      {
+        "id": 81,
+        "name": "Roopa Bhat",
+        "risk_score": 41.8,
+        "community": 11,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 67,
+        "name": "Nataraj D'Souza (Leader)",
+        "risk_score": 41.8,
+        "community": 11,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 71,
+        "name": "Pooja Gowda",
+        "risk_score": 41.8,
+        "community": 11,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 73,
+        "name": "Roopa Bhat",
+        "risk_score": 41.8,
+        "community": 11,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 75,
+        "name": "Alphonsa Sheikh",
+        "risk_score": 41.8,
+        "community": 11,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 79,
+        "name": "Nandini Setty",
+        "risk_score": 41.8,
+        "community": 11,
+        "pagerank": 0.00168
+      }
+    ]
+  },
+  {
+    "community_id": 12,
+    "member_count": 3,
+    "key_leader": "Kavya Salian",
+    "avg_risk_score": 38.8,
+    "top_members": [
+      {
+        "id": 68,
+        "name": "Kavya Salian",
+        "risk_score": 38.8,
+        "community": 12,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 77,
+        "name": "Sudha Achar",
+        "risk_score": 38.8,
+        "community": 12,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 76,
+        "name": "Chandan Pujari",
+        "risk_score": 38.8,
+        "community": 12,
+        "pagerank": 0.00168
+      }
+    ]
+  },
+  {
+    "community_id": 13,
+    "member_count": 5,
+    "key_leader": "Shivakumar Gowda",
+    "avg_risk_score": 54.3,
+    "top_members": [
+      {
+        "id": 80,
+        "name": "Shivakumar Gowda",
+        "risk_score": 54.3,
+        "community": 13,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 641,
+        "name": "Nagesh Pinto",
+        "risk_score": 54.3,
+        "community": 13,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 82,
+        "name": "Joseph Salian",
+        "risk_score": 54.3,
+        "community": 13,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 69,
+        "name": "Vidya Shetty",
+        "risk_score": 54.3,
+        "community": 13,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 72,
+        "name": "Vinay Poojary",
+        "risk_score": 54.3,
+        "community": 13,
+        "pagerank": 0.00168
+      }
+    ]
+  },
+  {
+    "community_id": 14,
+    "member_count": 4,
+    "key_leader": "Mahmood Mendes",
+    "avg_risk_score": 29.8,
+    "top_members": [
+      {
+        "id": 83,
+        "name": "Mahmood Mendes",
+        "risk_score": 29.8,
+        "community": 14,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 620,
+        "name": "Shivakumar Gowda",
+        "risk_score": 29.8,
+        "community": 14,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 70,
+        "name": "Fathima Mendes",
+        "risk_score": 29.8,
+        "community": 14,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 84,
+        "name": "Mahmood Prabhu",
+        "risk_score": 29.8,
+        "community": 14,
+        "pagerank": 0.00168
+      }
+    ]
+  },
+  {
+    "community_id": 15,
+    "member_count": 9,
+    "key_leader": "Deepa Kotian",
+    "avg_risk_score": 56.5,
+    "top_members": [
+      {
+        "id": 194,
+        "name": "Deepa Kotian",
+        "risk_score": 56.5,
+        "community": 15,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 196,
+        "name": "Anitha Kamath",
+        "risk_score": 56.5,
+        "community": 15,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 197,
+        "name": "Suresh Sheikh",
+        "risk_score": 56.5,
+        "community": 15,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 198,
+        "name": "Rashmi Pinto",
+        "risk_score": 56.5,
+        "community": 15,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 200,
+        "name": "Xavier Sequeira",
+        "risk_score": 56.5,
+        "community": 15,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 74,
+        "name": "Lawrence Prabhu",
+        "risk_score": 56.5,
+        "community": 15,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 78,
+        "name": "Pooja Kotian",
+        "risk_score": 56.5,
+        "community": 15,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 207,
+        "name": "Sowmya Desai",
+        "risk_score": 56.5,
+        "community": 15,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 212,
+        "name": "Sandra Setty",
+        "risk_score": 56.5,
+        "community": 15,
+        "pagerank": 0.00168
+      }
+    ]
+  },
+  {
+    "community_id": 16,
+    "member_count": 6,
+    "key_leader": "Nataraj Sequeira",
+    "avg_risk_score": 41.8,
+    "top_members": [
+      {
+        "id": 98,
+        "name": "Nataraj Sequeira",
+        "risk_score": 41.8,
+        "community": 16,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 100,
+        "name": "Pooja Gowda",
+        "risk_score": 41.8,
+        "community": 16,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 101,
+        "name": "Alphonsa Shetty",
+        "risk_score": 41.8,
+        "community": 16,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 85,
+        "name": "Shweta Chavan (Leader)",
+        "risk_score": 41.8,
+        "community": 16,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 89,
+        "name": "Fathima Mendes",
+        "risk_score": 41.8,
+        "community": 16,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 90,
+        "name": "Fathima Mendes",
+        "risk_score": 41.8,
+        "community": 16,
+        "pagerank": 0.00168
+      }
+    ]
+  },
+  {
+    "community_id": 17,
+    "member_count": 5,
+    "key_leader": "Vidya Naik",
+    "avg_risk_score": 44.8,
+    "top_members": [
+      {
+        "id": 87,
+        "name": "Vidya Naik",
+        "risk_score": 44.8,
+        "community": 17,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 103,
+        "name": "Vijayalakshmi Desai",
+        "risk_score": 44.8,
+        "community": 17,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 88,
+        "name": "Joseph Salian",
+        "risk_score": 44.8,
+        "community": 17,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 105,
+        "name": "Melwin Desai",
+        "risk_score": 44.8,
+        "community": 17,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 107,
+        "name": "Sowmya Naik",
+        "risk_score": 44.8,
+        "community": 17,
+        "pagerank": 0.00168
+      }
+    ]
+  },
+  {
+    "community_id": 18,
+    "member_count": 9,
+    "key_leader": "Basavaraj Hegde",
+    "avg_risk_score": 59.4,
+    "top_members": [
+      {
+        "id": 96,
+        "name": "Basavaraj Hegde",
+        "risk_score": 59.4,
+        "community": 18,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 102,
+        "name": "Joseph Salian",
+        "risk_score": 59.4,
+        "community": 18,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 104,
+        "name": "Rashmi Hegde",
+        "risk_score": 59.4,
+        "community": 18,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 106,
+        "name": "Alphonsa Sheikh",
+        "risk_score": 59.4,
+        "community": 18,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 86,
+        "name": "Maria Reddy",
+        "risk_score": 59.4,
+        "community": 18,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 91,
+        "name": "Vijayalakshmi Desai",
+        "risk_score": 59.4,
+        "community": 18,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 92,
+        "name": "Vidya Naik",
+        "risk_score": 59.4,
+        "community": 18,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 94,
+        "name": "Deepa Naik",
+        "risk_score": 59.4,
+        "community": 18,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 95,
+        "name": "Bhagya Bhat",
+        "risk_score": 59.4,
+        "community": 18,
+        "pagerank": 0.00168
+      }
+    ]
+  },
+  {
+    "community_id": 19,
+    "member_count": 4,
+    "key_leader": "Roopa Salian",
+    "avg_risk_score": 35.8,
+    "top_members": [
+      {
+        "id": 99,
+        "name": "Roopa Salian",
+        "risk_score": 35.8,
+        "community": 19,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 97,
+        "name": "Kiran Prabhu",
+        "risk_score": 35.8,
+        "community": 19,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 779,
+        "name": "Sandra Setty",
+        "risk_score": 35.8,
+        "community": 19,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 93,
+        "name": "Ganesh Shetty",
+        "risk_score": 35.8,
+        "community": 19,
+        "pagerank": 0.00168
+      }
+    ]
+  },
+  {
+    "community_id": 20,
+    "member_count": 2,
+    "key_leader": "Lakshmi Jadhav",
+    "avg_risk_score": 48.1,
+    "top_members": [
+      {
+        "id": 122,
+        "name": "Lakshmi Jadhav",
+        "risk_score": 48.1,
+        "community": 20,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 108,
+        "name": "Nataraj Sequeira (Leader)",
+        "risk_score": 48.1,
+        "community": 20,
+        "pagerank": 0.00168
+      }
+    ]
+  },
+  {
+    "community_id": 21,
+    "member_count": 7,
+    "key_leader": "Bhagya Mendes",
+    "avg_risk_score": 45.0,
+    "top_members": [
+      {
+        "id": 788,
+        "name": "Bhagya Mendes",
+        "risk_score": 45.0,
+        "community": 21,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 743,
+        "name": "Nataraj Sequeira",
+        "risk_score": 45.0,
+        "community": 21,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 622,
+        "name": "Santosh Kotian",
+        "risk_score": 45.0,
+        "community": 21,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 123,
+        "name": "Girish Desai",
+        "risk_score": 45.0,
+        "community": 21,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 124,
+        "name": "Imran Patil",
+        "risk_score": 45.0,
+        "community": 21,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 109,
+        "name": "Rashmi Sheikh",
+        "risk_score": 45.0,
+        "community": 21,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 110,
+        "name": "Suresh Sheikh",
+        "risk_score": 45.0,
+        "community": 21,
+        "pagerank": 0.00168
+      }
+    ]
+  },
+  {
+    "community_id": 22,
+    "member_count": 6,
+    "key_leader": "Pushpa Kulkarni",
+    "avg_risk_score": 29.8,
+    "top_members": [
+      {
+        "id": 112,
+        "name": "Pushpa Kulkarni",
+        "risk_score": 29.8,
+        "community": 22,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 114,
+        "name": "Deepa Sequeira",
+        "risk_score": 29.8,
+        "community": 22,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 118,
+        "name": "Praveen Rathod",
+        "risk_score": 29.8,
+        "community": 22,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 119,
+        "name": "Shivakumar Sheikh",
+        "risk_score": 29.8,
+        "community": 22,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 121,
+        "name": "Vijay Rathod",
+        "risk_score": 29.8,
+        "community": 22,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 111,
+        "name": "Arjun Bhat",
+        "risk_score": 29.8,
+        "community": 22,
+        "pagerank": 0.00168
+      }
+    ]
+  },
+  {
+    "community_id": 23,
+    "member_count": 6,
+    "key_leader": "Sudha Reddy",
+    "avg_risk_score": 29.8,
+    "top_members": [
+      {
+        "id": 113,
+        "name": "Sudha Reddy",
+        "risk_score": 29.8,
+        "community": 23,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 706,
+        "name": "Pooja Gowda",
+        "risk_score": 29.8,
+        "community": 23,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 115,
+        "name": "Sandra Jadhav",
+        "risk_score": 29.8,
+        "community": 23,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 116,
+        "name": "Prakash Rathod",
+        "risk_score": 29.8,
+        "community": 23,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 117,
+        "name": "Manjunath Pinto",
+        "risk_score": 29.8,
+        "community": 23,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 120,
+        "name": "Nagesh Fernandes",
+        "risk_score": 29.8,
+        "community": 23,
+        "pagerank": 0.00168
+      }
+    ]
+  },
+  {
+    "community_id": 24,
+    "member_count": 6,
+    "key_leader": "Rashmi Sheikh",
+    "avg_risk_score": 47.8,
+    "top_members": [
+      {
+        "id": 129,
+        "name": "Rashmi Sheikh",
+        "risk_score": 47.8,
+        "community": 24,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 131,
+        "name": "Joseph Salian",
+        "risk_score": 47.8,
+        "community": 24,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 148,
+        "name": "Deepa Naik",
+        "risk_score": 47.8,
+        "community": 24,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 137,
+        "name": "Mahmood Prabhu",
+        "risk_score": 47.8,
+        "community": 24,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 139,
+        "name": "Sudha Achar",
+        "risk_score": 47.8,
+        "community": 24,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 125,
+        "name": "Roopa Hegde (Leader)",
+        "risk_score": 47.8,
+        "community": 24,
+        "pagerank": 0.00168
+      }
+    ]
+  },
+  {
+    "community_id": 25,
+    "member_count": 6,
+    "key_leader": "Ganesh Shetty",
+    "avg_risk_score": 47.7,
+    "top_members": [
+      {
+        "id": 128,
+        "name": "Ganesh Shetty",
+        "risk_score": 47.7,
+        "community": 25,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 133,
+        "name": "Puneeth Bhat",
+        "risk_score": 47.7,
+        "community": 25,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 134,
+        "name": "Ravi Rathod",
+        "risk_score": 47.7,
+        "community": 25,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 135,
+        "name": "Harish Khan",
+        "risk_score": 47.7,
+        "community": 25,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 793,
+        "name": "Xavier Sequeira",
+        "risk_score": 47.7,
+        "community": 25,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 126,
+        "name": "Ayesha Prabhu",
+        "risk_score": 47.7,
+        "community": 25,
+        "pagerank": 0.00168
+      }
+    ]
+  },
+  {
+    "community_id": 26,
+    "member_count": 5,
+    "key_leader": "Vijayalakshmi Desai",
+    "avg_risk_score": 47.8,
+    "top_members": [
+      {
+        "id": 144,
+        "name": "Vijayalakshmi Desai",
+        "risk_score": 47.8,
+        "community": 26,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 143,
+        "name": "Sowmya Naik",
+        "risk_score": 47.8,
+        "community": 26,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 130,
+        "name": "Kavya Salian",
+        "risk_score": 47.8,
+        "community": 26,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 140,
+        "name": "Harish Fernandes",
+        "risk_score": 47.8,
+        "community": 26,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 127,
+        "name": "Nagesh Pinto",
+        "risk_score": 47.8,
+        "community": 26,
+        "pagerank": 0.00168
+      }
+    ]
+  },
+  {
+    "community_id": 27,
+    "member_count": 7,
+    "key_leader": "Vinay Chavan",
+    "avg_risk_score": 65.4,
+    "top_members": [
+      {
+        "id": 145,
+        "name": "Vinay Chavan",
+        "risk_score": 65.4,
+        "community": 27,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 754,
+        "name": "Sowmya Naik",
+        "risk_score": 65.4,
+        "community": 27,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 147,
+        "name": "Rashmi Pinto",
+        "risk_score": 65.4,
+        "community": 27,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 132,
+        "name": "Kalpana Mendes",
+        "risk_score": 65.4,
+        "community": 27,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 138,
+        "name": "Pushpa Kulkarni",
+        "risk_score": 65.4,
+        "community": 27,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 141,
+        "name": "Sowmya Desai",
+        "risk_score": 65.4,
+        "community": 27,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 142,
+        "name": "Ravi Rathod",
+        "risk_score": 65.4,
+        "community": 27,
+        "pagerank": 0.00168
+      }
+    ]
+  },
+  {
+    "community_id": 28,
+    "member_count": 2,
+    "key_leader": "Xavier Sequeira",
+    "avg_risk_score": 49.2,
+    "top_members": [
+      {
+        "id": 136,
+        "name": "Xavier Sequeira",
+        "risk_score": 49.2,
+        "community": 28,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 146,
+        "name": "Xavier Setty",
+        "risk_score": 49.2,
+        "community": 28,
+        "pagerank": 0.00168
+      }
+    ]
+  },
+  {
+    "community_id": 29,
+    "member_count": 7,
+    "key_leader": "Melwin Desai",
+    "avg_risk_score": 56.9,
+    "top_members": [
+      {
+        "id": 163,
+        "name": "Melwin Desai",
+        "risk_score": 56.9,
+        "community": 29,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 149,
+        "name": "Kalpana Shetty (Leader)",
+        "risk_score": 56.9,
+        "community": 29,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 150,
+        "name": "Ramesh Bhat",
+        "risk_score": 56.9,
+        "community": 29,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 153,
+        "name": "Manjunath Pujari",
+        "risk_score": 56.9,
+        "community": 29,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 155,
+        "name": "Imran Patil",
+        "risk_score": 56.9,
+        "community": 29,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 157,
+        "name": "Antony Pinto",
+        "risk_score": 56.9,
+        "community": 29,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 159,
+        "name": "Iqbal Bhat",
+        "risk_score": 56.9,
+        "community": 29,
+        "pagerank": 0.00168
+      }
+    ]
+  },
+  {
+    "community_id": 30,
+    "member_count": 9,
+    "key_leader": "Vijayalakshmi Desai",
+    "avg_risk_score": 35.8,
+    "top_members": [
+      {
+        "id": 160,
+        "name": "Vijayalakshmi Desai",
+        "risk_score": 35.8,
+        "community": 30,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 162,
+        "name": "Arjun D'Souza",
+        "risk_score": 35.8,
+        "community": 30,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 167,
+        "name": "Rajesh Gowda",
+        "risk_score": 35.8,
+        "community": 30,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 169,
+        "name": "Suresh Kotian",
+        "risk_score": 35.8,
+        "community": 30,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 170,
+        "name": "Bhagya Bhat",
+        "risk_score": 35.8,
+        "community": 30,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 171,
+        "name": "Shivakumar Sheikh",
+        "risk_score": 35.8,
+        "community": 30,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 152,
+        "name": "Bhagya Bhat",
+        "risk_score": 35.8,
+        "community": 30,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 156,
+        "name": "Vishwanath Fernandes",
+        "risk_score": 35.8,
+        "community": 30,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 158,
+        "name": "Imran Jadhav",
+        "risk_score": 35.8,
+        "community": 30,
+        "pagerank": 0.00168
+      }
+    ]
+  },
+  {
+    "community_id": 31,
+    "member_count": 7,
+    "key_leader": "Basavaraj Shetty",
+    "avg_risk_score": 47.8,
+    "top_members": [
+      {
+        "id": 161,
+        "name": "Basavaraj Shetty",
+        "risk_score": 47.8,
+        "community": 31,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 164,
+        "name": "Naseema Rao",
+        "risk_score": 47.8,
+        "community": 31,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 165,
+        "name": "Vijayalakshmi Desai",
+        "risk_score": 47.8,
+        "community": 31,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 166,
+        "name": "Suresh Kotian",
+        "risk_score": 47.8,
+        "community": 31,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 151,
+        "name": "Girish Desai",
+        "risk_score": 47.8,
+        "community": 31,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 168,
+        "name": "Mahmood Mendes",
+        "risk_score": 47.8,
+        "community": 31,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 154,
+        "name": "Arjun Bhat",
+        "risk_score": 47.8,
+        "community": 31,
+        "pagerank": 0.00168
+      }
+    ]
+  },
+  {
+    "community_id": 32,
+    "member_count": 5,
+    "key_leader": "Pooja Gowda",
+    "avg_risk_score": 50.8,
+    "top_members": [
+      {
+        "id": 640,
+        "name": "Pooja Gowda",
+        "risk_score": 50.8,
+        "community": 32,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 176,
+        "name": "Ravi Rathod",
+        "risk_score": 50.8,
+        "community": 32,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 172,
+        "name": "Sudha Kamath (Leader)",
+        "risk_score": 50.8,
+        "community": 32,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 188,
+        "name": "Rashmi Poojary",
+        "risk_score": 50.8,
+        "community": 32,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 173,
+        "name": "Roopa Achar",
+        "risk_score": 50.8,
+        "community": 32,
+        "pagerank": 0.00168
+      }
+    ]
+  },
+  {
+    "community_id": 33,
+    "member_count": 5,
+    "key_leader": "Mahmood Hegde",
+    "avg_risk_score": 32.8,
+    "top_members": [
+      {
+        "id": 177,
+        "name": "Mahmood Hegde",
+        "risk_score": 32.8,
+        "community": 33,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 182,
+        "name": "Rajesh Gowda",
+        "risk_score": 32.8,
+        "community": 33,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 189,
+        "name": "Ravi Rathod",
+        "risk_score": 32.8,
+        "community": 33,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 174,
+        "name": "Anitha Pinto",
+        "risk_score": 32.8,
+        "community": 33,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 175,
+        "name": "Santosh Kotian",
+        "risk_score": 32.8,
+        "community": 33,
+        "pagerank": 0.00168
+      }
+    ]
+  },
+  {
+    "community_id": 34,
+    "member_count": 3,
+    "key_leader": "Vinay Chavan",
+    "avg_risk_score": 48.3,
+    "top_members": [
+      {
+        "id": 185,
+        "name": "Vinay Chavan",
+        "risk_score": 48.3,
+        "community": 34,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 178,
+        "name": "Girish Ballal",
+        "risk_score": 48.3,
+        "community": 34,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 179,
+        "name": "Roopa Achar",
+        "risk_score": 48.3,
+        "community": 34,
+        "pagerank": 0.00168
+      }
+    ]
+  },
+  {
+    "community_id": 35,
+    "member_count": 7,
+    "key_leader": "Rekha Salian",
+    "avg_risk_score": 57.2,
+    "top_members": [
+      {
+        "id": 617,
+        "name": "Rekha Salian",
+        "risk_score": 57.2,
+        "community": 35,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 180,
+        "name": "Arjun D'Souza",
+        "risk_score": 57.2,
+        "community": 35,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 181,
+        "name": "Manjula Khan",
+        "risk_score": 57.2,
+        "community": 35,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 183,
+        "name": "Nataraj D'Souza",
+        "risk_score": 57.2,
+        "community": 35,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 184,
+        "name": "Antony Rathod",
+        "risk_score": 57.2,
+        "community": 35,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 697,
+        "name": "Kalpana Shetty",
+        "risk_score": 57.2,
+        "community": 35,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 187,
+        "name": "Mahmood Prabhu",
+        "risk_score": 57.2,
+        "community": 35,
+        "pagerank": 0.00168
+      }
+    ]
+  },
+  {
+    "community_id": 36,
+    "member_count": 2,
+    "key_leader": "Deepa Naik",
+    "avg_risk_score": 44.4,
+    "top_members": [
+      {
+        "id": 186,
+        "name": "Deepa Naik",
+        "risk_score": 44.4,
+        "community": 36,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 190,
+        "name": "Shivakumar Sheikh",
+        "risk_score": 44.4,
+        "community": 36,
+        "pagerank": 0.00168
+      }
+    ]
+  },
+  {
+    "community_id": 37,
+    "member_count": 10,
+    "key_leader": "Joseph Kulkarni",
+    "avg_risk_score": 61.1,
+    "top_members": [
+      {
+        "id": 192,
+        "name": "Joseph Kulkarni",
+        "risk_score": 61.1,
+        "community": 37,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 193,
+        "name": "Manjunath Pujari",
+        "risk_score": 61.1,
+        "community": 37,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 195,
+        "name": "Ravi Rathod",
+        "risk_score": 61.1,
+        "community": 37,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 199,
+        "name": "Deepa Kotian",
+        "risk_score": 61.1,
+        "community": 37,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 202,
+        "name": "Sowmya Sheikh",
+        "risk_score": 61.1,
+        "community": 37,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 203,
+        "name": "Sowmya Desai",
+        "risk_score": 61.1,
+        "community": 37,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 209,
+        "name": "Girish Ballal",
+        "risk_score": 61.1,
+        "community": 37,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 211,
+        "name": "Antony Rathod",
+        "risk_score": 61.1,
+        "community": 37,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 633,
+        "name": "Pooja Kotian",
+        "risk_score": 61.1,
+        "community": 37,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 191,
+        "name": "Anitha Kamath (Leader)",
+        "risk_score": 61.1,
+        "community": 37,
+        "pagerank": 0.00168
+      }
+    ]
+  },
+  {
+    "community_id": 38,
+    "member_count": 8,
+    "key_leader": "Manjula Khan",
+    "avg_risk_score": 47.8,
+    "top_members": [
+      {
+        "id": 201,
+        "name": "Manjula Khan",
+        "risk_score": 47.8,
+        "community": 38,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 204,
+        "name": "Prakash Setty",
+        "risk_score": 47.8,
+        "community": 38,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 205,
+        "name": "Kavya Salian",
+        "risk_score": 47.8,
+        "community": 38,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 206,
+        "name": "Bhagya Bhat",
+        "risk_score": 47.8,
+        "community": 38,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 208,
+        "name": "Ravi Sequeira",
+        "risk_score": 47.8,
+        "community": 38,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 561,
+        "name": "Imran Jadhav",
+        "risk_score": 47.8,
+        "community": 38,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 210,
+        "name": "Vijay Shetty",
+        "risk_score": 47.8,
+        "community": 38,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 445,
+        "name": "Sowmya Naik",
+        "risk_score": 47.8,
+        "community": 38,
+        "pagerank": 0.00168
+      }
+    ]
+  },
+  {
+    "community_id": 39,
+    "member_count": 10,
+    "key_leader": "Joseph Kulkarni",
+    "avg_risk_score": 54.2,
+    "top_members": [
+      {
+        "id": 228,
+        "name": "Joseph Kulkarni",
+        "risk_score": 54.2,
+        "community": 39,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 229,
+        "name": "Nandini Setty",
+        "risk_score": 54.2,
+        "community": 39,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 230,
+        "name": "Ravi Sequeira",
+        "risk_score": 54.2,
+        "community": 39,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 232,
+        "name": "Imran Jadhav",
+        "risk_score": 54.2,
+        "community": 39,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 234,
+        "name": "Xavier Sequeira",
+        "risk_score": 54.2,
+        "community": 39,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 590,
+        "name": "Arjun Bhat",
+        "risk_score": 54.2,
+        "community": 39,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 214,
+        "name": "Shweta Chavan",
+        "risk_score": 54.2,
+        "community": 39,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 218,
+        "name": "Vijay Rathod",
+        "risk_score": 54.2,
+        "community": 39,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 221,
+        "name": "Rekha Salian",
+        "risk_score": 54.2,
+        "community": 39,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 222,
+        "name": "Arjun Bhat",
+        "risk_score": 54.2,
+        "community": 39,
+        "pagerank": 0.00168
+      }
+    ]
+  },
+  {
+    "community_id": 40,
+    "member_count": 13,
+    "key_leader": "Lakshmi Desai",
+    "avg_risk_score": 57.8,
+    "top_members": [
+      {
+        "id": 224,
+        "name": "Lakshmi Desai",
+        "risk_score": 57.8,
+        "community": 40,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 225,
+        "name": "Gopal Fernandes",
+        "risk_score": 57.8,
+        "community": 40,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 226,
+        "name": "Deepa Naik",
+        "risk_score": 57.8,
+        "community": 40,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 227,
+        "name": "Anitha Kamath",
+        "risk_score": 57.8,
+        "community": 40,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 231,
+        "name": "Vijay Rathod",
+        "risk_score": 57.8,
+        "community": 40,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 233,
+        "name": "Deepa Desai",
+        "risk_score": 57.8,
+        "community": 40,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 213,
+        "name": "Arjun Bhat (Leader)",
+        "risk_score": 57.8,
+        "community": 40,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 215,
+        "name": "Ramesh Bhat",
+        "risk_score": 57.8,
+        "community": 40,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 216,
+        "name": "Naveen Sheikh",
+        "risk_score": 57.8,
+        "community": 40,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 217,
+        "name": "Sandra Setty",
+        "risk_score": 57.8,
+        "community": 40,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 219,
+        "name": "Manjunath Pujari",
+        "risk_score": 57.8,
+        "community": 40,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 220,
+        "name": "Nataraj D'Souza",
+        "risk_score": 57.8,
+        "community": 40,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 223,
+        "name": "Naveen Sheikh",
+        "risk_score": 57.8,
+        "community": 40,
+        "pagerank": 0.00168
+      }
+    ]
+  },
+  {
+    "community_id": 41,
+    "member_count": 8,
+    "key_leader": "Sowmya Sheikh",
+    "avg_risk_score": 48.3,
+    "top_members": [
+      {
+        "id": 616,
+        "name": "Sowmya Sheikh",
+        "risk_score": 48.3,
+        "community": 41,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 649,
+        "name": "Bhagya Bhat",
+        "risk_score": 48.3,
+        "community": 41,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 235,
+        "name": "Roopa Achar (Leader)",
+        "risk_score": 48.3,
+        "community": 41,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 543,
+        "name": "Naseema Rao",
+        "risk_score": 48.3,
+        "community": 41,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 237,
+        "name": "Shivakumar Sheikh",
+        "risk_score": 48.3,
+        "community": 41,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 239,
+        "name": "Manjunath Pujari",
+        "risk_score": 48.3,
+        "community": 41,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 250,
+        "name": "Rajesh Gowda",
+        "risk_score": 48.3,
+        "community": 41,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 255,
+        "name": "Girish Desai",
+        "risk_score": 48.3,
+        "community": 41,
+        "pagerank": 0.00168
+      }
+    ]
+  },
+  {
+    "community_id": 42,
+    "member_count": 7,
+    "key_leader": "Vinay Chavan",
+    "avg_risk_score": 47.8,
+    "top_members": [
+      {
+        "id": 240,
+        "name": "Vinay Chavan",
+        "risk_score": 47.8,
+        "community": 42,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 242,
+        "name": "Roopa Hegde",
+        "risk_score": 47.8,
+        "community": 42,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 243,
+        "name": "Bhagya Mendes",
+        "risk_score": 47.8,
+        "community": 42,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 245,
+        "name": "Chandan Pujari",
+        "risk_score": 47.8,
+        "community": 42,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 248,
+        "name": "Sudha Achar",
+        "risk_score": 47.8,
+        "community": 42,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 249,
+        "name": "Arjun Bhat",
+        "risk_score": 47.8,
+        "community": 42,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 236,
+        "name": "Vidya Shetty",
+        "risk_score": 47.8,
+        "community": 42,
+        "pagerank": 0.00168
+      }
+    ]
+  },
+  {
+    "community_id": 43,
+    "member_count": 11,
+    "key_leader": "Sandra Setty",
+    "avg_risk_score": 62.4,
+    "top_members": [
+      {
+        "id": 461,
+        "name": "Sandra Setty",
+        "risk_score": 62.4,
+        "community": 43,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 238,
+        "name": "Deepa Desai",
+        "risk_score": 62.4,
+        "community": 43,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 464,
+        "name": "Pooja Gowda",
+        "risk_score": 62.4,
+        "community": 43,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 241,
+        "name": "Melwin Desai",
+        "risk_score": 62.4,
+        "community": 43,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 244,
+        "name": "Maria Reddy",
+        "risk_score": 62.4,
+        "community": 43,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 246,
+        "name": "Basavaraj Shetty",
+        "risk_score": 62.4,
+        "community": 43,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 247,
+        "name": "Ganesh Shetty",
+        "risk_score": 62.4,
+        "community": 43,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 251,
+        "name": "Ravi Rathod",
+        "risk_score": 62.4,
+        "community": 43,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 252,
+        "name": "Manjula Fernandes",
+        "risk_score": 62.4,
+        "community": 43,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 253,
+        "name": "Deepa Sequeira",
+        "risk_score": 62.4,
+        "community": 43,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 254,
+        "name": "Ganesh Shetty",
+        "risk_score": 62.4,
+        "community": 43,
+        "pagerank": 0.00168
+      }
+    ]
+  },
+  {
+    "community_id": 44,
+    "member_count": 8,
+    "key_leader": "Anand Naik (Leader)",
+    "avg_risk_score": 53.8,
+    "top_members": [
+      {
+        "id": 256,
+        "name": "Anand Naik (Leader)",
+        "risk_score": 53.8,
+        "community": 44,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 259,
+        "name": "Kalpana Shetty",
+        "risk_score": 53.8,
+        "community": 44,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 263,
+        "name": "Nagesh Pinto",
+        "risk_score": 53.8,
+        "community": 44,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 264,
+        "name": "Shweta Chavan",
+        "risk_score": 53.8,
+        "community": 44,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 265,
+        "name": "Vijayalakshmi Bhat",
+        "risk_score": 53.8,
+        "community": 44,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 266,
+        "name": "Anitha Kamath",
+        "risk_score": 53.8,
+        "community": 44,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 269,
+        "name": "Shivakumar Gowda",
+        "risk_score": 53.8,
+        "community": 44,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 271,
+        "name": "Lakshmi Desai",
+        "risk_score": 53.8,
+        "community": 44,
+        "pagerank": 0.00168
+      }
+    ]
+  },
+  {
+    "community_id": 45,
+    "member_count": 8,
+    "key_leader": "Anitha Kamath",
+    "avg_risk_score": 41.8,
+    "top_members": [
+      {
+        "id": 257,
+        "name": "Anitha Kamath",
+        "risk_score": 41.8,
+        "community": 45,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 258,
+        "name": "Sandra Setty",
+        "risk_score": 41.8,
+        "community": 45,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 260,
+        "name": "Kiran Prabhu",
+        "risk_score": 41.8,
+        "community": 45,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 261,
+        "name": "Pooja Gowda",
+        "risk_score": 41.8,
+        "community": 45,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 262,
+        "name": "Deepa Desai",
+        "risk_score": 41.8,
+        "community": 45,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 267,
+        "name": "Vidya Naik",
+        "risk_score": 41.8,
+        "community": 45,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 268,
+        "name": "Girish Desai",
+        "risk_score": 41.8,
+        "community": 45,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 270,
+        "name": "Ganesh Desai",
+        "risk_score": 41.8,
+        "community": 45,
+        "pagerank": 0.00168
+      }
+    ]
+  },
+  {
+    "community_id": 46,
+    "member_count": 12,
+    "key_leader": "Rekha Kulkarni",
+    "avg_risk_score": 53.8,
+    "top_members": [
+      {
+        "id": 288,
+        "name": "Rekha Kulkarni",
+        "risk_score": 53.8,
+        "community": 46,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 289,
+        "name": "Manjula Khan",
+        "risk_score": 53.8,
+        "community": 46,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 290,
+        "name": "Rashmi Sheikh",
+        "risk_score": 53.8,
+        "community": 46,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 291,
+        "name": "Pooja Kotian",
+        "risk_score": 53.8,
+        "community": 46,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 292,
+        "name": "Praveen Rathod",
+        "risk_score": 53.8,
+        "community": 46,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 293,
+        "name": "Manjunath Pujari",
+        "risk_score": 53.8,
+        "community": 46,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 272,
+        "name": "Gopal Fernandes (Leader)",
+        "risk_score": 53.8,
+        "community": 46,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 273,
+        "name": "Basavaraj Hegde",
+        "risk_score": 53.8,
+        "community": 46,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 278,
+        "name": "Sudha Kamath",
+        "risk_score": 53.8,
+        "community": 46,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 279,
+        "name": "Mahmood Hegde",
+        "risk_score": 53.8,
+        "community": 46,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 282,
+        "name": "Sowmya Desai",
+        "risk_score": 53.8,
+        "community": 46,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 283,
+        "name": "Deepak Khan",
+        "risk_score": 53.8,
+        "community": 46,
+        "pagerank": 0.00168
+      }
+    ]
+  },
+  {
+    "community_id": 47,
+    "member_count": 12,
+    "key_leader": "Rekha Salian",
+    "avg_risk_score": 64.2,
+    "top_members": [
+      {
+        "id": 294,
+        "name": "Rekha Salian",
+        "risk_score": 64.2,
+        "community": 47,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 295,
+        "name": "Lawrence Prabhu",
+        "risk_score": 64.2,
+        "community": 47,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 274,
+        "name": "Fathima Mendes",
+        "risk_score": 64.2,
+        "community": 47,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 275,
+        "name": "Manjula Fernandes",
+        "risk_score": 64.2,
+        "community": 47,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 276,
+        "name": "Roopa Bhat",
+        "risk_score": 64.2,
+        "community": 47,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 277,
+        "name": "Lakshmi Desai",
+        "risk_score": 64.2,
+        "community": 47,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 280,
+        "name": "Vijayalakshmi Desai",
+        "risk_score": 64.2,
+        "community": 47,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 281,
+        "name": "Shweta Chavan",
+        "risk_score": 64.2,
+        "community": 47,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 284,
+        "name": "Anitha Kamath",
+        "risk_score": 64.2,
+        "community": 47,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 285,
+        "name": "Sridhar D'Souza",
+        "risk_score": 64.2,
+        "community": 47,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 286,
+        "name": "Anitha Kamath",
+        "risk_score": 64.2,
+        "community": 47,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 287,
+        "name": "Sandra Setty",
+        "risk_score": 64.2,
+        "community": 47,
+        "pagerank": 0.00168
+      }
+    ]
+  },
+  {
+    "community_id": 48,
+    "member_count": 7,
+    "key_leader": "Ganesh Desai",
+    "avg_risk_score": 47.8,
+    "top_members": [
+      {
+        "id": 312,
+        "name": "Ganesh Desai",
+        "risk_score": 47.8,
+        "community": 48,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 308,
+        "name": "Ravi Sequeira",
+        "risk_score": 47.8,
+        "community": 48,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 309,
+        "name": "Pooja Gowda",
+        "risk_score": 47.8,
+        "community": 48,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 310,
+        "name": "Manjunath Pujari",
+        "risk_score": 47.8,
+        "community": 48,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 311,
+        "name": "Lakshmi Jadhav",
+        "risk_score": 47.8,
+        "community": 48,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 296,
+        "name": "Nandini Khan (Leader)",
+        "risk_score": 47.8,
+        "community": 48,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 302,
+        "name": "Kalpana Shetty",
+        "risk_score": 47.8,
+        "community": 48,
+        "pagerank": 0.00168
+      }
+    ]
+  },
+  {
+    "community_id": 49,
+    "member_count": 8,
+    "key_leader": "Ravi Rathod",
+    "avg_risk_score": 41.8,
+    "top_members": [
+      {
+        "id": 297,
+        "name": "Ravi Rathod",
+        "risk_score": 41.8,
+        "community": 49,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 298,
+        "name": "Suresh Sheikh",
+        "risk_score": 41.8,
+        "community": 49,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 300,
+        "name": "Ganesh Shetty",
+        "risk_score": 41.8,
+        "community": 49,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 301,
+        "name": "Gopal Fernandes",
+        "risk_score": 41.8,
+        "community": 49,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 304,
+        "name": "Xavier Sequeira",
+        "risk_score": 41.8,
+        "community": 49,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 305,
+        "name": "Deepa Naik",
+        "risk_score": 41.8,
+        "community": 49,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 306,
+        "name": "Antony Pinto",
+        "risk_score": 41.8,
+        "community": 49,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 670,
+        "name": "Antony Rathod",
+        "risk_score": 41.8,
+        "community": 49,
+        "pagerank": 0.00168
+      }
+    ]
+  },
+  {
+    "community_id": 50,
+    "member_count": 3,
+    "key_leader": "Chandan D'Souza",
+    "avg_risk_score": 34.2,
+    "top_members": [
+      {
+        "id": 307,
+        "name": "Chandan D'Souza",
+        "risk_score": 34.2,
+        "community": 50,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 299,
+        "name": "Alphonsa Shetty",
+        "risk_score": 34.2,
+        "community": 50,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 303,
+        "name": "Vinay Sheikh",
+        "risk_score": 34.2,
+        "community": 50,
+        "pagerank": 0.00168
+      }
+    ]
+  },
+  {
+    "community_id": 51,
+    "member_count": 7,
+    "key_leader": "Yallappa Mendes",
+    "avg_risk_score": 35.8,
+    "top_members": [
+      {
+        "id": 320,
+        "name": "Yallappa Mendes",
+        "risk_score": 35.8,
+        "community": 51,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 321,
+        "name": "Ramesh Bhat",
+        "risk_score": 35.8,
+        "community": 51,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 315,
+        "name": "Imran Jadhav",
+        "risk_score": 35.8,
+        "community": 51,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 327,
+        "name": "Harish Khan",
+        "risk_score": 35.8,
+        "community": 51,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 313,
+        "name": "Ganesh Shetty (Leader)",
+        "risk_score": 35.8,
+        "community": 51,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 331,
+        "name": "Kalpana Shetty",
+        "risk_score": 35.8,
+        "community": 51,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 318,
+        "name": "Pushpa Kulkarni",
+        "risk_score": 35.8,
+        "community": 51,
+        "pagerank": 0.00168
+      }
+    ]
+  },
+  {
+    "community_id": 52,
+    "member_count": 11,
+    "key_leader": "Sowmya Naik",
+    "avg_risk_score": 61.8,
+    "top_members": [
+      {
+        "id": 323,
+        "name": "Sowmya Naik",
+        "risk_score": 61.8,
+        "community": 52,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 325,
+        "name": "Bhagya Mendes",
+        "risk_score": 61.8,
+        "community": 52,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 329,
+        "name": "Lakshmi Jadhav",
+        "risk_score": 61.8,
+        "community": 52,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 330,
+        "name": "Vidya Shetty",
+        "risk_score": 61.8,
+        "community": 52,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 332,
+        "name": "Vinay Chavan",
+        "risk_score": 61.8,
+        "community": 52,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 334,
+        "name": "Kalpana Shetty",
+        "risk_score": 61.8,
+        "community": 52,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 335,
+        "name": "Iqbal Bhat",
+        "risk_score": 61.8,
+        "community": 52,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 314,
+        "name": "Harish Khan",
+        "risk_score": 61.8,
+        "community": 52,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 316,
+        "name": "Manjula Khan",
+        "risk_score": 61.8,
+        "community": 52,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 317,
+        "name": "Kalpana Sequeira",
+        "risk_score": 61.8,
+        "community": 52,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 319,
+        "name": "Sridhar D'Souza",
+        "risk_score": 61.8,
+        "community": 52,
+        "pagerank": 0.00168
+      }
+    ]
+  },
+  {
+    "community_id": 53,
+    "member_count": 5,
+    "key_leader": "Rashmi Sheikh",
+    "avg_risk_score": 51.4,
+    "top_members": [
+      {
+        "id": 322,
+        "name": "Rashmi Sheikh",
+        "risk_score": 51.4,
+        "community": 53,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 324,
+        "name": "Rekha Kulkarni",
+        "risk_score": 51.4,
+        "community": 53,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 326,
+        "name": "Nandini Setty",
+        "risk_score": 51.4,
+        "community": 53,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 328,
+        "name": "Mahmood Hegde",
+        "risk_score": 51.4,
+        "community": 53,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 333,
+        "name": "Harish Khan",
+        "risk_score": 51.4,
+        "community": 53,
+        "pagerank": 0.00168
+      }
+    ]
+  },
+  {
+    "community_id": 54,
+    "member_count": 7,
+    "key_leader": "Kiran Desai",
+    "avg_risk_score": 41.8,
+    "top_members": [
+      {
+        "id": 352,
+        "name": "Kiran Desai",
+        "risk_score": 41.8,
+        "community": 54,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 337,
+        "name": "Deepak Khan",
+        "risk_score": 41.8,
+        "community": 54,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 339,
+        "name": "Imran Jadhav",
+        "risk_score": 41.8,
+        "community": 54,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 360,
+        "name": "Sridhar D'Souza",
+        "risk_score": 41.8,
+        "community": 54,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 762,
+        "name": "Imran Jadhav",
+        "risk_score": 41.8,
+        "community": 54,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 350,
+        "name": "Sowmya Naik",
+        "risk_score": 41.8,
+        "community": 54,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 351,
+        "name": "Vishwanath Fernandes",
+        "risk_score": 41.8,
+        "community": 54,
+        "pagerank": 0.00168
+      }
+    ]
+  },
+  {
+    "community_id": 55,
+    "member_count": 7,
+    "key_leader": "Iqbal Bhat",
+    "avg_risk_score": 29.8,
+    "top_members": [
+      {
+        "id": 338,
+        "name": "Iqbal Bhat",
+        "risk_score": 29.8,
+        "community": 55,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 354,
+        "name": "Nandini Khan",
+        "risk_score": 29.8,
+        "community": 55,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 356,
+        "name": "Yallappa Mendes",
+        "risk_score": 29.8,
+        "community": 55,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 357,
+        "name": "Prakash Rathod",
+        "risk_score": 29.8,
+        "community": 55,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 341,
+        "name": "Yallappa Mendes",
+        "risk_score": 29.8,
+        "community": 55,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 358,
+        "name": "Joseph Salian",
+        "risk_score": 29.8,
+        "community": 55,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 343,
+        "name": "Joseph Salian",
+        "risk_score": 29.8,
+        "community": 55,
+        "pagerank": 0.00168
+      }
+    ]
+  },
+  {
+    "community_id": 56,
+    "member_count": 7,
+    "key_leader": "Naveen Sheikh",
+    "avg_risk_score": 56.5,
+    "top_members": [
+      {
+        "id": 342,
+        "name": "Naveen Sheikh",
+        "risk_score": 56.5,
+        "community": 56,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 359,
+        "name": "Deepa Desai",
+        "risk_score": 56.5,
+        "community": 56,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 345,
+        "name": "Rekha Salian",
+        "risk_score": 56.5,
+        "community": 56,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 346,
+        "name": "Mahmood Mendes",
+        "risk_score": 56.5,
+        "community": 56,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 347,
+        "name": "Basavaraj Shetty",
+        "risk_score": 56.5,
+        "community": 56,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 348,
+        "name": "Xavier Setty",
+        "risk_score": 56.5,
+        "community": 56,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 526,
+        "name": "Vidya Shetty",
+        "risk_score": 56.5,
+        "community": 56,
+        "pagerank": 0.00168
+      }
+    ]
+  },
+  {
+    "community_id": 57,
+    "member_count": 4,
+    "key_leader": "Vijayalakshmi Desai",
+    "avg_risk_score": 47.8,
+    "top_members": [
+      {
+        "id": 344,
+        "name": "Vijayalakshmi Desai",
+        "risk_score": 47.8,
+        "community": 57,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 353,
+        "name": "Roopa Salian",
+        "risk_score": 47.8,
+        "community": 57,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 336,
+        "name": "Iqbal Bhat (Leader)",
+        "risk_score": 47.8,
+        "community": 57,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 355,
+        "name": "Manjula Khan",
+        "risk_score": 47.8,
+        "community": 57,
+        "pagerank": 0.00168
+      }
+    ]
+  },
+  {
+    "community_id": 58,
+    "member_count": 3,
+    "key_leader": "Sudha Reddy",
+    "avg_risk_score": 49.0,
+    "top_members": [
+      {
+        "id": 491,
+        "name": "Sudha Reddy",
+        "risk_score": 49.0,
+        "community": 58,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 340,
+        "name": "Mahmood Hegde",
+        "risk_score": 49.0,
+        "community": 58,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 349,
+        "name": "Rashmi Poojary",
+        "risk_score": 49.0,
+        "community": 58,
+        "pagerank": 0.00168
+      }
+    ]
+  },
+  {
+    "community_id": 59,
+    "member_count": 10,
+    "key_leader": "Deepa Desai",
+    "avg_risk_score": 41.8,
+    "top_members": [
+      {
+        "id": 485,
+        "name": "Deepa Desai",
+        "risk_score": 41.8,
+        "community": 59,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 361,
+        "name": "Fathima Mendes (Leader)",
+        "risk_score": 41.8,
+        "community": 59,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 363,
+        "name": "Nagesh Pinto",
+        "risk_score": 41.8,
+        "community": 59,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 364,
+        "name": "Shweta Chavan",
+        "risk_score": 41.8,
+        "community": 59,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 366,
+        "name": "Imran Jadhav",
+        "risk_score": 41.8,
+        "community": 59,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 367,
+        "name": "Deepa Sequeira",
+        "risk_score": 41.8,
+        "community": 59,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 368,
+        "name": "Manjunath Pujari",
+        "risk_score": 41.8,
+        "community": 59,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 370,
+        "name": "Sandra Setty",
+        "risk_score": 41.8,
+        "community": 59,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 376,
+        "name": "Sowmya Sheikh",
+        "risk_score": 41.8,
+        "community": 59,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 379,
+        "name": "Deepa Sequeira",
+        "risk_score": 41.8,
+        "community": 59,
+        "pagerank": 0.00168
+      }
+    ]
+  },
+  {
+    "community_id": 60,
+    "member_count": 13,
+    "key_leader": "Ganesh Desai",
+    "avg_risk_score": 45.3,
+    "top_members": [
+      {
+        "id": 362,
+        "name": "Ganesh Desai",
+        "risk_score": 45.3,
+        "community": 60,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 365,
+        "name": "Deepak Khan",
+        "risk_score": 45.3,
+        "community": 60,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 369,
+        "name": "Lawrence Prabhu",
+        "risk_score": 45.3,
+        "community": 60,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 371,
+        "name": "Girish Ballal",
+        "risk_score": 45.3,
+        "community": 60,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 372,
+        "name": "Sandra Jadhav",
+        "risk_score": 45.3,
+        "community": 60,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 373,
+        "name": "Shivakumar Gowda",
+        "risk_score": 45.3,
+        "community": 60,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 374,
+        "name": "Roopa Achar",
+        "risk_score": 45.3,
+        "community": 60,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 375,
+        "name": "Arjun Bhat",
+        "risk_score": 45.3,
+        "community": 60,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 377,
+        "name": "Vijayalakshmi Desai",
+        "risk_score": 45.3,
+        "community": 60,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 378,
+        "name": "Manjula Khan",
+        "risk_score": 45.3,
+        "community": 60,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 380,
+        "name": "Manjunath Pinto",
+        "risk_score": 45.3,
+        "community": 60,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 381,
+        "name": "Nagesh Pinto",
+        "risk_score": 45.3,
+        "community": 60,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 382,
+        "name": "Lakshmi Desai",
+        "risk_score": 45.3,
+        "community": 60,
+        "pagerank": 0.00168
+      }
+    ]
+  },
+  {
+    "community_id": 61,
+    "member_count": 12,
+    "key_leader": "Suresh Sheikh",
+    "avg_risk_score": 47.8,
+    "top_members": [
+      {
+        "id": 386,
+        "name": "Suresh Sheikh",
+        "risk_score": 47.8,
+        "community": 61,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 387,
+        "name": "Pooja Kotian",
+        "risk_score": 47.8,
+        "community": 61,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 388,
+        "name": "Vinay Sheikh",
+        "risk_score": 47.8,
+        "community": 61,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 390,
+        "name": "Vinay Poojary",
+        "risk_score": 47.8,
+        "community": 61,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 392,
+        "name": "Deepa Kotian",
+        "risk_score": 47.8,
+        "community": 61,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 393,
+        "name": "Kalpana Shetty",
+        "risk_score": 47.8,
+        "community": 61,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 397,
+        "name": "Prakash Rathod",
+        "risk_score": 47.8,
+        "community": 61,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 398,
+        "name": "Gopal Fernandes",
+        "risk_score": 47.8,
+        "community": 61,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 401,
+        "name": "Sowmya Sheikh",
+        "risk_score": 47.8,
+        "community": 61,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 530,
+        "name": "Rekha Salian",
+        "risk_score": 47.8,
+        "community": 61,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 406,
+        "name": "Vinay Chavan",
+        "risk_score": 47.8,
+        "community": 61,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 383,
+        "name": "Vinay Chavan (Leader)",
+        "risk_score": 47.8,
+        "community": 61,
+        "pagerank": 0.00168
+      }
+    ]
+  },
+  {
+    "community_id": 62,
+    "member_count": 9,
+    "key_leader": "Chandan D'Souza",
+    "avg_risk_score": 58.0,
+    "top_members": [
+      {
+        "id": 384,
+        "name": "Chandan D'Souza",
+        "risk_score": 58.0,
+        "community": 62,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 385,
+        "name": "Manjunath Pujari",
+        "risk_score": 58.0,
+        "community": 62,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 389,
+        "name": "Xavier Setty",
+        "risk_score": 58.0,
+        "community": 62,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 684,
+        "name": "Anitha Kamath",
+        "risk_score": 58.0,
+        "community": 62,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 396,
+        "name": "Santosh Salian",
+        "risk_score": 58.0,
+        "community": 62,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 399,
+        "name": "Anitha Pinto",
+        "risk_score": 58.0,
+        "community": 62,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 400,
+        "name": "Basavaraj Hegde",
+        "risk_score": 58.0,
+        "community": 62,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 403,
+        "name": "Rajesh Gowda",
+        "risk_score": 58.0,
+        "community": 62,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 405,
+        "name": "Roopa Salian",
+        "risk_score": 58.0,
+        "community": 62,
+        "pagerank": 0.00168
+      }
+    ]
+  },
+  {
+    "community_id": 63,
+    "member_count": 7,
+    "key_leader": "Vijay Rathod",
+    "avg_risk_score": 49.4,
+    "top_members": [
+      {
+        "id": 407,
+        "name": "Vijay Rathod",
+        "risk_score": 49.4,
+        "community": 63,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 402,
+        "name": "Roopa Hegde",
+        "risk_score": 49.4,
+        "community": 63,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 404,
+        "name": "Sudha Achar",
+        "risk_score": 49.4,
+        "community": 63,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 391,
+        "name": "Bhagya Bhat",
+        "risk_score": 49.4,
+        "community": 63,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 394,
+        "name": "Ganesh Desai",
+        "risk_score": 49.4,
+        "community": 63,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 395,
+        "name": "Mahmood Hegde",
+        "risk_score": 49.4,
+        "community": 63,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 749,
+        "name": "Bhagya Mendes",
+        "risk_score": 49.4,
+        "community": 63,
+        "pagerank": 0.00168
+      }
+    ]
+  },
+  {
+    "community_id": 64,
+    "member_count": 9,
+    "key_leader": "Girish Ballal",
+    "avg_risk_score": 53.8,
+    "top_members": [
+      {
+        "id": 417,
+        "name": "Girish Ballal",
+        "risk_score": 53.8,
+        "community": 64,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 422,
+        "name": "Shivakumar Sheikh",
+        "risk_score": 53.8,
+        "community": 64,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 423,
+        "name": "Pooja Gowda",
+        "risk_score": 53.8,
+        "community": 64,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 427,
+        "name": "Pushpa Kulkarni",
+        "risk_score": 53.8,
+        "community": 64,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 430,
+        "name": "Vijayalakshmi Desai",
+        "risk_score": 53.8,
+        "community": 64,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 431,
+        "name": "Vidya Shetty",
+        "risk_score": 53.8,
+        "community": 64,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 501,
+        "name": "Shivakumar Gowda",
+        "risk_score": 53.8,
+        "community": 64,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 408,
+        "name": "Sowmya Naik (Leader)",
+        "risk_score": 53.8,
+        "community": 64,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 410,
+        "name": "Antony Rathod",
+        "risk_score": 53.8,
+        "community": 64,
+        "pagerank": 0.00168
+      }
+    ]
+  },
+  {
+    "community_id": 65,
+    "member_count": 4,
+    "key_leader": "Nagesh Fernandes",
+    "avg_risk_score": 23.8,
+    "top_members": [
+      {
+        "id": 409,
+        "name": "Nagesh Fernandes",
+        "risk_score": 23.8,
+        "community": 65,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 418,
+        "name": "Gopal Fernandes",
+        "risk_score": 23.8,
+        "community": 65,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 413,
+        "name": "Ravi Sequeira",
+        "risk_score": 23.8,
+        "community": 65,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 415,
+        "name": "Chandan Pujari",
+        "risk_score": 23.8,
+        "community": 65,
+        "pagerank": 0.00168
+      }
+    ]
+  },
+  {
+    "community_id": 66,
+    "member_count": 7,
+    "key_leader": "Nataraj D'Souza",
+    "avg_risk_score": 43.5,
+    "top_members": [
+      {
+        "id": 432,
+        "name": "Nataraj D'Souza",
+        "risk_score": 43.5,
+        "community": 66,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 420,
+        "name": "Sowmya Sheikh",
+        "risk_score": 43.5,
+        "community": 66,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 421,
+        "name": "Rekha Kulkarni",
+        "risk_score": 43.5,
+        "community": 66,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 425,
+        "name": "Manjula Fernandes",
+        "risk_score": 43.5,
+        "community": 66,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 411,
+        "name": "Sowmya Sheikh",
+        "risk_score": 43.5,
+        "community": 66,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 428,
+        "name": "Manjula Khan",
+        "risk_score": 43.5,
+        "community": 66,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 412,
+        "name": "Vijayalakshmi Desai",
+        "risk_score": 43.5,
+        "community": 66,
+        "pagerank": 0.00168
+      }
+    ]
+  },
+  {
+    "community_id": 67,
+    "member_count": 4,
+    "key_leader": "Mahmood Hegde",
+    "avg_risk_score": 35.8,
+    "top_members": [
+      {
+        "id": 416,
+        "name": "Mahmood Hegde",
+        "risk_score": 35.8,
+        "community": 67,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 419,
+        "name": "Lakshmi Desai",
+        "risk_score": 35.8,
+        "community": 67,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 429,
+        "name": "Ravi Sequeira",
+        "risk_score": 35.8,
+        "community": 67,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 414,
+        "name": "Mahmood Hegde",
+        "risk_score": 35.8,
+        "community": 67,
+        "pagerank": 0.00168
+      }
+    ]
+  },
+  {
+    "community_id": 68,
+    "member_count": 2,
+    "key_leader": "Nagesh Fernandes",
+    "avg_risk_score": 56.4,
+    "top_members": [
+      {
+        "id": 424,
+        "name": "Nagesh Fernandes",
+        "risk_score": 56.4,
+        "community": 68,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 426,
+        "name": "Harish Fernandes",
+        "risk_score": 56.4,
+        "community": 68,
+        "pagerank": 0.00168
+      }
+    ]
+  },
+  {
+    "community_id": 69,
+    "member_count": 2,
+    "key_leader": "Iqbal Patil",
+    "avg_risk_score": 41.4,
+    "top_members": [
+      {
+        "id": 433,
+        "name": "Iqbal Patil",
+        "risk_score": 41.4,
+        "community": 69,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 589,
+        "name": "Lawrence Sequeira",
+        "risk_score": 41.4,
+        "community": 69,
+        "pagerank": 0.00168
+      }
+    ]
+  },
+  {
+    "community_id": 70,
+    "member_count": 2,
+    "key_leader": "Nataraj Sequeira",
+    "avg_risk_score": 35.8,
+    "top_members": [
+      {
+        "id": 568,
+        "name": "Nataraj Sequeira",
+        "risk_score": 35.8,
+        "community": 70,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 434,
+        "name": "Alphonsa Shetty",
+        "risk_score": 35.8,
+        "community": 70,
+        "pagerank": 0.00168
+      }
+    ]
+  },
+  {
+    "community_id": 71,
+    "member_count": 3,
+    "key_leader": "Xavier Sequeira",
+    "avg_risk_score": 33.0,
+    "top_members": [
+      {
+        "id": 778,
+        "name": "Xavier Sequeira",
+        "risk_score": 33.0,
+        "community": 71,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 435,
+        "name": "Sudha Kamath",
+        "risk_score": 33.0,
+        "community": 71,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 613,
+        "name": "Deepa Kulkarni",
+        "risk_score": 33.0,
+        "community": 71,
+        "pagerank": 0.00168
+      }
+    ]
+  },
+  {
+    "community_id": 72,
+    "member_count": 2,
+    "key_leader": "Roopa Salian",
+    "avg_risk_score": 30.1,
+    "top_members": [
+      {
+        "id": 436,
+        "name": "Roopa Salian",
+        "risk_score": 30.1,
+        "community": 72,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 557,
+        "name": "Imran Jadhav",
+        "risk_score": 30.1,
+        "community": 72,
+        "pagerank": 0.00168
+      }
+    ]
+  },
+  {
+    "community_id": 73,
+    "member_count": 1,
+    "key_leader": "Shivakumar Sheikh",
+    "avg_risk_score": 26.8,
+    "top_members": [
+      {
+        "id": 437,
+        "name": "Shivakumar Sheikh",
+        "risk_score": 26.8,
+        "community": 73,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 74,
+    "member_count": 1,
+    "key_leader": "Prakash Rathod",
+    "avg_risk_score": 35.1,
+    "top_members": [
+      {
+        "id": 438,
+        "name": "Prakash Rathod",
+        "risk_score": 35.1,
+        "community": 74,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 75,
+    "member_count": 1,
+    "key_leader": "Ganesh Desai",
+    "avg_risk_score": 14.8,
+    "top_members": [
+      {
+        "id": 439,
+        "name": "Ganesh Desai",
+        "risk_score": 14.8,
+        "community": 75,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 76,
+    "member_count": 2,
+    "key_leader": "Kiran Prabhu",
+    "avg_risk_score": 27.0,
+    "top_members": [
+      {
+        "id": 440,
+        "name": "Kiran Prabhu",
+        "risk_score": 27.0,
+        "community": 76,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 583,
+        "name": "Kavya Salian",
+        "risk_score": 27.0,
+        "community": 76,
+        "pagerank": 0.00168
+      }
+    ]
+  },
+  {
+    "community_id": 77,
+    "member_count": 1,
+    "key_leader": "Ravi Rathod",
+    "avg_risk_score": 20.8,
+    "top_members": [
+      {
+        "id": 441,
+        "name": "Ravi Rathod",
+        "risk_score": 20.8,
+        "community": 77,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 78,
+    "member_count": 1,
+    "key_leader": "Anitha Pinto",
+    "avg_risk_score": 38.8,
+    "top_members": [
+      {
+        "id": 442,
+        "name": "Anitha Pinto",
+        "risk_score": 38.8,
+        "community": 78,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 79,
+    "member_count": 1,
+    "key_leader": "Alphonsa Sheikh",
+    "avg_risk_score": 26.8,
+    "top_members": [
+      {
+        "id": 446,
+        "name": "Alphonsa Sheikh",
+        "risk_score": 26.8,
+        "community": 79,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 80,
+    "member_count": 2,
+    "key_leader": "Arjun Bhat",
+    "avg_risk_score": 17.8,
+    "top_members": [
+      {
+        "id": 690,
+        "name": "Arjun Bhat",
+        "risk_score": 17.8,
+        "community": 80,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 447,
+        "name": "Xavier Sequeira",
+        "risk_score": 17.8,
+        "community": 80,
+        "pagerank": 0.00168
+      }
+    ]
+  },
+  {
+    "community_id": 81,
+    "member_count": 1,
+    "key_leader": "Antony Pinto",
+    "avg_risk_score": 26.8,
+    "top_members": [
+      {
+        "id": 448,
+        "name": "Antony Pinto",
+        "risk_score": 26.8,
+        "community": 81,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 82,
+    "member_count": 1,
+    "key_leader": "Deepak Khan",
+    "avg_risk_score": 18.8,
+    "top_members": [
+      {
+        "id": 449,
+        "name": "Deepak Khan",
+        "risk_score": 18.8,
+        "community": 82,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 83,
+    "member_count": 1,
+    "key_leader": "Rashmi Pinto",
+    "avg_risk_score": 38.1,
+    "top_members": [
+      {
+        "id": 450,
+        "name": "Rashmi Pinto",
+        "risk_score": 38.1,
+        "community": 83,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 84,
+    "member_count": 1,
+    "key_leader": "Deepa Kotian",
+    "avg_risk_score": 32.2,
+    "top_members": [
+      {
+        "id": 451,
+        "name": "Deepa Kotian",
+        "risk_score": 32.2,
+        "community": 84,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 85,
+    "member_count": 1,
+    "key_leader": "Xavier Sequeira",
+    "avg_risk_score": 45.0,
+    "top_members": [
+      {
+        "id": 452,
+        "name": "Xavier Sequeira",
+        "risk_score": 45.0,
+        "community": 85,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 86,
+    "member_count": 1,
+    "key_leader": "Harish Khan",
+    "avg_risk_score": 27.7,
+    "top_members": [
+      {
+        "id": 453,
+        "name": "Harish Khan",
+        "risk_score": 27.7,
+        "community": 86,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 87,
+    "member_count": 1,
+    "key_leader": "Harish Fernandes",
+    "avg_risk_score": 50.8,
+    "top_members": [
+      {
+        "id": 454,
+        "name": "Harish Fernandes",
+        "risk_score": 50.8,
+        "community": 87,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 88,
+    "member_count": 1,
+    "key_leader": "Naveen Ballal",
+    "avg_risk_score": 40.0,
+    "top_members": [
+      {
+        "id": 455,
+        "name": "Naveen Ballal",
+        "risk_score": 40.0,
+        "community": 88,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 89,
+    "member_count": 1,
+    "key_leader": "Kiran Desai",
+    "avg_risk_score": 26.8,
+    "top_members": [
+      {
+        "id": 456,
+        "name": "Kiran Desai",
+        "risk_score": 26.8,
+        "community": 89,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 90,
+    "member_count": 2,
+    "key_leader": "Alphonsa Sheikh",
+    "avg_risk_score": 50.3,
+    "top_members": [
+      {
+        "id": 457,
+        "name": "Alphonsa Sheikh",
+        "risk_score": 50.3,
+        "community": 90,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 444,
+        "name": "Girish Desai",
+        "risk_score": 50.3,
+        "community": 90,
+        "pagerank": 0.00168
+      }
+    ]
+  },
+  {
+    "community_id": 91,
+    "member_count": 1,
+    "key_leader": "Lakshmi Desai",
+    "avg_risk_score": 26.8,
+    "top_members": [
+      {
+        "id": 458,
+        "name": "Lakshmi Desai",
+        "risk_score": 26.8,
+        "community": 91,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 92,
+    "member_count": 2,
+    "key_leader": "Sridhar Rao",
+    "avg_risk_score": 32.7,
+    "top_members": [
+      {
+        "id": 459,
+        "name": "Sridhar Rao",
+        "risk_score": 32.7,
+        "community": 92,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 765,
+        "name": "Vidya Naik",
+        "risk_score": 32.7,
+        "community": 92,
+        "pagerank": 0.00168
+      }
+    ]
+  },
+  {
+    "community_id": 93,
+    "member_count": 2,
+    "key_leader": "Sridhar D'Souza",
+    "avg_risk_score": 23.8,
+    "top_members": [
+      {
+        "id": 460,
+        "name": "Sridhar D'Souza",
+        "risk_score": 23.8,
+        "community": 93,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 678,
+        "name": "Kalpana Sequeira",
+        "risk_score": 23.8,
+        "community": 93,
+        "pagerank": 0.00168
+      }
+    ]
+  },
+  {
+    "community_id": 94,
+    "member_count": 1,
+    "key_leader": "Sridhar D'Souza",
+    "avg_risk_score": 40.6,
+    "top_members": [
+      {
+        "id": 462,
+        "name": "Sridhar D'Souza",
+        "risk_score": 40.6,
+        "community": 94,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 95,
+    "member_count": 2,
+    "key_leader": "Iqbal Patil",
+    "avg_risk_score": 39.5,
+    "top_members": [
+      {
+        "id": 606,
+        "name": "Iqbal Patil",
+        "risk_score": 39.5,
+        "community": 95,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 463,
+        "name": "Girish Desai",
+        "risk_score": 39.5,
+        "community": 95,
+        "pagerank": 0.00168
+      }
+    ]
+  },
+  {
+    "community_id": 96,
+    "member_count": 1,
+    "key_leader": "Fathima Mendes",
+    "avg_risk_score": 32.4,
+    "top_members": [
+      {
+        "id": 465,
+        "name": "Fathima Mendes",
+        "risk_score": 32.4,
+        "community": 96,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 97,
+    "member_count": 1,
+    "key_leader": "Roopa Hegde",
+    "avg_risk_score": 27.7,
+    "top_members": [
+      {
+        "id": 466,
+        "name": "Roopa Hegde",
+        "risk_score": 27.7,
+        "community": 97,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 98,
+    "member_count": 1,
+    "key_leader": "Antony Pinto",
+    "avg_risk_score": 32.8,
+    "top_members": [
+      {
+        "id": 467,
+        "name": "Antony Pinto",
+        "risk_score": 32.8,
+        "community": 98,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 99,
+    "member_count": 1,
+    "key_leader": "Sridhar D'Souza",
+    "avg_risk_score": 30.6,
+    "top_members": [
+      {
+        "id": 468,
+        "name": "Sridhar D'Souza",
+        "risk_score": 30.6,
+        "community": 99,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 100,
+    "member_count": 1,
+    "key_leader": "Joseph Salian",
+    "avg_risk_score": 39.8,
+    "top_members": [
+      {
+        "id": 469,
+        "name": "Joseph Salian",
+        "risk_score": 39.8,
+        "community": 100,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 101,
+    "member_count": 1,
+    "key_leader": "Nataraj D'Souza",
+    "avg_risk_score": 26.8,
+    "top_members": [
+      {
+        "id": 470,
+        "name": "Nataraj D'Souza",
+        "risk_score": 26.8,
+        "community": 101,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 102,
+    "member_count": 1,
+    "key_leader": "Vijay Shetty",
+    "avg_risk_score": 14.8,
+    "top_members": [
+      {
+        "id": 471,
+        "name": "Vijay Shetty",
+        "risk_score": 14.8,
+        "community": 102,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 103,
+    "member_count": 1,
+    "key_leader": "Shivakumar Gowda",
+    "avg_risk_score": 20.8,
+    "top_members": [
+      {
+        "id": 472,
+        "name": "Shivakumar Gowda",
+        "risk_score": 20.8,
+        "community": 103,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 104,
+    "member_count": 1,
+    "key_leader": "Ravi Sequeira",
+    "avg_risk_score": 39.4,
+    "top_members": [
+      {
+        "id": 473,
+        "name": "Ravi Sequeira",
+        "risk_score": 39.4,
+        "community": 104,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 105,
+    "member_count": 1,
+    "key_leader": "Roopa Hegde",
+    "avg_risk_score": 52.1,
+    "top_members": [
+      {
+        "id": 474,
+        "name": "Roopa Hegde",
+        "risk_score": 52.1,
+        "community": 105,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 106,
+    "member_count": 1,
+    "key_leader": "Imran Patil",
+    "avg_risk_score": 32.8,
+    "top_members": [
+      {
+        "id": 475,
+        "name": "Imran Patil",
+        "risk_score": 32.8,
+        "community": 106,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 107,
+    "member_count": 1,
+    "key_leader": "Roopa Hegde",
+    "avg_risk_score": 32.8,
+    "top_members": [
+      {
+        "id": 476,
+        "name": "Roopa Hegde",
+        "risk_score": 32.8,
+        "community": 107,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 108,
+    "member_count": 1,
+    "key_leader": "Lakshmi Jadhav",
+    "avg_risk_score": 26.8,
+    "top_members": [
+      {
+        "id": 477,
+        "name": "Lakshmi Jadhav",
+        "risk_score": 26.8,
+        "community": 108,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 109,
+    "member_count": 1,
+    "key_leader": "Iqbal Bhat",
+    "avg_risk_score": 14.8,
+    "top_members": [
+      {
+        "id": 479,
+        "name": "Iqbal Bhat",
+        "risk_score": 14.8,
+        "community": 109,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 110,
+    "member_count": 1,
+    "key_leader": "Kalpana Sequeira",
+    "avg_risk_score": 33.7,
+    "top_members": [
+      {
+        "id": 480,
+        "name": "Kalpana Sequeira",
+        "risk_score": 33.7,
+        "community": 110,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 111,
+    "member_count": 1,
+    "key_leader": "Manjunath Pinto",
+    "avg_risk_score": 40.0,
+    "top_members": [
+      {
+        "id": 481,
+        "name": "Manjunath Pinto",
+        "risk_score": 40.0,
+        "community": 111,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 112,
+    "member_count": 1,
+    "key_leader": "Roopa Salian",
+    "avg_risk_score": 38.8,
+    "top_members": [
+      {
+        "id": 483,
+        "name": "Roopa Salian",
+        "risk_score": 38.8,
+        "community": 112,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 113,
+    "member_count": 1,
+    "key_leader": "Sandra Setty",
+    "avg_risk_score": 14.8,
+    "top_members": [
+      {
+        "id": 484,
+        "name": "Sandra Setty",
+        "risk_score": 14.8,
+        "community": 113,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 114,
+    "member_count": 1,
+    "key_leader": "Pooja Gowda",
+    "avg_risk_score": 34.3,
+    "top_members": [
+      {
+        "id": 486,
+        "name": "Pooja Gowda",
+        "risk_score": 34.3,
+        "community": 114,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 115,
+    "member_count": 1,
+    "key_leader": "Ayesha Prabhu",
+    "avg_risk_score": 38.8,
+    "top_members": [
+      {
+        "id": 487,
+        "name": "Ayesha Prabhu",
+        "risk_score": 38.8,
+        "community": 115,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 116,
+    "member_count": 1,
+    "key_leader": "Maria Reddy",
+    "avg_risk_score": 32.8,
+    "top_members": [
+      {
+        "id": 489,
+        "name": "Maria Reddy",
+        "risk_score": 32.8,
+        "community": 116,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 117,
+    "member_count": 1,
+    "key_leader": "Ravi Sequeira",
+    "avg_risk_score": 20.8,
+    "top_members": [
+      {
+        "id": 490,
+        "name": "Ravi Sequeira",
+        "risk_score": 20.8,
+        "community": 117,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 118,
+    "member_count": 1,
+    "key_leader": "Suresh Kotian",
+    "avg_risk_score": 40.3,
+    "top_members": [
+      {
+        "id": 492,
+        "name": "Suresh Kotian",
+        "risk_score": 40.3,
+        "community": 118,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 119,
+    "member_count": 1,
+    "key_leader": "Manjunath Pujari",
+    "avg_risk_score": 32.8,
+    "top_members": [
+      {
+        "id": 493,
+        "name": "Manjunath Pujari",
+        "risk_score": 32.8,
+        "community": 119,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 120,
+    "member_count": 1,
+    "key_leader": "Santosh Salian",
+    "avg_risk_score": 34.9,
+    "top_members": [
+      {
+        "id": 494,
+        "name": "Santosh Salian",
+        "risk_score": 34.9,
+        "community": 120,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 121,
+    "member_count": 1,
+    "key_leader": "Rashmi Sheikh",
+    "avg_risk_score": 35.8,
+    "top_members": [
+      {
+        "id": 495,
+        "name": "Rashmi Sheikh",
+        "risk_score": 35.8,
+        "community": 121,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 122,
+    "member_count": 2,
+    "key_leader": "Joseph Salian",
+    "avg_risk_score": 17.8,
+    "top_members": [
+      {
+        "id": 497,
+        "name": "Joseph Salian",
+        "risk_score": 17.8,
+        "community": 122,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 658,
+        "name": "Sandra Jadhav",
+        "risk_score": 17.8,
+        "community": 122,
+        "pagerank": 0.00168
+      }
+    ]
+  },
+  {
+    "community_id": 123,
+    "member_count": 3,
+    "key_leader": "Kalpana Shetty",
+    "avg_risk_score": 28.8,
+    "top_members": [
+      {
+        "id": 498,
+        "name": "Kalpana Shetty",
+        "risk_score": 28.8,
+        "community": 123,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 618,
+        "name": "Alphonsa Sheikh",
+        "risk_score": 28.8,
+        "community": 123,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 503,
+        "name": "Vinay Poojary",
+        "risk_score": 28.8,
+        "community": 123,
+        "pagerank": 0.00168
+      }
+    ]
+  },
+  {
+    "community_id": 124,
+    "member_count": 1,
+    "key_leader": "Fathima Mendes",
+    "avg_risk_score": 28.6,
+    "top_members": [
+      {
+        "id": 499,
+        "name": "Fathima Mendes",
+        "risk_score": 28.6,
+        "community": 124,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 125,
+    "member_count": 1,
+    "key_leader": "Shivakumar Sheikh",
+    "avg_risk_score": 26.8,
+    "top_members": [
+      {
+        "id": 500,
+        "name": "Shivakumar Sheikh",
+        "risk_score": 26.8,
+        "community": 125,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 126,
+    "member_count": 1,
+    "key_leader": "Nataraj D'Souza",
+    "avg_risk_score": 38.8,
+    "top_members": [
+      {
+        "id": 502,
+        "name": "Nataraj D'Souza",
+        "risk_score": 38.8,
+        "community": 126,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 127,
+    "member_count": 1,
+    "key_leader": "Bhagya Mendes",
+    "avg_risk_score": 32.8,
+    "top_members": [
+      {
+        "id": 505,
+        "name": "Bhagya Mendes",
+        "risk_score": 32.8,
+        "community": 127,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 128,
+    "member_count": 1,
+    "key_leader": "Ganesh Shetty",
+    "avg_risk_score": 32.8,
+    "top_members": [
+      {
+        "id": 506,
+        "name": "Ganesh Shetty",
+        "risk_score": 32.8,
+        "community": 128,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 129,
+    "member_count": 1,
+    "key_leader": "Lakshmi Desai",
+    "avg_risk_score": 40.0,
+    "top_members": [
+      {
+        "id": 507,
+        "name": "Lakshmi Desai",
+        "risk_score": 40.0,
+        "community": 129,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 130,
+    "member_count": 1,
+    "key_leader": "Naveen Ballal",
+    "avg_risk_score": 38.8,
+    "top_members": [
+      {
+        "id": 508,
+        "name": "Naveen Ballal",
+        "risk_score": 38.8,
+        "community": 130,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 131,
+    "member_count": 1,
+    "key_leader": "Kalpana Mendes",
+    "avg_risk_score": 25.4,
+    "top_members": [
+      {
+        "id": 509,
+        "name": "Kalpana Mendes",
+        "risk_score": 25.4,
+        "community": 131,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 132,
+    "member_count": 1,
+    "key_leader": "Vinay Chavan",
+    "avg_risk_score": 46.7,
+    "top_members": [
+      {
+        "id": 510,
+        "name": "Vinay Chavan",
+        "risk_score": 46.7,
+        "community": 132,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 133,
+    "member_count": 1,
+    "key_leader": "Kalpana Shetty",
+    "avg_risk_score": 14.8,
+    "top_members": [
+      {
+        "id": 511,
+        "name": "Kalpana Shetty",
+        "risk_score": 14.8,
+        "community": 133,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 134,
+    "member_count": 2,
+    "key_leader": "Vijayalakshmi Desai",
+    "avg_risk_score": 29.8,
+    "top_members": [
+      {
+        "id": 512,
+        "name": "Vijayalakshmi Desai",
+        "risk_score": 29.8,
+        "community": 134,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 685,
+        "name": "Pooja Gowda",
+        "risk_score": 29.8,
+        "community": 134,
+        "pagerank": 0.00168
+      }
+    ]
+  },
+  {
+    "community_id": 135,
+    "member_count": 1,
+    "key_leader": "Deepa Sequeira",
+    "avg_risk_score": 20.8,
+    "top_members": [
+      {
+        "id": 514,
+        "name": "Deepa Sequeira",
+        "risk_score": 20.8,
+        "community": 135,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 136,
+    "member_count": 2,
+    "key_leader": "Joseph Salian",
+    "avg_risk_score": 41.8,
+    "top_members": [
+      {
+        "id": 608,
+        "name": "Joseph Salian",
+        "risk_score": 41.8,
+        "community": 136,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 515,
+        "name": "Lawrence Sequeira",
+        "risk_score": 41.8,
+        "community": 136,
+        "pagerank": 0.00168
+      }
+    ]
+  },
+  {
+    "community_id": 137,
+    "member_count": 1,
+    "key_leader": "Iqbal Bhat",
+    "avg_risk_score": 42.9,
+    "top_members": [
+      {
+        "id": 516,
+        "name": "Iqbal Bhat",
+        "risk_score": 42.9,
+        "community": 137,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 138,
+    "member_count": 1,
+    "key_leader": "Mahmood Hegde",
+    "avg_risk_score": 32.8,
+    "top_members": [
+      {
+        "id": 517,
+        "name": "Mahmood Hegde",
+        "risk_score": 32.8,
+        "community": 138,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 139,
+    "member_count": 1,
+    "key_leader": "Rashmi Poojary",
+    "avg_risk_score": 27.6,
+    "top_members": [
+      {
+        "id": 518,
+        "name": "Rashmi Poojary",
+        "risk_score": 27.6,
+        "community": 139,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 140,
+    "member_count": 1,
+    "key_leader": "Ganesh Shetty",
+    "avg_risk_score": 40.0,
+    "top_members": [
+      {
+        "id": 520,
+        "name": "Ganesh Shetty",
+        "risk_score": 40.0,
+        "community": 140,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 141,
+    "member_count": 1,
+    "key_leader": "Girish Ballal",
+    "avg_risk_score": 26.8,
+    "top_members": [
+      {
+        "id": 521,
+        "name": "Girish Ballal",
+        "risk_score": 26.8,
+        "community": 141,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 142,
+    "member_count": 1,
+    "key_leader": "Arjun Bhat",
+    "avg_risk_score": 38.8,
+    "top_members": [
+      {
+        "id": 522,
+        "name": "Arjun Bhat",
+        "risk_score": 38.8,
+        "community": 142,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 143,
+    "member_count": 2,
+    "key_leader": "Iqbal Bhat",
+    "avg_risk_score": 21.6,
+    "top_members": [
+      {
+        "id": 524,
+        "name": "Iqbal Bhat",
+        "risk_score": 21.6,
+        "community": 143,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 629,
+        "name": "Alphonsa Sheikh",
+        "risk_score": 21.6,
+        "community": 143,
+        "pagerank": 0.00168
+      }
+    ]
+  },
+  {
+    "community_id": 144,
+    "member_count": 3,
+    "key_leader": "Praveen Rathod",
+    "avg_risk_score": 38.8,
+    "top_members": [
+      {
+        "id": 525,
+        "name": "Praveen Rathod",
+        "risk_score": 38.8,
+        "community": 144,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 478,
+        "name": "Vidya Naik",
+        "risk_score": 38.8,
+        "community": 144,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 677,
+        "name": "Sridhar Rao",
+        "risk_score": 38.8,
+        "community": 144,
+        "pagerank": 0.00168
+      }
+    ]
+  },
+  {
+    "community_id": 145,
+    "member_count": 1,
+    "key_leader": "Deepak Khan",
+    "avg_risk_score": 38.8,
+    "top_members": [
+      {
+        "id": 529,
+        "name": "Deepak Khan",
+        "risk_score": 38.8,
+        "community": 145,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 146,
+    "member_count": 1,
+    "key_leader": "Mahmood Hegde",
+    "avg_risk_score": 38.9,
+    "top_members": [
+      {
+        "id": 532,
+        "name": "Mahmood Hegde",
+        "risk_score": 38.9,
+        "community": 146,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 147,
+    "member_count": 1,
+    "key_leader": "Shivakumar Gowda",
+    "avg_risk_score": 36.6,
+    "top_members": [
+      {
+        "id": 534,
+        "name": "Shivakumar Gowda",
+        "risk_score": 36.6,
+        "community": 147,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 148,
+    "member_count": 2,
+    "key_leader": "Chandan Pujari",
+    "avg_risk_score": 41.8,
+    "top_members": [
+      {
+        "id": 758,
+        "name": "Chandan Pujari",
+        "risk_score": 41.8,
+        "community": 148,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 535,
+        "name": "Mahmood Hegde",
+        "risk_score": 41.8,
+        "community": 148,
+        "pagerank": 0.00168
+      }
+    ]
+  },
+  {
+    "community_id": 149,
+    "member_count": 1,
+    "key_leader": "Roopa Achar",
+    "avg_risk_score": 32.8,
+    "top_members": [
+      {
+        "id": 536,
+        "name": "Roopa Achar",
+        "risk_score": 32.8,
+        "community": 149,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 150,
+    "member_count": 1,
+    "key_leader": "Manjunath Pujari",
+    "avg_risk_score": 32.8,
+    "top_members": [
+      {
+        "id": 537,
+        "name": "Manjunath Pujari",
+        "risk_score": 32.8,
+        "community": 150,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 151,
+    "member_count": 1,
+    "key_leader": "Xavier Setty",
+    "avg_risk_score": 44.8,
+    "top_members": [
+      {
+        "id": 538,
+        "name": "Xavier Setty",
+        "risk_score": 44.8,
+        "community": 151,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 152,
+    "member_count": 1,
+    "key_leader": "Sudha Achar",
+    "avg_risk_score": 26.9,
+    "top_members": [
+      {
+        "id": 539,
+        "name": "Sudha Achar",
+        "risk_score": 26.9,
+        "community": 152,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 153,
+    "member_count": 1,
+    "key_leader": "Manjula Khan",
+    "avg_risk_score": 26.5,
+    "top_members": [
+      {
+        "id": 540,
+        "name": "Manjula Khan",
+        "risk_score": 26.5,
+        "community": 153,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 154,
+    "member_count": 1,
+    "key_leader": "Rashmi Sheikh",
+    "avg_risk_score": 29.8,
+    "top_members": [
+      {
+        "id": 541,
+        "name": "Rashmi Sheikh",
+        "risk_score": 29.8,
+        "community": 154,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 155,
+    "member_count": 1,
+    "key_leader": "Gopal Fernandes",
+    "avg_risk_score": 54.9,
+    "top_members": [
+      {
+        "id": 542,
+        "name": "Gopal Fernandes",
+        "risk_score": 54.9,
+        "community": 155,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 156,
+    "member_count": 1,
+    "key_leader": "Ravi Sequeira",
+    "avg_risk_score": 20.8,
+    "top_members": [
+      {
+        "id": 544,
+        "name": "Ravi Sequeira",
+        "risk_score": 20.8,
+        "community": 156,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 157,
+    "member_count": 1,
+    "key_leader": "Naseema Rao",
+    "avg_risk_score": 20.8,
+    "top_members": [
+      {
+        "id": 545,
+        "name": "Naseema Rao",
+        "risk_score": 20.8,
+        "community": 157,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 158,
+    "member_count": 1,
+    "key_leader": "Imran Jadhav",
+    "avg_risk_score": 26.8,
+    "top_members": [
+      {
+        "id": 546,
+        "name": "Imran Jadhav",
+        "risk_score": 26.8,
+        "community": 158,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 159,
+    "member_count": 1,
+    "key_leader": "Iqbal Bhat",
+    "avg_risk_score": 38.8,
+    "top_members": [
+      {
+        "id": 547,
+        "name": "Iqbal Bhat",
+        "risk_score": 38.8,
+        "community": 159,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 160,
+    "member_count": 1,
+    "key_leader": "Manjula Khan",
+    "avg_risk_score": 46.6,
+    "top_members": [
+      {
+        "id": 548,
+        "name": "Manjula Khan",
+        "risk_score": 46.6,
+        "community": 160,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 161,
+    "member_count": 1,
+    "key_leader": "Sridhar Rao",
+    "avg_risk_score": 35.2,
+    "top_members": [
+      {
+        "id": 549,
+        "name": "Sridhar Rao",
+        "risk_score": 35.2,
+        "community": 161,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 162,
+    "member_count": 2,
+    "key_leader": "Iqbal Patil",
+    "avg_risk_score": 35.8,
+    "top_members": [
+      {
+        "id": 550,
+        "name": "Iqbal Patil",
+        "risk_score": 35.8,
+        "community": 162,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 799,
+        "name": "Joseph Kulkarni",
+        "risk_score": 35.8,
+        "community": 162,
+        "pagerank": 0.00168
+      }
+    ]
+  },
+  {
+    "community_id": 163,
+    "member_count": 1,
+    "key_leader": "Sowmya Sheikh",
+    "avg_risk_score": 31.7,
+    "top_members": [
+      {
+        "id": 551,
+        "name": "Sowmya Sheikh",
+        "risk_score": 31.7,
+        "community": 163,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 164,
+    "member_count": 1,
+    "key_leader": "Anand Naik",
+    "avg_risk_score": 15.0,
+    "top_members": [
+      {
+        "id": 552,
+        "name": "Anand Naik",
+        "risk_score": 15.0,
+        "community": 164,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 165,
+    "member_count": 1,
+    "key_leader": "Pooja Kotian",
+    "avg_risk_score": 32.8,
+    "top_members": [
+      {
+        "id": 553,
+        "name": "Pooja Kotian",
+        "risk_score": 32.8,
+        "community": 165,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 166,
+    "member_count": 1,
+    "key_leader": "Manjunath Pinto",
+    "avg_risk_score": 30.0,
+    "top_members": [
+      {
+        "id": 554,
+        "name": "Manjunath Pinto",
+        "risk_score": 30.0,
+        "community": 166,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 167,
+    "member_count": 1,
+    "key_leader": "Chandan Pujari",
+    "avg_risk_score": 14.8,
+    "top_members": [
+      {
+        "id": 555,
+        "name": "Chandan Pujari",
+        "risk_score": 14.8,
+        "community": 167,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 168,
+    "member_count": 1,
+    "key_leader": "Nataraj D'Souza",
+    "avg_risk_score": 38.8,
+    "top_members": [
+      {
+        "id": 556,
+        "name": "Nataraj D'Souza",
+        "risk_score": 38.8,
+        "community": 168,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 169,
+    "member_count": 1,
+    "key_leader": "Praveen Rathod",
+    "avg_risk_score": 20.8,
+    "top_members": [
+      {
+        "id": 558,
+        "name": "Praveen Rathod",
+        "risk_score": 20.8,
+        "community": 169,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 170,
+    "member_count": 1,
+    "key_leader": "Mahmood Prabhu",
+    "avg_risk_score": 58.3,
+    "top_members": [
+      {
+        "id": 559,
+        "name": "Mahmood Prabhu",
+        "risk_score": 58.3,
+        "community": 170,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 171,
+    "member_count": 1,
+    "key_leader": "Alphonsa Shetty",
+    "avg_risk_score": 26.8,
+    "top_members": [
+      {
+        "id": 560,
+        "name": "Alphonsa Shetty",
+        "risk_score": 26.8,
+        "community": 171,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 172,
+    "member_count": 1,
+    "key_leader": "Nataraj D'Souza",
+    "avg_risk_score": 38.8,
+    "top_members": [
+      {
+        "id": 562,
+        "name": "Nataraj D'Souza",
+        "risk_score": 38.8,
+        "community": 172,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 173,
+    "member_count": 1,
+    "key_leader": "Suresh Sheikh",
+    "avg_risk_score": 14.8,
+    "top_members": [
+      {
+        "id": 563,
+        "name": "Suresh Sheikh",
+        "risk_score": 14.8,
+        "community": 173,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 174,
+    "member_count": 1,
+    "key_leader": "Yallappa Mendes",
+    "avg_risk_score": 44.8,
+    "top_members": [
+      {
+        "id": 564,
+        "name": "Yallappa Mendes",
+        "risk_score": 44.8,
+        "community": 174,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 175,
+    "member_count": 1,
+    "key_leader": "Kalpana Mendes",
+    "avg_risk_score": 38.8,
+    "top_members": [
+      {
+        "id": 565,
+        "name": "Kalpana Mendes",
+        "risk_score": 38.8,
+        "community": 175,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 176,
+    "member_count": 1,
+    "key_leader": "Mahmood Prabhu",
+    "avg_risk_score": 32.8,
+    "top_members": [
+      {
+        "id": 566,
+        "name": "Mahmood Prabhu",
+        "risk_score": 32.8,
+        "community": 176,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 177,
+    "member_count": 2,
+    "key_leader": "Sudha Achar",
+    "avg_risk_score": 48.9,
+    "top_members": [
+      {
+        "id": 504,
+        "name": "Sudha Achar",
+        "risk_score": 48.9,
+        "community": 177,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 567,
+        "name": "Puneeth Bhat",
+        "risk_score": 48.9,
+        "community": 177,
+        "pagerank": 0.00168
+      }
+    ]
+  },
+  {
+    "community_id": 178,
+    "member_count": 1,
+    "key_leader": "Anitha Kamath",
+    "avg_risk_score": 20.8,
+    "top_members": [
+      {
+        "id": 569,
+        "name": "Anitha Kamath",
+        "risk_score": 20.8,
+        "community": 178,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 179,
+    "member_count": 1,
+    "key_leader": "Vinay Chavan",
+    "avg_risk_score": 26.8,
+    "top_members": [
+      {
+        "id": 570,
+        "name": "Vinay Chavan",
+        "risk_score": 26.8,
+        "community": 179,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 180,
+    "member_count": 1,
+    "key_leader": "Anitha Kamath",
+    "avg_risk_score": 20.8,
+    "top_members": [
+      {
+        "id": 571,
+        "name": "Anitha Kamath",
+        "risk_score": 20.8,
+        "community": 180,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 181,
+    "member_count": 1,
+    "key_leader": "Manjunath Pinto",
+    "avg_risk_score": 20.8,
+    "top_members": [
+      {
+        "id": 572,
+        "name": "Manjunath Pinto",
+        "risk_score": 20.8,
+        "community": 181,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 182,
+    "member_count": 1,
+    "key_leader": "Ganesh Shetty",
+    "avg_risk_score": 26.8,
+    "top_members": [
+      {
+        "id": 573,
+        "name": "Ganesh Shetty",
+        "risk_score": 26.8,
+        "community": 182,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 183,
+    "member_count": 1,
+    "key_leader": "Naseema Rao",
+    "avg_risk_score": 41.7,
+    "top_members": [
+      {
+        "id": 574,
+        "name": "Naseema Rao",
+        "risk_score": 41.7,
+        "community": 183,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 184,
+    "member_count": 2,
+    "key_leader": "Vinay Chavan",
+    "avg_risk_score": 23.8,
+    "top_members": [
+      {
+        "id": 577,
+        "name": "Vinay Chavan",
+        "risk_score": 23.8,
+        "community": 184,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 575,
+        "name": "Iqbal Bhat",
+        "risk_score": 23.8,
+        "community": 184,
+        "pagerank": 0.00168
+      }
+    ]
+  },
+  {
+    "community_id": 185,
+    "member_count": 1,
+    "key_leader": "Sudha Reddy",
+    "avg_risk_score": 26.8,
+    "top_members": [
+      {
+        "id": 576,
+        "name": "Sudha Reddy",
+        "risk_score": 26.8,
+        "community": 185,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 186,
+    "member_count": 1,
+    "key_leader": "Kalpana Shetty",
+    "avg_risk_score": 26.8,
+    "top_members": [
+      {
+        "id": 578,
+        "name": "Kalpana Shetty",
+        "risk_score": 26.8,
+        "community": 186,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 187,
+    "member_count": 1,
+    "key_leader": "Iqbal Bhat",
+    "avg_risk_score": 22.5,
+    "top_members": [
+      {
+        "id": 579,
+        "name": "Iqbal Bhat",
+        "risk_score": 22.5,
+        "community": 187,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 188,
+    "member_count": 1,
+    "key_leader": "Melwin Desai",
+    "avg_risk_score": 48.8,
+    "top_members": [
+      {
+        "id": 580,
+        "name": "Melwin Desai",
+        "risk_score": 48.8,
+        "community": 188,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 189,
+    "member_count": 1,
+    "key_leader": "Harish Fernandes",
+    "avg_risk_score": 38.7,
+    "top_members": [
+      {
+        "id": 581,
+        "name": "Harish Fernandes",
+        "risk_score": 38.7,
+        "community": 189,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 190,
+    "member_count": 1,
+    "key_leader": "Nandini Pujari",
+    "avg_risk_score": 20.8,
+    "top_members": [
+      {
+        "id": 582,
+        "name": "Nandini Pujari",
+        "risk_score": 20.8,
+        "community": 190,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 191,
+    "member_count": 1,
+    "key_leader": "Kiran Desai",
+    "avg_risk_score": 33.0,
+    "top_members": [
+      {
+        "id": 584,
+        "name": "Kiran Desai",
+        "risk_score": 33.0,
+        "community": 191,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 192,
+    "member_count": 1,
+    "key_leader": "Naseema Rao",
+    "avg_risk_score": 33.1,
+    "top_members": [
+      {
+        "id": 585,
+        "name": "Naseema Rao",
+        "risk_score": 33.1,
+        "community": 192,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 193,
+    "member_count": 1,
+    "key_leader": "Yallappa Mendes",
+    "avg_risk_score": 44.0,
+    "top_members": [
+      {
+        "id": 586,
+        "name": "Yallappa Mendes",
+        "risk_score": 44.0,
+        "community": 193,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 194,
+    "member_count": 1,
+    "key_leader": "Mahmood Prabhu",
+    "avg_risk_score": 20.8,
+    "top_members": [
+      {
+        "id": 587,
+        "name": "Mahmood Prabhu",
+        "risk_score": 20.8,
+        "community": 194,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 195,
+    "member_count": 1,
+    "key_leader": "Rashmi Hegde",
+    "avg_risk_score": 32.2,
+    "top_members": [
+      {
+        "id": 588,
+        "name": "Rashmi Hegde",
+        "risk_score": 32.2,
+        "community": 195,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 196,
+    "member_count": 2,
+    "key_leader": "Sandra Setty",
+    "avg_risk_score": 29.8,
+    "top_members": [
+      {
+        "id": 482,
+        "name": "Sandra Setty",
+        "risk_score": 29.8,
+        "community": 196,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 591,
+        "name": "Harish Khan",
+        "risk_score": 29.8,
+        "community": 196,
+        "pagerank": 0.00168
+      }
+    ]
+  },
+  {
+    "community_id": 197,
+    "member_count": 1,
+    "key_leader": "Kalpana Shetty",
+    "avg_risk_score": 43.5,
+    "top_members": [
+      {
+        "id": 592,
+        "name": "Kalpana Shetty",
+        "risk_score": 43.5,
+        "community": 197,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 198,
+    "member_count": 2,
+    "key_leader": "Sridhar D'Souza",
+    "avg_risk_score": 35.8,
+    "top_members": [
+      {
+        "id": 720,
+        "name": "Sridhar D'Souza",
+        "risk_score": 35.8,
+        "community": 198,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 593,
+        "name": "Sandra Jadhav",
+        "risk_score": 35.8,
+        "community": 198,
+        "pagerank": 0.00168
+      }
+    ]
+  },
+  {
+    "community_id": 199,
+    "member_count": 1,
+    "key_leader": "Gopal Fernandes",
+    "avg_risk_score": 47.8,
+    "top_members": [
+      {
+        "id": 594,
+        "name": "Gopal Fernandes",
+        "risk_score": 47.8,
+        "community": 199,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 200,
+    "member_count": 1,
+    "key_leader": "Nandini Khan",
+    "avg_risk_score": 14.8,
+    "top_members": [
+      {
+        "id": 596,
+        "name": "Nandini Khan",
+        "risk_score": 14.8,
+        "community": 200,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 201,
+    "member_count": 1,
+    "key_leader": "Chandan Pujari",
+    "avg_risk_score": 14.8,
+    "top_members": [
+      {
+        "id": 597,
+        "name": "Chandan Pujari",
+        "risk_score": 14.8,
+        "community": 201,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 202,
+    "member_count": 1,
+    "key_leader": "Nandini Khan",
+    "avg_risk_score": 20.8,
+    "top_members": [
+      {
+        "id": 598,
+        "name": "Nandini Khan",
+        "risk_score": 20.8,
+        "community": 202,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 203,
+    "member_count": 1,
+    "key_leader": "Nandini Setty",
+    "avg_risk_score": 38.8,
+    "top_members": [
+      {
+        "id": 599,
+        "name": "Nandini Setty",
+        "risk_score": 38.8,
+        "community": 203,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 204,
+    "member_count": 2,
+    "key_leader": "Arjun Bhat",
+    "avg_risk_score": 40.1,
+    "top_members": [
+      {
+        "id": 600,
+        "name": "Arjun Bhat",
+        "risk_score": 40.1,
+        "community": 204,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 488,
+        "name": "Xavier Sequeira",
+        "risk_score": 40.1,
+        "community": 204,
+        "pagerank": 0.00168
+      }
+    ]
+  },
+  {
+    "community_id": 205,
+    "member_count": 1,
+    "key_leader": "Kalpana Shetty",
+    "avg_risk_score": 26.8,
+    "top_members": [
+      {
+        "id": 601,
+        "name": "Kalpana Shetty",
+        "risk_score": 26.8,
+        "community": 205,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 206,
+    "member_count": 1,
+    "key_leader": "Nataraj Sequeira",
+    "avg_risk_score": 32.8,
+    "top_members": [
+      {
+        "id": 602,
+        "name": "Nataraj Sequeira",
+        "risk_score": 32.8,
+        "community": 206,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 207,
+    "member_count": 2,
+    "key_leader": "Vijay Shetty",
+    "avg_risk_score": 29.8,
+    "top_members": [
+      {
+        "id": 604,
+        "name": "Vijay Shetty",
+        "risk_score": 29.8,
+        "community": 207,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 796,
+        "name": "Yallappa Mendes",
+        "risk_score": 29.8,
+        "community": 207,
+        "pagerank": 0.00168
+      }
+    ]
+  },
+  {
+    "community_id": 208,
+    "member_count": 1,
+    "key_leader": "Roopa Bhat",
+    "avg_risk_score": 34.7,
+    "top_members": [
+      {
+        "id": 605,
+        "name": "Roopa Bhat",
+        "risk_score": 34.7,
+        "community": 208,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 209,
+    "member_count": 1,
+    "key_leader": "Mahmood Prabhu",
+    "avg_risk_score": 32.8,
+    "top_members": [
+      {
+        "id": 607,
+        "name": "Mahmood Prabhu",
+        "risk_score": 32.8,
+        "community": 209,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 210,
+    "member_count": 1,
+    "key_leader": "Mahmood Naik",
+    "avg_risk_score": 43.4,
+    "top_members": [
+      {
+        "id": 609,
+        "name": "Mahmood Naik",
+        "risk_score": 43.4,
+        "community": 210,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 211,
+    "member_count": 1,
+    "key_leader": "Antony Rathod",
+    "avg_risk_score": 37.1,
+    "top_members": [
+      {
+        "id": 610,
+        "name": "Antony Rathod",
+        "risk_score": 37.1,
+        "community": 211,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 212,
+    "member_count": 1,
+    "key_leader": "Nataraj Sequeira",
+    "avg_risk_score": 34.4,
+    "top_members": [
+      {
+        "id": 611,
+        "name": "Nataraj Sequeira",
+        "risk_score": 34.4,
+        "community": 212,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 213,
+    "member_count": 1,
+    "key_leader": "Sowmya Sheikh",
+    "avg_risk_score": 23.6,
+    "top_members": [
+      {
+        "id": 612,
+        "name": "Sowmya Sheikh",
+        "risk_score": 23.6,
+        "community": 213,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 214,
+    "member_count": 1,
+    "key_leader": "Gopal Fernandes",
+    "avg_risk_score": 38.8,
+    "top_members": [
+      {
+        "id": 614,
+        "name": "Gopal Fernandes",
+        "risk_score": 38.8,
+        "community": 214,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 215,
+    "member_count": 2,
+    "key_leader": "Rashmi Hegde",
+    "avg_risk_score": 35.8,
+    "top_members": [
+      {
+        "id": 595,
+        "name": "Rashmi Hegde",
+        "risk_score": 35.8,
+        "community": 215,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 615,
+        "name": "Mahmood Prabhu",
+        "risk_score": 35.8,
+        "community": 215,
+        "pagerank": 0.00168
+      }
+    ]
+  },
+  {
+    "community_id": 216,
+    "member_count": 1,
+    "key_leader": "Vinay Chavan",
+    "avg_risk_score": 14.8,
+    "top_members": [
+      {
+        "id": 619,
+        "name": "Vinay Chavan",
+        "risk_score": 14.8,
+        "community": 216,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 217,
+    "member_count": 1,
+    "key_leader": "Kiran Prabhu",
+    "avg_risk_score": 45.3,
+    "top_members": [
+      {
+        "id": 621,
+        "name": "Kiran Prabhu",
+        "risk_score": 45.3,
+        "community": 217,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 218,
+    "member_count": 1,
+    "key_leader": "Lawrence Prabhu",
+    "avg_risk_score": 38.8,
+    "top_members": [
+      {
+        "id": 623,
+        "name": "Lawrence Prabhu",
+        "risk_score": 38.8,
+        "community": 218,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 219,
+    "member_count": 1,
+    "key_leader": "Sridhar Rao",
+    "avg_risk_score": 14.8,
+    "top_members": [
+      {
+        "id": 624,
+        "name": "Sridhar Rao",
+        "risk_score": 14.8,
+        "community": 219,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 220,
+    "member_count": 1,
+    "key_leader": "Praveen Rathod",
+    "avg_risk_score": 32.4,
+    "top_members": [
+      {
+        "id": 625,
+        "name": "Praveen Rathod",
+        "risk_score": 32.4,
+        "community": 220,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 221,
+    "member_count": 1,
+    "key_leader": "Rekha Kulkarni",
+    "avg_risk_score": 48.8,
+    "top_members": [
+      {
+        "id": 626,
+        "name": "Rekha Kulkarni",
+        "risk_score": 48.8,
+        "community": 221,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 222,
+    "member_count": 1,
+    "key_leader": "Sowmya Naik",
+    "avg_risk_score": 41.0,
+    "top_members": [
+      {
+        "id": 627,
+        "name": "Sowmya Naik",
+        "risk_score": 41.0,
+        "community": 222,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 223,
+    "member_count": 1,
+    "key_leader": "Sridhar Rao",
+    "avg_risk_score": 16.4,
+    "top_members": [
+      {
+        "id": 628,
+        "name": "Sridhar Rao",
+        "risk_score": 16.4,
+        "community": 223,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 224,
+    "member_count": 2,
+    "key_leader": "Joseph Kulkarni",
+    "avg_risk_score": 20.7,
+    "top_members": [
+      {
+        "id": 533,
+        "name": "Joseph Kulkarni",
+        "risk_score": 20.7,
+        "community": 224,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 630,
+        "name": "Xavier Setty",
+        "risk_score": 20.7,
+        "community": 224,
+        "pagerank": 0.00168
+      }
+    ]
+  },
+  {
+    "community_id": 225,
+    "member_count": 1,
+    "key_leader": "Kiran Prabhu",
+    "avg_risk_score": 52.2,
+    "top_members": [
+      {
+        "id": 631,
+        "name": "Kiran Prabhu",
+        "risk_score": 52.2,
+        "community": 225,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 226,
+    "member_count": 2,
+    "key_leader": "Chandan Pujari",
+    "avg_risk_score": 37.8,
+    "top_members": [
+      {
+        "id": 632,
+        "name": "Chandan Pujari",
+        "risk_score": 37.8,
+        "community": 226,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 648,
+        "name": "Pooja Kotian",
+        "risk_score": 37.8,
+        "community": 226,
+        "pagerank": 0.00168
+      }
+    ]
+  },
+  {
+    "community_id": 227,
+    "member_count": 1,
+    "key_leader": "Anitha Kamath",
+    "avg_risk_score": 26.8,
+    "top_members": [
+      {
+        "id": 634,
+        "name": "Anitha Kamath",
+        "risk_score": 26.8,
+        "community": 227,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 228,
+    "member_count": 1,
+    "key_leader": "Maria Reddy",
+    "avg_risk_score": 36.9,
+    "top_members": [
+      {
+        "id": 635,
+        "name": "Maria Reddy",
+        "risk_score": 36.9,
+        "community": 228,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 229,
+    "member_count": 1,
+    "key_leader": "Vijay Rathod",
+    "avg_risk_score": 51.1,
+    "top_members": [
+      {
+        "id": 636,
+        "name": "Vijay Rathod",
+        "risk_score": 51.1,
+        "community": 229,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 230,
+    "member_count": 2,
+    "key_leader": "Shivakumar Sheikh",
+    "avg_risk_score": 33.5,
+    "top_members": [
+      {
+        "id": 689,
+        "name": "Shivakumar Sheikh",
+        "risk_score": 33.5,
+        "community": 230,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 637,
+        "name": "Lakshmi Jadhav",
+        "risk_score": 33.5,
+        "community": 230,
+        "pagerank": 0.00168
+      }
+    ]
+  },
+  {
+    "community_id": 231,
+    "member_count": 1,
+    "key_leader": "Lakshmi Desai",
+    "avg_risk_score": 23.5,
+    "top_members": [
+      {
+        "id": 638,
+        "name": "Lakshmi Desai",
+        "risk_score": 23.5,
+        "community": 231,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 232,
+    "member_count": 1,
+    "key_leader": "Prakash Setty",
+    "avg_risk_score": 51.7,
+    "top_members": [
+      {
+        "id": 639,
+        "name": "Prakash Setty",
+        "risk_score": 51.7,
+        "community": 232,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 233,
+    "member_count": 1,
+    "key_leader": "Imran Jadhav",
+    "avg_risk_score": 55.8,
+    "top_members": [
+      {
+        "id": 642,
+        "name": "Imran Jadhav",
+        "risk_score": 55.8,
+        "community": 233,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 234,
+    "member_count": 1,
+    "key_leader": "Naseema Rao",
+    "avg_risk_score": 35.0,
+    "top_members": [
+      {
+        "id": 643,
+        "name": "Naseema Rao",
+        "risk_score": 35.0,
+        "community": 234,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 235,
+    "member_count": 1,
+    "key_leader": "Iqbal Patil",
+    "avg_risk_score": 38.8,
+    "top_members": [
+      {
+        "id": 644,
+        "name": "Iqbal Patil",
+        "risk_score": 38.8,
+        "community": 235,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 236,
+    "member_count": 1,
+    "key_leader": "Ganesh Desai",
+    "avg_risk_score": 14.8,
+    "top_members": [
+      {
+        "id": 645,
+        "name": "Ganesh Desai",
+        "risk_score": 14.8,
+        "community": 236,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 237,
+    "member_count": 1,
+    "key_leader": "Deepa Kotian",
+    "avg_risk_score": 31.6,
+    "top_members": [
+      {
+        "id": 646,
+        "name": "Deepa Kotian",
+        "risk_score": 31.6,
+        "community": 237,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 238,
+    "member_count": 1,
+    "key_leader": "Xavier Sequeira",
+    "avg_risk_score": 14.8,
+    "top_members": [
+      {
+        "id": 647,
+        "name": "Xavier Sequeira",
+        "risk_score": 14.8,
+        "community": 238,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 239,
+    "member_count": 1,
+    "key_leader": "Roopa Achar",
+    "avg_risk_score": 26.8,
+    "top_members": [
+      {
+        "id": 650,
+        "name": "Roopa Achar",
+        "risk_score": 26.8,
+        "community": 239,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 240,
+    "member_count": 1,
+    "key_leader": "Arjun Bhat",
+    "avg_risk_score": 46.2,
+    "top_members": [
+      {
+        "id": 651,
+        "name": "Arjun Bhat",
+        "risk_score": 46.2,
+        "community": 240,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 241,
+    "member_count": 1,
+    "key_leader": "Rekha Salian",
+    "avg_risk_score": 54.2,
+    "top_members": [
+      {
+        "id": 653,
+        "name": "Rekha Salian",
+        "risk_score": 54.2,
+        "community": 241,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 242,
+    "member_count": 1,
+    "key_leader": "Ganesh Shetty",
+    "avg_risk_score": 42.4,
+    "top_members": [
+      {
+        "id": 654,
+        "name": "Ganesh Shetty",
+        "risk_score": 42.4,
+        "community": 242,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 243,
+    "member_count": 2,
+    "key_leader": "Chandan D'Souza",
+    "avg_risk_score": 29.8,
+    "top_members": [
+      {
+        "id": 732,
+        "name": "Chandan D'Souza",
+        "risk_score": 29.8,
+        "community": 243,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 655,
+        "name": "Basavaraj Hegde",
+        "risk_score": 29.8,
+        "community": 243,
+        "pagerank": 0.00168
+      }
+    ]
+  },
+  {
+    "community_id": 244,
+    "member_count": 1,
+    "key_leader": "Sandra Setty",
+    "avg_risk_score": 14.8,
+    "top_members": [
+      {
+        "id": 656,
+        "name": "Sandra Setty",
+        "risk_score": 14.8,
+        "community": 244,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 245,
+    "member_count": 1,
+    "key_leader": "Ramesh Bhat",
+    "avg_risk_score": 28.0,
+    "top_members": [
+      {
+        "id": 659,
+        "name": "Ramesh Bhat",
+        "risk_score": 28.0,
+        "community": 245,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 246,
+    "member_count": 1,
+    "key_leader": "Imran Sheikh",
+    "avg_risk_score": 39.8,
+    "top_members": [
+      {
+        "id": 660,
+        "name": "Imran Sheikh",
+        "risk_score": 39.8,
+        "community": 246,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 247,
+    "member_count": 1,
+    "key_leader": "Chandan D'Souza",
+    "avg_risk_score": 26.8,
+    "top_members": [
+      {
+        "id": 662,
+        "name": "Chandan D'Souza",
+        "risk_score": 26.8,
+        "community": 247,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 248,
+    "member_count": 1,
+    "key_leader": "Deepak Khan",
+    "avg_risk_score": 26.8,
+    "top_members": [
+      {
+        "id": 663,
+        "name": "Deepak Khan",
+        "risk_score": 26.8,
+        "community": 248,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 249,
+    "member_count": 1,
+    "key_leader": "Mahmood Hegde",
+    "avg_risk_score": 32.8,
+    "top_members": [
+      {
+        "id": 664,
+        "name": "Mahmood Hegde",
+        "risk_score": 32.8,
+        "community": 249,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 250,
+    "member_count": 1,
+    "key_leader": "Puneeth Bhat",
+    "avg_risk_score": 32.0,
+    "top_members": [
+      {
+        "id": 665,
+        "name": "Puneeth Bhat",
+        "risk_score": 32.0,
+        "community": 250,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 251,
+    "member_count": 2,
+    "key_leader": "Vinay Sheikh",
+    "avg_risk_score": 35.8,
+    "top_members": [
+      {
+        "id": 513,
+        "name": "Vinay Sheikh",
+        "risk_score": 35.8,
+        "community": 251,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 666,
+        "name": "Arjun Bhat",
+        "risk_score": 35.8,
+        "community": 251,
+        "pagerank": 0.00168
+      }
+    ]
+  },
+  {
+    "community_id": 252,
+    "member_count": 1,
+    "key_leader": "Sowmya Sheikh",
+    "avg_risk_score": 17.5,
+    "top_members": [
+      {
+        "id": 667,
+        "name": "Sowmya Sheikh",
+        "risk_score": 17.5,
+        "community": 252,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 253,
+    "member_count": 2,
+    "key_leader": "Anitha Pinto",
+    "avg_risk_score": 17.8,
+    "top_members": [
+      {
+        "id": 523,
+        "name": "Anitha Pinto",
+        "risk_score": 17.8,
+        "community": 253,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 668,
+        "name": "Sridhar D'Souza",
+        "risk_score": 17.8,
+        "community": 253,
+        "pagerank": 0.00168
+      }
+    ]
+  },
+  {
+    "community_id": 254,
+    "member_count": 2,
+    "key_leader": "Mahmood Hegde",
+    "avg_risk_score": 42.1,
+    "top_members": [
+      {
+        "id": 443,
+        "name": "Mahmood Hegde",
+        "risk_score": 42.1,
+        "community": 254,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 669,
+        "name": "Imran Sheikh",
+        "risk_score": 42.1,
+        "community": 254,
+        "pagerank": 0.00168
+      }
+    ]
+  },
+  {
+    "community_id": 255,
+    "member_count": 1,
+    "key_leader": "Manjula Khan",
+    "avg_risk_score": 32.8,
+    "top_members": [
+      {
+        "id": 672,
+        "name": "Manjula Khan",
+        "risk_score": 32.8,
+        "community": 255,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 256,
+    "member_count": 1,
+    "key_leader": "Ganesh Desai",
+    "avg_risk_score": 26.8,
+    "top_members": [
+      {
+        "id": 674,
+        "name": "Ganesh Desai",
+        "risk_score": 26.8,
+        "community": 256,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 257,
+    "member_count": 1,
+    "key_leader": "Ravi Sequeira",
+    "avg_risk_score": 38.8,
+    "top_members": [
+      {
+        "id": 675,
+        "name": "Ravi Sequeira",
+        "risk_score": 38.8,
+        "community": 257,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 258,
+    "member_count": 1,
+    "key_leader": "Manjunath Pujari",
+    "avg_risk_score": 32.8,
+    "top_members": [
+      {
+        "id": 676,
+        "name": "Manjunath Pujari",
+        "risk_score": 32.8,
+        "community": 258,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 259,
+    "member_count": 1,
+    "key_leader": "Shivakumar Sheikh",
+    "avg_risk_score": 32.8,
+    "top_members": [
+      {
+        "id": 679,
+        "name": "Shivakumar Sheikh",
+        "risk_score": 32.8,
+        "community": 259,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 260,
+    "member_count": 1,
+    "key_leader": "Imran Sheikh",
+    "avg_risk_score": 14.8,
+    "top_members": [
+      {
+        "id": 680,
+        "name": "Imran Sheikh",
+        "risk_score": 14.8,
+        "community": 260,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 261,
+    "member_count": 1,
+    "key_leader": "Manjula Khan",
+    "avg_risk_score": 33.4,
+    "top_members": [
+      {
+        "id": 681,
+        "name": "Manjula Khan",
+        "risk_score": 33.4,
+        "community": 261,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 262,
+    "member_count": 1,
+    "key_leader": "Nagesh Fernandes",
+    "avg_risk_score": 14.8,
+    "top_members": [
+      {
+        "id": 682,
+        "name": "Nagesh Fernandes",
+        "risk_score": 14.8,
+        "community": 262,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 263,
+    "member_count": 1,
+    "key_leader": "Sudha Achar",
+    "avg_risk_score": 47.0,
+    "top_members": [
+      {
+        "id": 683,
+        "name": "Sudha Achar",
+        "risk_score": 47.0,
+        "community": 263,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 264,
+    "member_count": 2,
+    "key_leader": "Nandini Pujari",
+    "avg_risk_score": 38.0,
+    "top_members": [
+      {
+        "id": 528,
+        "name": "Nandini Pujari",
+        "risk_score": 38.0,
+        "community": 264,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 686,
+        "name": "Ayesha Prabhu",
+        "risk_score": 38.0,
+        "community": 264,
+        "pagerank": 0.00168
+      }
+    ]
+  },
+  {
+    "community_id": 265,
+    "member_count": 1,
+    "key_leader": "Basavaraj Hegde",
+    "avg_risk_score": 37.3,
+    "top_members": [
+      {
+        "id": 687,
+        "name": "Basavaraj Hegde",
+        "risk_score": 37.3,
+        "community": 265,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 266,
+    "member_count": 1,
+    "key_leader": "Sowmya Naik",
+    "avg_risk_score": 32.8,
+    "top_members": [
+      {
+        "id": 688,
+        "name": "Sowmya Naik",
+        "risk_score": 32.8,
+        "community": 266,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 267,
+    "member_count": 1,
+    "key_leader": "Basavaraj Shetty",
+    "avg_risk_score": 32.8,
+    "top_members": [
+      {
+        "id": 691,
+        "name": "Basavaraj Shetty",
+        "risk_score": 32.8,
+        "community": 267,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 268,
+    "member_count": 1,
+    "key_leader": "Naveen Sheikh",
+    "avg_risk_score": 52.2,
+    "top_members": [
+      {
+        "id": 692,
+        "name": "Naveen Sheikh",
+        "risk_score": 52.2,
+        "community": 268,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 269,
+    "member_count": 1,
+    "key_leader": "Harish Fernandes",
+    "avg_risk_score": 23.5,
+    "top_members": [
+      {
+        "id": 693,
+        "name": "Harish Fernandes",
+        "risk_score": 23.5,
+        "community": 269,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 270,
+    "member_count": 1,
+    "key_leader": "Melwin Desai",
+    "avg_risk_score": 32.8,
+    "top_members": [
+      {
+        "id": 694,
+        "name": "Melwin Desai",
+        "risk_score": 32.8,
+        "community": 270,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 271,
+    "member_count": 1,
+    "key_leader": "Vijayalakshmi Bhat",
+    "avg_risk_score": 35.2,
+    "top_members": [
+      {
+        "id": 695,
+        "name": "Vijayalakshmi Bhat",
+        "risk_score": 35.2,
+        "community": 271,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 272,
+    "member_count": 1,
+    "key_leader": "Kalpana Sequeira",
+    "avg_risk_score": 20.8,
+    "top_members": [
+      {
+        "id": 698,
+        "name": "Kalpana Sequeira",
+        "risk_score": 20.8,
+        "community": 272,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 273,
+    "member_count": 1,
+    "key_leader": "Lawrence Sequeira",
+    "avg_risk_score": 34.6,
+    "top_members": [
+      {
+        "id": 699,
+        "name": "Lawrence Sequeira",
+        "risk_score": 34.6,
+        "community": 273,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 274,
+    "member_count": 1,
+    "key_leader": "Roopa Salian",
+    "avg_risk_score": 32.8,
+    "top_members": [
+      {
+        "id": 700,
+        "name": "Roopa Salian",
+        "risk_score": 32.8,
+        "community": 274,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 275,
+    "member_count": 1,
+    "key_leader": "Vidya Shetty",
+    "avg_risk_score": 32.8,
+    "top_members": [
+      {
+        "id": 701,
+        "name": "Vidya Shetty",
+        "risk_score": 32.8,
+        "community": 275,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 276,
+    "member_count": 1,
+    "key_leader": "Deepa Sequeira",
+    "avg_risk_score": 26.8,
+    "top_members": [
+      {
+        "id": 702,
+        "name": "Deepa Sequeira",
+        "risk_score": 26.8,
+        "community": 276,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 277,
+    "member_count": 1,
+    "key_leader": "Naveen Sheikh",
+    "avg_risk_score": 32.8,
+    "top_members": [
+      {
+        "id": 703,
+        "name": "Naveen Sheikh",
+        "risk_score": 32.8,
+        "community": 277,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 278,
+    "member_count": 1,
+    "key_leader": "Prakash Rathod",
+    "avg_risk_score": 38.8,
+    "top_members": [
+      {
+        "id": 704,
+        "name": "Prakash Rathod",
+        "risk_score": 38.8,
+        "community": 278,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 279,
+    "member_count": 1,
+    "key_leader": "Nandini Khan",
+    "avg_risk_score": 32.5,
+    "top_members": [
+      {
+        "id": 707,
+        "name": "Nandini Khan",
+        "risk_score": 32.5,
+        "community": 279,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 280,
+    "member_count": 1,
+    "key_leader": "Chandan D'Souza",
+    "avg_risk_score": 47.3,
+    "top_members": [
+      {
+        "id": 708,
+        "name": "Chandan D'Souza",
+        "risk_score": 47.3,
+        "community": 280,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 281,
+    "member_count": 1,
+    "key_leader": "Rekha Kulkarni",
+    "avg_risk_score": 35.5,
+    "top_members": [
+      {
+        "id": 709,
+        "name": "Rekha Kulkarni",
+        "risk_score": 35.5,
+        "community": 281,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 282,
+    "member_count": 1,
+    "key_leader": "Suresh Sheikh",
+    "avg_risk_score": 20.8,
+    "top_members": [
+      {
+        "id": 710,
+        "name": "Suresh Sheikh",
+        "risk_score": 20.8,
+        "community": 282,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 283,
+    "member_count": 1,
+    "key_leader": "Vijayalakshmi Desai",
+    "avg_risk_score": 20.8,
+    "top_members": [
+      {
+        "id": 711,
+        "name": "Vijayalakshmi Desai",
+        "risk_score": 20.8,
+        "community": 283,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 284,
+    "member_count": 1,
+    "key_leader": "Joseph Salian",
+    "avg_risk_score": 32.8,
+    "top_members": [
+      {
+        "id": 712,
+        "name": "Joseph Salian",
+        "risk_score": 32.8,
+        "community": 284,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 285,
+    "member_count": 1,
+    "key_leader": "Sowmya Sheikh",
+    "avg_risk_score": 32.8,
+    "top_members": [
+      {
+        "id": 713,
+        "name": "Sowmya Sheikh",
+        "risk_score": 32.8,
+        "community": 285,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 286,
+    "member_count": 1,
+    "key_leader": "Suresh Sheikh",
+    "avg_risk_score": 38.8,
+    "top_members": [
+      {
+        "id": 714,
+        "name": "Suresh Sheikh",
+        "risk_score": 38.8,
+        "community": 286,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 287,
+    "member_count": 2,
+    "key_leader": "Deepa Naik",
+    "avg_risk_score": 35.0,
+    "top_members": [
+      {
+        "id": 715,
+        "name": "Deepa Naik",
+        "risk_score": 35.0,
+        "community": 287,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 519,
+        "name": "Santosh Kotian",
+        "risk_score": 35.0,
+        "community": 287,
+        "pagerank": 0.00168
+      }
+    ]
+  },
+  {
+    "community_id": 288,
+    "member_count": 2,
+    "key_leader": "Nandini Setty",
+    "avg_risk_score": 35.8,
+    "top_members": [
+      {
+        "id": 716,
+        "name": "Nandini Setty",
+        "risk_score": 35.8,
+        "community": 288,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 661,
+        "name": "Sowmya Naik",
+        "risk_score": 35.8,
+        "community": 288,
+        "pagerank": 0.00168
+      }
+    ]
+  },
+  {
+    "community_id": 289,
+    "member_count": 2,
+    "key_leader": "Lawrence Sequeira",
+    "avg_risk_score": 41.8,
+    "top_members": [
+      {
+        "id": 603,
+        "name": "Lawrence Sequeira",
+        "risk_score": 41.8,
+        "community": 289,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 717,
+        "name": "Manjula Fernandes",
+        "risk_score": 41.8,
+        "community": 289,
+        "pagerank": 0.00168
+      }
+    ]
+  },
+  {
+    "community_id": 290,
+    "member_count": 1,
+    "key_leader": "Kavya Salian",
+    "avg_risk_score": 20.8,
+    "top_members": [
+      {
+        "id": 718,
+        "name": "Kavya Salian",
+        "risk_score": 20.8,
+        "community": 290,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 291,
+    "member_count": 1,
+    "key_leader": "Roopa Salian",
+    "avg_risk_score": 38.8,
+    "top_members": [
+      {
+        "id": 719,
+        "name": "Roopa Salian",
+        "risk_score": 38.8,
+        "community": 291,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 292,
+    "member_count": 1,
+    "key_leader": "Basavaraj Hegde",
+    "avg_risk_score": 41.7,
+    "top_members": [
+      {
+        "id": 721,
+        "name": "Basavaraj Hegde",
+        "risk_score": 41.7,
+        "community": 292,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 293,
+    "member_count": 1,
+    "key_leader": "Harish Khan",
+    "avg_risk_score": 32.8,
+    "top_members": [
+      {
+        "id": 722,
+        "name": "Harish Khan",
+        "risk_score": 32.8,
+        "community": 293,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 294,
+    "member_count": 1,
+    "key_leader": "Gopal Fernandes",
+    "avg_risk_score": 20.8,
+    "top_members": [
+      {
+        "id": 723,
+        "name": "Gopal Fernandes",
+        "risk_score": 20.8,
+        "community": 294,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 295,
+    "member_count": 1,
+    "key_leader": "Bhagya Mendes",
+    "avg_risk_score": 37.7,
+    "top_members": [
+      {
+        "id": 724,
+        "name": "Bhagya Mendes",
+        "risk_score": 37.7,
+        "community": 295,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 296,
+    "member_count": 1,
+    "key_leader": "Sowmya Desai",
+    "avg_risk_score": 20.8,
+    "top_members": [
+      {
+        "id": 725,
+        "name": "Sowmya Desai",
+        "risk_score": 20.8,
+        "community": 296,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 297,
+    "member_count": 1,
+    "key_leader": "Vishwanath Fernandes",
+    "avg_risk_score": 38.8,
+    "top_members": [
+      {
+        "id": 727,
+        "name": "Vishwanath Fernandes",
+        "risk_score": 38.8,
+        "community": 297,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 298,
+    "member_count": 1,
+    "key_leader": "Roopa Bhat",
+    "avg_risk_score": 37.7,
+    "top_members": [
+      {
+        "id": 728,
+        "name": "Roopa Bhat",
+        "risk_score": 37.7,
+        "community": 298,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 299,
+    "member_count": 1,
+    "key_leader": "Sudha Achar",
+    "avg_risk_score": 22.6,
+    "top_members": [
+      {
+        "id": 729,
+        "name": "Sudha Achar",
+        "risk_score": 22.6,
+        "community": 299,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 300,
+    "member_count": 1,
+    "key_leader": "Santosh Salian",
+    "avg_risk_score": 38.8,
+    "top_members": [
+      {
+        "id": 730,
+        "name": "Santosh Salian",
+        "risk_score": 38.8,
+        "community": 300,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 301,
+    "member_count": 1,
+    "key_leader": "Chandan D'Souza",
+    "avg_risk_score": 38.8,
+    "top_members": [
+      {
+        "id": 731,
+        "name": "Chandan D'Souza",
+        "risk_score": 38.8,
+        "community": 301,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 302,
+    "member_count": 1,
+    "key_leader": "Joseph Salian",
+    "avg_risk_score": 41.0,
+    "top_members": [
+      {
+        "id": 733,
+        "name": "Joseph Salian",
+        "risk_score": 41.0,
+        "community": 302,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 303,
+    "member_count": 1,
+    "key_leader": "Bhagya Mendes",
+    "avg_risk_score": 21.2,
+    "top_members": [
+      {
+        "id": 734,
+        "name": "Bhagya Mendes",
+        "risk_score": 21.2,
+        "community": 303,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 304,
+    "member_count": 1,
+    "key_leader": "Rashmi Sheikh",
+    "avg_risk_score": 26.8,
+    "top_members": [
+      {
+        "id": 735,
+        "name": "Rashmi Sheikh",
+        "risk_score": 26.8,
+        "community": 304,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 305,
+    "member_count": 2,
+    "key_leader": "Harish Khan",
+    "avg_risk_score": 35.8,
+    "top_members": [
+      {
+        "id": 736,
+        "name": "Harish Khan",
+        "risk_score": 35.8,
+        "community": 305,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 705,
+        "name": "Deepa Kulkarni",
+        "risk_score": 35.8,
+        "community": 305,
+        "pagerank": 0.00168
+      }
+    ]
+  },
+  {
+    "community_id": 306,
+    "member_count": 1,
+    "key_leader": "Sudha Achar",
+    "avg_risk_score": 29.3,
+    "top_members": [
+      {
+        "id": 737,
+        "name": "Sudha Achar",
+        "risk_score": 29.3,
+        "community": 306,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 307,
+    "member_count": 1,
+    "key_leader": "Maria Reddy",
+    "avg_risk_score": 26.8,
+    "top_members": [
+      {
+        "id": 738,
+        "name": "Maria Reddy",
+        "risk_score": 26.8,
+        "community": 307,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 308,
+    "member_count": 1,
+    "key_leader": "Roopa Bhat",
+    "avg_risk_score": 52.6,
+    "top_members": [
+      {
+        "id": 739,
+        "name": "Roopa Bhat",
+        "risk_score": 52.6,
+        "community": 308,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 309,
+    "member_count": 1,
+    "key_leader": "Rashmi Sheikh",
+    "avg_risk_score": 14.8,
+    "top_members": [
+      {
+        "id": 740,
+        "name": "Rashmi Sheikh",
+        "risk_score": 14.8,
+        "community": 309,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 310,
+    "member_count": 1,
+    "key_leader": "Deepa Kulkarni",
+    "avg_risk_score": 32.8,
+    "top_members": [
+      {
+        "id": 741,
+        "name": "Deepa Kulkarni",
+        "risk_score": 32.8,
+        "community": 310,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 311,
+    "member_count": 1,
+    "key_leader": "Nagesh Pinto",
+    "avg_risk_score": 51.9,
+    "top_members": [
+      {
+        "id": 742,
+        "name": "Nagesh Pinto",
+        "risk_score": 51.9,
+        "community": 311,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 312,
+    "member_count": 1,
+    "key_leader": "Naseema Rao",
+    "avg_risk_score": 26.8,
+    "top_members": [
+      {
+        "id": 744,
+        "name": "Naseema Rao",
+        "risk_score": 26.8,
+        "community": 312,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 313,
+    "member_count": 1,
+    "key_leader": "Antony Pinto",
+    "avg_risk_score": 29.8,
+    "top_members": [
+      {
+        "id": 745,
+        "name": "Antony Pinto",
+        "risk_score": 29.8,
+        "community": 313,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 314,
+    "member_count": 1,
+    "key_leader": "Roopa Hegde",
+    "avg_risk_score": 36.3,
+    "top_members": [
+      {
+        "id": 746,
+        "name": "Roopa Hegde",
+        "risk_score": 36.3,
+        "community": 314,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 315,
+    "member_count": 1,
+    "key_leader": "Maria Reddy",
+    "avg_risk_score": 29.7,
+    "top_members": [
+      {
+        "id": 747,
+        "name": "Maria Reddy",
+        "risk_score": 29.7,
+        "community": 315,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 316,
+    "member_count": 1,
+    "key_leader": "Iqbal Patil",
+    "avg_risk_score": 32.8,
+    "top_members": [
+      {
+        "id": 748,
+        "name": "Iqbal Patil",
+        "risk_score": 32.8,
+        "community": 316,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 317,
+    "member_count": 1,
+    "key_leader": "Chandan D'Souza",
+    "avg_risk_score": 38.8,
+    "top_members": [
+      {
+        "id": 750,
+        "name": "Chandan D'Souza",
+        "risk_score": 38.8,
+        "community": 317,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 318,
+    "member_count": 1,
+    "key_leader": "Joseph Kulkarni",
+    "avg_risk_score": 14.8,
+    "top_members": [
+      {
+        "id": 751,
+        "name": "Joseph Kulkarni",
+        "risk_score": 14.8,
+        "community": 318,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 319,
+    "member_count": 1,
+    "key_leader": "Anitha Pinto",
+    "avg_risk_score": 26.8,
+    "top_members": [
+      {
+        "id": 752,
+        "name": "Anitha Pinto",
+        "risk_score": 26.8,
+        "community": 319,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 320,
+    "member_count": 1,
+    "key_leader": "Vinay Chavan",
+    "avg_risk_score": 44.8,
+    "top_members": [
+      {
+        "id": 753,
+        "name": "Vinay Chavan",
+        "risk_score": 44.8,
+        "community": 320,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 321,
+    "member_count": 1,
+    "key_leader": "Deepa Desai",
+    "avg_risk_score": 30.2,
+    "top_members": [
+      {
+        "id": 755,
+        "name": "Deepa Desai",
+        "risk_score": 30.2,
+        "community": 321,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 322,
+    "member_count": 1,
+    "key_leader": "Sridhar D'Souza",
+    "avg_risk_score": 29.9,
+    "top_members": [
+      {
+        "id": 756,
+        "name": "Sridhar D'Souza",
+        "risk_score": 29.9,
+        "community": 322,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 323,
+    "member_count": 1,
+    "key_leader": "Roopa Bhat",
+    "avg_risk_score": 33.6,
+    "top_members": [
+      {
+        "id": 757,
+        "name": "Roopa Bhat",
+        "risk_score": 33.6,
+        "community": 323,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 324,
+    "member_count": 1,
+    "key_leader": "Nandini Pujari",
+    "avg_risk_score": 26.8,
+    "top_members": [
+      {
+        "id": 759,
+        "name": "Nandini Pujari",
+        "risk_score": 26.8,
+        "community": 324,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 325,
+    "member_count": 1,
+    "key_leader": "Vishwanath Fernandes",
+    "avg_risk_score": 42.8,
+    "top_members": [
+      {
+        "id": 760,
+        "name": "Vishwanath Fernandes",
+        "risk_score": 42.8,
+        "community": 325,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 326,
+    "member_count": 1,
+    "key_leader": "Pooja Gowda",
+    "avg_risk_score": 32.8,
+    "top_members": [
+      {
+        "id": 761,
+        "name": "Pooja Gowda",
+        "risk_score": 32.8,
+        "community": 326,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 327,
+    "member_count": 2,
+    "key_leader": "Kiran Desai",
+    "avg_risk_score": 29.8,
+    "top_members": [
+      {
+        "id": 657,
+        "name": "Kiran Desai",
+        "risk_score": 29.8,
+        "community": 327,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 763,
+        "name": "Basavaraj Shetty",
+        "risk_score": 29.8,
+        "community": 327,
+        "pagerank": 0.00168
+      }
+    ]
+  },
+  {
+    "community_id": 328,
+    "member_count": 1,
+    "key_leader": "Ravi Rathod",
+    "avg_risk_score": 26.8,
+    "top_members": [
+      {
+        "id": 764,
+        "name": "Ravi Rathod",
+        "risk_score": 26.8,
+        "community": 328,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 329,
+    "member_count": 1,
+    "key_leader": "Shweta Chavan",
+    "avg_risk_score": 26.8,
+    "top_members": [
+      {
+        "id": 766,
+        "name": "Shweta Chavan",
+        "risk_score": 26.8,
+        "community": 329,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 330,
+    "member_count": 1,
+    "key_leader": "Suresh Kotian",
+    "avg_risk_score": 26.8,
+    "top_members": [
+      {
+        "id": 767,
+        "name": "Suresh Kotian",
+        "risk_score": 26.8,
+        "community": 330,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 331,
+    "member_count": 1,
+    "key_leader": "Manjula Fernandes",
+    "avg_risk_score": 26.8,
+    "top_members": [
+      {
+        "id": 768,
+        "name": "Manjula Fernandes",
+        "risk_score": 26.8,
+        "community": 331,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 332,
+    "member_count": 1,
+    "key_leader": "Rekha Salian",
+    "avg_risk_score": 43.4,
+    "top_members": [
+      {
+        "id": 769,
+        "name": "Rekha Salian",
+        "risk_score": 43.4,
+        "community": 332,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 333,
+    "member_count": 2,
+    "key_leader": "Nandini Khan",
+    "avg_risk_score": 29.8,
+    "top_members": [
+      {
+        "id": 496,
+        "name": "Nandini Khan",
+        "risk_score": 29.8,
+        "community": 333,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 770,
+        "name": "Imran Sheikh",
+        "risk_score": 29.8,
+        "community": 333,
+        "pagerank": 0.00168
+      }
+    ]
+  },
+  {
+    "community_id": 334,
+    "member_count": 1,
+    "key_leader": "Roopa Bhat",
+    "avg_risk_score": 49.1,
+    "top_members": [
+      {
+        "id": 771,
+        "name": "Roopa Bhat",
+        "risk_score": 49.1,
+        "community": 334,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 335,
+    "member_count": 1,
+    "key_leader": "Sudha Reddy",
+    "avg_risk_score": 32.8,
+    "top_members": [
+      {
+        "id": 772,
+        "name": "Sudha Reddy",
+        "risk_score": 32.8,
+        "community": 335,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 336,
+    "member_count": 1,
+    "key_leader": "Vidya Shetty",
+    "avg_risk_score": 43.8,
+    "top_members": [
+      {
+        "id": 773,
+        "name": "Vidya Shetty",
+        "risk_score": 43.8,
+        "community": 336,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 337,
+    "member_count": 1,
+    "key_leader": "Sandra Jadhav",
+    "avg_risk_score": 32.8,
+    "top_members": [
+      {
+        "id": 774,
+        "name": "Sandra Jadhav",
+        "risk_score": 32.8,
+        "community": 337,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 338,
+    "member_count": 2,
+    "key_leader": "Deepa Kotian",
+    "avg_risk_score": 48.7,
+    "top_members": [
+      {
+        "id": 671,
+        "name": "Deepa Kotian",
+        "risk_score": 48.7,
+        "community": 338,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 775,
+        "name": "Vinay Sheikh",
+        "risk_score": 48.7,
+        "community": 338,
+        "pagerank": 0.00168
+      }
+    ]
+  },
+  {
+    "community_id": 339,
+    "member_count": 2,
+    "key_leader": "Chandan Pujari",
+    "avg_risk_score": 49.1,
+    "top_members": [
+      {
+        "id": 776,
+        "name": "Chandan Pujari",
+        "risk_score": 49.1,
+        "community": 339,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 527,
+        "name": "Manjula Fernandes",
+        "risk_score": 49.1,
+        "community": 339,
+        "pagerank": 0.00168
+      }
+    ]
+  },
+  {
+    "community_id": 340,
+    "member_count": 1,
+    "key_leader": "Bhagya Mendes",
+    "avg_risk_score": 32.8,
+    "top_members": [
+      {
+        "id": 777,
+        "name": "Bhagya Mendes",
+        "risk_score": 32.8,
+        "community": 340,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 341,
+    "member_count": 2,
+    "key_leader": "Roopa Bhat",
+    "avg_risk_score": 41.8,
+    "top_members": [
+      {
+        "id": 652,
+        "name": "Roopa Bhat",
+        "risk_score": 41.8,
+        "community": 341,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 780,
+        "name": "Vidya Shetty",
+        "risk_score": 41.8,
+        "community": 341,
+        "pagerank": 0.00168
+      }
+    ]
+  },
+  {
+    "community_id": 342,
+    "member_count": 1,
+    "key_leader": "Mahmood Prabhu",
+    "avg_risk_score": 26.8,
+    "top_members": [
+      {
+        "id": 781,
+        "name": "Mahmood Prabhu",
+        "risk_score": 26.8,
+        "community": 342,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 343,
+    "member_count": 2,
+    "key_leader": "Nataraj D'Souza",
+    "avg_risk_score": 41.8,
+    "top_members": [
+      {
+        "id": 782,
+        "name": "Nataraj D'Souza",
+        "risk_score": 41.8,
+        "community": 343,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 783,
+        "name": "Mahmood Naik",
+        "risk_score": 41.8,
+        "community": 343,
+        "pagerank": 0.00168
+      }
+    ]
+  },
+  {
+    "community_id": 344,
+    "member_count": 2,
+    "key_leader": "Basavaraj Shetty",
+    "avg_risk_score": 25.3,
+    "top_members": [
+      {
+        "id": 784,
+        "name": "Basavaraj Shetty",
+        "risk_score": 25.3,
+        "community": 344,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 696,
+        "name": "Girish Ballal",
+        "risk_score": 25.3,
+        "community": 344,
+        "pagerank": 0.00168
+      }
+    ]
+  },
+  {
+    "community_id": 345,
+    "member_count": 1,
+    "key_leader": "Rajesh Gowda",
+    "avg_risk_score": 20.8,
+    "top_members": [
+      {
+        "id": 785,
+        "name": "Rajesh Gowda",
+        "risk_score": 20.8,
+        "community": 345,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 346,
+    "member_count": 1,
+    "key_leader": "Pooja Kotian",
+    "avg_risk_score": 31.7,
+    "top_members": [
+      {
+        "id": 786,
+        "name": "Pooja Kotian",
+        "risk_score": 31.7,
+        "community": 346,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 347,
+    "member_count": 1,
+    "key_leader": "Vinay Chavan",
+    "avg_risk_score": 52.6,
+    "top_members": [
+      {
+        "id": 787,
+        "name": "Vinay Chavan",
+        "risk_score": 52.6,
+        "community": 347,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 348,
+    "member_count": 1,
+    "key_leader": "Rekha Kulkarni",
+    "avg_risk_score": 32.8,
+    "top_members": [
+      {
+        "id": 789,
+        "name": "Rekha Kulkarni",
+        "risk_score": 32.8,
+        "community": 348,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 349,
+    "member_count": 1,
+    "key_leader": "Gopal Fernandes",
+    "avg_risk_score": 14.8,
+    "top_members": [
+      {
+        "id": 790,
+        "name": "Gopal Fernandes",
+        "risk_score": 14.8,
+        "community": 349,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 350,
+    "member_count": 1,
+    "key_leader": "Sudha Kamath",
+    "avg_risk_score": 14.8,
+    "top_members": [
+      {
+        "id": 791,
+        "name": "Sudha Kamath",
+        "risk_score": 14.8,
+        "community": 350,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 351,
+    "member_count": 1,
+    "key_leader": "Imran Patil",
+    "avg_risk_score": 14.8,
+    "top_members": [
+      {
+        "id": 792,
+        "name": "Imran Patil",
+        "risk_score": 14.8,
+        "community": 351,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 352,
+    "member_count": 1,
+    "key_leader": "Bhagya Bhat",
+    "avg_risk_score": 38.8,
+    "top_members": [
+      {
+        "id": 794,
+        "name": "Bhagya Bhat",
+        "risk_score": 38.8,
+        "community": 352,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 353,
+    "member_count": 1,
+    "key_leader": "Gopal Fernandes",
+    "avg_risk_score": 26.8,
+    "top_members": [
+      {
+        "id": 795,
+        "name": "Gopal Fernandes",
+        "risk_score": 26.8,
+        "community": 353,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 354,
+    "member_count": 2,
+    "key_leader": "Chandan D'Souza",
+    "avg_risk_score": 35.8,
+    "top_members": [
+      {
+        "id": 531,
+        "name": "Chandan D'Souza",
+        "risk_score": 35.8,
+        "community": 354,
+        "pagerank": 0.00168
+      },
+      {
+        "id": 797,
+        "name": "Chandan Pujari",
+        "risk_score": 35.8,
+        "community": 354,
+        "pagerank": 0.00168
+      }
+    ]
+  },
+  {
+    "community_id": 355,
+    "member_count": 1,
+    "key_leader": "Arjun Bhat",
+    "avg_risk_score": 20.8,
+    "top_members": [
+      {
+        "id": 798,
+        "name": "Arjun Bhat",
+        "risk_score": 20.8,
+        "community": 355,
+        "pagerank": 0.00025
+      }
+    ]
+  },
+  {
+    "community_id": 356,
+    "member_count": 1,
+    "key_leader": "Vijayalakshmi Desai",
+    "avg_risk_score": 40.3,
+    "top_members": [
+      {
+        "id": 800,
+        "name": "Vijayalakshmi Desai",
+        "risk_score": 40.3,
+        "community": 356,
+        "pagerank": 0.00025
+      }
+    ]
+  }
+]

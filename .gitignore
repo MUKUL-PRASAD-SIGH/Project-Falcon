@@ -48,6 +48,15 @@ data/raw/
 *.geojson
 *.sqlite3
 
+# Offline demo assets are intentionally versioned so a fresh clone can run the
+# documented local ML and API flow without an external dataset.
+!data/scripts/firs_synthetic.json
+!data/scripts/accused_synthetic.json
+!data/processed/accused_features.csv
+!ml/outputs/*.json
+!ml/outputs/*.geojson
+!ml/outputs/*.csv
+
 # Checkpoints
 .ipynb_checkpoints/
 checkpoints/

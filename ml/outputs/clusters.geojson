@@ -1,0 +1,90 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.63888438735152,
+          12.300473636269832
+        ]
+      },
+      "properties": {
+        "cluster_id": 0,
+        "incident_count": 205,
+        "risk_level": "Low",
+        "district": "Mysuru City",
+        "crime_type": "Mixed"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          74.49645378543036,
+          15.84850749460371
+        ]
+      },
+      "properties": {
+        "cluster_id": 1,
+        "incident_count": 213,
+        "risk_level": "Medium",
+        "district": "Belagavi",
+        "crime_type": "Mixed"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.59800783824733,
+          12.97351293458254
+        ]
+      },
+      "properties": {
+        "cluster_id": 2,
+        "incident_count": 203,
+        "risk_level": "Low",
+        "district": "Bengaluru City",
+        "crime_type": "Mixed"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.11639688788935,
+          15.363089223093704
+        ]
+      },
+      "properties": {
+        "cluster_id": 3,
+        "incident_count": 181,
+        "risk_level": "High",
+        "district": "Hubballi-Dharwad",
+        "crime_type": "Mixed"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          74.87487118601213,
+          12.865912603893845
+        ]
+      },
+      "properties": {
+        "cluster_id": 4,
+        "incident_count": 198,
+        "risk_level": "Low",
+        "district": "Mangaluru City",
+        "crime_type": "Mixed"
+      }
+    }
+  ]
+}

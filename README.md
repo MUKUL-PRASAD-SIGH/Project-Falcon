@@ -89,7 +89,46 @@ For team members and evaluators:
 
 ---
 
-# Using Real Karnataka Police Dataset (Production Mode)
+## Current Runnable Workflow
+
+The checked-in synthetic inputs and offline ML artifacts support a full local
+demo without Catalyst credentials. From the project root:
+
+```bash
+python -m venv .venv
+.venv\\Scripts\\activate                 # Windows
+python -m pip install -r requirements.txt
+copy .env.example .env
+copy frontend\\.env.example frontend\\.env.local
+python data/scripts/generate_synthetic.py  # optional: regenerate demo inputs
+python ml/run_pipeline.py
+python -m uvicorn backend.main:app --host 0.0.0.0 --port 8000
+```
+
+In a second terminal:
+
+```bash
+cd frontend
+npm install
+npm run lint
+npm run dev
+```
+
+`VITE_API_BASE_URL` points the frontend at a local or deployed AppSail API.
+`VITE_API_BASE` is retained as a legacy alias. The chat endpoint safely uses an
+offline response when Catalyst credentials are not configured.
+
+For deployment, build the frontend and run `catalyst deploy`. The repository
+includes the `falcon-api` AppSail service and its startup configuration.
+
+---
+
+# Legacy / Planned Real Karnataka Police Dataset Workflow
+
+> The steps below are retained for project context. They describe planned
+> production ingestion components that are not present in this repository; use
+> the runnable workflow above or implement the missing Catalyst DataStore ETL
+> before relying on them.
 
 ## Directory Structure
 

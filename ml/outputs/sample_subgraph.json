@@ -1,0 +1,517 @@
+{
+  "center_accused_id": 213,
+  "community_id": 40,
+  "total_nodes": 13,
+  "total_edges": 78,
+  "nodes": [
+    {
+      "id": "224",
+      "accused_id": 224,
+      "name": "Lakshmi Desai",
+      "risk_score": 57.8,
+      "community": 40,
+      "pagerank": 0.00168,
+      "is_leader": false
+    },
+    {
+      "id": "225",
+      "accused_id": 225,
+      "name": "Gopal Fernandes",
+      "risk_score": 57.8,
+      "community": 40,
+      "pagerank": 0.00168,
+      "is_leader": false
+    },
+    {
+      "id": "226",
+      "accused_id": 226,
+      "name": "Deepa Naik",
+      "risk_score": 57.8,
+      "community": 40,
+      "pagerank": 0.00168,
+      "is_leader": false
+    },
+    {
+      "id": "227",
+      "accused_id": 227,
+      "name": "Anitha Kamath",
+      "risk_score": 57.8,
+      "community": 40,
+      "pagerank": 0.00168,
+      "is_leader": false
+    },
+    {
+      "id": "231",
+      "accused_id": 231,
+      "name": "Vijay Rathod",
+      "risk_score": 57.8,
+      "community": 40,
+      "pagerank": 0.00168,
+      "is_leader": false
+    },
+    {
+      "id": "233",
+      "accused_id": 233,
+      "name": "Deepa Desai",
+      "risk_score": 57.8,
+      "community": 40,
+      "pagerank": 0.00168,
+      "is_leader": false
+    },
+    {
+      "id": "213",
+      "accused_id": 213,
+      "name": "Arjun Bhat (Leader)",
+      "risk_score": 57.8,
+      "community": 40,
+      "pagerank": 0.00168,
+      "is_leader": true
+    },
+    {
+      "id": "215",
+      "accused_id": 215,
+      "name": "Ramesh Bhat",
+      "risk_score": 57.8,
+      "community": 40,
+      "pagerank": 0.00168,
+      "is_leader": false
+    },
+    {
+      "id": "216",
+      "accused_id": 216,
+      "name": "Naveen Sheikh",
+      "risk_score": 57.8,
+      "community": 40,
+      "pagerank": 0.00168,
+      "is_leader": false
+    },
+    {
+      "id": "217",
+      "accused_id": 217,
+      "name": "Sandra Setty",
+      "risk_score": 57.8,
+      "community": 40,
+      "pagerank": 0.00168,
+      "is_leader": false
+    },
+    {
+      "id": "219",
+      "accused_id": 219,
+      "name": "Manjunath Pujari",
+      "risk_score": 57.8,
+      "community": 40,
+      "pagerank": 0.00168,
+      "is_leader": false
+    },
+    {
+      "id": "220",
+      "accused_id": 220,
+      "name": "Nataraj D'Souza",
+      "risk_score": 57.8,
+      "community": 40,
+      "pagerank": 0.00168,
+      "is_leader": false
+    },
+    {
+      "id": "223",
+      "accused_id": 223,
+      "name": "Naveen Sheikh",
+      "risk_score": 57.8,
+      "community": 40,
+      "pagerank": 0.00168,
+      "is_leader": false
+    }
+  ],
+  "edges": [
+    {
+      "source": "224",
+      "target": "213",
+      "weight": 1
+    },
+    {
+      "source": "224",
+      "target": "215",
+      "weight": 1
+    },
+    {
+      "source": "224",
+      "target": "216",
+      "weight": 1
+    },
+    {
+      "source": "224",
+      "target": "217",
+      "weight": 1
+    },
+    {
+      "source": "224",
+      "target": "219",
+      "weight": 1
+    },
+    {
+      "source": "224",
+      "target": "220",
+      "weight": 1
+    },
+    {
+      "source": "224",
+      "target": "223",
+      "weight": 1
+    },
+    {
+      "source": "224",
+      "target": "225",
+      "weight": 1
+    },
+    {
+      "source": "224",
+      "target": "226",
+      "weight": 1
+    },
+    {
+      "source": "224",
+      "target": "227",
+      "weight": 1
+    },
+    {
+      "source": "224",
+      "target": "231",
+      "weight": 1
+    },
+    {
+      "source": "224",
+      "target": "233",
+      "weight": 1
+    },
+    {
+      "source": "225",
+      "target": "213",
+      "weight": 1
+    },
+    {
+      "source": "225",
+      "target": "215",
+      "weight": 1
+    },
+    {
+      "source": "225",
+      "target": "216",
+      "weight": 1
+    },
+    {
+      "source": "225",
+      "target": "217",
+      "weight": 1
+    },
+    {
+      "source": "225",
+      "target": "219",
+      "weight": 1
+    },
+    {
+      "source": "225",
+      "target": "220",
+      "weight": 1
+    },
+    {
+      "source": "225",
+      "target": "223",
+      "weight": 1
+    },
+    {
+      "source": "225",
+      "target": "226",
+      "weight": 1
+    },
+    {
+      "source": "225",
+      "target": "227",
+      "weight": 1
+    },
+    {
+      "source": "225",
+      "target": "231",
+      "weight": 1
+    },
+    {
+      "source": "225",
+      "target": "233",
+      "weight": 1
+    },
+    {
+      "source": "226",
+      "target": "213",
+      "weight": 1
+    },
+    {
+      "source": "226",
+      "target": "215",
+      "weight": 1
+    },
+    {
+      "source": "226",
+      "target": "216",
+      "weight": 1
+    },
+    {
+      "source": "226",
+      "target": "217",
+      "weight": 1
+    },
+    {
+      "source": "226",
+      "target": "219",
+      "weight": 1
+    },
+    {
+      "source": "226",
+      "target": "220",
+      "weight": 1
+    },
+    {
+      "source": "226",
+      "target": "223",
+      "weight": 1
+    },
+    {
+      "source": "226",
+      "target": "227",
+      "weight": 1
+    },
+    {
+      "source": "226",
+      "target": "231",
+      "weight": 1
+    },
+    {
+      "source": "226",
+      "target": "233",
+      "weight": 1
+    },
+    {
+      "source": "227",
+      "target": "213",
+      "weight": 1
+    },
+    {
+      "source": "227",
+      "target": "215",
+      "weight": 1
+    },
+    {
+      "source": "227",
+      "target": "216",
+      "weight": 1
+    },
+    {
+      "source": "227",
+      "target": "217",
+      "weight": 1
+    },
+    {
+      "source": "227",
+      "target": "219",
+      "weight": 1
+    },
+    {
+      "source": "227",
+      "target": "220",
+      "weight": 1
+    },
+    {
+      "source": "227",
+      "target": "223",
+      "weight": 1
+    },
+    {
+      "source": "227",
+      "target": "231",
+      "weight": 1
+    },
+    {
+      "source": "227",
+      "target": "233",
+      "weight": 1
+    },
+    {
+      "source": "231",
+      "target": "213",
+      "weight": 1
+    },
+    {
+      "source": "231",
+      "target": "215",
+      "weight": 1
+    },
+    {
+      "source": "231",
+      "target": "216",
+      "weight": 1
+    },
+    {
+      "source": "231",
+      "target": "217",
+      "weight": 1
+    },
+    {
+      "source": "231",
+      "target": "219",
+      "weight": 1
+    },
+    {
+      "source": "231",
+      "target": "220",
+      "weight": 1
+    },
+    {
+      "source": "231",
+      "target": "223",
+      "weight": 1
+    },
+    {
+      "source": "231",
+      "target": "233",
+      "weight": 1
+    },
+    {
+      "source": "233",
+      "target": "213",
+      "weight": 1
+    },
+    {
+      "source": "233",
+      "target": "215",
+      "weight": 1
+    },
+    {
+      "source": "233",
+      "target": "216",
+      "weight": 1
+    },
+    {
+      "source": "233",
+      "target": "217",
+      "weight": 1
+    },
+    {
+      "source": "233",
+      "target": "219",
+      "weight": 1
+    },
+    {
+      "source": "233",
+      "target": "220",
+      "weight": 1
+    },
+    {
+      "source": "233",
+      "target": "223",
+      "weight": 1
+    },
+    {
+      "source": "213",
+      "target": "215",
+      "weight": 1
+    },
+    {
+      "source": "213",
+      "target": "216",
+      "weight": 1
+    },
+    {
+      "source": "213",
+      "target": "217",
+      "weight": 1
+    },
+    {
+      "source": "213",
+      "target": "219",
+      "weight": 1
+    },
+    {
+      "source": "213",
+      "target": "220",
+      "weight": 1
+    },
+    {
+      "source": "213",
+      "target": "223",
+      "weight": 1
+    },
+    {
+      "source": "215",
+      "target": "216",
+      "weight": 1
+    },
+    {
+      "source": "215",
+      "target": "217",
+      "weight": 1
+    },
+    {
+      "source": "215",
+      "target": "219",
+      "weight": 1
+    },
+    {
+      "source": "215",
+      "target": "220",
+      "weight": 1
+    },
+    {
+      "source": "215",
+      "target": "223",
+      "weight": 1
+    },
+    {
+      "source": "216",
+      "target": "217",
+      "weight": 1
+    },
+    {
+      "source": "216",
+      "target": "219",
+      "weight": 1
+    },
+    {
+      "source": "216",
+      "target": "220",
+      "weight": 1
+    },
+    {
+      "source": "216",
+      "target": "223",
+      "weight": 1
+    },
+    {
+      "source": "217",
+      "target": "219",
+      "weight": 1
+    },
+    {
+      "source": "217",
+      "target": "220",
+      "weight": 1
+    },
+    {
+      "source": "217",
+      "target": "223",
+      "weight": 1
+    },
+    {
+      "source": "219",
+      "target": "220",
+      "weight": 1
+    },
+    {
+      "source": "219",
+      "target": "223",
+      "weight": 1
+    },
+    {
+      "source": "220",
+      "target": "223",
+      "weight": 1
+    }
+  ]
+}

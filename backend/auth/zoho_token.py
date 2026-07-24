@@ -31,6 +31,12 @@ async def get_access_token() -> str:
     if _access_token and time.time() < (_token_expiry - 60):
         return _access_token
 
+    if not all([CLIENT_ID, CLIENT_SECRET, REFRESH_TOKEN]):
+        raise RuntimeError(
+            "Zoho OAuth is not configured. Set ZOHO_CLIENT_ID, "
+            "ZOHO_CLIENT_SECRET, and ZOHO_REFRESH_TOKEN to enable live QuickML calls."
+        )
+
     # Refresh the token
     params = {
         "grant_type":    "refresh_token",

@@ -13,7 +13,7 @@ import { useEffect, useRef, useState, useCallback } from 'react'
  * so the Dashboard anomaly panel is immediately functional.
  */
 
-const MOCK_ALERTS = [
+export const MOCK_ALERTS = [
   {
     id: '104430006202600231',
     district: 'Electronic City',

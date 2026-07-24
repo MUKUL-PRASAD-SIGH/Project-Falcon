@@ -10,5 +10,11 @@
       "validate_fk",
       "clean_text"
     ]
-  }
+  },
+  "appsail": [
+    {
+      "source": ".",
+      "name": "falcon-api"
+    }
+  ]
 }

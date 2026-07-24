@@ -23,6 +23,10 @@ CRIME_HEAD_MAP = {
     7: {"name": "Homicide", "severity": 5}
 }
 
+# Keep the demo anomaly feed within the documented 1–15% review range instead
+# of treating ordinary nighttime reports as alerts.
+ANOMALY_THRESHOLD = 0.75
+
 class QuickMLRiskAndAnomalyEngine:
     def __init__(self):
         self.risk_scores = {}
@@ -118,7 +122,7 @@ class QuickMLRiskAndAnomalyEngine:
                 
             score = round(min(0.99, score), 2)
             
-            if score >= 0.6:
+            if score >= ANOMALY_THRESHOLD:
                 anomalies_list.append({
                     "CaseMasterID": case_id,
                     "CrimeNo": str(row['CrimeNo']),

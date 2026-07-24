@@ -1,0 +1,801 @@
+AccusedMasterID,PersonID,AccusedName,AgeYear,GenderID,prior_offense_count,avg_crime_severity,max_crime_severity,recency_days,district,crime_head,co_accused_count,prior_arrest_count,is_repeat_offender,risk_score
+1,P_0001,Naseema Rao (Leader),45,2,1,3.0,3,501,Hubballi-Dharwad,Cybercrime,4,0,0,38.8
+2,P_0002,Iqbal Bhat,33,2,1,3.0,3,501,Hubballi-Dharwad,Cybercrime,4,1,0,38.8
+3,P_0003,Manjula Fernandes,38,2,1,3.0,3,501,Hubballi-Dharwad,Cybercrime,4,0,0,38.8
+4,P_0004,Santosh Kotian,27,1,1,3.0,3,121,Mysuru City,Cybercrime,7,0,0,55.1
+5,P_0005,Ramesh Bhat,28,1,1,3.0,3,121,Mysuru City,Cybercrime,7,0,0,55.1
+6,P_0006,Roopa Hegde,23,1,1,3.0,3,501,Hubballi-Dharwad,Cybercrime,4,0,0,38.8
+7,P_0007,Rashmi Hegde,55,1,1,3.0,3,501,Hubballi-Dharwad,Cybercrime,4,1,0,38.8
+8,P_0008,Sudha Achar,46,2,1,3.0,3,682,Mysuru City,Assault,4,1,0,38.8
+9,P_0009,Roopa Bhat,35,1,1,3.0,3,682,Mysuru City,Assault,4,0,0,38.8
+10,P_0010,Lawrence Sequeira,31,1,1,3.0,3,682,Mysuru City,Assault,4,0,0,38.8
+11,P_0011,Sudha Reddy,39,1,1,3.0,3,682,Mysuru City,Assault,4,0,0,38.8
+12,P_0012,Shivakumar Gowda,27,1,1,3.0,3,121,Mysuru City,Cybercrime,7,0,0,55.1
+13,P_0013,Roopa Achar,51,1,1,3.0,3,121,Mysuru City,Cybercrime,7,0,0,55.1
+14,P_0014,Rashmi Pinto,31,1,1,3.0,3,121,Mysuru City,Cybercrime,7,0,0,55.1
+15,P_0015,Rashmi Hegde,31,1,1,3.0,3,121,Mysuru City,Cybercrime,7,1,0,55.1
+16,P_0016,Nataraj Sequeira,50,1,1,3.0,3,682,Mysuru City,Assault,4,0,0,38.8
+17,P_0017,Deepa Naik (Leader),48,1,1,4.0,4,597,Belagavi,Narcotics,7,1,0,47.8
+18,P_0018,Roopa Salian,37,1,1,5.0,5,13,Hubballi-Dharwad,Homicide,8,0,0,73.0
+19,P_0019,Alphonsa Sheikh,21,1,1,5.0,5,13,Hubballi-Dharwad,Homicide,8,0,0,73.0
+20,P_0020,Rashmi Poojary,21,2,1,4.0,4,597,Belagavi,Narcotics,7,0,0,47.8
+21,P_0021,Joseph Salian,28,1,1,5.0,5,13,Hubballi-Dharwad,Homicide,8,0,0,73.0
+22,P_0022,Antony Rathod,39,1,1,5.0,5,13,Hubballi-Dharwad,Homicide,8,1,0,73.0
+23,P_0023,Deepa Kotian,31,1,1,1.0,1,608,Mysuru City,Theft,7,1,0,29.8
+24,P_0024,Roopa Bhat,40,1,1,5.0,5,13,Hubballi-Dharwad,Homicide,8,0,0,73.0
+25,P_0025,Deepa Sequeira,43,1,1,4.0,4,597,Belagavi,Narcotics,7,1,0,47.8
+26,P_0026,Deepa Sequeira,37,1,1,1.0,1,608,Mysuru City,Theft,7,0,0,29.8
+27,P_0027,Deepa Naik,43,1,1,4.0,4,597,Belagavi,Narcotics,7,0,0,47.8
+28,P_0028,Puneeth Bhat,54,2,1,1.0,1,608,Mysuru City,Theft,7,0,0,29.8
+29,P_0029,Vinay Poojary,54,1,1,5.0,5,13,Hubballi-Dharwad,Homicide,8,0,0,73.0
+30,P_0030,Prakash Setty,35,1,1,5.0,5,13,Hubballi-Dharwad,Homicide,8,1,0,73.0
+31,P_0031,Harish Khan,22,1,1,4.0,4,597,Belagavi,Narcotics,7,0,0,47.8
+32,P_0032,Antony Pinto,48,1,1,1.0,1,608,Mysuru City,Theft,7,1,0,29.8
+33,P_0033,Kalpana Shetty,26,1,1,5.0,5,13,Hubballi-Dharwad,Homicide,8,0,0,73.0
+34,P_0034,Sudha Reddy,27,1,1,4.0,4,597,Belagavi,Narcotics,7,0,0,47.8
+35,P_0035,Alphonsa Sheikh,55,2,1,1.0,1,608,Mysuru City,Theft,7,0,0,29.8
+36,P_0036,Roopa Salian,37,1,1,1.0,1,608,Mysuru City,Theft,7,0,0,29.8
+37,P_0037,Alphonsa Shetty,47,1,1,4.0,4,597,Belagavi,Narcotics,7,1,0,47.8
+38,P_0038,Xavier Setty,23,1,1,4.0,4,597,Belagavi,Narcotics,7,1,0,47.8
+39,P_0039,Imran Patil,48,2,1,1.0,1,608,Mysuru City,Theft,7,0,0,29.8
+40,P_0040,Iqbal Patil,43,1,1,1.0,1,608,Mysuru City,Theft,7,1,0,29.8
+41,P_0041,Deepa Naik,52,1,1,5.0,5,13,Hubballi-Dharwad,Homicide,8,0,0,73.0
+42,P_0042,Mahmood Hegde (Leader),54,1,1,4.0,4,337,Belagavi,Robbery,4,0,0,46.3
+43,P_0043,Ganesh Desai,31,1,1,2.0,2,479,Mangaluru City,Fraud,5,0,0,35.8
+44,P_0044,Ganesh Shetty,25,1,1,4.0,4,48,Hubballi-Dharwad,Robbery,5,1,0,65.1
+45,P_0045,Pooja Gowda,23,1,1,4.0,4,550,Belagavi,Narcotics,1,0,0,35.8
+46,P_0046,Ayesha Prabhu,28,1,1,2.0,2,164,Belagavi,Fraud,5,0,0,46.8
+47,P_0047,Rekha Kulkarni,21,2,1,4.0,4,48,Hubballi-Dharwad,Robbery,5,0,0,65.1
+48,P_0048,Sudha Kamath,21,1,1,2.0,2,164,Belagavi,Fraud,5,0,0,46.8
+49,P_0049,Vijayalakshmi Bhat,43,1,1,2.0,2,164,Belagavi,Fraud,5,0,0,46.8
+50,P_0050,Fathima Mendes,30,1,1,2.0,2,479,Mangaluru City,Fraud,5,0,0,35.8
+51,P_0051,Maria Reddy,33,2,1,2.0,2,164,Belagavi,Fraud,5,0,0,46.8
+52,P_0052,Anand Naik,26,1,1,2.0,2,479,Mangaluru City,Fraud,5,0,0,35.8
+53,P_0053,Manjunath Pinto,51,1,1,4.0,4,337,Belagavi,Robbery,4,0,0,46.3
+54,P_0054,Sridhar D'Souza,45,2,1,4.0,4,337,Belagavi,Robbery,4,0,0,46.3
+55,P_0055,Nataraj Sequeira,27,1,1,4.0,4,48,Hubballi-Dharwad,Robbery,5,0,0,65.1
+56,P_0056,Manjula Fernandes,40,1,1,2.0,2,164,Belagavi,Fraud,5,0,0,46.8
+57,P_0057,Santosh Kotian,41,1,1,2.0,2,479,Mangaluru City,Fraud,5,0,0,35.8
+58,P_0058,Deepa Kulkarni,29,2,1,4.0,4,337,Belagavi,Robbery,4,1,0,46.3
+59,P_0059,Sandra Jadhav,40,1,1,2.0,2,479,Mangaluru City,Fraud,5,1,0,35.8
+60,P_0060,Harish Fernandes,50,1,1,4.0,4,550,Belagavi,Narcotics,1,0,0,35.8
+61,P_0061,Nataraj D'Souza,48,1,1,4.0,4,48,Hubballi-Dharwad,Robbery,5,0,0,65.1
+62,P_0062,Imran Sheikh,49,1,1,4.0,4,337,Belagavi,Robbery,4,0,0,46.3
+63,P_0063,Sridhar Rao,43,2,1,2.0,2,479,Mangaluru City,Fraud,5,0,0,35.8
+64,P_0064,Lakshmi Jadhav,50,2,1,2.0,2,164,Belagavi,Fraud,5,1,0,46.8
+65,P_0065,Mahmood Hegde,22,1,1,4.0,4,48,Hubballi-Dharwad,Robbery,5,0,0,65.1
+66,P_0066,Prakash Rathod,29,1,1,4.0,4,48,Hubballi-Dharwad,Robbery,5,0,0,65.1
+67,P_0067,Nataraj D'Souza (Leader),53,1,1,3.0,3,423,Belagavi,Cybercrime,5,0,0,41.8
+68,P_0068,Kavya Salian,55,1,1,4.0,4,382,Belagavi,Narcotics,2,1,0,38.8
+69,P_0069,Vidya Shetty,46,1,1,3.0,3,81,Hubballi-Dharwad,Cybercrime,4,1,0,54.3
+70,P_0070,Fathima Mendes,21,2,1,2.0,2,636,Belagavi,Fraud,3,0,0,29.8
+71,P_0071,Pooja Gowda,24,1,1,3.0,3,423,Belagavi,Cybercrime,5,1,0,41.8
+72,P_0072,Vinay Poojary,27,1,1,3.0,3,81,Hubballi-Dharwad,Cybercrime,4,1,0,54.3
+73,P_0073,Roopa Bhat,39,2,1,3.0,3,423,Belagavi,Cybercrime,5,1,0,41.8
+74,P_0074,Lawrence Prabhu,24,1,1,4.0,4,205,Hubballi-Dharwad,Narcotics,8,0,0,56.5
+75,P_0075,Alphonsa Sheikh,53,1,1,3.0,3,423,Belagavi,Cybercrime,5,0,0,41.8
+76,P_0076,Chandan Pujari,30,2,1,4.0,4,382,Belagavi,Narcotics,2,0,0,38.8
+77,P_0077,Sudha Achar,30,1,1,4.0,4,382,Belagavi,Narcotics,2,0,0,38.8
+78,P_0078,Pooja Kotian,21,2,1,4.0,4,205,Hubballi-Dharwad,Narcotics,8,1,0,56.5
+79,P_0079,Nandini Setty,33,1,1,3.0,3,423,Belagavi,Cybercrime,5,0,0,41.8
+80,P_0080,Shivakumar Gowda,30,1,1,3.0,3,81,Hubballi-Dharwad,Cybercrime,4,0,0,54.3
+81,P_0081,Roopa Bhat,36,1,1,3.0,3,423,Belagavi,Cybercrime,5,0,0,41.8
+82,P_0082,Joseph Salian,22,2,1,3.0,3,81,Hubballi-Dharwad,Cybercrime,4,1,0,54.3
+83,P_0083,Mahmood Mendes,28,1,1,2.0,2,636,Belagavi,Fraud,3,0,0,29.8
+84,P_0084,Mahmood Prabhu,32,1,1,2.0,2,636,Belagavi,Fraud,3,0,0,29.8
+85,P_0085,Shweta Chavan (Leader),49,1,1,3.0,3,434,Bengaluru City,Cybercrime,5,0,0,41.8
+86,P_0086,Maria Reddy,22,1,1,3.0,3,43,Belagavi,Cybercrime,8,0,0,59.4
+87,P_0087,Vidya Naik,36,1,1,4.0,4,388,Belagavi,Robbery,4,0,0,44.8
+88,P_0088,Joseph Salian,51,1,1,4.0,4,388,Belagavi,Robbery,4,0,0,44.8
+89,P_0089,Fathima Mendes,27,2,1,3.0,3,434,Bengaluru City,Cybercrime,5,0,0,41.8
+90,P_0090,Fathima Mendes,38,2,1,3.0,3,434,Bengaluru City,Cybercrime,5,0,0,41.8
+91,P_0091,Vijayalakshmi Desai,27,2,1,3.0,3,43,Belagavi,Cybercrime,8,0,0,59.4
+92,P_0092,Vidya Naik,48,1,1,3.0,3,43,Belagavi,Cybercrime,8,0,0,59.4
+93,P_0093,Ganesh Shetty,50,1,1,3.0,3,588,Belagavi,Assault,3,1,0,35.8
+94,P_0094,Deepa Naik,40,1,1,3.0,3,43,Belagavi,Cybercrime,8,0,0,59.4
+95,P_0095,Bhagya Bhat,43,1,1,3.0,3,43,Belagavi,Cybercrime,8,0,0,59.4
+96,P_0096,Basavaraj Hegde,50,1,1,3.0,3,43,Belagavi,Cybercrime,8,0,0,59.4
+97,P_0097,Kiran Prabhu,43,1,1,3.0,3,588,Belagavi,Assault,3,1,0,35.8
+98,P_0098,Nataraj Sequeira,54,2,1,3.0,3,434,Bengaluru City,Cybercrime,5,0,0,41.8
+99,P_0099,Roopa Salian,30,1,1,3.0,3,588,Belagavi,Assault,3,0,0,35.8
+100,P_0100,Pooja Gowda,29,1,1,3.0,3,434,Bengaluru City,Cybercrime,5,0,0,41.8
+101,P_0101,Alphonsa Shetty,25,2,1,3.0,3,434,Bengaluru City,Cybercrime,5,1,0,41.8
+102,P_0102,Joseph Salian,32,1,1,3.0,3,43,Belagavi,Cybercrime,8,1,0,59.4
+103,P_0103,Vijayalakshmi Desai,41,1,1,4.0,4,388,Belagavi,Robbery,4,0,0,44.8
+104,P_0104,Rashmi Hegde,23,1,1,3.0,3,43,Belagavi,Cybercrime,8,0,0,59.4
+105,P_0105,Melwin Desai,27,1,1,4.0,4,388,Belagavi,Robbery,4,0,0,44.8
+106,P_0106,Alphonsa Sheikh,51,1,1,3.0,3,43,Belagavi,Cybercrime,8,0,0,59.4
+107,P_0107,Sowmya Naik,36,1,1,4.0,4,388,Belagavi,Robbery,4,1,0,44.8
+108,P_0108,Nataraj Sequeira (Leader),47,1,1,4.0,4,140,Bengaluru City,Robbery,1,0,0,48.1
+109,P_0109,Rashmi Sheikh,37,1,1,2.0,2,197,Bengaluru City,Fraud,6,0,0,45.0
+110,P_0110,Suresh Sheikh,25,2,1,2.0,2,197,Bengaluru City,Fraud,6,0,0,45.0
+111,P_0111,Arjun Bhat,22,1,1,1.0,1,493,Belagavi,Theft,5,0,0,29.8
+112,P_0112,Pushpa Kulkarni,49,2,1,1.0,1,493,Belagavi,Theft,5,0,0,29.8
+113,P_0113,Sudha Reddy,33,1,1,1.0,1,420,Bengaluru City,Theft,5,0,0,29.8
+114,P_0114,Deepa Sequeira,49,1,1,1.0,1,493,Belagavi,Theft,5,1,0,29.8
+115,P_0115,Sandra Jadhav,31,2,1,1.0,1,420,Bengaluru City,Theft,5,0,0,29.8
+116,P_0116,Prakash Rathod,22,1,1,1.0,1,420,Bengaluru City,Theft,5,0,0,29.8
+117,P_0117,Manjunath Pinto,29,1,1,1.0,1,420,Bengaluru City,Theft,5,0,0,29.8
+118,P_0118,Praveen Rathod,47,1,1,1.0,1,493,Belagavi,Theft,5,0,0,29.8
+119,P_0119,Shivakumar Sheikh,54,2,1,1.0,1,493,Belagavi,Theft,5,0,0,29.8
+120,P_0120,Nagesh Fernandes,34,2,1,1.0,1,420,Bengaluru City,Theft,5,0,0,29.8
+121,P_0121,Vijay Rathod,29,1,1,1.0,1,493,Belagavi,Theft,5,1,0,29.8
+122,P_0122,Lakshmi Jadhav,45,1,1,4.0,4,140,Bengaluru City,Robbery,1,0,0,48.1
+123,P_0123,Girish Desai,54,1,1,2.0,2,197,Bengaluru City,Fraud,6,1,0,45.0
+124,P_0124,Imran Patil,52,1,1,2.0,2,197,Bengaluru City,Fraud,6,1,0,45.0
+125,P_0125,Roopa Hegde (Leader),42,1,1,4.0,4,370,Mangaluru City,Robbery,5,0,0,47.8
+126,P_0126,Ayesha Prabhu,39,1,1,3.0,3,257,Belagavi,Cybercrime,5,0,0,47.7
+127,P_0127,Nagesh Pinto,43,1,1,4.0,4,310,Bengaluru City,Robbery,4,0,0,47.8
+128,P_0128,Ganesh Shetty,25,1,1,3.0,3,257,Belagavi,Cybercrime,5,0,0,47.7
+129,P_0129,Rashmi Sheikh,53,1,1,4.0,4,370,Mangaluru City,Robbery,5,0,0,47.8
+130,P_0130,Kavya Salian,24,1,1,4.0,4,310,Bengaluru City,Robbery,4,0,0,47.8
+131,P_0131,Joseph Salian,37,1,1,4.0,4,370,Mangaluru City,Robbery,5,1,0,47.8
+132,P_0132,Kalpana Mendes,47,1,1,4.0,4,42,Mangaluru City,Narcotics,6,0,0,65.4
+133,P_0133,Puneeth Bhat,24,1,1,3.0,3,257,Belagavi,Cybercrime,5,0,0,47.7
+134,P_0134,Ravi Rathod,42,1,1,3.0,3,257,Belagavi,Cybercrime,5,0,0,47.7
+135,P_0135,Harish Khan,25,1,1,3.0,3,257,Belagavi,Cybercrime,5,0,0,47.7
+136,P_0136,Xavier Sequeira,47,1,1,3.0,3,10,Hubballi-Dharwad,Assault,1,0,0,49.2
+137,P_0137,Mahmood Prabhu,29,1,1,4.0,4,370,Mangaluru City,Robbery,5,1,0,47.8
+138,P_0138,Pushpa Kulkarni,23,2,1,4.0,4,42,Mangaluru City,Narcotics,6,0,0,65.4
+139,P_0139,Sudha Achar,43,2,1,4.0,4,370,Mangaluru City,Robbery,5,0,0,47.8
+140,P_0140,Harish Fernandes,35,1,1,4.0,4,310,Bengaluru City,Robbery,4,0,0,47.8
+141,P_0141,Sowmya Desai,33,2,1,4.0,4,42,Mangaluru City,Narcotics,6,0,0,65.4
+142,P_0142,Ravi Rathod,51,1,1,4.0,4,42,Mangaluru City,Narcotics,6,0,0,65.4
+143,P_0143,Sowmya Naik,45,1,1,4.0,4,310,Bengaluru City,Robbery,4,1,0,47.8
+144,P_0144,Vijayalakshmi Desai,48,1,1,4.0,4,310,Bengaluru City,Robbery,4,1,0,47.8
+145,P_0145,Vinay Chavan,28,1,1,4.0,4,42,Mangaluru City,Narcotics,6,0,0,65.4
+146,P_0146,Xavier Setty,42,2,1,3.0,3,10,Hubballi-Dharwad,Assault,1,0,0,49.2
+147,P_0147,Rashmi Pinto,35,1,1,4.0,4,42,Mangaluru City,Narcotics,6,0,0,65.4
+148,P_0148,Deepa Naik,35,2,1,4.0,4,370,Mangaluru City,Robbery,5,1,0,47.8
+149,P_0149,Kalpana Shetty (Leader),23,1,1,3.0,3,89,Bengaluru City,Cybercrime,6,0,0,56.9
+150,P_0150,Ramesh Bhat,24,1,1,3.0,3,89,Bengaluru City,Cybercrime,6,1,0,56.9
+151,P_0151,Girish Desai,49,1,1,4.0,4,558,Mysuru City,Narcotics,6,0,0,47.8
+152,P_0152,Bhagya Bhat,41,1,1,2.0,2,432,Mangaluru City,Fraud,8,1,0,35.8
+153,P_0153,Manjunath Pujari,36,1,1,3.0,3,89,Bengaluru City,Cybercrime,6,1,0,56.9
+154,P_0154,Arjun Bhat,46,2,1,4.0,4,558,Mysuru City,Narcotics,6,0,0,47.8
+155,P_0155,Imran Patil,25,1,1,3.0,3,89,Bengaluru City,Cybercrime,6,0,0,56.9
+156,P_0156,Vishwanath Fernandes,34,2,1,2.0,2,432,Mangaluru City,Fraud,8,0,0,35.8
+157,P_0157,Antony Pinto,43,1,1,3.0,3,89,Bengaluru City,Cybercrime,6,0,0,56.9
+158,P_0158,Imran Jadhav,40,1,1,2.0,2,432,Mangaluru City,Fraud,8,0,0,35.8
+159,P_0159,Iqbal Bhat,36,1,1,3.0,3,89,Bengaluru City,Cybercrime,6,0,0,56.9
+160,P_0160,Vijayalakshmi Desai,55,1,1,2.0,2,432,Mangaluru City,Fraud,8,1,0,35.8
+161,P_0161,Basavaraj Shetty,47,2,1,4.0,4,558,Mysuru City,Narcotics,6,0,0,47.8
+162,P_0162,Arjun D'Souza,34,1,1,2.0,2,432,Mangaluru City,Fraud,8,0,0,35.8
+163,P_0163,Melwin Desai,40,1,1,3.0,3,89,Bengaluru City,Cybercrime,6,0,0,56.9
+164,P_0164,Naseema Rao,30,1,1,4.0,4,558,Mysuru City,Narcotics,6,0,0,47.8
+165,P_0165,Vijayalakshmi Desai,49,2,1,4.0,4,558,Mysuru City,Narcotics,6,0,0,47.8
+166,P_0166,Suresh Kotian,52,1,1,4.0,4,558,Mysuru City,Narcotics,6,0,0,47.8
+167,P_0167,Rajesh Gowda,45,1,1,2.0,2,432,Mangaluru City,Fraud,8,0,0,35.8
+168,P_0168,Mahmood Mendes,38,2,1,4.0,4,558,Mysuru City,Narcotics,6,0,0,47.8
+169,P_0169,Suresh Kotian,45,2,1,2.0,2,432,Mangaluru City,Fraud,8,1,0,35.8
+170,P_0170,Bhagya Bhat,35,1,1,2.0,2,432,Mangaluru City,Fraud,8,0,0,35.8
+171,P_0171,Shivakumar Sheikh,48,1,1,2.0,2,432,Mangaluru City,Fraud,8,0,0,35.8
+172,P_0172,Sudha Kamath (Leader),55,1,1,5.0,5,422,Mangaluru City,Homicide,4,0,0,50.8
+173,P_0173,Roopa Achar,42,1,1,5.0,5,422,Mangaluru City,Homicide,4,0,0,50.8
+174,P_0174,Anitha Pinto,22,1,1,2.0,2,585,Mangaluru City,Fraud,4,1,0,32.8
+175,P_0175,Santosh Kotian,48,1,1,2.0,2,585,Mangaluru City,Fraud,4,0,0,32.8
+176,P_0176,Ravi Rathod,45,1,1,5.0,5,422,Mangaluru City,Homicide,4,0,0,50.8
+177,P_0177,Mahmood Hegde,48,1,1,2.0,2,585,Mangaluru City,Fraud,4,1,0,32.8
+178,P_0178,Girish Ballal,50,1,1,4.0,4,191,Belagavi,Robbery,2,0,0,48.3
+179,P_0179,Roopa Achar,21,1,1,4.0,4,191,Belagavi,Robbery,2,1,0,48.3
+180,P_0180,Arjun D'Souza,36,1,1,4.0,4,193,Belagavi,Narcotics,6,0,0,57.2
+181,P_0181,Manjula Khan,46,1,1,4.0,4,193,Belagavi,Narcotics,6,0,0,57.2
+182,P_0182,Rajesh Gowda,44,1,1,2.0,2,585,Mangaluru City,Fraud,4,0,0,32.8
+183,P_0183,Nataraj D'Souza,21,1,1,4.0,4,193,Belagavi,Narcotics,6,0,0,57.2
+184,P_0184,Antony Rathod,41,1,1,4.0,4,193,Belagavi,Narcotics,6,1,0,57.2
+185,P_0185,Vinay Chavan,50,1,1,4.0,4,191,Belagavi,Robbery,2,0,0,48.3
+186,P_0186,Deepa Naik,50,1,1,3.0,3,97,Mangaluru City,Assault,1,0,0,44.4
+187,P_0187,Mahmood Prabhu,34,2,1,4.0,4,193,Belagavi,Narcotics,6,1,0,57.2
+188,P_0188,Rashmi Poojary,26,1,1,5.0,5,422,Mangaluru City,Homicide,4,0,0,50.8
+189,P_0189,Ravi Rathod,41,1,1,2.0,2,585,Mangaluru City,Fraud,4,0,0,32.8
+190,P_0190,Shivakumar Sheikh,37,1,1,3.0,3,97,Mangaluru City,Assault,1,0,0,44.4
+191,P_0191,Anitha Kamath (Leader),35,1,1,5.0,5,231,Belagavi,Homicide,9,1,0,61.1
+192,P_0192,Joseph Kulkarni,24,1,1,5.0,5,231,Belagavi,Homicide,9,0,0,61.1
+193,P_0193,Manjunath Pujari,23,1,1,5.0,5,231,Belagavi,Homicide,9,0,0,61.1
+194,P_0194,Deepa Kotian,49,1,1,4.0,4,205,Hubballi-Dharwad,Narcotics,8,1,0,56.5
+195,P_0195,Ravi Rathod,35,1,1,5.0,5,231,Belagavi,Homicide,9,0,0,61.1
+196,P_0196,Anitha Kamath,37,1,1,4.0,4,205,Hubballi-Dharwad,Narcotics,8,1,0,56.5
+197,P_0197,Suresh Sheikh,43,1,1,4.0,4,205,Hubballi-Dharwad,Narcotics,8,1,0,56.5
+198,P_0198,Rashmi Pinto,43,1,1,4.0,4,205,Hubballi-Dharwad,Narcotics,8,0,0,56.5
+199,P_0199,Deepa Kotian,49,1,1,5.0,5,231,Belagavi,Homicide,9,0,0,61.1
+200,P_0200,Xavier Sequeira,36,1,1,4.0,4,205,Hubballi-Dharwad,Narcotics,8,0,0,56.5
+201,P_0201,Manjula Khan,44,2,1,4.0,4,413,Belagavi,Narcotics,7,1,0,47.8
+202,P_0202,Sowmya Sheikh,48,1,1,5.0,5,231,Belagavi,Homicide,9,0,0,61.1
+203,P_0203,Sowmya Desai,41,1,1,5.0,5,231,Belagavi,Homicide,9,1,0,61.1
+204,P_0204,Prakash Setty,44,2,1,4.0,4,413,Belagavi,Narcotics,7,0,0,47.8
+205,P_0205,Kavya Salian,22,1,1,4.0,4,413,Belagavi,Narcotics,7,0,0,47.8
+206,P_0206,Bhagya Bhat,39,1,1,4.0,4,413,Belagavi,Narcotics,7,0,0,47.8
+207,P_0207,Sowmya Desai,27,1,1,4.0,4,205,Hubballi-Dharwad,Narcotics,8,0,0,56.5
+208,P_0208,Ravi Sequeira,53,1,1,4.0,4,413,Belagavi,Narcotics,7,0,0,47.8
+209,P_0209,Girish Ballal,23,1,1,5.0,5,231,Belagavi,Homicide,9,1,0,61.1
+210,P_0210,Vijay Shetty,26,1,1,4.0,4,413,Belagavi,Narcotics,7,0,0,47.8
+211,P_0211,Antony Rathod,53,2,1,5.0,5,231,Belagavi,Homicide,9,1,0,61.1
+212,P_0212,Sandra Setty,28,1,1,4.0,4,205,Hubballi-Dharwad,Narcotics,8,0,0,56.5
+213,P_0213,Arjun Bhat (Leader),41,1,1,5.0,5,291,Mysuru City,Homicide,12,0,0,57.8
+214,P_0214,Shweta Chavan,39,1,1,4.0,4,248,Hubballi-Dharwad,Narcotics,9,0,0,54.2
+215,P_0215,Ramesh Bhat,44,1,1,5.0,5,291,Mysuru City,Homicide,12,0,0,57.8
+216,P_0216,Naveen Sheikh,28,1,1,5.0,5,291,Mysuru City,Homicide,12,0,0,57.8
+217,P_0217,Sandra Setty,47,1,1,5.0,5,291,Mysuru City,Homicide,12,0,0,57.8
+218,P_0218,Vijay Rathod,53,1,1,4.0,4,248,Hubballi-Dharwad,Narcotics,9,1,0,54.2
+219,P_0219,Manjunath Pujari,51,1,1,5.0,5,291,Mysuru City,Homicide,12,1,0,57.8
+220,P_0220,Nataraj D'Souza,47,1,1,5.0,5,291,Mysuru City,Homicide,12,0,0,57.8
+221,P_0221,Rekha Salian,36,2,1,4.0,4,248,Hubballi-Dharwad,Narcotics,9,0,0,54.2
+222,P_0222,Arjun Bhat,37,1,1,4.0,4,248,Hubballi-Dharwad,Narcotics,9,0,0,54.2
+223,P_0223,Naveen Sheikh,28,1,1,5.0,5,291,Mysuru City,Homicide,12,0,0,57.8
+224,P_0224,Lakshmi Desai,53,1,1,5.0,5,291,Mysuru City,Homicide,12,0,0,57.8
+225,P_0225,Gopal Fernandes,33,1,1,5.0,5,291,Mysuru City,Homicide,12,0,0,57.8
+226,P_0226,Deepa Naik,31,1,1,5.0,5,291,Mysuru City,Homicide,12,0,0,57.8
+227,P_0227,Anitha Kamath,51,1,1,5.0,5,291,Mysuru City,Homicide,12,0,0,57.8
+228,P_0228,Joseph Kulkarni,23,2,1,4.0,4,248,Hubballi-Dharwad,Narcotics,9,0,0,54.2
+229,P_0229,Nandini Setty,31,1,1,4.0,4,248,Hubballi-Dharwad,Narcotics,9,0,0,54.2
+230,P_0230,Ravi Sequeira,54,2,1,4.0,4,248,Hubballi-Dharwad,Narcotics,9,0,0,54.2
+231,P_0231,Vijay Rathod,29,2,1,5.0,5,291,Mysuru City,Homicide,12,0,0,57.8
+232,P_0232,Imran Jadhav,39,1,1,4.0,4,248,Hubballi-Dharwad,Narcotics,9,0,0,54.2
+233,P_0233,Deepa Desai,42,1,1,5.0,5,291,Mysuru City,Homicide,12,0,0,57.8
+234,P_0234,Xavier Sequeira,43,2,1,4.0,4,248,Hubballi-Dharwad,Narcotics,9,0,0,54.2
+235,P_0235,Roopa Achar (Leader),49,2,1,1.0,1,27,Hubballi-Dharwad,Theft,7,0,0,48.3
+236,P_0236,Vidya Shetty,51,1,1,4.0,4,584,Mysuru City,Narcotics,6,0,0,47.8
+237,P_0237,Shivakumar Sheikh,53,1,1,1.0,1,27,Hubballi-Dharwad,Theft,7,0,0,48.3
+238,P_0238,Deepa Desai,21,1,1,4.0,4,97,Mangaluru City,Narcotics,10,1,0,62.4
+239,P_0239,Manjunath Pujari,50,2,1,1.0,1,27,Hubballi-Dharwad,Theft,7,0,0,48.3
+240,P_0240,Vinay Chavan,32,1,1,4.0,4,584,Mysuru City,Narcotics,6,1,0,47.8
+241,P_0241,Melwin Desai,40,2,1,4.0,4,97,Mangaluru City,Narcotics,10,1,0,62.4
+242,P_0242,Roopa Hegde,54,2,1,4.0,4,584,Mysuru City,Narcotics,6,0,0,47.8
+243,P_0243,Bhagya Mendes,45,1,1,4.0,4,584,Mysuru City,Narcotics,6,0,0,47.8
+244,P_0244,Maria Reddy,23,1,1,4.0,4,97,Mangaluru City,Narcotics,10,0,0,62.4
+245,P_0245,Chandan Pujari,38,1,1,4.0,4,584,Mysuru City,Narcotics,6,0,0,47.8
+246,P_0246,Basavaraj Shetty,39,1,1,4.0,4,97,Mangaluru City,Narcotics,10,0,0,62.4
+247,P_0247,Ganesh Shetty,38,2,1,4.0,4,97,Mangaluru City,Narcotics,10,0,0,62.4
+248,P_0248,Sudha Achar,31,1,1,4.0,4,584,Mysuru City,Narcotics,6,0,0,47.8
+249,P_0249,Arjun Bhat,27,1,1,4.0,4,584,Mysuru City,Narcotics,6,1,0,47.8
+250,P_0250,Rajesh Gowda,30,1,1,1.0,1,27,Hubballi-Dharwad,Theft,7,0,0,48.3
+251,P_0251,Ravi Rathod,53,1,1,4.0,4,97,Mangaluru City,Narcotics,10,0,0,62.4
+252,P_0252,Manjula Fernandes,23,1,1,4.0,4,97,Mangaluru City,Narcotics,10,0,0,62.4
+253,P_0253,Deepa Sequeira,22,1,1,4.0,4,97,Mangaluru City,Narcotics,10,1,0,62.4
+254,P_0254,Ganesh Shetty,48,2,1,4.0,4,97,Mangaluru City,Narcotics,10,1,0,62.4
+255,P_0255,Girish Desai,50,1,1,1.0,1,27,Hubballi-Dharwad,Theft,7,0,0,48.3
+256,P_0256,Anand Naik (Leader),49,2,1,5.0,5,622,Mysuru City,Homicide,7,0,0,53.8
+257,P_0257,Anitha Kamath,26,1,1,3.0,3,509,Mysuru City,Assault,7,0,0,41.8
+258,P_0258,Sandra Setty,28,1,1,3.0,3,509,Mysuru City,Assault,7,0,0,41.8
+259,P_0259,Kalpana Shetty,35,1,1,5.0,5,622,Mysuru City,Homicide,7,1,0,53.8
+260,P_0260,Kiran Prabhu,53,1,1,3.0,3,509,Mysuru City,Assault,7,1,0,41.8
+261,P_0261,Pooja Gowda,53,1,1,3.0,3,509,Mysuru City,Assault,7,0,0,41.8
+262,P_0262,Deepa Desai,23,2,1,3.0,3,509,Mysuru City,Assault,7,1,0,41.8
+263,P_0263,Nagesh Pinto,54,1,1,5.0,5,622,Mysuru City,Homicide,7,0,0,53.8
+264,P_0264,Shweta Chavan,23,1,1,5.0,5,622,Mysuru City,Homicide,7,0,0,53.8
+265,P_0265,Vijayalakshmi Bhat,45,1,1,5.0,5,622,Mysuru City,Homicide,7,0,0,53.8
+266,P_0266,Anitha Kamath,51,1,1,5.0,5,622,Mysuru City,Homicide,7,1,0,53.8
+267,P_0267,Vidya Naik,32,2,1,3.0,3,509,Mysuru City,Assault,7,0,0,41.8
+268,P_0268,Girish Desai,33,1,1,3.0,3,509,Mysuru City,Assault,7,0,0,41.8
+269,P_0269,Shivakumar Gowda,48,1,1,5.0,5,622,Mysuru City,Homicide,7,0,0,53.8
+270,P_0270,Ganesh Desai,34,1,1,3.0,3,509,Mysuru City,Assault,7,0,0,41.8
+271,P_0271,Lakshmi Desai,37,2,1,5.0,5,622,Mysuru City,Homicide,7,0,0,53.8
+272,P_0272,Gopal Fernandes (Leader),43,2,1,5.0,5,550,Bengaluru City,Homicide,11,0,0,53.8
+273,P_0273,Basavaraj Hegde,40,1,1,5.0,5,550,Bengaluru City,Homicide,11,0,0,53.8
+274,P_0274,Fathima Mendes,52,2,1,4.0,4,64,Mysuru City,Narcotics,11,1,0,64.2
+275,P_0275,Manjula Fernandes,43,2,1,4.0,4,64,Mysuru City,Narcotics,11,0,0,64.2
+276,P_0276,Roopa Bhat,35,1,1,4.0,4,64,Mysuru City,Narcotics,11,0,0,64.2
+277,P_0277,Lakshmi Desai,49,1,1,4.0,4,64,Mysuru City,Narcotics,11,0,0,64.2
+278,P_0278,Sudha Kamath,48,1,1,5.0,5,550,Bengaluru City,Homicide,11,0,0,53.8
+279,P_0279,Mahmood Hegde,41,1,1,5.0,5,550,Bengaluru City,Homicide,11,1,0,53.8
+280,P_0280,Vijayalakshmi Desai,46,1,1,4.0,4,64,Mysuru City,Narcotics,11,0,0,64.2
+281,P_0281,Shweta Chavan,52,2,1,4.0,4,64,Mysuru City,Narcotics,11,0,0,64.2
+282,P_0282,Sowmya Desai,39,1,1,5.0,5,550,Bengaluru City,Homicide,11,0,0,53.8
+283,P_0283,Deepak Khan,47,1,1,5.0,5,550,Bengaluru City,Homicide,11,0,0,53.8
+284,P_0284,Anitha Kamath,41,2,1,4.0,4,64,Mysuru City,Narcotics,11,0,0,64.2
+285,P_0285,Sridhar D'Souza,49,2,1,4.0,4,64,Mysuru City,Narcotics,11,0,0,64.2
+286,P_0286,Anitha Kamath,24,1,1,4.0,4,64,Mysuru City,Narcotics,11,1,0,64.2
+287,P_0287,Sandra Setty,35,1,1,4.0,4,64,Mysuru City,Narcotics,11,1,0,64.2
+288,P_0288,Rekha Kulkarni,49,2,1,5.0,5,550,Bengaluru City,Homicide,11,1,0,53.8
+289,P_0289,Manjula Khan,31,1,1,5.0,5,550,Bengaluru City,Homicide,11,0,0,53.8
+290,P_0290,Rashmi Sheikh,42,1,1,5.0,5,550,Bengaluru City,Homicide,11,0,0,53.8
+291,P_0291,Pooja Kotian,22,2,1,5.0,5,550,Bengaluru City,Homicide,11,0,0,53.8
+292,P_0292,Praveen Rathod,42,1,1,5.0,5,550,Bengaluru City,Homicide,11,0,0,53.8
+293,P_0293,Manjunath Pujari,24,1,1,5.0,5,550,Bengaluru City,Homicide,11,0,0,53.8
+294,P_0294,Rekha Salian,33,1,1,4.0,4,64,Mysuru City,Narcotics,11,0,0,64.2
+295,P_0295,Lawrence Prabhu,35,1,1,4.0,4,64,Mysuru City,Narcotics,11,0,0,64.2
+296,P_0296,Nandini Khan (Leader),42,2,1,4.0,4,655,Mangaluru City,Robbery,6,0,0,47.8
+297,P_0297,Ravi Rathod,36,1,1,3.0,3,705,Belagavi,Cybercrime,7,0,0,41.8
+298,P_0298,Suresh Sheikh,22,1,1,3.0,3,705,Belagavi,Cybercrime,7,1,0,41.8
+299,P_0299,Alphonsa Shetty,52,1,1,1.0,1,120,Mangaluru City,Theft,2,1,0,34.2
+300,P_0300,Ganesh Shetty,40,1,1,3.0,3,705,Belagavi,Cybercrime,7,1,0,41.8
+301,P_0301,Gopal Fernandes,36,1,1,3.0,3,705,Belagavi,Cybercrime,7,0,0,41.8
+302,P_0302,Kalpana Shetty,28,2,1,4.0,4,655,Mangaluru City,Robbery,6,0,0,47.8
+303,P_0303,Vinay Sheikh,29,1,1,1.0,1,120,Mangaluru City,Theft,2,1,0,34.2
+304,P_0304,Xavier Sequeira,25,2,1,3.0,3,705,Belagavi,Cybercrime,7,0,0,41.8
+305,P_0305,Deepa Naik,55,1,1,3.0,3,705,Belagavi,Cybercrime,7,1,0,41.8
+306,P_0306,Antony Pinto,46,1,1,3.0,3,705,Belagavi,Cybercrime,7,0,0,41.8
+307,P_0307,Chandan D'Souza,40,1,1,1.0,1,120,Mangaluru City,Theft,2,1,0,34.2
+308,P_0308,Ravi Sequeira,22,1,1,4.0,4,655,Mangaluru City,Robbery,6,1,0,47.8
+309,P_0309,Pooja Gowda,33,1,1,4.0,4,655,Mangaluru City,Robbery,6,0,0,47.8
+310,P_0310,Manjunath Pujari,51,2,1,4.0,4,655,Mangaluru City,Robbery,6,0,0,47.8
+311,P_0311,Lakshmi Jadhav,26,1,1,4.0,4,655,Mangaluru City,Robbery,6,1,0,47.8
+312,P_0312,Ganesh Desai,38,2,1,4.0,4,655,Mangaluru City,Robbery,6,0,0,47.8
+313,P_0313,Ganesh Shetty (Leader),36,2,1,2.0,2,584,Mangaluru City,Fraud,6,0,0,35.8
+314,P_0314,Harish Khan,46,1,1,3.0,3,0,Mysuru City,Cybercrime,10,1,0,61.8
+315,P_0315,Imran Jadhav,27,2,1,2.0,2,584,Mangaluru City,Fraud,6,0,0,35.8
+316,P_0316,Manjula Khan,22,2,1,3.0,3,0,Mysuru City,Cybercrime,10,0,0,61.8
+317,P_0317,Kalpana Sequeira,44,2,1,3.0,3,0,Mysuru City,Cybercrime,10,0,0,61.8
+318,P_0318,Pushpa Kulkarni,40,1,1,2.0,2,584,Mangaluru City,Fraud,6,0,0,35.8
+319,P_0319,Sridhar D'Souza,26,1,1,3.0,3,0,Mysuru City,Cybercrime,10,0,0,61.8
+320,P_0320,Yallappa Mendes,34,2,1,2.0,2,584,Mangaluru City,Fraud,6,0,0,35.8
+321,P_0321,Ramesh Bhat,26,1,1,2.0,2,584,Mangaluru City,Fraud,6,1,0,35.8
+322,P_0322,Rashmi Sheikh,51,1,1,3.0,3,135,Belagavi,Assault,4,0,0,51.4
+323,P_0323,Sowmya Naik,52,1,1,3.0,3,0,Mysuru City,Cybercrime,10,0,0,61.8
+324,P_0324,Rekha Kulkarni,42,1,1,3.0,3,135,Belagavi,Assault,4,0,0,51.4
+325,P_0325,Bhagya Mendes,47,1,1,3.0,3,0,Mysuru City,Cybercrime,10,1,0,61.8
+326,P_0326,Nandini Setty,34,2,1,3.0,3,135,Belagavi,Assault,4,0,0,51.4
+327,P_0327,Harish Khan,41,1,1,2.0,2,584,Mangaluru City,Fraud,6,0,0,35.8
+328,P_0328,Mahmood Hegde,51,1,1,3.0,3,135,Belagavi,Assault,4,0,0,51.4
+329,P_0329,Lakshmi Jadhav,25,2,1,3.0,3,0,Mysuru City,Cybercrime,10,0,0,61.8
+330,P_0330,Vidya Shetty,21,1,1,3.0,3,0,Mysuru City,Cybercrime,10,0,0,61.8
+331,P_0331,Kalpana Shetty,28,1,1,2.0,2,584,Mangaluru City,Fraud,6,0,0,35.8
+332,P_0332,Vinay Chavan,28,1,1,3.0,3,0,Mysuru City,Cybercrime,10,0,0,61.8
+333,P_0333,Harish Khan,31,2,1,3.0,3,135,Belagavi,Assault,4,1,0,51.4
+334,P_0334,Kalpana Shetty,47,2,1,3.0,3,0,Mysuru City,Cybercrime,10,1,0,61.8
+335,P_0335,Iqbal Bhat,28,2,1,3.0,3,0,Mysuru City,Cybercrime,10,0,0,61.8
+336,P_0336,Iqbal Bhat (Leader),54,1,1,5.0,5,635,Hubballi-Dharwad,Homicide,3,0,0,47.8
+337,P_0337,Deepak Khan,44,1,1,3.0,3,463,Bengaluru City,Assault,6,0,0,41.8
+338,P_0338,Iqbal Bhat,54,1,1,1.0,1,450,Hubballi-Dharwad,Theft,6,0,0,29.8
+339,P_0339,Imran Jadhav,44,1,1,3.0,3,463,Bengaluru City,Assault,6,0,0,41.8
+340,P_0340,Mahmood Hegde,34,1,1,3.0,3,68,Hubballi-Dharwad,Assault,2,1,0,49.0
+341,P_0341,Yallappa Mendes,54,2,1,1.0,1,450,Hubballi-Dharwad,Theft,6,0,0,29.8
+342,P_0342,Naveen Sheikh,47,1,1,4.0,4,205,Belagavi,Robbery,6,0,0,56.5
+343,P_0343,Joseph Salian,25,1,1,1.0,1,450,Hubballi-Dharwad,Theft,6,0,0,29.8
+344,P_0344,Vijayalakshmi Desai,33,1,1,5.0,5,635,Hubballi-Dharwad,Homicide,3,0,0,47.8
+345,P_0345,Rekha Salian,50,1,1,4.0,4,205,Belagavi,Robbery,6,1,0,56.5
+346,P_0346,Mahmood Mendes,50,1,1,4.0,4,205,Belagavi,Robbery,6,1,0,56.5
+347,P_0347,Basavaraj Shetty,35,1,1,4.0,4,205,Belagavi,Robbery,6,0,0,56.5
+348,P_0348,Xavier Setty,38,1,1,4.0,4,205,Belagavi,Robbery,6,0,0,56.5
+349,P_0349,Rashmi Poojary,40,1,1,3.0,3,68,Hubballi-Dharwad,Assault,2,0,0,49.0
+350,P_0350,Sowmya Naik,46,1,1,3.0,3,463,Bengaluru City,Assault,6,1,0,41.8
+351,P_0351,Vishwanath Fernandes,33,1,1,3.0,3,463,Bengaluru City,Assault,6,1,0,41.8
+352,P_0352,Kiran Desai,27,1,1,3.0,3,463,Bengaluru City,Assault,6,1,0,41.8
+353,P_0353,Roopa Salian,37,1,1,5.0,5,635,Hubballi-Dharwad,Homicide,3,1,0,47.8
+354,P_0354,Nandini Khan,54,2,1,1.0,1,450,Hubballi-Dharwad,Theft,6,0,0,29.8
+355,P_0355,Manjula Khan,38,2,1,5.0,5,635,Hubballi-Dharwad,Homicide,3,0,0,47.8
+356,P_0356,Yallappa Mendes,21,1,1,1.0,1,450,Hubballi-Dharwad,Theft,6,0,0,29.8
+357,P_0357,Prakash Rathod,30,1,1,1.0,1,450,Hubballi-Dharwad,Theft,6,1,0,29.8
+358,P_0358,Joseph Salian,21,1,1,1.0,1,450,Hubballi-Dharwad,Theft,6,0,0,29.8
+359,P_0359,Deepa Desai,24,1,1,4.0,4,205,Belagavi,Robbery,6,0,0,56.5
+360,P_0360,Sridhar D'Souza,49,2,1,3.0,3,463,Bengaluru City,Assault,6,0,0,41.8
+361,P_0361,Fathima Mendes (Leader),40,1,1,3.0,3,586,Mysuru City,Cybercrime,9,1,0,41.8
+362,P_0362,Ganesh Desai,46,2,1,3.0,3,301,Bengaluru City,Assault,12,0,0,45.3
+363,P_0363,Nagesh Pinto,51,1,1,3.0,3,586,Mysuru City,Cybercrime,9,1,0,41.8
+364,P_0364,Shweta Chavan,54,1,1,3.0,3,586,Mysuru City,Cybercrime,9,0,0,41.8
+365,P_0365,Deepak Khan,34,1,1,3.0,3,301,Bengaluru City,Assault,12,0,0,45.3
+366,P_0366,Imran Jadhav,30,2,1,3.0,3,586,Mysuru City,Cybercrime,9,0,0,41.8
+367,P_0367,Deepa Sequeira,37,1,1,3.0,3,586,Mysuru City,Cybercrime,9,0,0,41.8
+368,P_0368,Manjunath Pujari,43,1,1,3.0,3,586,Mysuru City,Cybercrime,9,0,0,41.8
+369,P_0369,Lawrence Prabhu,44,2,1,3.0,3,301,Bengaluru City,Assault,12,0,0,45.3
+370,P_0370,Sandra Setty,48,1,1,3.0,3,586,Mysuru City,Cybercrime,9,1,0,41.8
+371,P_0371,Girish Ballal,44,1,1,3.0,3,301,Bengaluru City,Assault,12,0,0,45.3
+372,P_0372,Sandra Jadhav,49,1,1,3.0,3,301,Bengaluru City,Assault,12,0,0,45.3
+373,P_0373,Shivakumar Gowda,40,1,1,3.0,3,301,Bengaluru City,Assault,12,0,0,45.3
+374,P_0374,Roopa Achar,44,1,1,3.0,3,301,Bengaluru City,Assault,12,0,0,45.3
+375,P_0375,Arjun Bhat,38,1,1,3.0,3,301,Bengaluru City,Assault,12,0,0,45.3
+376,P_0376,Sowmya Sheikh,51,2,1,3.0,3,586,Mysuru City,Cybercrime,9,0,0,41.8
+377,P_0377,Vijayalakshmi Desai,37,1,1,3.0,3,301,Bengaluru City,Assault,12,1,0,45.3
+378,P_0378,Manjula Khan,22,2,1,3.0,3,301,Bengaluru City,Assault,12,0,0,45.3
+379,P_0379,Deepa Sequeira,32,2,1,3.0,3,586,Mysuru City,Cybercrime,9,0,0,41.8
+380,P_0380,Manjunath Pinto,44,1,1,3.0,3,301,Bengaluru City,Assault,12,1,0,45.3
+381,P_0381,Nagesh Pinto,32,1,1,3.0,3,301,Bengaluru City,Assault,12,1,0,45.3
+382,P_0382,Lakshmi Desai,28,1,1,3.0,3,301,Bengaluru City,Assault,12,0,0,45.3
+383,P_0383,Vinay Chavan (Leader),24,1,1,4.0,4,584,Hubballi-Dharwad,Narcotics,11,1,0,47.8
+384,P_0384,Chandan D'Souza,55,1,1,3.0,3,68,Hubballi-Dharwad,Assault,8,0,0,58.0
+385,P_0385,Manjunath Pujari,22,1,1,3.0,3,68,Hubballi-Dharwad,Assault,8,1,0,58.0
+386,P_0386,Suresh Sheikh,41,1,1,4.0,4,584,Hubballi-Dharwad,Narcotics,11,1,0,47.8
+387,P_0387,Pooja Kotian,44,1,1,4.0,4,584,Hubballi-Dharwad,Narcotics,11,1,0,47.8
+388,P_0388,Vinay Sheikh,47,1,1,4.0,4,584,Hubballi-Dharwad,Narcotics,11,0,0,47.8
+389,P_0389,Xavier Setty,53,1,1,3.0,3,68,Hubballi-Dharwad,Assault,8,0,0,58.0
+390,P_0390,Vinay Poojary,26,1,1,4.0,4,584,Hubballi-Dharwad,Narcotics,11,1,0,47.8
+391,P_0391,Bhagya Bhat,38,1,1,3.0,3,225,Mangaluru City,Cybercrime,6,0,0,49.4
+392,P_0392,Deepa Kotian,47,1,1,4.0,4,584,Hubballi-Dharwad,Narcotics,11,1,0,47.8
+393,P_0393,Kalpana Shetty,21,1,1,4.0,4,584,Hubballi-Dharwad,Narcotics,11,0,0,47.8
+394,P_0394,Ganesh Desai,43,1,1,3.0,3,225,Mangaluru City,Cybercrime,6,0,0,49.4
+395,P_0395,Mahmood Hegde,26,2,1,3.0,3,225,Mangaluru City,Cybercrime,6,0,0,49.4
+396,P_0396,Santosh Salian,26,1,1,3.0,3,68,Hubballi-Dharwad,Assault,8,0,0,58.0
+397,P_0397,Prakash Rathod,32,1,1,4.0,4,584,Hubballi-Dharwad,Narcotics,11,0,0,47.8
+398,P_0398,Gopal Fernandes,22,1,1,4.0,4,584,Hubballi-Dharwad,Narcotics,11,0,0,47.8
+399,P_0399,Anitha Pinto,44,2,1,3.0,3,68,Hubballi-Dharwad,Assault,8,0,0,58.0
+400,P_0400,Basavaraj Hegde,36,1,1,3.0,3,68,Hubballi-Dharwad,Assault,8,1,0,58.0
+401,P_0401,Sowmya Sheikh,33,1,1,4.0,4,584,Hubballi-Dharwad,Narcotics,11,0,0,47.8
+402,P_0402,Roopa Hegde,45,1,1,3.0,3,225,Mangaluru City,Cybercrime,6,1,0,49.4
+403,P_0403,Rajesh Gowda,29,1,1,3.0,3,68,Hubballi-Dharwad,Assault,8,0,0,58.0
+404,P_0404,Sudha Achar,33,1,1,3.0,3,225,Mangaluru City,Cybercrime,6,0,0,49.4
+405,P_0405,Roopa Salian,39,1,1,3.0,3,68,Hubballi-Dharwad,Assault,8,0,0,58.0
+406,P_0406,Vinay Chavan,37,1,1,4.0,4,584,Hubballi-Dharwad,Narcotics,11,0,0,47.8
+407,P_0407,Vijay Rathod,44,1,1,3.0,3,225,Mangaluru City,Cybercrime,6,0,0,49.4
+408,P_0408,Sowmya Naik (Leader),49,1,1,5.0,5,505,Bengaluru City,Homicide,8,0,0,53.8
+409,P_0409,Nagesh Fernandes,45,1,1,1.0,1,578,Hubballi-Dharwad,Theft,3,0,0,23.8
+410,P_0410,Antony Rathod,34,2,1,5.0,5,505,Bengaluru City,Homicide,8,0,0,53.8
+411,P_0411,Sowmya Sheikh,39,1,1,3.0,3,333,Bengaluru City,Assault,6,1,0,43.5
+412,P_0412,Vijayalakshmi Desai,53,1,1,3.0,3,333,Bengaluru City,Assault,6,0,0,43.5
+413,P_0413,Ravi Sequeira,34,1,1,1.0,1,578,Hubballi-Dharwad,Theft,3,1,0,23.8
+414,P_0414,Mahmood Hegde,37,1,1,3.0,3,532,Hubballi-Dharwad,Assault,3,0,0,35.8
+415,P_0415,Chandan Pujari,32,2,1,1.0,1,578,Hubballi-Dharwad,Theft,3,0,0,23.8
+416,P_0416,Mahmood Hegde,41,1,1,3.0,3,532,Hubballi-Dharwad,Assault,3,0,0,35.8
+417,P_0417,Girish Ballal,23,1,1,5.0,5,505,Bengaluru City,Homicide,8,1,0,53.8
+418,P_0418,Gopal Fernandes,43,1,1,1.0,1,578,Hubballi-Dharwad,Theft,3,1,0,23.8
+419,P_0419,Lakshmi Desai,51,1,1,3.0,3,532,Hubballi-Dharwad,Assault,3,0,0,35.8
+420,P_0420,Sowmya Sheikh,27,1,1,3.0,3,333,Bengaluru City,Assault,6,0,0,43.5
+421,P_0421,Rekha Kulkarni,31,2,1,3.0,3,333,Bengaluru City,Assault,6,0,0,43.5
+422,P_0422,Shivakumar Sheikh,22,2,1,5.0,5,505,Bengaluru City,Homicide,8,0,0,53.8
+423,P_0423,Pooja Gowda,48,2,1,5.0,5,505,Bengaluru City,Homicide,8,0,0,53.8
+424,P_0424,Nagesh Fernandes,36,1,1,5.0,5,97,Mysuru City,Homicide,1,0,0,56.4
+425,P_0425,Manjula Fernandes,42,2,1,3.0,3,333,Bengaluru City,Assault,6,0,0,43.5
+426,P_0426,Harish Fernandes,23,1,1,5.0,5,97,Mysuru City,Homicide,1,1,0,56.4
+427,P_0427,Pushpa Kulkarni,47,2,1,5.0,5,505,Bengaluru City,Homicide,8,1,0,53.8
+428,P_0428,Manjula Khan,46,1,1,3.0,3,333,Bengaluru City,Assault,6,1,0,43.5
+429,P_0429,Ravi Sequeira,31,1,1,3.0,3,532,Hubballi-Dharwad,Assault,3,0,0,35.8
+430,P_0430,Vijayalakshmi Desai,54,1,1,5.0,5,505,Bengaluru City,Homicide,8,0,0,53.8
+431,P_0431,Vidya Shetty,29,1,1,5.0,5,505,Bengaluru City,Homicide,8,0,0,53.8
+432,P_0432,Nataraj D'Souza,24,1,1,3.0,3,333,Bengaluru City,Assault,6,0,0,43.5
+433,P_0433,Iqbal Patil,28,1,1,4.0,4,261,Mangaluru City,Robbery,1,1,0,41.4
+434,P_0434,Alphonsa Shetty,29,2,1,4.0,4,470,Hubballi-Dharwad,Robbery,1,1,0,35.8
+435,P_0435,Sudha Kamath,28,1,1,1.0,1,141,Bengaluru City,Theft,2,0,0,33.0
+436,P_0436,Roopa Salian,38,1,1,3.0,3,358,Bengaluru City,Assault,1,0,0,30.1
+437,P_0437,Shivakumar Sheikh,34,1,1,3.0,3,369,Belagavi,Cybercrime,0,0,0,26.8
+438,P_0438,Prakash Rathod,34,1,1,3.0,3,213,Belagavi,Assault,0,1,0,35.1
+439,P_0439,Ganesh Desai,42,1,1,1.0,1,395,Hubballi-Dharwad,Theft,0,0,0,14.8
+440,P_0440,Kiran Prabhu,41,1,1,2.0,2,305,Mangaluru City,Fraud,1,0,0,27.0
+441,P_0441,Ravi Rathod,62,2,1,2.0,2,670,Mysuru City,Fraud,0,0,0,20.8
+442,P_0442,Anitha Pinto,49,2,1,2.0,2,36,Belagavi,Fraud,0,0,0,38.8
+443,P_0443,Mahmood Hegde,34,1,1,2.0,2,31,Belagavi,Fraud,1,0,0,42.1
+444,P_0444,Girish Desai,39,1,1,5.0,5,209,Mysuru City,Homicide,1,1,0,50.3
+445,P_0445,Sowmya Naik,39,1,1,4.0,4,413,Belagavi,Narcotics,7,0,0,47.8
+446,P_0446,Alphonsa Sheikh,46,2,1,3.0,3,544,Hubballi-Dharwad,Assault,0,0,0,26.8
+447,P_0447,Xavier Sequeira,41,2,1,1.0,1,726,Hubballi-Dharwad,Theft,1,0,0,17.8
+448,P_0448,Antony Pinto,56,1,1,3.0,3,385,Bengaluru City,Cybercrime,0,0,0,26.8
+449,P_0449,Deepak Khan,57,1,1,1.0,1,292,Bengaluru City,Theft,0,0,0,18.8
+450,P_0450,Rashmi Pinto,42,1,1,4.0,4,267,Belagavi,Robbery,0,0,0,38.1
+451,P_0451,Deepa Kotian,19,2,1,3.0,3,265,Mangaluru City,Cybercrime,0,0,0,32.2
+452,P_0452,Xavier Sequeira,60,1,1,4.0,4,142,Hubballi-Dharwad,Robbery,0,0,0,45.0
+453,P_0453,Harish Khan,31,1,1,3.0,3,348,Bengaluru City,Assault,0,1,0,27.7
+454,P_0454,Harish Fernandes,46,1,1,5.0,5,146,Mysuru City,Homicide,0,0,0,50.8
+455,P_0455,Naveen Ballal,60,1,1,5.0,5,342,Belagavi,Homicide,0,0,0,40.0
+456,P_0456,Kiran Desai,37,1,1,3.0,3,718,Hubballi-Dharwad,Cybercrime,0,0,0,26.8
+457,P_0457,Alphonsa Sheikh,49,1,1,5.0,5,209,Mysuru City,Homicide,1,0,0,50.3
+458,P_0458,Lakshmi Desai,30,1,1,3.0,3,640,Hubballi-Dharwad,Cybercrime,0,0,0,26.8
+459,P_0459,Sridhar Rao,52,1,1,3.0,3,311,Mangaluru City,Cybercrime,1,0,0,32.7
+460,P_0460,Sridhar D'Souza,24,1,1,2.0,2,652,Mangaluru City,Fraud,1,1,0,23.8
+461,P_0461,Sandra Setty,25,2,1,4.0,4,97,Mangaluru City,Narcotics,10,0,0,62.4
+462,P_0462,Sridhar D'Souza,19,1,1,4.0,4,221,Mangaluru City,Narcotics,0,0,0,40.6
+463,P_0463,Girish Desai,55,2,1,2.0,2,78,Hubballi-Dharwad,Fraud,1,1,0,39.5
+464,P_0464,Pooja Gowda,19,2,1,4.0,4,97,Mangaluru City,Narcotics,10,0,0,62.4
+465,P_0465,Fathima Mendes,44,2,1,3.0,3,261,Hubballi-Dharwad,Assault,0,0,0,32.4
+466,P_0466,Roopa Hegde,38,2,1,1.0,1,128,Mysuru City,Theft,0,0,0,27.7
+467,P_0467,Antony Pinto,59,1,1,4.0,4,645,Belagavi,Narcotics,0,0,0,32.8
+468,P_0468,Sridhar D'Souza,47,1,1,2.0,2,186,Mangaluru City,Fraud,0,0,0,30.6
+469,P_0469,Joseph Salian,40,1,1,5.0,5,346,Belagavi,Homicide,0,1,0,39.8
+470,P_0470,Nataraj D'Souza,30,2,1,3.0,3,452,Hubballi-Dharwad,Cybercrime,0,1,0,26.8
+471,P_0471,Vijay Shetty,43,1,1,1.0,1,400,Bengaluru City,Theft,0,0,0,14.8
+472,P_0472,Shivakumar Gowda,40,1,1,2.0,2,537,Bengaluru City,Fraud,0,1,0,20.8
+473,P_0473,Ravi Sequeira,58,2,1,3.0,3,135,Mangaluru City,Assault,0,1,0,39.4
+474,P_0474,Roopa Hegde,48,1,1,5.0,5,122,Hubballi-Dharwad,Homicide,0,1,0,52.1
+475,P_0475,Imran Patil,50,2,1,4.0,4,680,Bengaluru City,Narcotics,0,1,0,32.8
+476,P_0476,Roopa Hegde,57,1,1,4.0,4,672,Mangaluru City,Narcotics,0,0,0,32.8
+477,P_0477,Lakshmi Jadhav,40,1,1,3.0,3,549,Belagavi,Cybercrime,0,0,0,26.8
+478,P_0478,Vidya Naik,20,1,1,4.0,4,598,Bengaluru City,Robbery,2,1,0,38.8
+479,P_0479,Iqbal Bhat,41,2,1,1.0,1,484,Bengaluru City,Theft,0,1,0,14.8
+480,P_0480,Kalpana Sequeira,39,1,1,1.0,1,20,Hubballi-Dharwad,Theft,0,0,0,33.7
+481,P_0481,Manjunath Pinto,57,1,1,3.0,3,123,Belagavi,Assault,0,0,0,40.0
+482,P_0482,Sandra Setty,21,2,1,3.0,3,393,Hubballi-Dharwad,Cybercrime,1,1,0,29.8
+483,P_0483,Roopa Salian,24,1,1,5.0,5,590,Mangaluru City,Homicide,0,0,0,38.8
+484,P_0484,Sandra Setty,28,2,1,1.0,1,631,Hubballi-Dharwad,Theft,0,1,0,14.8
+485,P_0485,Deepa Desai,36,1,1,3.0,3,586,Mysuru City,Cybercrime,9,1,0,41.8
+486,P_0486,Pooja Gowda,58,1,1,1.0,1,9,Belagavi,Theft,0,0,0,34.3
+487,P_0487,Ayesha Prabhu,52,2,1,5.0,5,379,Hubballi-Dharwad,Homicide,0,0,0,38.8
+488,P_0488,Xavier Sequeira,39,1,1,3.0,3,177,Mysuru City,Cybercrime,1,1,0,40.1
+489,P_0489,Maria Reddy,57,1,1,4.0,4,685,Belagavi,Narcotics,0,1,0,32.8
+490,P_0490,Ravi Sequeira,24,1,1,2.0,2,424,Mysuru City,Fraud,0,1,0,20.8
+491,P_0491,Sudha Reddy,38,2,1,3.0,3,68,Hubballi-Dharwad,Assault,2,0,0,49.0
+492,P_0492,Suresh Kotian,30,1,1,4.0,4,227,Hubballi-Dharwad,Narcotics,0,1,0,40.3
+493,P_0493,Manjunath Pujari,24,2,1,4.0,4,529,Mangaluru City,Narcotics,0,0,0,32.8
+494,P_0494,Santosh Salian,31,1,1,3.0,3,217,Bengaluru City,Assault,0,0,0,34.9
+495,P_0495,Rashmi Sheikh,51,1,1,2.0,2,90,Hubballi-Dharwad,Fraud,0,0,0,35.8
+496,P_0496,Nandini Khan,22,1,1,3.0,3,615,Hubballi-Dharwad,Cybercrime,1,1,0,29.8
+497,P_0497,Joseph Salian,32,2,1,1.0,1,414,Mangaluru City,Theft,1,0,0,17.8
+498,P_0498,Kalpana Shetty,30,1,1,1.0,1,218,Bengaluru City,Theft,2,0,0,28.8
+499,P_0499,Fathima Mendes,21,2,1,3.0,3,331,Mysuru City,Cybercrime,0,0,0,28.6
+500,P_0500,Shivakumar Sheikh,62,1,1,3.0,3,547,Belagavi,Cybercrime,0,0,0,26.8
+501,P_0501,Shivakumar Gowda,45,1,1,5.0,5,505,Bengaluru City,Homicide,8,0,0,53.8
+502,P_0502,Nataraj D'Souza,45,1,1,5.0,5,672,Hubballi-Dharwad,Homicide,0,1,0,38.8
+503,P_0503,Vinay Poojary,48,1,1,1.0,1,218,Bengaluru City,Theft,2,0,0,28.8
+504,P_0504,Sudha Achar,33,1,1,5.0,5,234,Hubballi-Dharwad,Homicide,1,0,0,48.9
+505,P_0505,Bhagya Mendes,33,1,1,4.0,4,423,Belagavi,Robbery,0,1,0,32.8
+506,P_0506,Ganesh Shetty,57,2,1,4.0,4,600,Hubballi-Dharwad,Narcotics,0,0,0,32.8
+507,P_0507,Lakshmi Desai,59,1,1,4.0,4,233,Belagavi,Robbery,0,0,0,40.0
+508,P_0508,Naveen Ballal,49,1,1,5.0,5,444,Belagavi,Homicide,0,0,0,38.8
+509,P_0509,Kalpana Mendes,39,1,1,1.0,1,171,Bengaluru City,Theft,0,0,0,25.4
+510,P_0510,Vinay Chavan,28,2,1,4.0,4,111,Mysuru City,Robbery,0,1,0,46.7
+511,P_0511,Kalpana Shetty,50,1,1,1.0,1,371,Bengaluru City,Theft,0,1,0,14.8
+512,P_0512,Vijayalakshmi Desai,29,2,1,3.0,3,685,Mangaluru City,Assault,1,0,0,29.8
+513,P_0513,Vinay Sheikh,21,1,1,4.0,4,467,Mangaluru City,Robbery,1,0,0,35.8
+514,P_0514,Deepa Sequeira,54,1,1,2.0,2,504,Mangaluru City,Fraud,0,0,0,20.8
+515,P_0515,Lawrence Sequeira,52,1,1,5.0,5,466,Hubballi-Dharwad,Homicide,1,0,0,41.8
+516,P_0516,Iqbal Bhat,39,2,1,4.0,4,180,Belagavi,Robbery,0,0,0,42.9
+517,P_0517,Mahmood Hegde,20,1,1,4.0,4,406,Hubballi-Dharwad,Robbery,0,0,0,32.8
+518,P_0518,Rashmi Poojary,29,1,1,1.0,1,130,Mangaluru City,Theft,0,1,0,27.6
+519,P_0519,Santosh Kotian,45,1,1,3.0,3,270,Hubballi-Dharwad,Cybercrime,1,0,0,35.0
+520,P_0520,Ganesh Shetty,54,2,1,3.0,3,123,Mangaluru City,Cybercrime,0,0,0,40.0
+521,P_0521,Girish Ballal,53,1,1,3.0,3,639,Bengaluru City,Assault,0,1,0,26.8
+522,P_0522,Arjun Bhat,26,1,1,5.0,5,725,Hubballi-Dharwad,Homicide,0,1,0,38.8
+523,P_0523,Anitha Pinto,32,1,1,1.0,1,460,Belagavi,Theft,1,0,0,17.8
+524,P_0524,Iqbal Bhat,30,1,1,1.0,1,295,Mangaluru City,Theft,1,0,0,21.6
+525,P_0525,Praveen Rathod,44,2,1,4.0,4,598,Bengaluru City,Robbery,2,0,0,38.8
+526,P_0526,Vidya Shetty,32,2,1,4.0,4,205,Belagavi,Robbery,6,0,0,56.5
+527,P_0527,Manjula Fernandes,36,1,1,3.0,3,12,Bengaluru City,Assault,1,0,0,49.1
+528,P_0528,Nandini Pujari,59,1,1,4.0,4,324,Mysuru City,Robbery,1,0,0,38.0
+529,P_0529,Deepak Khan,62,1,1,5.0,5,502,Hubballi-Dharwad,Homicide,0,0,0,38.8
+530,P_0530,Rekha Salian,53,2,1,4.0,4,584,Hubballi-Dharwad,Narcotics,11,0,0,47.8
+531,P_0531,Chandan D'Souza,44,2,1,4.0,4,443,Bengaluru City,Narcotics,1,1,0,35.8
+532,P_0532,Mahmood Hegde,37,2,1,2.0,2,33,Hubballi-Dharwad,Fraud,0,0,0,38.9
+533,P_0533,Joseph Kulkarni,30,2,1,1.0,1,312,Mangaluru City,Theft,1,0,0,20.7
+534,P_0534,Shivakumar Gowda,53,1,1,2.0,2,75,Bengaluru City,Fraud,0,0,0,36.6
+535,P_0535,Mahmood Hegde,60,1,1,5.0,5,431,Belagavi,Homicide,1,0,0,41.8
+536,P_0536,Roopa Achar,25,2,1,4.0,4,723,Mangaluru City,Robbery,0,1,0,32.8
+537,P_0537,Manjunath Pujari,45,2,1,4.0,4,419,Mysuru City,Robbery,0,0,0,32.8
+538,P_0538,Xavier Setty,59,1,1,4.0,4,145,Hubballi-Dharwad,Robbery,0,0,0,44.8
+539,P_0539,Sudha Achar,27,1,1,3.0,3,362,Mangaluru City,Assault,0,1,0,26.9
+540,P_0540,Manjula Khan,45,1,1,1.0,1,150,Bengaluru City,Theft,0,0,0,26.5
+541,P_0541,Rashmi Sheikh,34,1,1,3.0,3,309,Hubballi-Dharwad,Assault,0,0,0,29.8
+542,P_0542,Gopal Fernandes,49,1,1,5.0,5,70,Hubballi-Dharwad,Homicide,0,1,0,54.9
+543,P_0543,Naseema Rao,20,2,1,1.0,1,27,Hubballi-Dharwad,Theft,7,1,0,48.3
+544,P_0544,Ravi Sequeira,31,1,1,2.0,2,638,Mysuru City,Fraud,0,0,0,20.8
+545,P_0545,Naseema Rao,34,1,1,1.0,1,254,Hubballi-Dharwad,Theft,0,1,0,20.8
+546,P_0546,Imran Jadhav,31,1,1,3.0,3,436,Belagavi,Assault,0,0,0,26.8
+547,P_0547,Iqbal Bhat,23,1,1,5.0,5,584,Belagavi,Homicide,0,0,0,38.8
+548,P_0548,Manjula Khan,48,2,1,4.0,4,113,Mangaluru City,Robbery,0,1,0,46.6
+549,P_0549,Sridhar Rao,57,2,1,3.0,3,210,Mysuru City,Assault,0,0,0,35.2
+550,P_0550,Iqbal Patil,30,2,1,4.0,4,625,Mysuru City,Narcotics,1,0,0,35.8
+551,P_0551,Sowmya Sheikh,26,1,1,3.0,3,274,Bengaluru City,Cybercrime,0,0,0,31.7
+552,P_0552,Anand Naik,29,1,1,1.0,1,361,Mangaluru City,Theft,0,0,0,15.0
+553,P_0553,Pooja Kotian,23,1,1,4.0,4,497,Mysuru City,Narcotics,0,0,0,32.8
+554,P_0554,Manjunath Pinto,62,2,1,2.0,2,197,Mangaluru City,Fraud,0,0,0,30.0
+555,P_0555,Chandan Pujari,49,2,1,1.0,1,503,Bengaluru City,Theft,0,0,0,14.8
+556,P_0556,Nataraj D'Souza,45,1,1,5.0,5,452,Mysuru City,Homicide,0,1,0,38.8
+557,P_0557,Imran Jadhav,53,1,1,3.0,3,358,Bengaluru City,Assault,1,0,0,30.1
+558,P_0558,Praveen Rathod,57,1,1,2.0,2,564,Belagavi,Fraud,0,1,0,20.8
+559,P_0559,Mahmood Prabhu,22,1,1,5.0,5,8,Mysuru City,Homicide,0,0,0,58.3
+560,P_0560,Alphonsa Shetty,21,1,1,3.0,3,490,Belagavi,Cybercrime,0,0,0,26.8
+561,P_0561,Imran Jadhav,51,2,1,4.0,4,413,Belagavi,Narcotics,7,0,0,47.8
+562,P_0562,Nataraj D'Souza,26,1,1,5.0,5,696,Mysuru City,Homicide,0,0,0,38.8
+563,P_0563,Suresh Sheikh,35,1,1,1.0,1,711,Mysuru City,Theft,0,0,0,14.8
+564,P_0564,Yallappa Mendes,42,2,1,4.0,4,146,Hubballi-Dharwad,Narcotics,0,0,0,44.8
+565,P_0565,Kalpana Mendes,28,1,1,5.0,5,371,Mangaluru City,Homicide,0,0,0,38.8
+566,P_0566,Mahmood Prabhu,32,1,1,4.0,4,474,Bengaluru City,Narcotics,0,0,0,32.8
+567,P_0567,Puneeth Bhat,60,1,1,5.0,5,234,Hubballi-Dharwad,Homicide,1,1,0,48.9
+568,P_0568,Nataraj Sequeira,50,1,1,4.0,4,470,Hubballi-Dharwad,Robbery,1,0,0,35.8
+569,P_0569,Anitha Kamath,40,1,1,2.0,2,691,Mangaluru City,Fraud,0,0,0,20.8
+570,P_0570,Vinay Chavan,40,2,1,3.0,3,488,Bengaluru City,Assault,0,1,0,26.8
+571,P_0571,Anitha Kamath,55,1,1,2.0,2,564,Bengaluru City,Fraud,0,0,0,20.8
+572,P_0572,Manjunath Pinto,27,1,1,2.0,2,699,Belagavi,Fraud,0,0,0,20.8
+573,P_0573,Ganesh Shetty,20,1,1,3.0,3,567,Belagavi,Assault,0,0,0,26.8
+574,P_0574,Naseema Rao,55,1,1,4.0,4,202,Mangaluru City,Narcotics,0,0,0,41.7
+575,P_0575,Iqbal Bhat,38,1,1,2.0,2,412,Mangaluru City,Fraud,1,1,0,23.8
+576,P_0576,Sudha Reddy,38,2,1,3.0,3,399,Hubballi-Dharwad,Assault,0,0,0,26.8
+577,P_0577,Vinay Chavan,62,1,1,2.0,2,412,Mangaluru City,Fraud,1,0,0,23.8
+578,P_0578,Kalpana Shetty,27,1,1,3.0,3,408,Mangaluru City,Assault,0,0,0,26.8
+579,P_0579,Iqbal Bhat,43,1,1,1.0,1,224,Belagavi,Theft,0,0,0,22.5
+580,P_0580,Melwin Desai,20,1,1,5.0,5,181,Bengaluru City,Homicide,0,0,0,48.8
+581,P_0581,Harish Fernandes,28,1,1,4.0,4,256,Bengaluru City,Narcotics,0,0,0,38.7
+582,P_0582,Nandini Pujari,51,2,1,2.0,2,550,Bengaluru City,Fraud,0,0,0,20.8
+583,P_0583,Kavya Salian,29,1,1,2.0,2,305,Mangaluru City,Fraud,1,0,0,27.0
+584,P_0584,Kiran Desai,56,1,1,3.0,3,251,Mangaluru City,Cybercrime,0,1,0,33.0
+585,P_0585,Naseema Rao,43,2,1,1.0,1,30,Mangaluru City,Theft,0,1,0,33.1
+586,P_0586,Yallappa Mendes,52,2,1,5.0,5,269,Bengaluru City,Homicide,0,0,0,44.0
+587,P_0587,Mahmood Prabhu,43,1,1,2.0,2,505,Mysuru City,Fraud,0,0,0,20.8
+588,P_0588,Rashmi Hegde,40,1,1,3.0,3,265,Mangaluru City,Cybercrime,0,1,0,32.2
+589,P_0589,Lawrence Sequeira,33,1,1,4.0,4,261,Mangaluru City,Robbery,1,0,0,41.4
+590,P_0590,Arjun Bhat,26,1,1,4.0,4,248,Hubballi-Dharwad,Narcotics,9,1,0,54.2
+591,P_0591,Harish Khan,48,1,1,3.0,3,393,Hubballi-Dharwad,Cybercrime,1,0,0,29.8
+592,P_0592,Kalpana Shetty,52,1,1,3.0,3,59,Mysuru City,Cybercrime,0,1,0,43.5
+593,P_0593,Sandra Jadhav,42,1,1,4.0,4,440,Mysuru City,Narcotics,1,0,0,35.8
+594,P_0594,Gopal Fernandes,25,1,1,5.0,5,199,Mangaluru City,Homicide,0,0,0,47.8
+595,P_0595,Rashmi Hegde,36,1,1,4.0,4,535,Bengaluru City,Narcotics,1,1,0,35.8
+596,P_0596,Nandini Khan,22,2,1,1.0,1,480,Belagavi,Theft,0,0,0,14.8
+597,P_0597,Chandan Pujari,34,1,1,1.0,1,455,Bengaluru City,Theft,0,0,0,14.8
+598,P_0598,Nandini Khan,30,1,1,2.0,2,450,Mangaluru City,Fraud,0,0,0,20.8
+599,P_0599,Nandini Setty,48,1,1,5.0,5,511,Mysuru City,Homicide,0,0,0,38.8
+600,P_0600,Arjun Bhat,36,1,1,3.0,3,177,Mysuru City,Cybercrime,1,0,0,40.1
+601,P_0601,Kalpana Shetty,31,1,1,3.0,3,719,Bengaluru City,Cybercrime,0,0,0,26.8
+602,P_0602,Nataraj Sequeira,27,1,1,4.0,4,702,Mysuru City,Narcotics,0,0,0,32.8
+603,P_0603,Lawrence Sequeira,33,1,1,5.0,5,459,Mysuru City,Homicide,1,0,0,41.8
+604,P_0604,Vijay Shetty,56,2,1,3.0,3,421,Bengaluru City,Assault,1,0,0,29.8
+605,P_0605,Roopa Bhat,53,1,1,4.0,4,330,Hubballi-Dharwad,Robbery,0,1,0,34.7
+606,P_0606,Iqbal Patil,59,1,1,2.0,2,78,Hubballi-Dharwad,Fraud,1,1,0,39.5
+607,P_0607,Mahmood Prabhu,26,2,1,4.0,4,475,Mangaluru City,Narcotics,0,1,0,32.8
+608,P_0608,Joseph Salian,31,1,1,5.0,5,466,Hubballi-Dharwad,Homicide,1,0,0,41.8
+609,P_0609,Mahmood Naik,32,2,1,3.0,3,62,Belagavi,Cybercrime,0,0,0,43.4
+610,P_0610,Antony Rathod,19,2,1,4.0,4,285,Belagavi,Robbery,0,1,0,37.1
+611,P_0611,Nataraj Sequeira,26,2,1,3.0,3,226,Mysuru City,Assault,0,1,0,34.4
+612,P_0612,Sowmya Sheikh,31,2,1,1.0,1,204,Bengaluru City,Theft,0,0,0,23.6
+613,P_0613,Deepa Kulkarni,45,1,1,1.0,1,141,Bengaluru City,Theft,2,1,0,33.0
+614,P_0614,Gopal Fernandes,30,1,1,5.0,5,395,Mangaluru City,Homicide,0,1,0,38.8
+615,P_0615,Mahmood Prabhu,51,1,1,4.0,4,535,Bengaluru City,Narcotics,1,0,0,35.8
+616,P_0616,Sowmya Sheikh,38,1,1,1.0,1,27,Hubballi-Dharwad,Theft,7,1,0,48.3
+617,P_0617,Rekha Salian,34,1,1,4.0,4,193,Belagavi,Narcotics,6,1,0,57.2
+618,P_0618,Alphonsa Sheikh,54,1,1,1.0,1,218,Bengaluru City,Theft,2,1,0,28.8
+619,P_0619,Vinay Chavan,26,1,1,1.0,1,440,Bengaluru City,Theft,0,1,0,14.8
+620,P_0620,Shivakumar Gowda,39,2,1,2.0,2,636,Belagavi,Fraud,3,0,0,29.8
+621,P_0621,Kiran Prabhu,30,1,1,4.0,4,136,Mangaluru City,Narcotics,0,0,0,45.3
+622,P_0622,Santosh Kotian,62,1,1,2.0,2,197,Bengaluru City,Fraud,6,0,0,45.0
+623,P_0623,Lawrence Prabhu,47,1,1,5.0,5,558,Bengaluru City,Homicide,0,1,0,38.8
+624,P_0624,Sridhar Rao,53,1,1,1.0,1,531,Belagavi,Theft,0,1,0,14.8
+625,P_0625,Praveen Rathod,25,1,1,3.0,3,262,Bengaluru City,Assault,0,0,0,32.4
+626,P_0626,Rekha Kulkarni,51,1,1,4.0,4,73,Hubballi-Dharwad,Narcotics,0,0,0,48.8
+627,P_0627,Sowmya Naik,52,2,1,4.0,4,215,Hubballi-Dharwad,Robbery,0,0,0,41.0
+628,P_0628,Sridhar Rao,38,1,1,1.0,1,334,Hubballi-Dharwad,Theft,0,0,0,16.4
+629,P_0629,Alphonsa Sheikh,28,1,1,1.0,1,295,Mangaluru City,Theft,1,0,0,21.6
+630,P_0630,Xavier Setty,44,1,1,1.0,1,312,Mangaluru City,Theft,1,0,0,20.7
+631,P_0631,Kiran Prabhu,58,1,1,5.0,5,119,Bengaluru City,Homicide,0,0,0,52.2
+632,P_0632,Chandan Pujari,49,2,1,4.0,4,327,Mysuru City,Robbery,1,0,0,37.8
+633,P_0633,Pooja Kotian,36,1,1,5.0,5,231,Belagavi,Homicide,9,0,0,61.1
+634,P_0634,Anitha Kamath,49,1,1,3.0,3,617,Mysuru City,Cybercrime,0,0,0,26.8
+635,P_0635,Maria Reddy,38,1,1,3.0,3,180,Belagavi,Cybercrime,0,0,0,36.9
+636,P_0636,Vijay Rathod,39,2,1,5.0,5,140,Hubballi-Dharwad,Homicide,0,1,0,51.1
+637,P_0637,Lakshmi Jadhav,55,2,1,1.0,1,77,Belagavi,Theft,1,0,0,33.5
+638,P_0638,Lakshmi Desai,19,2,1,2.0,2,315,Belagavi,Fraud,0,0,0,23.5
+639,P_0639,Prakash Setty,41,1,1,5.0,5,128,Mysuru City,Homicide,0,1,0,51.7
+640,P_0640,Pooja Gowda,36,1,1,5.0,5,422,Mangaluru City,Homicide,4,1,0,50.8
+641,P_0641,Nagesh Pinto,31,1,1,3.0,3,81,Hubballi-Dharwad,Cybercrime,4,0,0,54.3
+642,P_0642,Imran Jadhav,35,1,1,5.0,5,54,Bengaluru City,Homicide,0,0,0,55.8
+643,P_0643,Naseema Rao,20,1,1,3.0,3,215,Bengaluru City,Cybercrime,0,0,0,35.0
+644,P_0644,Iqbal Patil,43,1,1,5.0,5,549,Bengaluru City,Homicide,0,0,0,38.8
+645,P_0645,Ganesh Desai,31,1,1,1.0,1,390,Hubballi-Dharwad,Theft,0,0,0,14.8
+646,P_0646,Deepa Kotian,47,1,1,1.0,1,58,Belagavi,Theft,0,0,0,31.6
+647,P_0647,Xavier Sequeira,34,1,1,1.0,1,610,Hubballi-Dharwad,Theft,0,1,0,14.8
+648,P_0648,Pooja Kotian,49,2,1,4.0,4,327,Mysuru City,Robbery,1,0,0,37.8
+649,P_0649,Bhagya Bhat,61,2,1,1.0,1,27,Hubballi-Dharwad,Theft,7,1,0,48.3
+650,P_0650,Roopa Achar,50,1,1,3.0,3,662,Belagavi,Assault,0,1,0,26.8
+651,P_0651,Arjun Bhat,56,2,1,4.0,4,119,Mysuru City,Narcotics,0,0,0,46.2
+652,P_0652,Roopa Bhat,22,1,1,5.0,5,369,Hubballi-Dharwad,Homicide,1,0,0,41.8
+653,P_0653,Rekha Salian,42,2,1,5.0,5,83,Belagavi,Homicide,0,0,0,54.2
+654,P_0654,Ganesh Shetty,26,2,1,3.0,3,79,Bengaluru City,Assault,0,0,0,42.4
+655,P_0655,Basavaraj Hegde,23,1,1,3.0,3,371,Hubballi-Dharwad,Cybercrime,1,1,0,29.8
+656,P_0656,Sandra Setty,45,1,1,1.0,1,454,Belagavi,Theft,0,1,0,14.8
+657,P_0657,Kiran Desai,56,1,1,3.0,3,525,Bengaluru City,Cybercrime,1,1,0,29.8
+658,P_0658,Sandra Jadhav,54,1,1,1.0,1,414,Mangaluru City,Theft,1,1,0,17.8
+659,P_0659,Ramesh Bhat,39,1,1,2.0,2,233,Mysuru City,Fraud,0,0,0,28.0
+660,P_0660,Imran Sheikh,37,1,1,4.0,4,237,Hubballi-Dharwad,Narcotics,0,0,0,39.8
+661,P_0661,Sowmya Naik,23,1,1,4.0,4,638,Mysuru City,Robbery,1,0,0,35.8
+662,P_0662,Chandan D'Souza,42,2,1,3.0,3,558,Mangaluru City,Assault,0,0,0,26.8
+663,P_0663,Deepak Khan,32,1,1,3.0,3,719,Hubballi-Dharwad,Assault,0,1,0,26.8
+664,P_0664,Mahmood Hegde,33,2,1,4.0,4,396,Mangaluru City,Narcotics,0,0,0,32.8
+665,P_0665,Puneeth Bhat,31,1,1,2.0,2,159,Belagavi,Fraud,0,0,0,32.0
+666,P_0666,Arjun Bhat,20,1,1,4.0,4,467,Mangaluru City,Robbery,1,0,0,35.8
+667,P_0667,Sowmya Sheikh,45,2,1,1.0,1,315,Mangaluru City,Theft,0,0,0,17.5
+668,P_0668,Sridhar D'Souza,50,1,1,1.0,1,460,Belagavi,Theft,1,1,0,17.8
+669,P_0669,Imran Sheikh,22,1,1,2.0,2,31,Belagavi,Fraud,1,0,0,42.1
+670,P_0670,Antony Rathod,46,1,1,3.0,3,705,Belagavi,Cybercrime,7,0,0,41.8
+671,P_0671,Deepa Kotian,39,2,1,4.0,4,128,Mysuru City,Robbery,1,0,0,48.7
+672,P_0672,Manjula Khan,40,1,1,4.0,4,565,Mysuru City,Robbery,0,0,0,32.8
+673,P_0673,Xavier Sequeira,55,1,1,3.0,3,121,Mysuru City,Cybercrime,7,0,0,55.1
+674,P_0674,Ganesh Desai,26,1,1,3.0,3,387,Bengaluru City,Assault,0,0,0,26.8
+675,P_0675,Ravi Sequeira,24,2,1,5.0,5,677,Bengaluru City,Homicide,0,0,0,38.8
+676,P_0676,Manjunath Pujari,31,1,1,4.0,4,521,Hubballi-Dharwad,Robbery,0,0,0,32.8
+677,P_0677,Sridhar Rao,46,1,1,4.0,4,598,Bengaluru City,Robbery,2,1,0,38.8
+678,P_0678,Kalpana Sequeira,28,1,1,2.0,2,652,Mangaluru City,Fraud,1,0,0,23.8
+679,P_0679,Shivakumar Sheikh,60,1,1,4.0,4,607,Bengaluru City,Robbery,0,1,0,32.8
+680,P_0680,Imran Sheikh,46,1,1,1.0,1,626,Mangaluru City,Theft,0,0,0,14.8
+681,P_0681,Manjula Khan,37,1,1,3.0,3,243,Bengaluru City,Cybercrime,0,1,0,33.4
+682,P_0682,Nagesh Fernandes,43,1,1,1.0,1,370,Mysuru City,Theft,0,0,0,14.8
+683,P_0683,Sudha Achar,39,2,1,5.0,5,215,Bengaluru City,Homicide,0,0,0,47.0
+684,P_0684,Anitha Kamath,33,1,1,3.0,3,68,Hubballi-Dharwad,Assault,8,0,0,58.0
+685,P_0685,Pooja Gowda,60,1,1,3.0,3,685,Mangaluru City,Assault,1,0,0,29.8
+686,P_0686,Ayesha Prabhu,55,1,1,4.0,4,324,Mysuru City,Robbery,1,0,0,38.0
+687,P_0687,Basavaraj Hegde,55,1,1,3.0,3,173,Mysuru City,Assault,0,1,0,37.3
+688,P_0688,Sowmya Naik,28,1,1,4.0,4,684,Belagavi,Narcotics,0,0,0,32.8
+689,P_0689,Shivakumar Sheikh,25,1,1,1.0,1,77,Belagavi,Theft,1,0,0,33.5
+690,P_0690,Arjun Bhat,21,1,1,1.0,1,726,Hubballi-Dharwad,Theft,1,0,0,17.8
+691,P_0691,Basavaraj Shetty,23,1,1,4.0,4,398,Mysuru City,Narcotics,0,1,0,32.8
+692,P_0692,Naveen Sheikh,33,1,1,5.0,5,119,Mysuru City,Homicide,0,0,0,52.2
+693,P_0693,Harish Fernandes,29,2,1,2.0,2,314,Hubballi-Dharwad,Fraud,0,0,0,23.5
+694,P_0694,Melwin Desai,32,1,1,4.0,4,392,Bengaluru City,Robbery,0,0,0,32.8
+695,P_0695,Vijayalakshmi Bhat,47,1,1,4.0,4,321,Hubballi-Dharwad,Robbery,0,0,0,35.2
+696,P_0696,Girish Ballal,20,2,1,1.0,1,228,Hubballi-Dharwad,Theft,1,1,0,25.3
+697,P_0697,Kalpana Shetty,32,2,1,4.0,4,193,Belagavi,Narcotics,6,0,0,57.2
+698,P_0698,Kalpana Sequeira,47,2,1,2.0,2,428,Mangaluru City,Fraud,0,1,0,20.8
+699,P_0699,Lawrence Sequeira,43,1,1,3.0,3,221,Belagavi,Cybercrime,0,0,0,34.6
+700,P_0700,Roopa Salian,51,1,1,4.0,4,390,Mysuru City,Robbery,0,0,0,32.8
+701,P_0701,Vidya Shetty,32,1,1,4.0,4,554,Mangaluru City,Narcotics,0,0,0,32.8
+702,P_0702,Deepa Sequeira,57,1,1,3.0,3,614,Mysuru City,Cybercrime,0,0,0,26.8
+703,P_0703,Naveen Sheikh,45,1,1,4.0,4,581,Mysuru City,Narcotics,0,1,0,32.8
+704,P_0704,Prakash Rathod,51,1,1,5.0,5,417,Hubballi-Dharwad,Homicide,0,1,0,38.8
+705,P_0705,Deepa Kulkarni,51,1,1,4.0,4,718,Hubballi-Dharwad,Robbery,1,0,0,35.8
+706,P_0706,Pooja Gowda,20,1,1,1.0,1,420,Bengaluru City,Theft,5,1,0,29.8
+707,P_0707,Nandini Khan,45,2,1,3.0,3,260,Belagavi,Assault,0,0,0,32.5
+708,P_0708,Chandan D'Souza,25,1,1,5.0,5,209,Belagavi,Homicide,0,1,0,47.3
+709,P_0709,Rekha Kulkarni,23,2,1,2.0,2,95,Mangaluru City,Fraud,0,0,0,35.5
+710,P_0710,Suresh Sheikh,60,1,1,2.0,2,429,Belagavi,Fraud,0,0,0,20.8
+711,P_0711,Vijayalakshmi Desai,24,2,1,2.0,2,405,Mangaluru City,Fraud,0,0,0,20.8
+712,P_0712,Joseph Salian,20,1,1,4.0,4,725,Mangaluru City,Narcotics,0,0,0,32.8
+713,P_0713,Sowmya Sheikh,39,1,1,4.0,4,632,Bengaluru City,Narcotics,0,1,0,32.8
+714,P_0714,Suresh Sheikh,34,1,1,5.0,5,544,Mangaluru City,Homicide,0,0,0,38.8
+715,P_0715,Deepa Naik,27,1,1,3.0,3,270,Hubballi-Dharwad,Cybercrime,1,0,0,35.0
+716,P_0716,Nandini Setty,49,1,1,4.0,4,638,Mysuru City,Robbery,1,0,0,35.8
+717,P_0717,Manjula Fernandes,32,1,1,5.0,5,459,Mysuru City,Homicide,1,0,0,41.8
+718,P_0718,Kavya Salian,45,1,1,2.0,2,391,Belagavi,Fraud,0,0,0,20.8
+719,P_0719,Roopa Salian,30,1,1,5.0,5,674,Mangaluru City,Homicide,0,0,0,38.8
+720,P_0720,Sridhar D'Souza,61,1,1,4.0,4,440,Mysuru City,Narcotics,1,1,0,35.8
+721,P_0721,Basavaraj Hegde,26,1,1,3.0,3,92,Hubballi-Dharwad,Cybercrime,0,0,0,41.7
+722,P_0722,Harish Khan,32,1,1,4.0,4,647,Belagavi,Robbery,0,1,0,32.8
+723,P_0723,Gopal Fernandes,42,1,1,2.0,2,479,Mysuru City,Fraud,0,0,0,20.8
+724,P_0724,Bhagya Mendes,20,1,1,3.0,3,165,Mangaluru City,Assault,0,1,0,37.7
+725,P_0725,Sowmya Desai,49,1,1,2.0,2,697,Hubballi-Dharwad,Fraud,0,0,0,20.8
+726,P_0726,Joseph Kulkarni,28,2,1,3.0,3,121,Mysuru City,Cybercrime,7,1,0,55.1
+727,P_0727,Vishwanath Fernandes,43,1,1,5.0,5,560,Belagavi,Homicide,0,1,0,38.8
+728,P_0728,Roopa Bhat,19,1,1,2.0,2,56,Mangaluru City,Fraud,0,0,0,37.7
+729,P_0729,Sudha Achar,24,2,1,2.0,2,331,Belagavi,Fraud,0,1,0,22.6
+730,P_0730,Santosh Salian,49,2,1,5.0,5,494,Belagavi,Homicide,0,0,0,38.8
+731,P_0731,Chandan D'Souza,53,2,1,5.0,5,554,Mysuru City,Homicide,0,0,0,38.8
+732,P_0732,Chandan D'Souza,57,1,1,3.0,3,371,Hubballi-Dharwad,Cybercrime,1,1,0,29.8
+733,P_0733,Joseph Salian,49,1,1,3.0,3,105,Bengaluru City,Assault,0,1,0,41.0
+734,P_0734,Bhagya Mendes,61,1,1,2.0,2,356,Bengaluru City,Fraud,0,1,0,21.2
+735,P_0735,Rashmi Sheikh,61,1,1,3.0,3,460,Hubballi-Dharwad,Cybercrime,0,1,0,26.8
+736,P_0736,Harish Khan,55,1,1,4.0,4,718,Hubballi-Dharwad,Robbery,1,0,0,35.8
+737,P_0737,Sudha Achar,51,1,1,3.0,3,319,Bengaluru City,Cybercrime,0,0,0,29.3
+738,P_0738,Maria Reddy,33,1,1,3.0,3,457,Bengaluru City,Assault,0,1,0,26.8
+739,P_0739,Roopa Bhat,44,1,1,4.0,4,3,Mysuru City,Narcotics,0,0,0,52.6
+740,P_0740,Rashmi Sheikh,25,1,1,1.0,1,669,Belagavi,Theft,0,0,0,14.8
+741,P_0741,Deepa Kulkarni,30,1,1,4.0,4,579,Mysuru City,Robbery,0,0,0,32.8
+742,P_0742,Nagesh Pinto,48,1,1,5.0,5,125,Mangaluru City,Homicide,0,1,0,51.9
+743,P_0743,Nataraj Sequeira,27,1,1,2.0,2,197,Bengaluru City,Fraud,6,1,0,45.0
+744,P_0744,Naseema Rao,61,1,1,3.0,3,727,Hubballi-Dharwad,Cybercrime,0,0,0,26.8
+745,P_0745,Antony Pinto,21,2,1,1.0,1,90,Hubballi-Dharwad,Theft,0,1,0,29.8
+746,P_0746,Roopa Hegde,31,1,1,3.0,3,191,Belagavi,Cybercrime,0,0,0,36.3
+747,P_0747,Maria Reddy,59,1,1,3.0,3,312,Bengaluru City,Assault,0,1,0,29.7
+748,P_0748,Iqbal Patil,34,1,1,4.0,4,445,Hubballi-Dharwad,Narcotics,0,1,0,32.8
+749,P_0749,Bhagya Mendes,19,2,1,3.0,3,225,Mangaluru City,Cybercrime,6,0,0,49.4
+750,P_0750,Chandan D'Souza,41,1,1,5.0,5,587,Mangaluru City,Homicide,0,0,0,38.8
+751,P_0751,Joseph Kulkarni,55,2,1,1.0,1,539,Bengaluru City,Theft,0,1,0,14.8
+752,P_0752,Anitha Pinto,48,1,1,3.0,3,703,Mysuru City,Assault,0,0,0,26.8
+753,P_0753,Vinay Chavan,26,1,1,4.0,4,146,Mysuru City,Robbery,0,0,0,44.8
+754,P_0754,Sowmya Naik,51,1,1,4.0,4,42,Mangaluru City,Narcotics,6,1,0,65.4
+755,P_0755,Deepa Desai,30,1,1,2.0,2,193,Bengaluru City,Fraud,0,0,0,30.2
+756,P_0756,Sridhar D'Souza,50,2,1,2.0,2,198,Belagavi,Fraud,0,0,0,29.9
+757,P_0757,Roopa Bhat,61,1,1,3.0,3,240,Hubballi-Dharwad,Assault,0,0,0,33.6
+758,P_0758,Chandan Pujari,35,1,1,5.0,5,431,Belagavi,Homicide,1,0,0,41.8
+759,P_0759,Nandini Pujari,46,1,1,3.0,3,382,Mysuru City,Cybercrime,0,1,0,26.8
+760,P_0760,Vishwanath Fernandes,27,1,1,3.0,3,72,Mangaluru City,Cybercrime,0,1,0,42.8
+761,P_0761,Pooja Gowda,26,1,1,4.0,4,405,Belagavi,Robbery,0,0,0,32.8
+762,P_0762,Imran Jadhav,37,1,1,3.0,3,463,Bengaluru City,Assault,6,1,0,41.8
+763,P_0763,Basavaraj Shetty,38,2,1,3.0,3,525,Bengaluru City,Cybercrime,1,0,0,29.8
+764,P_0764,Ravi Rathod,24,1,1,3.0,3,625,Mysuru City,Cybercrime,0,0,0,26.8
+765,P_0765,Vidya Naik,51,1,1,3.0,3,311,Mangaluru City,Cybercrime,1,0,0,32.7
+766,P_0766,Shweta Chavan,62,1,1,3.0,3,390,Belagavi,Cybercrime,0,0,0,26.8
+767,P_0767,Suresh Kotian,31,1,1,3.0,3,508,Hubballi-Dharwad,Cybercrime,0,0,0,26.8
+768,P_0768,Manjula Fernandes,28,1,1,3.0,3,511,Bengaluru City,Cybercrime,0,0,0,26.8
+769,P_0769,Rekha Salian,42,1,1,3.0,3,62,Bengaluru City,Assault,0,1,0,43.4
+770,P_0770,Imran Sheikh,29,1,1,3.0,3,615,Hubballi-Dharwad,Cybercrime,1,1,0,29.8
+771,P_0771,Roopa Bhat,62,1,1,4.0,4,66,Belagavi,Narcotics,0,0,0,49.1
+772,P_0772,Sudha Reddy,58,1,1,4.0,4,594,Hubballi-Dharwad,Narcotics,0,0,0,32.8
+773,P_0773,Vidya Shetty,28,2,1,3.0,3,54,Mysuru City,Assault,0,0,0,43.8
+774,P_0774,Sandra Jadhav,36,1,1,4.0,4,547,Mangaluru City,Narcotics,0,0,0,32.8
+775,P_0775,Vinay Sheikh,37,2,1,4.0,4,128,Mysuru City,Robbery,1,0,0,48.7
+776,P_0776,Chandan Pujari,45,2,1,3.0,3,12,Bengaluru City,Assault,1,0,0,49.1
+777,P_0777,Bhagya Mendes,27,1,1,4.0,4,396,Hubballi-Dharwad,Robbery,0,0,0,32.8
+778,P_0778,Xavier Sequeira,35,1,1,1.0,1,141,Bengaluru City,Theft,2,0,0,33.0
+779,P_0779,Sandra Setty,58,1,1,3.0,3,588,Belagavi,Assault,3,0,0,35.8
+780,P_0780,Vidya Shetty,45,1,1,5.0,5,369,Hubballi-Dharwad,Homicide,1,0,0,41.8
+781,P_0781,Mahmood Prabhu,29,1,1,3.0,3,445,Mangaluru City,Cybercrime,0,0,0,26.8
+782,P_0782,Nataraj D'Souza,29,2,1,5.0,5,675,Mangaluru City,Homicide,1,0,0,41.8
+783,P_0783,Mahmood Naik,31,1,1,5.0,5,675,Mangaluru City,Homicide,1,0,0,41.8
+784,P_0784,Basavaraj Shetty,23,1,1,1.0,1,228,Hubballi-Dharwad,Theft,1,1,0,25.3
+785,P_0785,Rajesh Gowda,27,2,1,2.0,2,617,Bengaluru City,Fraud,0,1,0,20.8
+786,P_0786,Pooja Kotian,56,1,1,1.0,1,55,Mangaluru City,Theft,0,0,0,31.7
+787,P_0787,Vinay Chavan,28,1,1,4.0,4,2,Belagavi,Robbery,0,0,0,52.6
+788,P_0788,Bhagya Mendes,19,1,1,2.0,2,197,Bengaluru City,Fraud,6,1,0,45.0
+789,P_0789,Rekha Kulkarni,52,1,1,4.0,4,470,Bengaluru City,Narcotics,0,0,0,32.8
+790,P_0790,Gopal Fernandes,57,2,1,1.0,1,659,Belagavi,Theft,0,0,0,14.8
+791,P_0791,Sudha Kamath,47,1,1,1.0,1,567,Mysuru City,Theft,0,0,0,14.8
+792,P_0792,Imran Patil,53,2,1,1.0,1,426,Hubballi-Dharwad,Theft,0,1,0,14.8
+793,P_0793,Xavier Sequeira,40,1,1,3.0,3,257,Belagavi,Cybercrime,5,0,0,47.7
+794,P_0794,Bhagya Bhat,43,1,1,5.0,5,438,Hubballi-Dharwad,Homicide,0,1,0,38.8
+795,P_0795,Gopal Fernandes,48,2,1,3.0,3,728,Mysuru City,Assault,0,0,0,26.8
+796,P_0796,Yallappa Mendes,50,1,1,3.0,3,421,Bengaluru City,Assault,1,1,0,29.8
+797,P_0797,Chandan Pujari,25,1,1,4.0,4,443,Bengaluru City,Narcotics,1,1,0,35.8
+798,P_0798,Arjun Bhat,57,1,1,2.0,2,502,Belagavi,Fraud,0,0,0,20.8
+799,P_0799,Joseph Kulkarni,61,2,1,4.0,4,625,Mysuru City,Narcotics,1,0,0,35.8
+800,P_0800,Vijayalakshmi Desai,46,2,1,3.0,3,117,Bengaluru City,Assault,0,0,0,40.3

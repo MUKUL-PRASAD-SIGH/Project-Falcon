@@ -1,0 +1,6402 @@
+[
+  {
+    "AccusedMasterID": 1,
+    "CaseMasterID": 676,
+    "PersonID": "P_0001",
+    "AccusedName": "Naseema Rao (Leader)",
+    "AgeYear": 45,
+    "GenderID": 2
+  },
+  {
+    "AccusedMasterID": 2,
+    "CaseMasterID": 676,
+    "PersonID": "P_0002",
+    "AccusedName": "Iqbal Bhat",
+    "AgeYear": 33,
+    "GenderID": 2
+  },
+  {
+    "AccusedMasterID": 3,
+    "CaseMasterID": 676,
+    "PersonID": "P_0003",
+    "AccusedName": "Manjula Fernandes",
+    "AgeYear": 38,
+    "GenderID": 2
+  },
+  {
+    "AccusedMasterID": 4,
+    "CaseMasterID": 753,
+    "PersonID": "P_0004",
+    "AccusedName": "Santosh Kotian",
+    "AgeYear": 27,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 5,
+    "CaseMasterID": 753,
+    "PersonID": "P_0005",
+    "AccusedName": "Ramesh Bhat",
+    "AgeYear": 28,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 6,
+    "CaseMasterID": 676,
+    "PersonID": "P_0006",
+    "AccusedName": "Roopa Hegde",
+    "AgeYear": 23,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 7,
+    "CaseMasterID": 676,
+    "PersonID": "P_0007",
+    "AccusedName": "Rashmi Hegde",
+    "AgeYear": 55,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 8,
+    "CaseMasterID": 663,
+    "PersonID": "P_0008",
+    "AccusedName": "Sudha Achar",
+    "AgeYear": 46,
+    "GenderID": 2
+  },
+  {
+    "AccusedMasterID": 9,
+    "CaseMasterID": 663,
+    "PersonID": "P_0009",
+    "AccusedName": "Roopa Bhat",
+    "AgeYear": 35,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 10,
+    "CaseMasterID": 663,
+    "PersonID": "P_0010",
+    "AccusedName": "Lawrence Sequeira",
+    "AgeYear": 31,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 11,
+    "CaseMasterID": 663,
+    "PersonID": "P_0011",
+    "AccusedName": "Sudha Reddy",
+    "AgeYear": 39,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 12,
+    "CaseMasterID": 753,
+    "PersonID": "P_0012",
+    "AccusedName": "Shivakumar Gowda",
+    "AgeYear": 27,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 13,
+    "CaseMasterID": 753,
+    "PersonID": "P_0013",
+    "AccusedName": "Roopa Achar",
+    "AgeYear": 51,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 14,
+    "CaseMasterID": 753,
+    "PersonID": "P_0014",
+    "AccusedName": "Rashmi Pinto",
+    "AgeYear": 31,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 15,
+    "CaseMasterID": 753,
+    "PersonID": "P_0015",
+    "AccusedName": "Rashmi Hegde",
+    "AgeYear": 31,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 16,
+    "CaseMasterID": 663,
+    "PersonID": "P_0016",
+    "AccusedName": "Nataraj Sequeira",
+    "AgeYear": 50,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 17,
+    "CaseMasterID": 80,
+    "PersonID": "P_0017",
+    "AccusedName": "Deepa Naik (Leader)",
+    "AgeYear": 48,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 18,
+    "CaseMasterID": 712,
+    "PersonID": "P_0018",
+    "AccusedName": "Roopa Salian",
+    "AgeYear": 37,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 19,
+    "CaseMasterID": 712,
+    "PersonID": "P_0019",
+    "AccusedName": "Alphonsa Sheikh",
+    "AgeYear": 21,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 20,
+    "CaseMasterID": 80,
+    "PersonID": "P_0020",
+    "AccusedName": "Rashmi Poojary",
+    "AgeYear": 21,
+    "GenderID": 2
+  },
+  {
+    "AccusedMasterID": 21,
+    "CaseMasterID": 712,
+    "PersonID": "P_0021",
+    "AccusedName": "Joseph Salian",
+    "AgeYear": 28,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 22,
+    "CaseMasterID": 712,
+    "PersonID": "P_0022",
+    "AccusedName": "Antony Rathod",
+    "AgeYear": 39,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 23,
+    "CaseMasterID": 77,
+    "PersonID": "P_0023",
+    "AccusedName": "Deepa Kotian",
+    "AgeYear": 31,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 24,
+    "CaseMasterID": 712,
+    "PersonID": "P_0024",
+    "AccusedName": "Roopa Bhat",
+    "AgeYear": 40,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 25,
+    "CaseMasterID": 80,
+    "PersonID": "P_0025",
+    "AccusedName": "Deepa Sequeira",
+    "AgeYear": 43,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 26,
+    "CaseMasterID": 77,
+    "PersonID": "P_0026",
+    "AccusedName": "Deepa Sequeira",
+    "AgeYear": 37,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 27,
+    "CaseMasterID": 80,
+    "PersonID": "P_0027",
+    "AccusedName": "Deepa Naik",
+    "AgeYear": 43,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 28,
+    "CaseMasterID": 77,
+    "PersonID": "P_0028",
+    "AccusedName": "Puneeth Bhat",
+    "AgeYear": 54,
+    "GenderID": 2
+  },
+  {
+    "AccusedMasterID": 29,
+    "CaseMasterID": 712,
+    "PersonID": "P_0029",
+    "AccusedName": "Vinay Poojary",
+    "AgeYear": 54,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 30,
+    "CaseMasterID": 712,
+    "PersonID": "P_0030",
+    "AccusedName": "Prakash Setty",
+    "AgeYear": 35,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 31,
+    "CaseMasterID": 80,
+    "PersonID": "P_0031",
+    "AccusedName": "Harish Khan",
+    "AgeYear": 22,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 32,
+    "CaseMasterID": 77,
+    "PersonID": "P_0032",
+    "AccusedName": "Antony Pinto",
+    "AgeYear": 48,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 33,
+    "CaseMasterID": 712,
+    "PersonID": "P_0033",
+    "AccusedName": "Kalpana Shetty",
+    "AgeYear": 26,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 34,
+    "CaseMasterID": 80,
+    "PersonID": "P_0034",
+    "AccusedName": "Sudha Reddy",
+    "AgeYear": 27,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 35,
+    "CaseMasterID": 77,
+    "PersonID": "P_0035",
+    "AccusedName": "Alphonsa Sheikh",
+    "AgeYear": 55,
+    "GenderID": 2
+  },
+  {
+    "AccusedMasterID": 36,
+    "CaseMasterID": 77,
+    "PersonID": "P_0036",
+    "AccusedName": "Roopa Salian",
+    "AgeYear": 37,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 37,
+    "CaseMasterID": 80,
+    "PersonID": "P_0037",
+    "AccusedName": "Alphonsa Shetty",
+    "AgeYear": 47,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 38,
+    "CaseMasterID": 80,
+    "PersonID": "P_0038",
+    "AccusedName": "Xavier Setty",
+    "AgeYear": 23,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 39,
+    "CaseMasterID": 77,
+    "PersonID": "P_0039",
+    "AccusedName": "Imran Patil",
+    "AgeYear": 48,
+    "GenderID": 2
+  },
+  {
+    "AccusedMasterID": 40,
+    "CaseMasterID": 77,
+    "PersonID": "P_0040",
+    "AccusedName": "Iqbal Patil",
+    "AgeYear": 43,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 41,
+    "CaseMasterID": 712,
+    "PersonID": "P_0041",
+    "AccusedName": "Deepa Naik",
+    "AgeYear": 52,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 42,
+    "CaseMasterID": 218,
+    "PersonID": "P_0042",
+    "AccusedName": "Mahmood Hegde (Leader)",
+    "AgeYear": 54,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 43,
+    "CaseMasterID": 222,
+    "PersonID": "P_0043",
+    "AccusedName": "Ganesh Desai",
+    "AgeYear": 31,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 44,
+    "CaseMasterID": 687,
+    "PersonID": "P_0044",
+    "AccusedName": "Ganesh Shetty",
+    "AgeYear": 25,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 45,
+    "CaseMasterID": 62,
+    "PersonID": "P_0045",
+    "AccusedName": "Pooja Gowda",
+    "AgeYear": 23,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 46,
+    "CaseMasterID": 14,
+    "PersonID": "P_0046",
+    "AccusedName": "Ayesha Prabhu",
+    "AgeYear": 28,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 47,
+    "CaseMasterID": 687,
+    "PersonID": "P_0047",
+    "AccusedName": "Rekha Kulkarni",
+    "AgeYear": 21,
+    "GenderID": 2
+  },
+  {
+    "AccusedMasterID": 48,
+    "CaseMasterID": 14,
+    "PersonID": "P_0048",
+    "AccusedName": "Sudha Kamath",
+    "AgeYear": 21,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 49,
+    "CaseMasterID": 14,
+    "PersonID": "P_0049",
+    "AccusedName": "Vijayalakshmi Bhat",
+    "AgeYear": 43,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 50,
+    "CaseMasterID": 222,
+    "PersonID": "P_0050",
+    "AccusedName": "Fathima Mendes",
+    "AgeYear": 30,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 51,
+    "CaseMasterID": 14,
+    "PersonID": "P_0051",
+    "AccusedName": "Maria Reddy",
+    "AgeYear": 33,
+    "GenderID": 2
+  },
+  {
+    "AccusedMasterID": 52,
+    "CaseMasterID": 222,
+    "PersonID": "P_0052",
+    "AccusedName": "Anand Naik",
+    "AgeYear": 26,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 53,
+    "CaseMasterID": 218,
+    "PersonID": "P_0053",
+    "AccusedName": "Manjunath Pinto",
+    "AgeYear": 51,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 54,
+    "CaseMasterID": 218,
+    "PersonID": "P_0054",
+    "AccusedName": "Sridhar D'Souza",
+    "AgeYear": 45,
+    "GenderID": 2
+  },
+  {
+    "AccusedMasterID": 55,
+    "CaseMasterID": 687,
+    "PersonID": "P_0055",
+    "AccusedName": "Nataraj Sequeira",
+    "AgeYear": 27,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 56,
+    "CaseMasterID": 14,
+    "PersonID": "P_0056",
+    "AccusedName": "Manjula Fernandes",
+    "AgeYear": 40,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 57,
+    "CaseMasterID": 222,
+    "PersonID": "P_0057",
+    "AccusedName": "Santosh Kotian",
+    "AgeYear": 41,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 58,
+    "CaseMasterID": 218,
+    "PersonID": "P_0058",
+    "AccusedName": "Deepa Kulkarni",
+    "AgeYear": 29,
+    "GenderID": 2
+  },
+  {
+    "AccusedMasterID": 59,
+    "CaseMasterID": 222,
+    "PersonID": "P_0059",
+    "AccusedName": "Sandra Jadhav",
+    "AgeYear": 40,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 60,
+    "CaseMasterID": 62,
+    "PersonID": "P_0060",
+    "AccusedName": "Harish Fernandes",
+    "AgeYear": 50,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 61,
+    "CaseMasterID": 687,
+    "PersonID": "P_0061",
+    "AccusedName": "Nataraj D'Souza",
+    "AgeYear": 48,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 62,
+    "CaseMasterID": 218,
+    "PersonID": "P_0062",
+    "AccusedName": "Imran Sheikh",
+    "AgeYear": 49,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 63,
+    "CaseMasterID": 222,
+    "PersonID": "P_0063",
+    "AccusedName": "Sridhar Rao",
+    "AgeYear": 43,
+    "GenderID": 2
+  },
+  {
+    "AccusedMasterID": 64,
+    "CaseMasterID": 14,
+    "PersonID": "P_0064",
+    "AccusedName": "Lakshmi Jadhav",
+    "AgeYear": 50,
+    "GenderID": 2
+  },
+  {
+    "AccusedMasterID": 65,
+    "CaseMasterID": 687,
+    "PersonID": "P_0065",
+    "AccusedName": "Mahmood Hegde",
+    "AgeYear": 22,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 66,
+    "CaseMasterID": 687,
+    "PersonID": "P_0066",
+    "AccusedName": "Prakash Rathod",
+    "AgeYear": 29,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 67,
+    "CaseMasterID": 108,
+    "PersonID": "P_0067",
+    "AccusedName": "Nataraj D'Souza (Leader)",
+    "AgeYear": 53,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 68,
+    "CaseMasterID": 395,
+    "PersonID": "P_0068",
+    "AccusedName": "Kavya Salian",
+    "AgeYear": 55,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 69,
+    "CaseMasterID": 839,
+    "PersonID": "P_0069",
+    "AccusedName": "Vidya Shetty",
+    "AgeYear": 46,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 70,
+    "CaseMasterID": 500,
+    "PersonID": "P_0070",
+    "AccusedName": "Fathima Mendes",
+    "AgeYear": 21,
+    "GenderID": 2
+  },
+  {
+    "AccusedMasterID": 71,
+    "CaseMasterID": 108,
+    "PersonID": "P_0071",
+    "AccusedName": "Pooja Gowda",
+    "AgeYear": 24,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 72,
+    "CaseMasterID": 839,
+    "PersonID": "P_0072",
+    "AccusedName": "Vinay Poojary",
+    "AgeYear": 27,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 73,
+    "CaseMasterID": 108,
+    "PersonID": "P_0073",
+    "AccusedName": "Roopa Bhat",
+    "AgeYear": 39,
+    "GenderID": 2
+  },
+  {
+    "AccusedMasterID": 74,
+    "CaseMasterID": 193,
+    "PersonID": "P_0074",
+    "AccusedName": "Lawrence Prabhu",
+    "AgeYear": 24,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 75,
+    "CaseMasterID": 108,
+    "PersonID": "P_0075",
+    "AccusedName": "Alphonsa Sheikh",
+    "AgeYear": 53,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 76,
+    "CaseMasterID": 395,
+    "PersonID": "P_0076",
+    "AccusedName": "Chandan Pujari",
+    "AgeYear": 30,
+    "GenderID": 2
+  },
+  {
+    "AccusedMasterID": 77,
+    "CaseMasterID": 395,
+    "PersonID": "P_0077",
+    "AccusedName": "Sudha Achar",
+    "AgeYear": 30,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 78,
+    "CaseMasterID": 193,
+    "PersonID": "P_0078",
+    "AccusedName": "Pooja Kotian",
+    "AgeYear": 21,
+    "GenderID": 2
+  },
+  {
+    "AccusedMasterID": 79,
+    "CaseMasterID": 108,
+    "PersonID": "P_0079",
+    "AccusedName": "Nandini Setty",
+    "AgeYear": 33,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 80,
+    "CaseMasterID": 839,
+    "PersonID": "P_0080",
+    "AccusedName": "Shivakumar Gowda",
+    "AgeYear": 30,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 81,
+    "CaseMasterID": 108,
+    "PersonID": "P_0081",
+    "AccusedName": "Roopa Bhat",
+    "AgeYear": 36,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 82,
+    "CaseMasterID": 839,
+    "PersonID": "P_0082",
+    "AccusedName": "Joseph Salian",
+    "AgeYear": 22,
+    "GenderID": 2
+  },
+  {
+    "AccusedMasterID": 83,
+    "CaseMasterID": 500,
+    "PersonID": "P_0083",
+    "AccusedName": "Mahmood Mendes",
+    "AgeYear": 28,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 84,
+    "CaseMasterID": 500,
+    "PersonID": "P_0084",
+    "AccusedName": "Mahmood Prabhu",
+    "AgeYear": 32,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 85,
+    "CaseMasterID": 605,
+    "PersonID": "P_0085",
+    "AccusedName": "Shweta Chavan (Leader)",
+    "AgeYear": 49,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 86,
+    "CaseMasterID": 780,
+    "PersonID": "P_0086",
+    "AccusedName": "Maria Reddy",
+    "AgeYear": 22,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 87,
+    "CaseMasterID": 834,
+    "PersonID": "P_0087",
+    "AccusedName": "Vidya Naik",
+    "AgeYear": 36,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 88,
+    "CaseMasterID": 834,
+    "PersonID": "P_0088",
+    "AccusedName": "Joseph Salian",
+    "AgeYear": 51,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 89,
+    "CaseMasterID": 605,
+    "PersonID": "P_0089",
+    "AccusedName": "Fathima Mendes",
+    "AgeYear": 27,
+    "GenderID": 2
+  },
+  {
+    "AccusedMasterID": 90,
+    "CaseMasterID": 605,
+    "PersonID": "P_0090",
+    "AccusedName": "Fathima Mendes",
+    "AgeYear": 38,
+    "GenderID": 2
+  },
+  {
+    "AccusedMasterID": 91,
+    "CaseMasterID": 780,
+    "PersonID": "P_0091",
+    "AccusedName": "Vijayalakshmi Desai",
+    "AgeYear": 27,
+    "GenderID": 2
+  },
+  {
+    "AccusedMasterID": 92,
+    "CaseMasterID": 780,
+    "PersonID": "P_0092",
+    "AccusedName": "Vidya Naik",
+    "AgeYear": 48,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 93,
+    "CaseMasterID": 214,
+    "PersonID": "P_0093",
+    "AccusedName": "Ganesh Shetty",
+    "AgeYear": 50,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 94,
+    "CaseMasterID": 780,
+    "PersonID": "P_0094",
+    "AccusedName": "Deepa Naik",
+    "AgeYear": 40,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 95,
+    "CaseMasterID": 780,
+    "PersonID": "P_0095",
+    "AccusedName": "Bhagya Bhat",
+    "AgeYear": 43,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 96,
+    "CaseMasterID": 780,
+    "PersonID": "P_0096",
+    "AccusedName": "Basavaraj Hegde",
+    "AgeYear": 50,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 97,
+    "CaseMasterID": 214,
+    "PersonID": "P_0097",
+    "AccusedName": "Kiran Prabhu",
+    "AgeYear": 43,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 98,
+    "CaseMasterID": 605,
+    "PersonID": "P_0098",
+    "AccusedName": "Nataraj Sequeira",
+    "AgeYear": 54,
+    "GenderID": 2
+  },
+  {
+    "AccusedMasterID": 99,
+    "CaseMasterID": 214,
+    "PersonID": "P_0099",
+    "AccusedName": "Roopa Salian",
+    "AgeYear": 30,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 100,
+    "CaseMasterID": 605,
+    "PersonID": "P_0100",
+    "AccusedName": "Pooja Gowda",
+    "AgeYear": 29,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 101,
+    "CaseMasterID": 605,
+    "PersonID": "P_0101",
+    "AccusedName": "Alphonsa Shetty",
+    "AgeYear": 25,
+    "GenderID": 2
+  },
+  {
+    "AccusedMasterID": 102,
+    "CaseMasterID": 780,
+    "PersonID": "P_0102",
+    "AccusedName": "Joseph Salian",
+    "AgeYear": 32,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 103,
+    "CaseMasterID": 834,
+    "PersonID": "P_0103",
+    "AccusedName": "Vijayalakshmi Desai",
+    "AgeYear": 41,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 104,
+    "CaseMasterID": 780,
+    "PersonID": "P_0104",
+    "AccusedName": "Rashmi Hegde",
+    "AgeYear": 23,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 105,
+    "CaseMasterID": 834,
+    "PersonID": "P_0105",
+    "AccusedName": "Melwin Desai",
+    "AgeYear": 27,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 106,
+    "CaseMasterID": 780,
+    "PersonID": "P_0106",
+    "AccusedName": "Alphonsa Sheikh",
+    "AgeYear": 51,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 107,
+    "CaseMasterID": 834,
+    "PersonID": "P_0107",
+    "AccusedName": "Sowmya Naik",
+    "AgeYear": 36,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 108,
+    "CaseMasterID": 726,
+    "PersonID": "P_0108",
+    "AccusedName": "Nataraj Sequeira (Leader)",
+    "AgeYear": 47,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 109,
+    "CaseMasterID": 779,
+    "PersonID": "P_0109",
+    "AccusedName": "Rashmi Sheikh",
+    "AgeYear": 37,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 110,
+    "CaseMasterID": 779,
+    "PersonID": "P_0110",
+    "AccusedName": "Suresh Sheikh",
+    "AgeYear": 25,
+    "GenderID": 2
+  },
+  {
+    "AccusedMasterID": 111,
+    "CaseMasterID": 320,
+    "PersonID": "P_0111",
+    "AccusedName": "Arjun Bhat",
+    "AgeYear": 22,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 112,
+    "CaseMasterID": 320,
+    "PersonID": "P_0112",
+    "AccusedName": "Pushpa Kulkarni",
+    "AgeYear": 49,
+    "GenderID": 2
+  },
+  {
+    "AccusedMasterID": 113,
+    "CaseMasterID": 968,
+    "PersonID": "P_0113",
+    "AccusedName": "Sudha Reddy",
+    "AgeYear": 33,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 114,
+    "CaseMasterID": 320,
+    "PersonID": "P_0114",
+    "AccusedName": "Deepa Sequeira",
+    "AgeYear": 49,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 115,
+    "CaseMasterID": 968,
+    "PersonID": "P_0115",
+    "AccusedName": "Sandra Jadhav",
+    "AgeYear": 31,
+    "GenderID": 2
+  },
+  {
+    "AccusedMasterID": 116,
+    "CaseMasterID": 968,
+    "PersonID": "P_0116",
+    "AccusedName": "Prakash Rathod",
+    "AgeYear": 22,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 117,
+    "CaseMasterID": 968,
+    "PersonID": "P_0117",
+    "AccusedName": "Manjunath Pinto",
+    "AgeYear": 29,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 118,
+    "CaseMasterID": 320,
+    "PersonID": "P_0118",
+    "AccusedName": "Praveen Rathod",
+    "AgeYear": 47,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 119,
+    "CaseMasterID": 320,
+    "PersonID": "P_0119",
+    "AccusedName": "Shivakumar Sheikh",
+    "AgeYear": 54,
+    "GenderID": 2
+  },
+  {
+    "AccusedMasterID": 120,
+    "CaseMasterID": 968,
+    "PersonID": "P_0120",
+    "AccusedName": "Nagesh Fernandes",
+    "AgeYear": 34,
+    "GenderID": 2
+  },
+  {
+    "AccusedMasterID": 121,
+    "CaseMasterID": 320,
+    "PersonID": "P_0121",
+    "AccusedName": "Vijay Rathod",
+    "AgeYear": 29,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 122,
+    "CaseMasterID": 726,
+    "PersonID": "P_0122",
+    "AccusedName": "Lakshmi Jadhav",
+    "AgeYear": 45,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 123,
+    "CaseMasterID": 779,
+    "PersonID": "P_0123",
+    "AccusedName": "Girish Desai",
+    "AgeYear": 54,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 124,
+    "CaseMasterID": 779,
+    "PersonID": "P_0124",
+    "AccusedName": "Imran Patil",
+    "AgeYear": 52,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 125,
+    "CaseMasterID": 109,
+    "PersonID": "P_0125",
+    "AccusedName": "Roopa Hegde (Leader)",
+    "AgeYear": 42,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 126,
+    "CaseMasterID": 158,
+    "PersonID": "P_0126",
+    "AccusedName": "Ayesha Prabhu",
+    "AgeYear": 39,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 127,
+    "CaseMasterID": 517,
+    "PersonID": "P_0127",
+    "AccusedName": "Nagesh Pinto",
+    "AgeYear": 43,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 128,
+    "CaseMasterID": 158,
+    "PersonID": "P_0128",
+    "AccusedName": "Ganesh Shetty",
+    "AgeYear": 25,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 129,
+    "CaseMasterID": 109,
+    "PersonID": "P_0129",
+    "AccusedName": "Rashmi Sheikh",
+    "AgeYear": 53,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 130,
+    "CaseMasterID": 517,
+    "PersonID": "P_0130",
+    "AccusedName": "Kavya Salian",
+    "AgeYear": 24,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 131,
+    "CaseMasterID": 109,
+    "PersonID": "P_0131",
+    "AccusedName": "Joseph Salian",
+    "AgeYear": 37,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 132,
+    "CaseMasterID": 672,
+    "PersonID": "P_0132",
+    "AccusedName": "Kalpana Mendes",
+    "AgeYear": 47,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 133,
+    "CaseMasterID": 158,
+    "PersonID": "P_0133",
+    "AccusedName": "Puneeth Bhat",
+    "AgeYear": 24,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 134,
+    "CaseMasterID": 158,
+    "PersonID": "P_0134",
+    "AccusedName": "Ravi Rathod",
+    "AgeYear": 42,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 135,
+    "CaseMasterID": 158,
+    "PersonID": "P_0135",
+    "AccusedName": "Harish Khan",
+    "AgeYear": 25,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 136,
+    "CaseMasterID": 869,
+    "PersonID": "P_0136",
+    "AccusedName": "Xavier Sequeira",
+    "AgeYear": 47,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 137,
+    "CaseMasterID": 109,
+    "PersonID": "P_0137",
+    "AccusedName": "Mahmood Prabhu",
+    "AgeYear": 29,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 138,
+    "CaseMasterID": 672,
+    "PersonID": "P_0138",
+    "AccusedName": "Pushpa Kulkarni",
+    "AgeYear": 23,
+    "GenderID": 2
+  },
+  {
+    "AccusedMasterID": 139,
+    "CaseMasterID": 109,
+    "PersonID": "P_0139",
+    "AccusedName": "Sudha Achar",
+    "AgeYear": 43,
+    "GenderID": 2
+  },
+  {
+    "AccusedMasterID": 140,
+    "CaseMasterID": 517,
+    "PersonID": "P_0140",
+    "AccusedName": "Harish Fernandes",
+    "AgeYear": 35,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 141,
+    "CaseMasterID": 672,
+    "PersonID": "P_0141",
+    "AccusedName": "Sowmya Desai",
+    "AgeYear": 33,
+    "GenderID": 2
+  },
+  {
+    "AccusedMasterID": 142,
+    "CaseMasterID": 672,
+    "PersonID": "P_0142",
+    "AccusedName": "Ravi Rathod",
+    "AgeYear": 51,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 143,
+    "CaseMasterID": 517,
+    "PersonID": "P_0143",
+    "AccusedName": "Sowmya Naik",
+    "AgeYear": 45,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 144,
+    "CaseMasterID": 517,
+    "PersonID": "P_0144",
+    "AccusedName": "Vijayalakshmi Desai",
+    "AgeYear": 48,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 145,
+    "CaseMasterID": 672,
+    "PersonID": "P_0145",
+    "AccusedName": "Vinay Chavan",
+    "AgeYear": 28,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 146,
+    "CaseMasterID": 869,
+    "PersonID": "P_0146",
+    "AccusedName": "Xavier Setty",
+    "AgeYear": 42,
+    "GenderID": 2
+  },
+  {
+    "AccusedMasterID": 147,
+    "CaseMasterID": 672,
+    "PersonID": "P_0147",
+    "AccusedName": "Rashmi Pinto",
+    "AgeYear": 35,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 148,
+    "CaseMasterID": 109,
+    "PersonID": "P_0148",
+    "AccusedName": "Deepa Naik",
+    "AgeYear": 35,
+    "GenderID": 2
+  },
+  {
+    "AccusedMasterID": 149,
+    "CaseMasterID": 373,
+    "PersonID": "P_0149",
+    "AccusedName": "Kalpana Shetty (Leader)",
+    "AgeYear": 23,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 150,
+    "CaseMasterID": 373,
+    "PersonID": "P_0150",
+    "AccusedName": "Ramesh Bhat",
+    "AgeYear": 24,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 151,
+    "CaseMasterID": 225,
+    "PersonID": "P_0151",
+    "AccusedName": "Girish Desai",
+    "AgeYear": 49,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 152,
+    "CaseMasterID": 939,
+    "PersonID": "P_0152",
+    "AccusedName": "Bhagya Bhat",
+    "AgeYear": 41,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 153,
+    "CaseMasterID": 373,
+    "PersonID": "P_0153",
+    "AccusedName": "Manjunath Pujari",
+    "AgeYear": 36,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 154,
+    "CaseMasterID": 225,
+    "PersonID": "P_0154",
+    "AccusedName": "Arjun Bhat",
+    "AgeYear": 46,
+    "GenderID": 2
+  },
+  {
+    "AccusedMasterID": 155,
+    "CaseMasterID": 373,
+    "PersonID": "P_0155",
+    "AccusedName": "Imran Patil",
+    "AgeYear": 25,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 156,
+    "CaseMasterID": 939,
+    "PersonID": "P_0156",
+    "AccusedName": "Vishwanath Fernandes",
+    "AgeYear": 34,
+    "GenderID": 2
+  },
+  {
+    "AccusedMasterID": 157,
+    "CaseMasterID": 373,
+    "PersonID": "P_0157",
+    "AccusedName": "Antony Pinto",
+    "AgeYear": 43,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 158,
+    "CaseMasterID": 939,
+    "PersonID": "P_0158",
+    "AccusedName": "Imran Jadhav",
+    "AgeYear": 40,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 159,
+    "CaseMasterID": 373,
+    "PersonID": "P_0159",
+    "AccusedName": "Iqbal Bhat",
+    "AgeYear": 36,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 160,
+    "CaseMasterID": 939,
+    "PersonID": "P_0160",
+    "AccusedName": "Vijayalakshmi Desai",
+    "AgeYear": 55,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 161,
+    "CaseMasterID": 225,
+    "PersonID": "P_0161",
+    "AccusedName": "Basavaraj Shetty",
+    "AgeYear": 47,
+    "GenderID": 2
+  },
+  {
+    "AccusedMasterID": 162,
+    "CaseMasterID": 939,
+    "PersonID": "P_0162",
+    "AccusedName": "Arjun D'Souza",
+    "AgeYear": 34,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 163,
+    "CaseMasterID": 373,
+    "PersonID": "P_0163",
+    "AccusedName": "Melwin Desai",
+    "AgeYear": 40,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 164,
+    "CaseMasterID": 225,
+    "PersonID": "P_0164",
+    "AccusedName": "Naseema Rao",
+    "AgeYear": 30,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 165,
+    "CaseMasterID": 225,
+    "PersonID": "P_0165",
+    "AccusedName": "Vijayalakshmi Desai",
+    "AgeYear": 49,
+    "GenderID": 2
+  },
+  {
+    "AccusedMasterID": 166,
+    "CaseMasterID": 225,
+    "PersonID": "P_0166",
+    "AccusedName": "Suresh Kotian",
+    "AgeYear": 52,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 167,
+    "CaseMasterID": 939,
+    "PersonID": "P_0167",
+    "AccusedName": "Rajesh Gowda",
+    "AgeYear": 45,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 168,
+    "CaseMasterID": 225,
+    "PersonID": "P_0168",
+    "AccusedName": "Mahmood Mendes",
+    "AgeYear": 38,
+    "GenderID": 2
+  },
+  {
+    "AccusedMasterID": 169,
+    "CaseMasterID": 939,
+    "PersonID": "P_0169",
+    "AccusedName": "Suresh Kotian",
+    "AgeYear": 45,
+    "GenderID": 2
+  },
+  {
+    "AccusedMasterID": 170,
+    "CaseMasterID": 939,
+    "PersonID": "P_0170",
+    "AccusedName": "Bhagya Bhat",
+    "AgeYear": 35,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 171,
+    "CaseMasterID": 939,
+    "PersonID": "P_0171",
+    "AccusedName": "Shivakumar Sheikh",
+    "AgeYear": 48,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 172,
+    "CaseMasterID": 999,
+    "PersonID": "P_0172",
+    "AccusedName": "Sudha Kamath (Leader)",
+    "AgeYear": 55,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 173,
+    "CaseMasterID": 999,
+    "PersonID": "P_0173",
+    "AccusedName": "Roopa Achar",
+    "AgeYear": 42,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 174,
+    "CaseMasterID": 526,
+    "PersonID": "P_0174",
+    "AccusedName": "Anitha Pinto",
+    "AgeYear": 22,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 175,
+    "CaseMasterID": 526,
+    "PersonID": "P_0175",
+    "AccusedName": "Santosh Kotian",
+    "AgeYear": 48,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 176,
+    "CaseMasterID": 999,
+    "PersonID": "P_0176",
+    "AccusedName": "Ravi Rathod",
+    "AgeYear": 45,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 177,
+    "CaseMasterID": 526,
+    "PersonID": "P_0177",
+    "AccusedName": "Mahmood Hegde",
+    "AgeYear": 48,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 178,
+    "CaseMasterID": 464,
+    "PersonID": "P_0178",
+    "AccusedName": "Girish Ballal",
+    "AgeYear": 50,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 179,
+    "CaseMasterID": 464,
+    "PersonID": "P_0179",
+    "AccusedName": "Roopa Achar",
+    "AgeYear": 21,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 180,
+    "CaseMasterID": 889,
+    "PersonID": "P_0180",
+    "AccusedName": "Arjun D'Souza",
+    "AgeYear": 36,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 181,
+    "CaseMasterID": 889,
+    "PersonID": "P_0181",
+    "AccusedName": "Manjula Khan",
+    "AgeYear": 46,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 182,
+    "CaseMasterID": 526,
+    "PersonID": "P_0182",
+    "AccusedName": "Rajesh Gowda",
+    "AgeYear": 44,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 183,
+    "CaseMasterID": 889,
+    "PersonID": "P_0183",
+    "AccusedName": "Nataraj D'Souza",
+    "AgeYear": 21,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 184,
+    "CaseMasterID": 889,
+    "PersonID": "P_0184",
+    "AccusedName": "Antony Rathod",
+    "AgeYear": 41,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 185,
+    "CaseMasterID": 464,
+    "PersonID": "P_0185",
+    "AccusedName": "Vinay Chavan",
+    "AgeYear": 50,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 186,
+    "CaseMasterID": 636,
+    "PersonID": "P_0186",
+    "AccusedName": "Deepa Naik",
+    "AgeYear": 50,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 187,
+    "CaseMasterID": 889,
+    "PersonID": "P_0187",
+    "AccusedName": "Mahmood Prabhu",
+    "AgeYear": 34,
+    "GenderID": 2
+  },
+  {
+    "AccusedMasterID": 188,
+    "CaseMasterID": 999,
+    "PersonID": "P_0188",
+    "AccusedName": "Rashmi Poojary",
+    "AgeYear": 26,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 189,
+    "CaseMasterID": 526,
+    "PersonID": "P_0189",
+    "AccusedName": "Ravi Rathod",
+    "AgeYear": 41,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 190,
+    "CaseMasterID": 636,
+    "PersonID": "P_0190",
+    "AccusedName": "Shivakumar Sheikh",
+    "AgeYear": 37,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 191,
+    "CaseMasterID": 799,
+    "PersonID": "P_0191",
+    "AccusedName": "Anitha Kamath (Leader)",
+    "AgeYear": 35,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 192,
+    "CaseMasterID": 799,
+    "PersonID": "P_0192",
+    "AccusedName": "Joseph Kulkarni",
+    "AgeYear": 24,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 193,
+    "CaseMasterID": 799,
+    "PersonID": "P_0193",
+    "AccusedName": "Manjunath Pujari",
+    "AgeYear": 23,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 194,
+    "CaseMasterID": 193,
+    "PersonID": "P_0194",
+    "AccusedName": "Deepa Kotian",
+    "AgeYear": 49,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 195,
+    "CaseMasterID": 799,
+    "PersonID": "P_0195",
+    "AccusedName": "Ravi Rathod",
+    "AgeYear": 35,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 196,
+    "CaseMasterID": 193,
+    "PersonID": "P_0196",
+    "AccusedName": "Anitha Kamath",
+    "AgeYear": 37,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 197,
+    "CaseMasterID": 193,
+    "PersonID": "P_0197",
+    "AccusedName": "Suresh Sheikh",
+    "AgeYear": 43,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 198,
+    "CaseMasterID": 193,
+    "PersonID": "P_0198",
+    "AccusedName": "Rashmi Pinto",
+    "AgeYear": 43,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 199,
+    "CaseMasterID": 799,
+    "PersonID": "P_0199",
+    "AccusedName": "Deepa Kotian",
+    "AgeYear": 49,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 200,
+    "CaseMasterID": 193,
+    "PersonID": "P_0200",
+    "AccusedName": "Xavier Sequeira",
+    "AgeYear": 36,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 201,
+    "CaseMasterID": 410,
+    "PersonID": "P_0201",
+    "AccusedName": "Manjula Khan",
+    "AgeYear": 44,
+    "GenderID": 2
+  },
+  {
+    "AccusedMasterID": 202,
+    "CaseMasterID": 799,
+    "PersonID": "P_0202",
+    "AccusedName": "Sowmya Sheikh",
+    "AgeYear": 48,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 203,
+    "CaseMasterID": 799,
+    "PersonID": "P_0203",
+    "AccusedName": "Sowmya Desai",
+    "AgeYear": 41,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 204,
+    "CaseMasterID": 410,
+    "PersonID": "P_0204",
+    "AccusedName": "Prakash Setty",
+    "AgeYear": 44,
+    "GenderID": 2
+  },
+  {
+    "AccusedMasterID": 205,
+    "CaseMasterID": 410,
+    "PersonID": "P_0205",
+    "AccusedName": "Kavya Salian",
+    "AgeYear": 22,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 206,
+    "CaseMasterID": 410,
+    "PersonID": "P_0206",
+    "AccusedName": "Bhagya Bhat",
+    "AgeYear": 39,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 207,
+    "CaseMasterID": 193,
+    "PersonID": "P_0207",
+    "AccusedName": "Sowmya Desai",
+    "AgeYear": 27,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 208,
+    "CaseMasterID": 410,
+    "PersonID": "P_0208",
+    "AccusedName": "Ravi Sequeira",
+    "AgeYear": 53,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 209,
+    "CaseMasterID": 799,
+    "PersonID": "P_0209",
+    "AccusedName": "Girish Ballal",
+    "AgeYear": 23,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 210,
+    "CaseMasterID": 410,
+    "PersonID": "P_0210",
+    "AccusedName": "Vijay Shetty",
+    "AgeYear": 26,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 211,
+    "CaseMasterID": 799,
+    "PersonID": "P_0211",
+    "AccusedName": "Antony Rathod",
+    "AgeYear": 53,
+    "GenderID": 2
+  },
+  {
+    "AccusedMasterID": 212,
+    "CaseMasterID": 193,
+    "PersonID": "P_0212",
+    "AccusedName": "Sandra Setty",
+    "AgeYear": 28,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 213,
+    "CaseMasterID": 434,
+    "PersonID": "P_0213",
+    "AccusedName": "Arjun Bhat (Leader)",
+    "AgeYear": 41,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 214,
+    "CaseMasterID": 285,
+    "PersonID": "P_0214",
+    "AccusedName": "Shweta Chavan",
+    "AgeYear": 39,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 215,
+    "CaseMasterID": 434,
+    "PersonID": "P_0215",
+    "AccusedName": "Ramesh Bhat",
+    "AgeYear": 44,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 216,
+    "CaseMasterID": 434,
+    "PersonID": "P_0216",
+    "AccusedName": "Naveen Sheikh",
+    "AgeYear": 28,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 217,
+    "CaseMasterID": 434,
+    "PersonID": "P_0217",
+    "AccusedName": "Sandra Setty",
+    "AgeYear": 47,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 218,
+    "CaseMasterID": 285,
+    "PersonID": "P_0218",
+    "AccusedName": "Vijay Rathod",
+    "AgeYear": 53,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 219,
+    "CaseMasterID": 434,
+    "PersonID": "P_0219",
+    "AccusedName": "Manjunath Pujari",
+    "AgeYear": 51,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 220,
+    "CaseMasterID": 434,
+    "PersonID": "P_0220",
+    "AccusedName": "Nataraj D'Souza",
+    "AgeYear": 47,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 221,
+    "CaseMasterID": 285,
+    "PersonID": "P_0221",
+    "AccusedName": "Rekha Salian",
+    "AgeYear": 36,
+    "GenderID": 2
+  },
+  {
+    "AccusedMasterID": 222,
+    "CaseMasterID": 285,
+    "PersonID": "P_0222",
+    "AccusedName": "Arjun Bhat",
+    "AgeYear": 37,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 223,
+    "CaseMasterID": 434,
+    "PersonID": "P_0223",
+    "AccusedName": "Naveen Sheikh",
+    "AgeYear": 28,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 224,
+    "CaseMasterID": 434,
+    "PersonID": "P_0224",
+    "AccusedName": "Lakshmi Desai",
+    "AgeYear": 53,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 225,
+    "CaseMasterID": 434,
+    "PersonID": "P_0225",
+    "AccusedName": "Gopal Fernandes",
+    "AgeYear": 33,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 226,
+    "CaseMasterID": 434,
+    "PersonID": "P_0226",
+    "AccusedName": "Deepa Naik",
+    "AgeYear": 31,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 227,
+    "CaseMasterID": 434,
+    "PersonID": "P_0227",
+    "AccusedName": "Anitha Kamath",
+    "AgeYear": 51,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 228,
+    "CaseMasterID": 285,
+    "PersonID": "P_0228",
+    "AccusedName": "Joseph Kulkarni",
+    "AgeYear": 23,
+    "GenderID": 2
+  },
+  {
+    "AccusedMasterID": 229,
+    "CaseMasterID": 285,
+    "PersonID": "P_0229",
+    "AccusedName": "Nandini Setty",
+    "AgeYear": 31,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 230,
+    "CaseMasterID": 285,
+    "PersonID": "P_0230",
+    "AccusedName": "Ravi Sequeira",
+    "AgeYear": 54,
+    "GenderID": 2
+  },
+  {
+    "AccusedMasterID": 231,
+    "CaseMasterID": 434,
+    "PersonID": "P_0231",
+    "AccusedName": "Vijay Rathod",
+    "AgeYear": 29,
+    "GenderID": 2
+  },
+  {
+    "AccusedMasterID": 232,
+    "CaseMasterID": 285,
+    "PersonID": "P_0232",
+    "AccusedName": "Imran Jadhav",
+    "AgeYear": 39,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 233,
+    "CaseMasterID": 434,
+    "PersonID": "P_0233",
+    "AccusedName": "Deepa Desai",
+    "AgeYear": 42,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 234,
+    "CaseMasterID": 285,
+    "PersonID": "P_0234",
+    "AccusedName": "Xavier Sequeira",
+    "AgeYear": 43,
+    "GenderID": 2
+  },
+  {
+    "AccusedMasterID": 235,
+    "CaseMasterID": 975,
+    "PersonID": "P_0235",
+    "AccusedName": "Roopa Achar (Leader)",
+    "AgeYear": 49,
+    "GenderID": 2
+  },
+  {
+    "AccusedMasterID": 236,
+    "CaseMasterID": 315,
+    "PersonID": "P_0236",
+    "AccusedName": "Vidya Shetty",
+    "AgeYear": 51,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 237,
+    "CaseMasterID": 975,
+    "PersonID": "P_0237",
+    "AccusedName": "Shivakumar Sheikh",
+    "AgeYear": 53,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 238,
+    "CaseMasterID": 703,
+    "PersonID": "P_0238",
+    "AccusedName": "Deepa Desai",
+    "AgeYear": 21,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 239,
+    "CaseMasterID": 975,
+    "PersonID": "P_0239",
+    "AccusedName": "Manjunath Pujari",
+    "AgeYear": 50,
+    "GenderID": 2
+  },
+  {
+    "AccusedMasterID": 240,
+    "CaseMasterID": 315,
+    "PersonID": "P_0240",
+    "AccusedName": "Vinay Chavan",
+    "AgeYear": 32,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 241,
+    "CaseMasterID": 703,
+    "PersonID": "P_0241",
+    "AccusedName": "Melwin Desai",
+    "AgeYear": 40,
+    "GenderID": 2
+  },
+  {
+    "AccusedMasterID": 242,
+    "CaseMasterID": 315,
+    "PersonID": "P_0242",
+    "AccusedName": "Roopa Hegde",
+    "AgeYear": 54,
+    "GenderID": 2
+  },
+  {
+    "AccusedMasterID": 243,
+    "CaseMasterID": 315,
+    "PersonID": "P_0243",
+    "AccusedName": "Bhagya Mendes",
+    "AgeYear": 45,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 244,
+    "CaseMasterID": 703,
+    "PersonID": "P_0244",
+    "AccusedName": "Maria Reddy",
+    "AgeYear": 23,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 245,
+    "CaseMasterID": 315,
+    "PersonID": "P_0245",
+    "AccusedName": "Chandan Pujari",
+    "AgeYear": 38,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 246,
+    "CaseMasterID": 703,
+    "PersonID": "P_0246",
+    "AccusedName": "Basavaraj Shetty",
+    "AgeYear": 39,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 247,
+    "CaseMasterID": 703,
+    "PersonID": "P_0247",
+    "AccusedName": "Ganesh Shetty",
+    "AgeYear": 38,
+    "GenderID": 2
+  },
+  {
+    "AccusedMasterID": 248,
+    "CaseMasterID": 315,
+    "PersonID": "P_0248",
+    "AccusedName": "Sudha Achar",
+    "AgeYear": 31,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 249,
+    "CaseMasterID": 315,
+    "PersonID": "P_0249",
+    "AccusedName": "Arjun Bhat",
+    "AgeYear": 27,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 250,
+    "CaseMasterID": 975,
+    "PersonID": "P_0250",
+    "AccusedName": "Rajesh Gowda",
+    "AgeYear": 30,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 251,
+    "CaseMasterID": 703,
+    "PersonID": "P_0251",
+    "AccusedName": "Ravi Rathod",
+    "AgeYear": 53,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 252,
+    "CaseMasterID": 703,
+    "PersonID": "P_0252",
+    "AccusedName": "Manjula Fernandes",
+    "AgeYear": 23,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 253,
+    "CaseMasterID": 703,
+    "PersonID": "P_0253",
+    "AccusedName": "Deepa Sequeira",
+    "AgeYear": 22,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 254,
+    "CaseMasterID": 703,
+    "PersonID": "P_0254",
+    "AccusedName": "Ganesh Shetty",
+    "AgeYear": 48,
+    "GenderID": 2
+  },
+  {
+    "AccusedMasterID": 255,
+    "CaseMasterID": 975,
+    "PersonID": "P_0255",
+    "AccusedName": "Girish Desai",
+    "AgeYear": 50,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 256,
+    "CaseMasterID": 151,
+    "PersonID": "P_0256",
+    "AccusedName": "Anand Naik (Leader)",
+    "AgeYear": 49,
+    "GenderID": 2
+  },
+  {
+    "AccusedMasterID": 257,
+    "CaseMasterID": 473,
+    "PersonID": "P_0257",
+    "AccusedName": "Anitha Kamath",
+    "AgeYear": 26,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 258,
+    "CaseMasterID": 473,
+    "PersonID": "P_0258",
+    "AccusedName": "Sandra Setty",
+    "AgeYear": 28,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 259,
+    "CaseMasterID": 151,
+    "PersonID": "P_0259",
+    "AccusedName": "Kalpana Shetty",
+    "AgeYear": 35,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 260,
+    "CaseMasterID": 473,
+    "PersonID": "P_0260",
+    "AccusedName": "Kiran Prabhu",
+    "AgeYear": 53,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 261,
+    "CaseMasterID": 473,
+    "PersonID": "P_0261",
+    "AccusedName": "Pooja Gowda",
+    "AgeYear": 53,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 262,
+    "CaseMasterID": 473,
+    "PersonID": "P_0262",
+    "AccusedName": "Deepa Desai",
+    "AgeYear": 23,
+    "GenderID": 2
+  },
+  {
+    "AccusedMasterID": 263,
+    "CaseMasterID": 151,
+    "PersonID": "P_0263",
+    "AccusedName": "Nagesh Pinto",
+    "AgeYear": 54,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 264,
+    "CaseMasterID": 151,
+    "PersonID": "P_0264",
+    "AccusedName": "Shweta Chavan",
+    "AgeYear": 23,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 265,
+    "CaseMasterID": 151,
+    "PersonID": "P_0265",
+    "AccusedName": "Vijayalakshmi Bhat",
+    "AgeYear": 45,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 266,
+    "CaseMasterID": 151,
+    "PersonID": "P_0266",
+    "AccusedName": "Anitha Kamath",
+    "AgeYear": 51,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 267,
+    "CaseMasterID": 473,
+    "PersonID": "P_0267",
+    "AccusedName": "Vidya Naik",
+    "AgeYear": 32,
+    "GenderID": 2
+  },
+  {
+    "AccusedMasterID": 268,
+    "CaseMasterID": 473,
+    "PersonID": "P_0268",
+    "AccusedName": "Girish Desai",
+    "AgeYear": 33,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 269,
+    "CaseMasterID": 151,
+    "PersonID": "P_0269",
+    "AccusedName": "Shivakumar Gowda",
+    "AgeYear": 48,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 270,
+    "CaseMasterID": 473,
+    "PersonID": "P_0270",
+    "AccusedName": "Ganesh Desai",
+    "AgeYear": 34,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 271,
+    "CaseMasterID": 151,
+    "PersonID": "P_0271",
+    "AccusedName": "Lakshmi Desai",
+    "AgeYear": 37,
+    "GenderID": 2
+  },
+  {
+    "AccusedMasterID": 272,
+    "CaseMasterID": 763,
+    "PersonID": "P_0272",
+    "AccusedName": "Gopal Fernandes (Leader)",
+    "AgeYear": 43,
+    "GenderID": 2
+  },
+  {
+    "AccusedMasterID": 273,
+    "CaseMasterID": 763,
+    "PersonID": "P_0273",
+    "AccusedName": "Basavaraj Hegde",
+    "AgeYear": 40,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 274,
+    "CaseMasterID": 113,
+    "PersonID": "P_0274",
+    "AccusedName": "Fathima Mendes",
+    "AgeYear": 52,
+    "GenderID": 2
+  },
+  {
+    "AccusedMasterID": 275,
+    "CaseMasterID": 113,
+    "PersonID": "P_0275",
+    "AccusedName": "Manjula Fernandes",
+    "AgeYear": 43,
+    "GenderID": 2
+  },
+  {
+    "AccusedMasterID": 276,
+    "CaseMasterID": 113,
+    "PersonID": "P_0276",
+    "AccusedName": "Roopa Bhat",
+    "AgeYear": 35,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 277,
+    "CaseMasterID": 113,
+    "PersonID": "P_0277",
+    "AccusedName": "Lakshmi Desai",
+    "AgeYear": 49,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 278,
+    "CaseMasterID": 763,
+    "PersonID": "P_0278",
+    "AccusedName": "Sudha Kamath",
+    "AgeYear": 48,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 279,
+    "CaseMasterID": 763,
+    "PersonID": "P_0279",
+    "AccusedName": "Mahmood Hegde",
+    "AgeYear": 41,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 280,
+    "CaseMasterID": 113,
+    "PersonID": "P_0280",
+    "AccusedName": "Vijayalakshmi Desai",
+    "AgeYear": 46,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 281,
+    "CaseMasterID": 113,
+    "PersonID": "P_0281",
+    "AccusedName": "Shweta Chavan",
+    "AgeYear": 52,
+    "GenderID": 2
+  },
+  {
+    "AccusedMasterID": 282,
+    "CaseMasterID": 763,
+    "PersonID": "P_0282",
+    "AccusedName": "Sowmya Desai",
+    "AgeYear": 39,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 283,
+    "CaseMasterID": 763,
+    "PersonID": "P_0283",
+    "AccusedName": "Deepak Khan",
+    "AgeYear": 47,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 284,
+    "CaseMasterID": 113,
+    "PersonID": "P_0284",
+    "AccusedName": "Anitha Kamath",
+    "AgeYear": 41,
+    "GenderID": 2
+  },
+  {
+    "AccusedMasterID": 285,
+    "CaseMasterID": 113,
+    "PersonID": "P_0285",
+    "AccusedName": "Sridhar D'Souza",
+    "AgeYear": 49,
+    "GenderID": 2
+  },
+  {
+    "AccusedMasterID": 286,
+    "CaseMasterID": 113,
+    "PersonID": "P_0286",
+    "AccusedName": "Anitha Kamath",
+    "AgeYear": 24,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 287,
+    "CaseMasterID": 113,
+    "PersonID": "P_0287",
+    "AccusedName": "Sandra Setty",
+    "AgeYear": 35,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 288,
+    "CaseMasterID": 763,
+    "PersonID": "P_0288",
+    "AccusedName": "Rekha Kulkarni",
+    "AgeYear": 49,
+    "GenderID": 2
+  },
+  {
+    "AccusedMasterID": 289,
+    "CaseMasterID": 763,
+    "PersonID": "P_0289",
+    "AccusedName": "Manjula Khan",
+    "AgeYear": 31,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 290,
+    "CaseMasterID": 763,
+    "PersonID": "P_0290",
+    "AccusedName": "Rashmi Sheikh",
+    "AgeYear": 42,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 291,
+    "CaseMasterID": 763,
+    "PersonID": "P_0291",
+    "AccusedName": "Pooja Kotian",
+    "AgeYear": 22,
+    "GenderID": 2
+  },
+  {
+    "AccusedMasterID": 292,
+    "CaseMasterID": 763,
+    "PersonID": "P_0292",
+    "AccusedName": "Praveen Rathod",
+    "AgeYear": 42,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 293,
+    "CaseMasterID": 763,
+    "PersonID": "P_0293",
+    "AccusedName": "Manjunath Pujari",
+    "AgeYear": 24,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 294,
+    "CaseMasterID": 113,
+    "PersonID": "P_0294",
+    "AccusedName": "Rekha Salian",
+    "AgeYear": 33,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 295,
+    "CaseMasterID": 113,
+    "PersonID": "P_0295",
+    "AccusedName": "Lawrence Prabhu",
+    "AgeYear": 35,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 296,
+    "CaseMasterID": 916,
+    "PersonID": "P_0296",
+    "AccusedName": "Nandini Khan (Leader)",
+    "AgeYear": 42,
+    "GenderID": 2
+  },
+  {
+    "AccusedMasterID": 297,
+    "CaseMasterID": 17,
+    "PersonID": "P_0297",
+    "AccusedName": "Ravi Rathod",
+    "AgeYear": 36,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 298,
+    "CaseMasterID": 17,
+    "PersonID": "P_0298",
+    "AccusedName": "Suresh Sheikh",
+    "AgeYear": 22,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 299,
+    "CaseMasterID": 472,
+    "PersonID": "P_0299",
+    "AccusedName": "Alphonsa Shetty",
+    "AgeYear": 52,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 300,
+    "CaseMasterID": 17,
+    "PersonID": "P_0300",
+    "AccusedName": "Ganesh Shetty",
+    "AgeYear": 40,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 301,
+    "CaseMasterID": 17,
+    "PersonID": "P_0301",
+    "AccusedName": "Gopal Fernandes",
+    "AgeYear": 36,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 302,
+    "CaseMasterID": 916,
+    "PersonID": "P_0302",
+    "AccusedName": "Kalpana Shetty",
+    "AgeYear": 28,
+    "GenderID": 2
+  },
+  {
+    "AccusedMasterID": 303,
+    "CaseMasterID": 472,
+    "PersonID": "P_0303",
+    "AccusedName": "Vinay Sheikh",
+    "AgeYear": 29,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 304,
+    "CaseMasterID": 17,
+    "PersonID": "P_0304",
+    "AccusedName": "Xavier Sequeira",
+    "AgeYear": 25,
+    "GenderID": 2
+  },
+  {
+    "AccusedMasterID": 305,
+    "CaseMasterID": 17,
+    "PersonID": "P_0305",
+    "AccusedName": "Deepa Naik",
+    "AgeYear": 55,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 306,
+    "CaseMasterID": 17,
+    "PersonID": "P_0306",
+    "AccusedName": "Antony Pinto",
+    "AgeYear": 46,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 307,
+    "CaseMasterID": 472,
+    "PersonID": "P_0307",
+    "AccusedName": "Chandan D'Souza",
+    "AgeYear": 40,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 308,
+    "CaseMasterID": 916,
+    "PersonID": "P_0308",
+    "AccusedName": "Ravi Sequeira",
+    "AgeYear": 22,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 309,
+    "CaseMasterID": 916,
+    "PersonID": "P_0309",
+    "AccusedName": "Pooja Gowda",
+    "AgeYear": 33,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 310,
+    "CaseMasterID": 916,
+    "PersonID": "P_0310",
+    "AccusedName": "Manjunath Pujari",
+    "AgeYear": 51,
+    "GenderID": 2
+  },
+  {
+    "AccusedMasterID": 311,
+    "CaseMasterID": 916,
+    "PersonID": "P_0311",
+    "AccusedName": "Lakshmi Jadhav",
+    "AgeYear": 26,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 312,
+    "CaseMasterID": 916,
+    "PersonID": "P_0312",
+    "AccusedName": "Ganesh Desai",
+    "AgeYear": 38,
+    "GenderID": 2
+  },
+  {
+    "AccusedMasterID": 313,
+    "CaseMasterID": 488,
+    "PersonID": "P_0313",
+    "AccusedName": "Ganesh Shetty (Leader)",
+    "AgeYear": 36,
+    "GenderID": 2
+  },
+  {
+    "AccusedMasterID": 314,
+    "CaseMasterID": 274,
+    "PersonID": "P_0314",
+    "AccusedName": "Harish Khan",
+    "AgeYear": 46,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 315,
+    "CaseMasterID": 488,
+    "PersonID": "P_0315",
+    "AccusedName": "Imran Jadhav",
+    "AgeYear": 27,
+    "GenderID": 2
+  },
+  {
+    "AccusedMasterID": 316,
+    "CaseMasterID": 274,
+    "PersonID": "P_0316",
+    "AccusedName": "Manjula Khan",
+    "AgeYear": 22,
+    "GenderID": 2
+  },
+  {
+    "AccusedMasterID": 317,
+    "CaseMasterID": 274,
+    "PersonID": "P_0317",
+    "AccusedName": "Kalpana Sequeira",
+    "AgeYear": 44,
+    "GenderID": 2
+  },
+  {
+    "AccusedMasterID": 318,
+    "CaseMasterID": 488,
+    "PersonID": "P_0318",
+    "AccusedName": "Pushpa Kulkarni",
+    "AgeYear": 40,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 319,
+    "CaseMasterID": 274,
+    "PersonID": "P_0319",
+    "AccusedName": "Sridhar D'Souza",
+    "AgeYear": 26,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 320,
+    "CaseMasterID": 488,
+    "PersonID": "P_0320",
+    "AccusedName": "Yallappa Mendes",
+    "AgeYear": 34,
+    "GenderID": 2
+  },
+  {
+    "AccusedMasterID": 321,
+    "CaseMasterID": 488,
+    "PersonID": "P_0321",
+    "AccusedName": "Ramesh Bhat",
+    "AgeYear": 26,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 322,
+    "CaseMasterID": 30,
+    "PersonID": "P_0322",
+    "AccusedName": "Rashmi Sheikh",
+    "AgeYear": 51,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 323,
+    "CaseMasterID": 274,
+    "PersonID": "P_0323",
+    "AccusedName": "Sowmya Naik",
+    "AgeYear": 52,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 324,
+    "CaseMasterID": 30,
+    "PersonID": "P_0324",
+    "AccusedName": "Rekha Kulkarni",
+    "AgeYear": 42,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 325,
+    "CaseMasterID": 274,
+    "PersonID": "P_0325",
+    "AccusedName": "Bhagya Mendes",
+    "AgeYear": 47,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 326,
+    "CaseMasterID": 30,
+    "PersonID": "P_0326",
+    "AccusedName": "Nandini Setty",
+    "AgeYear": 34,
+    "GenderID": 2
+  },
+  {
+    "AccusedMasterID": 327,
+    "CaseMasterID": 488,
+    "PersonID": "P_0327",
+    "AccusedName": "Harish Khan",
+    "AgeYear": 41,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 328,
+    "CaseMasterID": 30,
+    "PersonID": "P_0328",
+    "AccusedName": "Mahmood Hegde",
+    "AgeYear": 51,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 329,
+    "CaseMasterID": 274,
+    "PersonID": "P_0329",
+    "AccusedName": "Lakshmi Jadhav",
+    "AgeYear": 25,
+    "GenderID": 2
+  },
+  {
+    "AccusedMasterID": 330,
+    "CaseMasterID": 274,
+    "PersonID": "P_0330",
+    "AccusedName": "Vidya Shetty",
+    "AgeYear": 21,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 331,
+    "CaseMasterID": 488,
+    "PersonID": "P_0331",
+    "AccusedName": "Kalpana Shetty",
+    "AgeYear": 28,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 332,
+    "CaseMasterID": 274,
+    "PersonID": "P_0332",
+    "AccusedName": "Vinay Chavan",
+    "AgeYear": 28,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 333,
+    "CaseMasterID": 30,
+    "PersonID": "P_0333",
+    "AccusedName": "Harish Khan",
+    "AgeYear": 31,
+    "GenderID": 2
+  },
+  {
+    "AccusedMasterID": 334,
+    "CaseMasterID": 274,
+    "PersonID": "P_0334",
+    "AccusedName": "Kalpana Shetty",
+    "AgeYear": 47,
+    "GenderID": 2
+  },
+  {
+    "AccusedMasterID": 335,
+    "CaseMasterID": 274,
+    "PersonID": "P_0335",
+    "AccusedName": "Iqbal Bhat",
+    "AgeYear": 28,
+    "GenderID": 2
+  },
+  {
+    "AccusedMasterID": 336,
+    "CaseMasterID": 122,
+    "PersonID": "P_0336",
+    "AccusedName": "Iqbal Bhat (Leader)",
+    "AgeYear": 54,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 337,
+    "CaseMasterID": 564,
+    "PersonID": "P_0337",
+    "AccusedName": "Deepak Khan",
+    "AgeYear": 44,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 338,
+    "CaseMasterID": 272,
+    "PersonID": "P_0338",
+    "AccusedName": "Iqbal Bhat",
+    "AgeYear": 54,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 339,
+    "CaseMasterID": 564,
+    "PersonID": "P_0339",
+    "AccusedName": "Imran Jadhav",
+    "AgeYear": 44,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 340,
+    "CaseMasterID": 950,
+    "PersonID": "P_0340",
+    "AccusedName": "Mahmood Hegde",
+    "AgeYear": 34,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 341,
+    "CaseMasterID": 272,
+    "PersonID": "P_0341",
+    "AccusedName": "Yallappa Mendes",
+    "AgeYear": 54,
+    "GenderID": 2
+  },
+  {
+    "AccusedMasterID": 342,
+    "CaseMasterID": 361,
+    "PersonID": "P_0342",
+    "AccusedName": "Naveen Sheikh",
+    "AgeYear": 47,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 343,
+    "CaseMasterID": 272,
+    "PersonID": "P_0343",
+    "AccusedName": "Joseph Salian",
+    "AgeYear": 25,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 344,
+    "CaseMasterID": 122,
+    "PersonID": "P_0344",
+    "AccusedName": "Vijayalakshmi Desai",
+    "AgeYear": 33,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 345,
+    "CaseMasterID": 361,
+    "PersonID": "P_0345",
+    "AccusedName": "Rekha Salian",
+    "AgeYear": 50,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 346,
+    "CaseMasterID": 361,
+    "PersonID": "P_0346",
+    "AccusedName": "Mahmood Mendes",
+    "AgeYear": 50,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 347,
+    "CaseMasterID": 361,
+    "PersonID": "P_0347",
+    "AccusedName": "Basavaraj Shetty",
+    "AgeYear": 35,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 348,
+    "CaseMasterID": 361,
+    "PersonID": "P_0348",
+    "AccusedName": "Xavier Setty",
+    "AgeYear": 38,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 349,
+    "CaseMasterID": 950,
+    "PersonID": "P_0349",
+    "AccusedName": "Rashmi Poojary",
+    "AgeYear": 40,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 350,
+    "CaseMasterID": 564,
+    "PersonID": "P_0350",
+    "AccusedName": "Sowmya Naik",
+    "AgeYear": 46,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 351,
+    "CaseMasterID": 564,
+    "PersonID": "P_0351",
+    "AccusedName": "Vishwanath Fernandes",
+    "AgeYear": 33,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 352,
+    "CaseMasterID": 564,
+    "PersonID": "P_0352",
+    "AccusedName": "Kiran Desai",
+    "AgeYear": 27,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 353,
+    "CaseMasterID": 122,
+    "PersonID": "P_0353",
+    "AccusedName": "Roopa Salian",
+    "AgeYear": 37,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 354,
+    "CaseMasterID": 272,
+    "PersonID": "P_0354",
+    "AccusedName": "Nandini Khan",
+    "AgeYear": 54,
+    "GenderID": 2
+  },
+  {
+    "AccusedMasterID": 355,
+    "CaseMasterID": 122,
+    "PersonID": "P_0355",
+    "AccusedName": "Manjula Khan",
+    "AgeYear": 38,
+    "GenderID": 2
+  },
+  {
+    "AccusedMasterID": 356,
+    "CaseMasterID": 272,
+    "PersonID": "P_0356",
+    "AccusedName": "Yallappa Mendes",
+    "AgeYear": 21,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 357,
+    "CaseMasterID": 272,
+    "PersonID": "P_0357",
+    "AccusedName": "Prakash Rathod",
+    "AgeYear": 30,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 358,
+    "CaseMasterID": 272,
+    "PersonID": "P_0358",
+    "AccusedName": "Joseph Salian",
+    "AgeYear": 21,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 359,
+    "CaseMasterID": 361,
+    "PersonID": "P_0359",
+    "AccusedName": "Deepa Desai",
+    "AgeYear": 24,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 360,
+    "CaseMasterID": 564,
+    "PersonID": "P_0360",
+    "AccusedName": "Sridhar D'Souza",
+    "AgeYear": 49,
+    "GenderID": 2
+  },
+  {
+    "AccusedMasterID": 361,
+    "CaseMasterID": 442,
+    "PersonID": "P_0361",
+    "AccusedName": "Fathima Mendes (Leader)",
+    "AgeYear": 40,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 362,
+    "CaseMasterID": 363,
+    "PersonID": "P_0362",
+    "AccusedName": "Ganesh Desai",
+    "AgeYear": 46,
+    "GenderID": 2
+  },
+  {
+    "AccusedMasterID": 363,
+    "CaseMasterID": 442,
+    "PersonID": "P_0363",
+    "AccusedName": "Nagesh Pinto",
+    "AgeYear": 51,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 364,
+    "CaseMasterID": 442,
+    "PersonID": "P_0364",
+    "AccusedName": "Shweta Chavan",
+    "AgeYear": 54,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 365,
+    "CaseMasterID": 363,
+    "PersonID": "P_0365",
+    "AccusedName": "Deepak Khan",
+    "AgeYear": 34,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 366,
+    "CaseMasterID": 442,
+    "PersonID": "P_0366",
+    "AccusedName": "Imran Jadhav",
+    "AgeYear": 30,
+    "GenderID": 2
+  },
+  {
+    "AccusedMasterID": 367,
+    "CaseMasterID": 442,
+    "PersonID": "P_0367",
+    "AccusedName": "Deepa Sequeira",
+    "AgeYear": 37,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 368,
+    "CaseMasterID": 442,
+    "PersonID": "P_0368",
+    "AccusedName": "Manjunath Pujari",
+    "AgeYear": 43,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 369,
+    "CaseMasterID": 363,
+    "PersonID": "P_0369",
+    "AccusedName": "Lawrence Prabhu",
+    "AgeYear": 44,
+    "GenderID": 2
+  },
+  {
+    "AccusedMasterID": 370,
+    "CaseMasterID": 442,
+    "PersonID": "P_0370",
+    "AccusedName": "Sandra Setty",
+    "AgeYear": 48,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 371,
+    "CaseMasterID": 363,
+    "PersonID": "P_0371",
+    "AccusedName": "Girish Ballal",
+    "AgeYear": 44,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 372,
+    "CaseMasterID": 363,
+    "PersonID": "P_0372",
+    "AccusedName": "Sandra Jadhav",
+    "AgeYear": 49,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 373,
+    "CaseMasterID": 363,
+    "PersonID": "P_0373",
+    "AccusedName": "Shivakumar Gowda",
+    "AgeYear": 40,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 374,
+    "CaseMasterID": 363,
+    "PersonID": "P_0374",
+    "AccusedName": "Roopa Achar",
+    "AgeYear": 44,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 375,
+    "CaseMasterID": 363,
+    "PersonID": "P_0375",
+    "AccusedName": "Arjun Bhat",
+    "AgeYear": 38,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 376,
+    "CaseMasterID": 442,
+    "PersonID": "P_0376",
+    "AccusedName": "Sowmya Sheikh",
+    "AgeYear": 51,
+    "GenderID": 2
+  },
+  {
+    "AccusedMasterID": 377,
+    "CaseMasterID": 363,
+    "PersonID": "P_0377",
+    "AccusedName": "Vijayalakshmi Desai",
+    "AgeYear": 37,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 378,
+    "CaseMasterID": 363,
+    "PersonID": "P_0378",
+    "AccusedName": "Manjula Khan",
+    "AgeYear": 22,
+    "GenderID": 2
+  },
+  {
+    "AccusedMasterID": 379,
+    "CaseMasterID": 442,
+    "PersonID": "P_0379",
+    "AccusedName": "Deepa Sequeira",
+    "AgeYear": 32,
+    "GenderID": 2
+  },
+  {
+    "AccusedMasterID": 380,
+    "CaseMasterID": 363,
+    "PersonID": "P_0380",
+    "AccusedName": "Manjunath Pinto",
+    "AgeYear": 44,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 381,
+    "CaseMasterID": 363,
+    "PersonID": "P_0381",
+    "AccusedName": "Nagesh Pinto",
+    "AgeYear": 32,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 382,
+    "CaseMasterID": 363,
+    "PersonID": "P_0382",
+    "AccusedName": "Lakshmi Desai",
+    "AgeYear": 28,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 383,
+    "CaseMasterID": 515,
+    "PersonID": "P_0383",
+    "AccusedName": "Vinay Chavan (Leader)",
+    "AgeYear": 24,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 384,
+    "CaseMasterID": 155,
+    "PersonID": "P_0384",
+    "AccusedName": "Chandan D'Souza",
+    "AgeYear": 55,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 385,
+    "CaseMasterID": 155,
+    "PersonID": "P_0385",
+    "AccusedName": "Manjunath Pujari",
+    "AgeYear": 22,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 386,
+    "CaseMasterID": 515,
+    "PersonID": "P_0386",
+    "AccusedName": "Suresh Sheikh",
+    "AgeYear": 41,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 387,
+    "CaseMasterID": 515,
+    "PersonID": "P_0387",
+    "AccusedName": "Pooja Kotian",
+    "AgeYear": 44,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 388,
+    "CaseMasterID": 515,
+    "PersonID": "P_0388",
+    "AccusedName": "Vinay Sheikh",
+    "AgeYear": 47,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 389,
+    "CaseMasterID": 155,
+    "PersonID": "P_0389",
+    "AccusedName": "Xavier Setty",
+    "AgeYear": 53,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 390,
+    "CaseMasterID": 515,
+    "PersonID": "P_0390",
+    "AccusedName": "Vinay Poojary",
+    "AgeYear": 26,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 391,
+    "CaseMasterID": 407,
+    "PersonID": "P_0391",
+    "AccusedName": "Bhagya Bhat",
+    "AgeYear": 38,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 392,
+    "CaseMasterID": 515,
+    "PersonID": "P_0392",
+    "AccusedName": "Deepa Kotian",
+    "AgeYear": 47,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 393,
+    "CaseMasterID": 515,
+    "PersonID": "P_0393",
+    "AccusedName": "Kalpana Shetty",
+    "AgeYear": 21,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 394,
+    "CaseMasterID": 407,
+    "PersonID": "P_0394",
+    "AccusedName": "Ganesh Desai",
+    "AgeYear": 43,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 395,
+    "CaseMasterID": 407,
+    "PersonID": "P_0395",
+    "AccusedName": "Mahmood Hegde",
+    "AgeYear": 26,
+    "GenderID": 2
+  },
+  {
+    "AccusedMasterID": 396,
+    "CaseMasterID": 155,
+    "PersonID": "P_0396",
+    "AccusedName": "Santosh Salian",
+    "AgeYear": 26,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 397,
+    "CaseMasterID": 515,
+    "PersonID": "P_0397",
+    "AccusedName": "Prakash Rathod",
+    "AgeYear": 32,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 398,
+    "CaseMasterID": 515,
+    "PersonID": "P_0398",
+    "AccusedName": "Gopal Fernandes",
+    "AgeYear": 22,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 399,
+    "CaseMasterID": 155,
+    "PersonID": "P_0399",
+    "AccusedName": "Anitha Pinto",
+    "AgeYear": 44,
+    "GenderID": 2
+  },
+  {
+    "AccusedMasterID": 400,
+    "CaseMasterID": 155,
+    "PersonID": "P_0400",
+    "AccusedName": "Basavaraj Hegde",
+    "AgeYear": 36,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 401,
+    "CaseMasterID": 515,
+    "PersonID": "P_0401",
+    "AccusedName": "Sowmya Sheikh",
+    "AgeYear": 33,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 402,
+    "CaseMasterID": 407,
+    "PersonID": "P_0402",
+    "AccusedName": "Roopa Hegde",
+    "AgeYear": 45,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 403,
+    "CaseMasterID": 155,
+    "PersonID": "P_0403",
+    "AccusedName": "Rajesh Gowda",
+    "AgeYear": 29,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 404,
+    "CaseMasterID": 407,
+    "PersonID": "P_0404",
+    "AccusedName": "Sudha Achar",
+    "AgeYear": 33,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 405,
+    "CaseMasterID": 155,
+    "PersonID": "P_0405",
+    "AccusedName": "Roopa Salian",
+    "AgeYear": 39,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 406,
+    "CaseMasterID": 515,
+    "PersonID": "P_0406",
+    "AccusedName": "Vinay Chavan",
+    "AgeYear": 37,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 407,
+    "CaseMasterID": 407,
+    "PersonID": "P_0407",
+    "AccusedName": "Vijay Rathod",
+    "AgeYear": 44,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 408,
+    "CaseMasterID": 280,
+    "PersonID": "P_0408",
+    "AccusedName": "Sowmya Naik (Leader)",
+    "AgeYear": 49,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 409,
+    "CaseMasterID": 521,
+    "PersonID": "P_0409",
+    "AccusedName": "Nagesh Fernandes",
+    "AgeYear": 45,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 410,
+    "CaseMasterID": 280,
+    "PersonID": "P_0410",
+    "AccusedName": "Antony Rathod",
+    "AgeYear": 34,
+    "GenderID": 2
+  },
+  {
+    "AccusedMasterID": 411,
+    "CaseMasterID": 55,
+    "PersonID": "P_0411",
+    "AccusedName": "Sowmya Sheikh",
+    "AgeYear": 39,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 412,
+    "CaseMasterID": 55,
+    "PersonID": "P_0412",
+    "AccusedName": "Vijayalakshmi Desai",
+    "AgeYear": 53,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 413,
+    "CaseMasterID": 521,
+    "PersonID": "P_0413",
+    "AccusedName": "Ravi Sequeira",
+    "AgeYear": 34,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 414,
+    "CaseMasterID": 342,
+    "PersonID": "P_0414",
+    "AccusedName": "Mahmood Hegde",
+    "AgeYear": 37,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 415,
+    "CaseMasterID": 521,
+    "PersonID": "P_0415",
+    "AccusedName": "Chandan Pujari",
+    "AgeYear": 32,
+    "GenderID": 2
+  },
+  {
+    "AccusedMasterID": 416,
+    "CaseMasterID": 342,
+    "PersonID": "P_0416",
+    "AccusedName": "Mahmood Hegde",
+    "AgeYear": 41,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 417,
+    "CaseMasterID": 280,
+    "PersonID": "P_0417",
+    "AccusedName": "Girish Ballal",
+    "AgeYear": 23,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 418,
+    "CaseMasterID": 521,
+    "PersonID": "P_0418",
+    "AccusedName": "Gopal Fernandes",
+    "AgeYear": 43,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 419,
+    "CaseMasterID": 342,
+    "PersonID": "P_0419",
+    "AccusedName": "Lakshmi Desai",
+    "AgeYear": 51,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 420,
+    "CaseMasterID": 55,
+    "PersonID": "P_0420",
+    "AccusedName": "Sowmya Sheikh",
+    "AgeYear": 27,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 421,
+    "CaseMasterID": 55,
+    "PersonID": "P_0421",
+    "AccusedName": "Rekha Kulkarni",
+    "AgeYear": 31,
+    "GenderID": 2
+  },
+  {
+    "AccusedMasterID": 422,
+    "CaseMasterID": 280,
+    "PersonID": "P_0422",
+    "AccusedName": "Shivakumar Sheikh",
+    "AgeYear": 22,
+    "GenderID": 2
+  },
+  {
+    "AccusedMasterID": 423,
+    "CaseMasterID": 280,
+    "PersonID": "P_0423",
+    "AccusedName": "Pooja Gowda",
+    "AgeYear": 48,
+    "GenderID": 2
+  },
+  {
+    "AccusedMasterID": 424,
+    "CaseMasterID": 452,
+    "PersonID": "P_0424",
+    "AccusedName": "Nagesh Fernandes",
+    "AgeYear": 36,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 425,
+    "CaseMasterID": 55,
+    "PersonID": "P_0425",
+    "AccusedName": "Manjula Fernandes",
+    "AgeYear": 42,
+    "GenderID": 2
+  },
+  {
+    "AccusedMasterID": 426,
+    "CaseMasterID": 452,
+    "PersonID": "P_0426",
+    "AccusedName": "Harish Fernandes",
+    "AgeYear": 23,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 427,
+    "CaseMasterID": 280,
+    "PersonID": "P_0427",
+    "AccusedName": "Pushpa Kulkarni",
+    "AgeYear": 47,
+    "GenderID": 2
+  },
+  {
+    "AccusedMasterID": 428,
+    "CaseMasterID": 55,
+    "PersonID": "P_0428",
+    "AccusedName": "Manjula Khan",
+    "AgeYear": 46,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 429,
+    "CaseMasterID": 342,
+    "PersonID": "P_0429",
+    "AccusedName": "Ravi Sequeira",
+    "AgeYear": 31,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 430,
+    "CaseMasterID": 280,
+    "PersonID": "P_0430",
+    "AccusedName": "Vijayalakshmi Desai",
+    "AgeYear": 54,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 431,
+    "CaseMasterID": 280,
+    "PersonID": "P_0431",
+    "AccusedName": "Vidya Shetty",
+    "AgeYear": 29,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 432,
+    "CaseMasterID": 55,
+    "PersonID": "P_0432",
+    "AccusedName": "Nataraj D'Souza",
+    "AgeYear": 24,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 433,
+    "CaseMasterID": 317,
+    "PersonID": "P_0433",
+    "AccusedName": "Iqbal Patil",
+    "AgeYear": 28,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 434,
+    "CaseMasterID": 470,
+    "PersonID": "P_0434",
+    "AccusedName": "Alphonsa Shetty",
+    "AgeYear": 29,
+    "GenderID": 2
+  },
+  {
+    "AccusedMasterID": 435,
+    "CaseMasterID": 1,
+    "PersonID": "P_0435",
+    "AccusedName": "Sudha Kamath",
+    "AgeYear": 28,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 436,
+    "CaseMasterID": 905,
+    "PersonID": "P_0436",
+    "AccusedName": "Roopa Salian",
+    "AgeYear": 38,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 437,
+    "CaseMasterID": 83,
+    "PersonID": "P_0437",
+    "AccusedName": "Shivakumar Sheikh",
+    "AgeYear": 34,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 438,
+    "CaseMasterID": 448,
+    "PersonID": "P_0438",
+    "AccusedName": "Prakash Rathod",
+    "AgeYear": 34,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 439,
+    "CaseMasterID": 702,
+    "PersonID": "P_0439",
+    "AccusedName": "Ganesh Desai",
+    "AgeYear": 42,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 440,
+    "CaseMasterID": 489,
+    "PersonID": "P_0440",
+    "AccusedName": "Kiran Prabhu",
+    "AgeYear": 41,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 441,
+    "CaseMasterID": 483,
+    "PersonID": "P_0441",
+    "AccusedName": "Ravi Rathod",
+    "AgeYear": 62,
+    "GenderID": 2
+  },
+  {
+    "AccusedMasterID": 442,
+    "CaseMasterID": 716,
+    "PersonID": "P_0442",
+    "AccusedName": "Anitha Pinto",
+    "AgeYear": 49,
+    "GenderID": 2
+  },
+  {
+    "AccusedMasterID": 443,
+    "CaseMasterID": 852,
+    "PersonID": "P_0443",
+    "AccusedName": "Mahmood Hegde",
+    "AgeYear": 34,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 444,
+    "CaseMasterID": 397,
+    "PersonID": "P_0444",
+    "AccusedName": "Girish Desai",
+    "AgeYear": 39,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 445,
+    "CaseMasterID": 410,
+    "PersonID": "P_0445",
+    "AccusedName": "Sowmya Naik",
+    "AgeYear": 39,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 446,
+    "CaseMasterID": 840,
+    "PersonID": "P_0446",
+    "AccusedName": "Alphonsa Sheikh",
+    "AgeYear": 46,
+    "GenderID": 2
+  },
+  {
+    "AccusedMasterID": 447,
+    "CaseMasterID": 547,
+    "PersonID": "P_0447",
+    "AccusedName": "Xavier Sequeira",
+    "AgeYear": 41,
+    "GenderID": 2
+  },
+  {
+    "AccusedMasterID": 448,
+    "CaseMasterID": 686,
+    "PersonID": "P_0448",
+    "AccusedName": "Antony Pinto",
+    "AgeYear": 56,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 449,
+    "CaseMasterID": 228,
+    "PersonID": "P_0449",
+    "AccusedName": "Deepak Khan",
+    "AgeYear": 57,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 450,
+    "CaseMasterID": 787,
+    "PersonID": "P_0450",
+    "AccusedName": "Rashmi Pinto",
+    "AgeYear": 42,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 451,
+    "CaseMasterID": 349,
+    "PersonID": "P_0451",
+    "AccusedName": "Deepa Kotian",
+    "AgeYear": 19,
+    "GenderID": 2
+  },
+  {
+    "AccusedMasterID": 452,
+    "CaseMasterID": 937,
+    "PersonID": "P_0452",
+    "AccusedName": "Xavier Sequeira",
+    "AgeYear": 60,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 453,
+    "CaseMasterID": 142,
+    "PersonID": "P_0453",
+    "AccusedName": "Harish Khan",
+    "AgeYear": 31,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 454,
+    "CaseMasterID": 217,
+    "PersonID": "P_0454",
+    "AccusedName": "Harish Fernandes",
+    "AgeYear": 46,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 455,
+    "CaseMasterID": 348,
+    "PersonID": "P_0455",
+    "AccusedName": "Naveen Ballal",
+    "AgeYear": 60,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 456,
+    "CaseMasterID": 436,
+    "PersonID": "P_0456",
+    "AccusedName": "Kiran Desai",
+    "AgeYear": 37,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 457,
+    "CaseMasterID": 397,
+    "PersonID": "P_0457",
+    "AccusedName": "Alphonsa Sheikh",
+    "AgeYear": 49,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 458,
+    "CaseMasterID": 268,
+    "PersonID": "P_0458",
+    "AccusedName": "Lakshmi Desai",
+    "AgeYear": 30,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 459,
+    "CaseMasterID": 408,
+    "PersonID": "P_0459",
+    "AccusedName": "Sridhar Rao",
+    "AgeYear": 52,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 460,
+    "CaseMasterID": 477,
+    "PersonID": "P_0460",
+    "AccusedName": "Sridhar D'Souza",
+    "AgeYear": 24,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 461,
+    "CaseMasterID": 703,
+    "PersonID": "P_0461",
+    "AccusedName": "Sandra Setty",
+    "AgeYear": 25,
+    "GenderID": 2
+  },
+  {
+    "AccusedMasterID": 462,
+    "CaseMasterID": 823,
+    "PersonID": "P_0462",
+    "AccusedName": "Sridhar D'Souza",
+    "AgeYear": 19,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 463,
+    "CaseMasterID": 327,
+    "PersonID": "P_0463",
+    "AccusedName": "Girish Desai",
+    "AgeYear": 55,
+    "GenderID": 2
+  },
+  {
+    "AccusedMasterID": 464,
+    "CaseMasterID": 703,
+    "PersonID": "P_0464",
+    "AccusedName": "Pooja Gowda",
+    "AgeYear": 19,
+    "GenderID": 2
+  },
+  {
+    "AccusedMasterID": 465,
+    "CaseMasterID": 670,
+    "PersonID": "P_0465",
+    "AccusedName": "Fathima Mendes",
+    "AgeYear": 44,
+    "GenderID": 2
+  },
+  {
+    "AccusedMasterID": 466,
+    "CaseMasterID": 790,
+    "PersonID": "P_0466",
+    "AccusedName": "Roopa Hegde",
+    "AgeYear": 38,
+    "GenderID": 2
+  },
+  {
+    "AccusedMasterID": 467,
+    "CaseMasterID": 265,
+    "PersonID": "P_0467",
+    "AccusedName": "Antony Pinto",
+    "AgeYear": 59,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 468,
+    "CaseMasterID": 619,
+    "PersonID": "P_0468",
+    "AccusedName": "Sridhar D'Souza",
+    "AgeYear": 47,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 469,
+    "CaseMasterID": 800,
+    "PersonID": "P_0469",
+    "AccusedName": "Joseph Salian",
+    "AgeYear": 40,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 470,
+    "CaseMasterID": 115,
+    "PersonID": "P_0470",
+    "AccusedName": "Nataraj D'Souza",
+    "AgeYear": 30,
+    "GenderID": 2
+  },
+  {
+    "AccusedMasterID": 471,
+    "CaseMasterID": 545,
+    "PersonID": "P_0471",
+    "AccusedName": "Vijay Shetty",
+    "AgeYear": 43,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 472,
+    "CaseMasterID": 154,
+    "PersonID": "P_0472",
+    "AccusedName": "Shivakumar Gowda",
+    "AgeYear": 40,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 473,
+    "CaseMasterID": 203,
+    "PersonID": "P_0473",
+    "AccusedName": "Ravi Sequeira",
+    "AgeYear": 58,
+    "GenderID": 2
+  },
+  {
+    "AccusedMasterID": 474,
+    "CaseMasterID": 446,
+    "PersonID": "P_0474",
+    "AccusedName": "Roopa Hegde",
+    "AgeYear": 48,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 475,
+    "CaseMasterID": 41,
+    "PersonID": "P_0475",
+    "AccusedName": "Imran Patil",
+    "AgeYear": 50,
+    "GenderID": 2
+  },
+  {
+    "AccusedMasterID": 476,
+    "CaseMasterID": 376,
+    "PersonID": "P_0476",
+    "AccusedName": "Roopa Hegde",
+    "AgeYear": 57,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 477,
+    "CaseMasterID": 259,
+    "PersonID": "P_0477",
+    "AccusedName": "Lakshmi Jadhav",
+    "AgeYear": 40,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 478,
+    "CaseMasterID": 786,
+    "PersonID": "P_0478",
+    "AccusedName": "Vidya Naik",
+    "AgeYear": 20,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 479,
+    "CaseMasterID": 184,
+    "PersonID": "P_0479",
+    "AccusedName": "Iqbal Bhat",
+    "AgeYear": 41,
+    "GenderID": 2
+  },
+  {
+    "AccusedMasterID": 480,
+    "CaseMasterID": 18,
+    "PersonID": "P_0480",
+    "AccusedName": "Kalpana Sequeira",
+    "AgeYear": 39,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 481,
+    "CaseMasterID": 652,
+    "PersonID": "P_0481",
+    "AccusedName": "Manjunath Pinto",
+    "AgeYear": 57,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 482,
+    "CaseMasterID": 366,
+    "PersonID": "P_0482",
+    "AccusedName": "Sandra Setty",
+    "AgeYear": 21,
+    "GenderID": 2
+  },
+  {
+    "AccusedMasterID": 483,
+    "CaseMasterID": 255,
+    "PersonID": "P_0483",
+    "AccusedName": "Roopa Salian",
+    "AgeYear": 24,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 484,
+    "CaseMasterID": 130,
+    "PersonID": "P_0484",
+    "AccusedName": "Sandra Setty",
+    "AgeYear": 28,
+    "GenderID": 2
+  },
+  {
+    "AccusedMasterID": 485,
+    "CaseMasterID": 442,
+    "PersonID": "P_0485",
+    "AccusedName": "Deepa Desai",
+    "AgeYear": 36,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 486,
+    "CaseMasterID": 996,
+    "PersonID": "P_0486",
+    "AccusedName": "Pooja Gowda",
+    "AgeYear": 58,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 487,
+    "CaseMasterID": 941,
+    "PersonID": "P_0487",
+    "AccusedName": "Ayesha Prabhu",
+    "AgeYear": 52,
+    "GenderID": 2
+  },
+  {
+    "AccusedMasterID": 488,
+    "CaseMasterID": 42,
+    "PersonID": "P_0488",
+    "AccusedName": "Xavier Sequeira",
+    "AgeYear": 39,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 489,
+    "CaseMasterID": 40,
+    "PersonID": "P_0489",
+    "AccusedName": "Maria Reddy",
+    "AgeYear": 57,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 490,
+    "CaseMasterID": 392,
+    "PersonID": "P_0490",
+    "AccusedName": "Ravi Sequeira",
+    "AgeYear": 24,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 491,
+    "CaseMasterID": 950,
+    "PersonID": "P_0491",
+    "AccusedName": "Sudha Reddy",
+    "AgeYear": 38,
+    "GenderID": 2
+  },
+  {
+    "AccusedMasterID": 492,
+    "CaseMasterID": 411,
+    "PersonID": "P_0492",
+    "AccusedName": "Suresh Kotian",
+    "AgeYear": 30,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 493,
+    "CaseMasterID": 739,
+    "PersonID": "P_0493",
+    "AccusedName": "Manjunath Pujari",
+    "AgeYear": 24,
+    "GenderID": 2
+  },
+  {
+    "AccusedMasterID": 494,
+    "CaseMasterID": 989,
+    "PersonID": "P_0494",
+    "AccusedName": "Santosh Salian",
+    "AgeYear": 31,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 495,
+    "CaseMasterID": 311,
+    "PersonID": "P_0495",
+    "AccusedName": "Rashmi Sheikh",
+    "AgeYear": 51,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 496,
+    "CaseMasterID": 711,
+    "PersonID": "P_0496",
+    "AccusedName": "Nandini Khan",
+    "AgeYear": 22,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 497,
+    "CaseMasterID": 588,
+    "PersonID": "P_0497",
+    "AccusedName": "Joseph Salian",
+    "AgeYear": 32,
+    "GenderID": 2
+  },
+  {
+    "AccusedMasterID": 498,
+    "CaseMasterID": 282,
+    "PersonID": "P_0498",
+    "AccusedName": "Kalpana Shetty",
+    "AgeYear": 30,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 499,
+    "CaseMasterID": 514,
+    "PersonID": "P_0499",
+    "AccusedName": "Fathima Mendes",
+    "AgeYear": 21,
+    "GenderID": 2
+  },
+  {
+    "AccusedMasterID": 500,
+    "CaseMasterID": 932,
+    "PersonID": "P_0500",
+    "AccusedName": "Shivakumar Sheikh",
+    "AgeYear": 62,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 501,
+    "CaseMasterID": 280,
+    "PersonID": "P_0501",
+    "AccusedName": "Shivakumar Gowda",
+    "AgeYear": 45,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 502,
+    "CaseMasterID": 20,
+    "PersonID": "P_0502",
+    "AccusedName": "Nataraj D'Souza",
+    "AgeYear": 45,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 503,
+    "CaseMasterID": 282,
+    "PersonID": "P_0503",
+    "AccusedName": "Vinay Poojary",
+    "AgeYear": 48,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 504,
+    "CaseMasterID": 100,
+    "PersonID": "P_0504",
+    "AccusedName": "Sudha Achar",
+    "AgeYear": 33,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 505,
+    "CaseMasterID": 727,
+    "PersonID": "P_0505",
+    "AccusedName": "Bhagya Mendes",
+    "AgeYear": 33,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 506,
+    "CaseMasterID": 627,
+    "PersonID": "P_0506",
+    "AccusedName": "Ganesh Shetty",
+    "AgeYear": 57,
+    "GenderID": 2
+  },
+  {
+    "AccusedMasterID": 507,
+    "CaseMasterID": 603,
+    "PersonID": "P_0507",
+    "AccusedName": "Lakshmi Desai",
+    "AgeYear": 59,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 508,
+    "CaseMasterID": 555,
+    "PersonID": "P_0508",
+    "AccusedName": "Naveen Ballal",
+    "AgeYear": 49,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 509,
+    "CaseMasterID": 352,
+    "PersonID": "P_0509",
+    "AccusedName": "Kalpana Mendes",
+    "AgeYear": 39,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 510,
+    "CaseMasterID": 843,
+    "PersonID": "P_0510",
+    "AccusedName": "Vinay Chavan",
+    "AgeYear": 28,
+    "GenderID": 2
+  },
+  {
+    "AccusedMasterID": 511,
+    "CaseMasterID": 875,
+    "PersonID": "P_0511",
+    "AccusedName": "Kalpana Shetty",
+    "AgeYear": 50,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 512,
+    "CaseMasterID": 546,
+    "PersonID": "P_0512",
+    "AccusedName": "Vijayalakshmi Desai",
+    "AgeYear": 29,
+    "GenderID": 2
+  },
+  {
+    "AccusedMasterID": 513,
+    "CaseMasterID": 262,
+    "PersonID": "P_0513",
+    "AccusedName": "Vinay Sheikh",
+    "AgeYear": 21,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 514,
+    "CaseMasterID": 647,
+    "PersonID": "P_0514",
+    "AccusedName": "Deepa Sequeira",
+    "AgeYear": 54,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 515,
+    "CaseMasterID": 86,
+    "PersonID": "P_0515",
+    "AccusedName": "Lawrence Sequeira",
+    "AgeYear": 52,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 516,
+    "CaseMasterID": 312,
+    "PersonID": "P_0516",
+    "AccusedName": "Iqbal Bhat",
+    "AgeYear": 39,
+    "GenderID": 2
+  },
+  {
+    "AccusedMasterID": 517,
+    "CaseMasterID": 691,
+    "PersonID": "P_0517",
+    "AccusedName": "Mahmood Hegde",
+    "AgeYear": 20,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 518,
+    "CaseMasterID": 640,
+    "PersonID": "P_0518",
+    "AccusedName": "Rashmi Poojary",
+    "AgeYear": 29,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 519,
+    "CaseMasterID": 579,
+    "PersonID": "P_0519",
+    "AccusedName": "Santosh Kotian",
+    "AgeYear": 45,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 520,
+    "CaseMasterID": 770,
+    "PersonID": "P_0520",
+    "AccusedName": "Ganesh Shetty",
+    "AgeYear": 54,
+    "GenderID": 2
+  },
+  {
+    "AccusedMasterID": 521,
+    "CaseMasterID": 241,
+    "PersonID": "P_0521",
+    "AccusedName": "Girish Ballal",
+    "AgeYear": 53,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 522,
+    "CaseMasterID": 388,
+    "PersonID": "P_0522",
+    "AccusedName": "Arjun Bhat",
+    "AgeYear": 26,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 523,
+    "CaseMasterID": 406,
+    "PersonID": "P_0523",
+    "AccusedName": "Anitha Pinto",
+    "AgeYear": 32,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 524,
+    "CaseMasterID": 585,
+    "PersonID": "P_0524",
+    "AccusedName": "Iqbal Bhat",
+    "AgeYear": 30,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 525,
+    "CaseMasterID": 786,
+    "PersonID": "P_0525",
+    "AccusedName": "Praveen Rathod",
+    "AgeYear": 44,
+    "GenderID": 2
+  },
+  {
+    "AccusedMasterID": 526,
+    "CaseMasterID": 361,
+    "PersonID": "P_0526",
+    "AccusedName": "Vidya Shetty",
+    "AgeYear": 32,
+    "GenderID": 2
+  },
+  {
+    "AccusedMasterID": 527,
+    "CaseMasterID": 923,
+    "PersonID": "P_0527",
+    "AccusedName": "Manjula Fernandes",
+    "AgeYear": 36,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 528,
+    "CaseMasterID": 789,
+    "PersonID": "P_0528",
+    "AccusedName": "Nandini Pujari",
+    "AgeYear": 59,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 529,
+    "CaseMasterID": 681,
+    "PersonID": "P_0529",
+    "AccusedName": "Deepak Khan",
+    "AgeYear": 62,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 530,
+    "CaseMasterID": 515,
+    "PersonID": "P_0530",
+    "AccusedName": "Rekha Salian",
+    "AgeYear": 53,
+    "GenderID": 2
+  },
+  {
+    "AccusedMasterID": 531,
+    "CaseMasterID": 231,
+    "PersonID": "P_0531",
+    "AccusedName": "Chandan D'Souza",
+    "AgeYear": 44,
+    "GenderID": 2
+  },
+  {
+    "AccusedMasterID": 532,
+    "CaseMasterID": 775,
+    "PersonID": "P_0532",
+    "AccusedName": "Mahmood Hegde",
+    "AgeYear": 37,
+    "GenderID": 2
+  },
+  {
+    "AccusedMasterID": 533,
+    "CaseMasterID": 161,
+    "PersonID": "P_0533",
+    "AccusedName": "Joseph Kulkarni",
+    "AgeYear": 30,
+    "GenderID": 2
+  },
+  {
+    "AccusedMasterID": 534,
+    "CaseMasterID": 296,
+    "PersonID": "P_0534",
+    "AccusedName": "Shivakumar Gowda",
+    "AgeYear": 53,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 535,
+    "CaseMasterID": 782,
+    "PersonID": "P_0535",
+    "AccusedName": "Mahmood Hegde",
+    "AgeYear": 60,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 536,
+    "CaseMasterID": 700,
+    "PersonID": "P_0536",
+    "AccusedName": "Roopa Achar",
+    "AgeYear": 25,
+    "GenderID": 2
+  },
+  {
+    "AccusedMasterID": 537,
+    "CaseMasterID": 595,
+    "PersonID": "P_0537",
+    "AccusedName": "Manjunath Pujari",
+    "AgeYear": 45,
+    "GenderID": 2
+  },
+  {
+    "AccusedMasterID": 538,
+    "CaseMasterID": 421,
+    "PersonID": "P_0538",
+    "AccusedName": "Xavier Setty",
+    "AgeYear": 59,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 539,
+    "CaseMasterID": 634,
+    "PersonID": "P_0539",
+    "AccusedName": "Sudha Achar",
+    "AgeYear": 27,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 540,
+    "CaseMasterID": 614,
+    "PersonID": "P_0540",
+    "AccusedName": "Manjula Khan",
+    "AgeYear": 45,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 541,
+    "CaseMasterID": 333,
+    "PersonID": "P_0541",
+    "AccusedName": "Rashmi Sheikh",
+    "AgeYear": 34,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 542,
+    "CaseMasterID": 583,
+    "PersonID": "P_0542",
+    "AccusedName": "Gopal Fernandes",
+    "AgeYear": 49,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 543,
+    "CaseMasterID": 975,
+    "PersonID": "P_0543",
+    "AccusedName": "Naseema Rao",
+    "AgeYear": 20,
+    "GenderID": 2
+  },
+  {
+    "AccusedMasterID": 544,
+    "CaseMasterID": 566,
+    "PersonID": "P_0544",
+    "AccusedName": "Ravi Sequeira",
+    "AgeYear": 31,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 545,
+    "CaseMasterID": 469,
+    "PersonID": "P_0545",
+    "AccusedName": "Naseema Rao",
+    "AgeYear": 34,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 546,
+    "CaseMasterID": 484,
+    "PersonID": "P_0546",
+    "AccusedName": "Imran Jadhav",
+    "AgeYear": 31,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 547,
+    "CaseMasterID": 136,
+    "PersonID": "P_0547",
+    "AccusedName": "Iqbal Bhat",
+    "AgeYear": 23,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 548,
+    "CaseMasterID": 212,
+    "PersonID": "P_0548",
+    "AccusedName": "Manjula Khan",
+    "AgeYear": 48,
+    "GenderID": 2
+  },
+  {
+    "AccusedMasterID": 549,
+    "CaseMasterID": 251,
+    "PersonID": "P_0549",
+    "AccusedName": "Sridhar Rao",
+    "AgeYear": 57,
+    "GenderID": 2
+  },
+  {
+    "AccusedMasterID": 550,
+    "CaseMasterID": 248,
+    "PersonID": "P_0550",
+    "AccusedName": "Iqbal Patil",
+    "AgeYear": 30,
+    "GenderID": 2
+  },
+  {
+    "AccusedMasterID": 551,
+    "CaseMasterID": 513,
+    "PersonID": "P_0551",
+    "AccusedName": "Sowmya Sheikh",
+    "AgeYear": 26,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 552,
+    "CaseMasterID": 894,
+    "PersonID": "P_0552",
+    "AccusedName": "Anand Naik",
+    "AgeYear": 29,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 553,
+    "CaseMasterID": 474,
+    "PersonID": "P_0553",
+    "AccusedName": "Pooja Kotian",
+    "AgeYear": 23,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 554,
+    "CaseMasterID": 767,
+    "PersonID": "P_0554",
+    "AccusedName": "Manjunath Pinto",
+    "AgeYear": 62,
+    "GenderID": 2
+  },
+  {
+    "AccusedMasterID": 555,
+    "CaseMasterID": 888,
+    "PersonID": "P_0555",
+    "AccusedName": "Chandan Pujari",
+    "AgeYear": 49,
+    "GenderID": 2
+  },
+  {
+    "AccusedMasterID": 556,
+    "CaseMasterID": 73,
+    "PersonID": "P_0556",
+    "AccusedName": "Nataraj D'Souza",
+    "AgeYear": 45,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 557,
+    "CaseMasterID": 905,
+    "PersonID": "P_0557",
+    "AccusedName": "Imran Jadhav",
+    "AgeYear": 53,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 558,
+    "CaseMasterID": 733,
+    "PersonID": "P_0558",
+    "AccusedName": "Praveen Rathod",
+    "AgeYear": 57,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 559,
+    "CaseMasterID": 450,
+    "PersonID": "P_0559",
+    "AccusedName": "Mahmood Prabhu",
+    "AgeYear": 22,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 560,
+    "CaseMasterID": 832,
+    "PersonID": "P_0560",
+    "AccusedName": "Alphonsa Shetty",
+    "AgeYear": 21,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 561,
+    "CaseMasterID": 410,
+    "PersonID": "P_0561",
+    "AccusedName": "Imran Jadhav",
+    "AgeYear": 51,
+    "GenderID": 2
+  },
+  {
+    "AccusedMasterID": 562,
+    "CaseMasterID": 439,
+    "PersonID": "P_0562",
+    "AccusedName": "Nataraj D'Souza",
+    "AgeYear": 26,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 563,
+    "CaseMasterID": 150,
+    "PersonID": "P_0563",
+    "AccusedName": "Suresh Sheikh",
+    "AgeYear": 35,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 564,
+    "CaseMasterID": 740,
+    "PersonID": "P_0564",
+    "AccusedName": "Yallappa Mendes",
+    "AgeYear": 42,
+    "GenderID": 2
+  },
+  {
+    "AccusedMasterID": 565,
+    "CaseMasterID": 673,
+    "PersonID": "P_0565",
+    "AccusedName": "Kalpana Mendes",
+    "AgeYear": 28,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 566,
+    "CaseMasterID": 815,
+    "PersonID": "P_0566",
+    "AccusedName": "Mahmood Prabhu",
+    "AgeYear": 32,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 567,
+    "CaseMasterID": 100,
+    "PersonID": "P_0567",
+    "AccusedName": "Puneeth Bhat",
+    "AgeYear": 60,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 568,
+    "CaseMasterID": 470,
+    "PersonID": "P_0568",
+    "AccusedName": "Nataraj Sequeira",
+    "AgeYear": 50,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 569,
+    "CaseMasterID": 776,
+    "PersonID": "P_0569",
+    "AccusedName": "Anitha Kamath",
+    "AgeYear": 40,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 570,
+    "CaseMasterID": 706,
+    "PersonID": "P_0570",
+    "AccusedName": "Vinay Chavan",
+    "AgeYear": 40,
+    "GenderID": 2
+  },
+  {
+    "AccusedMasterID": 571,
+    "CaseMasterID": 717,
+    "PersonID": "P_0571",
+    "AccusedName": "Anitha Kamath",
+    "AgeYear": 55,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 572,
+    "CaseMasterID": 609,
+    "PersonID": "P_0572",
+    "AccusedName": "Manjunath Pinto",
+    "AgeYear": 27,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 573,
+    "CaseMasterID": 535,
+    "PersonID": "P_0573",
+    "AccusedName": "Ganesh Shetty",
+    "AgeYear": 20,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 574,
+    "CaseMasterID": 902,
+    "PersonID": "P_0574",
+    "AccusedName": "Naseema Rao",
+    "AgeYear": 55,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 575,
+    "CaseMasterID": 731,
+    "PersonID": "P_0575",
+    "AccusedName": "Iqbal Bhat",
+    "AgeYear": 38,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 576,
+    "CaseMasterID": 582,
+    "PersonID": "P_0576",
+    "AccusedName": "Sudha Reddy",
+    "AgeYear": 38,
+    "GenderID": 2
+  },
+  {
+    "AccusedMasterID": 577,
+    "CaseMasterID": 731,
+    "PersonID": "P_0577",
+    "AccusedName": "Vinay Chavan",
+    "AgeYear": 62,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 578,
+    "CaseMasterID": 159,
+    "PersonID": "P_0578",
+    "AccusedName": "Kalpana Shetty",
+    "AgeYear": 27,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 579,
+    "CaseMasterID": 623,
+    "PersonID": "P_0579",
+    "AccusedName": "Iqbal Bhat",
+    "AgeYear": 43,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 580,
+    "CaseMasterID": 653,
+    "PersonID": "P_0580",
+    "AccusedName": "Melwin Desai",
+    "AgeYear": 20,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 581,
+    "CaseMasterID": 598,
+    "PersonID": "P_0581",
+    "AccusedName": "Harish Fernandes",
+    "AgeYear": 28,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 582,
+    "CaseMasterID": 266,
+    "PersonID": "P_0582",
+    "AccusedName": "Nandini Pujari",
+    "AgeYear": 51,
+    "GenderID": 2
+  },
+  {
+    "AccusedMasterID": 583,
+    "CaseMasterID": 489,
+    "PersonID": "P_0583",
+    "AccusedName": "Kavya Salian",
+    "AgeYear": 29,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 584,
+    "CaseMasterID": 660,
+    "PersonID": "P_0584",
+    "AccusedName": "Kiran Desai",
+    "AgeYear": 56,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 585,
+    "CaseMasterID": 536,
+    "PersonID": "P_0585",
+    "AccusedName": "Naseema Rao",
+    "AgeYear": 43,
+    "GenderID": 2
+  },
+  {
+    "AccusedMasterID": 586,
+    "CaseMasterID": 664,
+    "PersonID": "P_0586",
+    "AccusedName": "Yallappa Mendes",
+    "AgeYear": 52,
+    "GenderID": 2
+  },
+  {
+    "AccusedMasterID": 587,
+    "CaseMasterID": 180,
+    "PersonID": "P_0587",
+    "AccusedName": "Mahmood Prabhu",
+    "AgeYear": 43,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 588,
+    "CaseMasterID": 685,
+    "PersonID": "P_0588",
+    "AccusedName": "Rashmi Hegde",
+    "AgeYear": 40,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 589,
+    "CaseMasterID": 317,
+    "PersonID": "P_0589",
+    "AccusedName": "Lawrence Sequeira",
+    "AgeYear": 33,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 590,
+    "CaseMasterID": 285,
+    "PersonID": "P_0590",
+    "AccusedName": "Arjun Bhat",
+    "AgeYear": 26,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 591,
+    "CaseMasterID": 366,
+    "PersonID": "P_0591",
+    "AccusedName": "Harish Khan",
+    "AgeYear": 48,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 592,
+    "CaseMasterID": 861,
+    "PersonID": "P_0592",
+    "AccusedName": "Kalpana Shetty",
+    "AgeYear": 52,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 593,
+    "CaseMasterID": 760,
+    "PersonID": "P_0593",
+    "AccusedName": "Sandra Jadhav",
+    "AgeYear": 42,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 594,
+    "CaseMasterID": 409,
+    "PersonID": "P_0594",
+    "AccusedName": "Gopal Fernandes",
+    "AgeYear": 25,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 595,
+    "CaseMasterID": 520,
+    "PersonID": "P_0595",
+    "AccusedName": "Rashmi Hegde",
+    "AgeYear": 36,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 596,
+    "CaseMasterID": 994,
+    "PersonID": "P_0596",
+    "AccusedName": "Nandini Khan",
+    "AgeYear": 22,
+    "GenderID": 2
+  },
+  {
+    "AccusedMasterID": 597,
+    "CaseMasterID": 581,
+    "PersonID": "P_0597",
+    "AccusedName": "Chandan Pujari",
+    "AgeYear": 34,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 598,
+    "CaseMasterID": 263,
+    "PersonID": "P_0598",
+    "AccusedName": "Nandini Khan",
+    "AgeYear": 30,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 599,
+    "CaseMasterID": 234,
+    "PersonID": "P_0599",
+    "AccusedName": "Nandini Setty",
+    "AgeYear": 48,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 600,
+    "CaseMasterID": 42,
+    "PersonID": "P_0600",
+    "AccusedName": "Arjun Bhat",
+    "AgeYear": 36,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 601,
+    "CaseMasterID": 94,
+    "PersonID": "P_0601",
+    "AccusedName": "Kalpana Shetty",
+    "AgeYear": 31,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 602,
+    "CaseMasterID": 928,
+    "PersonID": "P_0602",
+    "AccusedName": "Nataraj Sequeira",
+    "AgeYear": 27,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 603,
+    "CaseMasterID": 63,
+    "PersonID": "P_0603",
+    "AccusedName": "Lawrence Sequeira",
+    "AgeYear": 33,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 604,
+    "CaseMasterID": 600,
+    "PersonID": "P_0604",
+    "AccusedName": "Vijay Shetty",
+    "AgeYear": 56,
+    "GenderID": 2
+  },
+  {
+    "AccusedMasterID": 605,
+    "CaseMasterID": 476,
+    "PersonID": "P_0605",
+    "AccusedName": "Roopa Bhat",
+    "AgeYear": 53,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 606,
+    "CaseMasterID": 327,
+    "PersonID": "P_0606",
+    "AccusedName": "Iqbal Patil",
+    "AgeYear": 59,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 607,
+    "CaseMasterID": 202,
+    "PersonID": "P_0607",
+    "AccusedName": "Mahmood Prabhu",
+    "AgeYear": 26,
+    "GenderID": 2
+  },
+  {
+    "AccusedMasterID": 608,
+    "CaseMasterID": 86,
+    "PersonID": "P_0608",
+    "AccusedName": "Joseph Salian",
+    "AgeYear": 31,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 609,
+    "CaseMasterID": 556,
+    "PersonID": "P_0609",
+    "AccusedName": "Mahmood Naik",
+    "AgeYear": 32,
+    "GenderID": 2
+  },
+  {
+    "AccusedMasterID": 610,
+    "CaseMasterID": 308,
+    "PersonID": "P_0610",
+    "AccusedName": "Antony Rathod",
+    "AgeYear": 19,
+    "GenderID": 2
+  },
+  {
+    "AccusedMasterID": 611,
+    "CaseMasterID": 882,
+    "PersonID": "P_0611",
+    "AccusedName": "Nataraj Sequeira",
+    "AgeYear": 26,
+    "GenderID": 2
+  },
+  {
+    "AccusedMasterID": 612,
+    "CaseMasterID": 797,
+    "PersonID": "P_0612",
+    "AccusedName": "Sowmya Sheikh",
+    "AgeYear": 31,
+    "GenderID": 2
+  },
+  {
+    "AccusedMasterID": 613,
+    "CaseMasterID": 1,
+    "PersonID": "P_0613",
+    "AccusedName": "Deepa Kulkarni",
+    "AgeYear": 45,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 614,
+    "CaseMasterID": 505,
+    "PersonID": "P_0614",
+    "AccusedName": "Gopal Fernandes",
+    "AgeYear": 30,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 615,
+    "CaseMasterID": 520,
+    "PersonID": "P_0615",
+    "AccusedName": "Mahmood Prabhu",
+    "AgeYear": 51,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 616,
+    "CaseMasterID": 975,
+    "PersonID": "P_0616",
+    "AccusedName": "Sowmya Sheikh",
+    "AgeYear": 38,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 617,
+    "CaseMasterID": 889,
+    "PersonID": "P_0617",
+    "AccusedName": "Rekha Salian",
+    "AgeYear": 34,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 618,
+    "CaseMasterID": 282,
+    "PersonID": "P_0618",
+    "AccusedName": "Alphonsa Sheikh",
+    "AgeYear": 54,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 619,
+    "CaseMasterID": 641,
+    "PersonID": "P_0619",
+    "AccusedName": "Vinay Chavan",
+    "AgeYear": 26,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 620,
+    "CaseMasterID": 500,
+    "PersonID": "P_0620",
+    "AccusedName": "Shivakumar Gowda",
+    "AgeYear": 39,
+    "GenderID": 2
+  },
+  {
+    "AccusedMasterID": 621,
+    "CaseMasterID": 508,
+    "PersonID": "P_0621",
+    "AccusedName": "Kiran Prabhu",
+    "AgeYear": 30,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 622,
+    "CaseMasterID": 779,
+    "PersonID": "P_0622",
+    "AccusedName": "Santosh Kotian",
+    "AgeYear": 62,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 623,
+    "CaseMasterID": 97,
+    "PersonID": "P_0623",
+    "AccusedName": "Lawrence Prabhu",
+    "AgeYear": 47,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 624,
+    "CaseMasterID": 654,
+    "PersonID": "P_0624",
+    "AccusedName": "Sridhar Rao",
+    "AgeYear": 53,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 625,
+    "CaseMasterID": 199,
+    "PersonID": "P_0625",
+    "AccusedName": "Praveen Rathod",
+    "AgeYear": 25,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 626,
+    "CaseMasterID": 219,
+    "PersonID": "P_0626",
+    "AccusedName": "Rekha Kulkarni",
+    "AgeYear": 51,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 627,
+    "CaseMasterID": 328,
+    "PersonID": "P_0627",
+    "AccusedName": "Sowmya Naik",
+    "AgeYear": 52,
+    "GenderID": 2
+  },
+  {
+    "AccusedMasterID": 628,
+    "CaseMasterID": 106,
+    "PersonID": "P_0628",
+    "AccusedName": "Sridhar Rao",
+    "AgeYear": 38,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 629,
+    "CaseMasterID": 585,
+    "PersonID": "P_0629",
+    "AccusedName": "Alphonsa Sheikh",
+    "AgeYear": 28,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 630,
+    "CaseMasterID": 161,
+    "PersonID": "P_0630",
+    "AccusedName": "Xavier Setty",
+    "AgeYear": 44,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 631,
+    "CaseMasterID": 873,
+    "PersonID": "P_0631",
+    "AccusedName": "Kiran Prabhu",
+    "AgeYear": 58,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 632,
+    "CaseMasterID": 334,
+    "PersonID": "P_0632",
+    "AccusedName": "Chandan Pujari",
+    "AgeYear": 49,
+    "GenderID": 2
+  },
+  {
+    "AccusedMasterID": 633,
+    "CaseMasterID": 799,
+    "PersonID": "P_0633",
+    "AccusedName": "Pooja Kotian",
+    "AgeYear": 36,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 634,
+    "CaseMasterID": 956,
+    "PersonID": "P_0634",
+    "AccusedName": "Anitha Kamath",
+    "AgeYear": 49,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 635,
+    "CaseMasterID": 380,
+    "PersonID": "P_0635",
+    "AccusedName": "Maria Reddy",
+    "AgeYear": 38,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 636,
+    "CaseMasterID": 745,
+    "PersonID": "P_0636",
+    "AccusedName": "Vijay Rathod",
+    "AgeYear": 39,
+    "GenderID": 2
+  },
+  {
+    "AccusedMasterID": 637,
+    "CaseMasterID": 316,
+    "PersonID": "P_0637",
+    "AccusedName": "Lakshmi Jadhav",
+    "AgeYear": 55,
+    "GenderID": 2
+  },
+  {
+    "AccusedMasterID": 638,
+    "CaseMasterID": 781,
+    "PersonID": "P_0638",
+    "AccusedName": "Lakshmi Desai",
+    "AgeYear": 19,
+    "GenderID": 2
+  },
+  {
+    "AccusedMasterID": 639,
+    "CaseMasterID": 57,
+    "PersonID": "P_0639",
+    "AccusedName": "Prakash Setty",
+    "AgeYear": 41,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 640,
+    "CaseMasterID": 999,
+    "PersonID": "P_0640",
+    "AccusedName": "Pooja Gowda",
+    "AgeYear": 36,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 641,
+    "CaseMasterID": 839,
+    "PersonID": "P_0641",
+    "AccusedName": "Nagesh Pinto",
+    "AgeYear": 31,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 642,
+    "CaseMasterID": 678,
+    "PersonID": "P_0642",
+    "AccusedName": "Imran Jadhav",
+    "AgeYear": 35,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 643,
+    "CaseMasterID": 853,
+    "PersonID": "P_0643",
+    "AccusedName": "Naseema Rao",
+    "AgeYear": 20,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 644,
+    "CaseMasterID": 438,
+    "PersonID": "P_0644",
+    "AccusedName": "Iqbal Patil",
+    "AgeYear": 43,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 645,
+    "CaseMasterID": 572,
+    "PersonID": "P_0645",
+    "AccusedName": "Ganesh Desai",
+    "AgeYear": 31,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 646,
+    "CaseMasterID": 633,
+    "PersonID": "P_0646",
+    "AccusedName": "Deepa Kotian",
+    "AgeYear": 47,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 647,
+    "CaseMasterID": 110,
+    "PersonID": "P_0647",
+    "AccusedName": "Xavier Sequeira",
+    "AgeYear": 34,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 648,
+    "CaseMasterID": 334,
+    "PersonID": "P_0648",
+    "AccusedName": "Pooja Kotian",
+    "AgeYear": 49,
+    "GenderID": 2
+  },
+  {
+    "AccusedMasterID": 649,
+    "CaseMasterID": 975,
+    "PersonID": "P_0649",
+    "AccusedName": "Bhagya Bhat",
+    "AgeYear": 61,
+    "GenderID": 2
+  },
+  {
+    "AccusedMasterID": 650,
+    "CaseMasterID": 705,
+    "PersonID": "P_0650",
+    "AccusedName": "Roopa Achar",
+    "AgeYear": 50,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 651,
+    "CaseMasterID": 287,
+    "PersonID": "P_0651",
+    "AccusedName": "Arjun Bhat",
+    "AgeYear": 56,
+    "GenderID": 2
+  },
+  {
+    "AccusedMasterID": 652,
+    "CaseMasterID": 61,
+    "PersonID": "P_0652",
+    "AccusedName": "Roopa Bhat",
+    "AgeYear": 22,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 653,
+    "CaseMasterID": 283,
+    "PersonID": "P_0653",
+    "AccusedName": "Rekha Salian",
+    "AgeYear": 42,
+    "GenderID": 2
+  },
+  {
+    "AccusedMasterID": 654,
+    "CaseMasterID": 946,
+    "PersonID": "P_0654",
+    "AccusedName": "Ganesh Shetty",
+    "AgeYear": 26,
+    "GenderID": 2
+  },
+  {
+    "AccusedMasterID": 655,
+    "CaseMasterID": 138,
+    "PersonID": "P_0655",
+    "AccusedName": "Basavaraj Hegde",
+    "AgeYear": 23,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 656,
+    "CaseMasterID": 794,
+    "PersonID": "P_0656",
+    "AccusedName": "Sandra Setty",
+    "AgeYear": 45,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 657,
+    "CaseMasterID": 895,
+    "PersonID": "P_0657",
+    "AccusedName": "Kiran Desai",
+    "AgeYear": 56,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 658,
+    "CaseMasterID": 588,
+    "PersonID": "P_0658",
+    "AccusedName": "Sandra Jadhav",
+    "AgeYear": 54,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 659,
+    "CaseMasterID": 449,
+    "PersonID": "P_0659",
+    "AccusedName": "Ramesh Bhat",
+    "AgeYear": 39,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 660,
+    "CaseMasterID": 571,
+    "PersonID": "P_0660",
+    "AccusedName": "Imran Sheikh",
+    "AgeYear": 37,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 661,
+    "CaseMasterID": 144,
+    "PersonID": "P_0661",
+    "AccusedName": "Sowmya Naik",
+    "AgeYear": 23,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 662,
+    "CaseMasterID": 981,
+    "PersonID": "P_0662",
+    "AccusedName": "Chandan D'Souza",
+    "AgeYear": 42,
+    "GenderID": 2
+  },
+  {
+    "AccusedMasterID": 663,
+    "CaseMasterID": 766,
+    "PersonID": "P_0663",
+    "AccusedName": "Deepak Khan",
+    "AgeYear": 32,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 664,
+    "CaseMasterID": 329,
+    "PersonID": "P_0664",
+    "AccusedName": "Mahmood Hegde",
+    "AgeYear": 33,
+    "GenderID": 2
+  },
+  {
+    "AccusedMasterID": 665,
+    "CaseMasterID": 371,
+    "PersonID": "P_0665",
+    "AccusedName": "Puneeth Bhat",
+    "AgeYear": 31,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 666,
+    "CaseMasterID": 262,
+    "PersonID": "P_0666",
+    "AccusedName": "Arjun Bhat",
+    "AgeYear": 20,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 667,
+    "CaseMasterID": 123,
+    "PersonID": "P_0667",
+    "AccusedName": "Sowmya Sheikh",
+    "AgeYear": 45,
+    "GenderID": 2
+  },
+  {
+    "AccusedMasterID": 668,
+    "CaseMasterID": 406,
+    "PersonID": "P_0668",
+    "AccusedName": "Sridhar D'Souza",
+    "AgeYear": 50,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 669,
+    "CaseMasterID": 852,
+    "PersonID": "P_0669",
+    "AccusedName": "Imran Sheikh",
+    "AgeYear": 22,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 670,
+    "CaseMasterID": 17,
+    "PersonID": "P_0670",
+    "AccusedName": "Antony Rathod",
+    "AgeYear": 46,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 671,
+    "CaseMasterID": 983,
+    "PersonID": "P_0671",
+    "AccusedName": "Deepa Kotian",
+    "AgeYear": 39,
+    "GenderID": 2
+  },
+  {
+    "AccusedMasterID": 672,
+    "CaseMasterID": 290,
+    "PersonID": "P_0672",
+    "AccusedName": "Manjula Khan",
+    "AgeYear": 40,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 673,
+    "CaseMasterID": 753,
+    "PersonID": "P_0673",
+    "AccusedName": "Xavier Sequeira",
+    "AgeYear": 55,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 674,
+    "CaseMasterID": 998,
+    "PersonID": "P_0674",
+    "AccusedName": "Ganesh Desai",
+    "AgeYear": 26,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 675,
+    "CaseMasterID": 818,
+    "PersonID": "P_0675",
+    "AccusedName": "Ravi Sequeira",
+    "AgeYear": 24,
+    "GenderID": 2
+  },
+  {
+    "AccusedMasterID": 676,
+    "CaseMasterID": 625,
+    "PersonID": "P_0676",
+    "AccusedName": "Manjunath Pujari",
+    "AgeYear": 31,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 677,
+    "CaseMasterID": 786,
+    "PersonID": "P_0677",
+    "AccusedName": "Sridhar Rao",
+    "AgeYear": 46,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 678,
+    "CaseMasterID": 477,
+    "PersonID": "P_0678",
+    "AccusedName": "Kalpana Sequeira",
+    "AgeYear": 28,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 679,
+    "CaseMasterID": 75,
+    "PersonID": "P_0679",
+    "AccusedName": "Shivakumar Sheikh",
+    "AgeYear": 60,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 680,
+    "CaseMasterID": 465,
+    "PersonID": "P_0680",
+    "AccusedName": "Imran Sheikh",
+    "AgeYear": 46,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 681,
+    "CaseMasterID": 412,
+    "PersonID": "P_0681",
+    "AccusedName": "Manjula Khan",
+    "AgeYear": 37,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 682,
+    "CaseMasterID": 639,
+    "PersonID": "P_0682",
+    "AccusedName": "Nagesh Fernandes",
+    "AgeYear": 43,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 683,
+    "CaseMasterID": 9,
+    "PersonID": "P_0683",
+    "AccusedName": "Sudha Achar",
+    "AgeYear": 39,
+    "GenderID": 2
+  },
+  {
+    "AccusedMasterID": 684,
+    "CaseMasterID": 155,
+    "PersonID": "P_0684",
+    "AccusedName": "Anitha Kamath",
+    "AgeYear": 33,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 685,
+    "CaseMasterID": 546,
+    "PersonID": "P_0685",
+    "AccusedName": "Pooja Gowda",
+    "AgeYear": 60,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 686,
+    "CaseMasterID": 789,
+    "PersonID": "P_0686",
+    "AccusedName": "Ayesha Prabhu",
+    "AgeYear": 55,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 687,
+    "CaseMasterID": 915,
+    "PersonID": "P_0687",
+    "AccusedName": "Basavaraj Hegde",
+    "AgeYear": 55,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 688,
+    "CaseMasterID": 194,
+    "PersonID": "P_0688",
+    "AccusedName": "Sowmya Naik",
+    "AgeYear": 28,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 689,
+    "CaseMasterID": 316,
+    "PersonID": "P_0689",
+    "AccusedName": "Shivakumar Sheikh",
+    "AgeYear": 25,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 690,
+    "CaseMasterID": 547,
+    "PersonID": "P_0690",
+    "AccusedName": "Arjun Bhat",
+    "AgeYear": 21,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 691,
+    "CaseMasterID": 554,
+    "PersonID": "P_0691",
+    "AccusedName": "Basavaraj Shetty",
+    "AgeYear": 23,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 692,
+    "CaseMasterID": 892,
+    "PersonID": "P_0692",
+    "AccusedName": "Naveen Sheikh",
+    "AgeYear": 33,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 693,
+    "CaseMasterID": 207,
+    "PersonID": "P_0693",
+    "AccusedName": "Harish Fernandes",
+    "AgeYear": 29,
+    "GenderID": 2
+  },
+  {
+    "AccusedMasterID": 694,
+    "CaseMasterID": 278,
+    "PersonID": "P_0694",
+    "AccusedName": "Melwin Desai",
+    "AgeYear": 32,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 695,
+    "CaseMasterID": 28,
+    "PersonID": "P_0695",
+    "AccusedName": "Vijayalakshmi Bhat",
+    "AgeYear": 47,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 696,
+    "CaseMasterID": 855,
+    "PersonID": "P_0696",
+    "AccusedName": "Girish Ballal",
+    "AgeYear": 20,
+    "GenderID": 2
+  },
+  {
+    "AccusedMasterID": 697,
+    "CaseMasterID": 889,
+    "PersonID": "P_0697",
+    "AccusedName": "Kalpana Shetty",
+    "AgeYear": 32,
+    "GenderID": 2
+  },
+  {
+    "AccusedMasterID": 698,
+    "CaseMasterID": 51,
+    "PersonID": "P_0698",
+    "AccusedName": "Kalpana Sequeira",
+    "AgeYear": 47,
+    "GenderID": 2
+  },
+  {
+    "AccusedMasterID": 699,
+    "CaseMasterID": 204,
+    "PersonID": "P_0699",
+    "AccusedName": "Lawrence Sequeira",
+    "AgeYear": 43,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 700,
+    "CaseMasterID": 96,
+    "PersonID": "P_0700",
+    "AccusedName": "Roopa Salian",
+    "AgeYear": 51,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 701,
+    "CaseMasterID": 167,
+    "PersonID": "P_0701",
+    "AccusedName": "Vidya Shetty",
+    "AgeYear": 32,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 702,
+    "CaseMasterID": 964,
+    "PersonID": "P_0702",
+    "AccusedName": "Deepa Sequeira",
+    "AgeYear": 57,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 703,
+    "CaseMasterID": 768,
+    "PersonID": "P_0703",
+    "AccusedName": "Naveen Sheikh",
+    "AgeYear": 45,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 704,
+    "CaseMasterID": 216,
+    "PersonID": "P_0704",
+    "AccusedName": "Prakash Rathod",
+    "AgeYear": 51,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 705,
+    "CaseMasterID": 490,
+    "PersonID": "P_0705",
+    "AccusedName": "Deepa Kulkarni",
+    "AgeYear": 51,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 706,
+    "CaseMasterID": 968,
+    "PersonID": "P_0706",
+    "AccusedName": "Pooja Gowda",
+    "AgeYear": 20,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 707,
+    "CaseMasterID": 390,
+    "PersonID": "P_0707",
+    "AccusedName": "Nandini Khan",
+    "AgeYear": 45,
+    "GenderID": 2
+  },
+  {
+    "AccusedMasterID": 708,
+    "CaseMasterID": 985,
+    "PersonID": "P_0708",
+    "AccusedName": "Chandan D'Souza",
+    "AgeYear": 25,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 709,
+    "CaseMasterID": 370,
+    "PersonID": "P_0709",
+    "AccusedName": "Rekha Kulkarni",
+    "AgeYear": 23,
+    "GenderID": 2
+  },
+  {
+    "AccusedMasterID": 710,
+    "CaseMasterID": 969,
+    "PersonID": "P_0710",
+    "AccusedName": "Suresh Sheikh",
+    "AgeYear": 60,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 711,
+    "CaseMasterID": 235,
+    "PersonID": "P_0711",
+    "AccusedName": "Vijayalakshmi Desai",
+    "AgeYear": 24,
+    "GenderID": 2
+  },
+  {
+    "AccusedMasterID": 712,
+    "CaseMasterID": 897,
+    "PersonID": "P_0712",
+    "AccusedName": "Joseph Salian",
+    "AgeYear": 20,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 713,
+    "CaseMasterID": 748,
+    "PersonID": "P_0713",
+    "AccusedName": "Sowmya Sheikh",
+    "AgeYear": 39,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 714,
+    "CaseMasterID": 145,
+    "PersonID": "P_0714",
+    "AccusedName": "Suresh Sheikh",
+    "AgeYear": 34,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 715,
+    "CaseMasterID": 579,
+    "PersonID": "P_0715",
+    "AccusedName": "Deepa Naik",
+    "AgeYear": 27,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 716,
+    "CaseMasterID": 144,
+    "PersonID": "P_0716",
+    "AccusedName": "Nandini Setty",
+    "AgeYear": 49,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 717,
+    "CaseMasterID": 63,
+    "PersonID": "P_0717",
+    "AccusedName": "Manjula Fernandes",
+    "AgeYear": 32,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 718,
+    "CaseMasterID": 381,
+    "PersonID": "P_0718",
+    "AccusedName": "Kavya Salian",
+    "AgeYear": 45,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 719,
+    "CaseMasterID": 430,
+    "PersonID": "P_0719",
+    "AccusedName": "Roopa Salian",
+    "AgeYear": 30,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 720,
+    "CaseMasterID": 760,
+    "PersonID": "P_0720",
+    "AccusedName": "Sridhar D'Souza",
+    "AgeYear": 61,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 721,
+    "CaseMasterID": 374,
+    "PersonID": "P_0721",
+    "AccusedName": "Basavaraj Hegde",
+    "AgeYear": 26,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 722,
+    "CaseMasterID": 31,
+    "PersonID": "P_0722",
+    "AccusedName": "Harish Khan",
+    "AgeYear": 32,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 723,
+    "CaseMasterID": 414,
+    "PersonID": "P_0723",
+    "AccusedName": "Gopal Fernandes",
+    "AgeYear": 42,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 724,
+    "CaseMasterID": 637,
+    "PersonID": "P_0724",
+    "AccusedName": "Bhagya Mendes",
+    "AgeYear": 20,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 725,
+    "CaseMasterID": 340,
+    "PersonID": "P_0725",
+    "AccusedName": "Sowmya Desai",
+    "AgeYear": 49,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 726,
+    "CaseMasterID": 753,
+    "PersonID": "P_0726",
+    "AccusedName": "Joseph Kulkarni",
+    "AgeYear": 28,
+    "GenderID": 2
+  },
+  {
+    "AccusedMasterID": 727,
+    "CaseMasterID": 48,
+    "PersonID": "P_0727",
+    "AccusedName": "Vishwanath Fernandes",
+    "AgeYear": 43,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 728,
+    "CaseMasterID": 162,
+    "PersonID": "P_0728",
+    "AccusedName": "Roopa Bhat",
+    "AgeYear": 19,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 729,
+    "CaseMasterID": 919,
+    "PersonID": "P_0729",
+    "AccusedName": "Sudha Achar",
+    "AgeYear": 24,
+    "GenderID": 2
+  },
+  {
+    "AccusedMasterID": 730,
+    "CaseMasterID": 68,
+    "PersonID": "P_0730",
+    "AccusedName": "Santosh Salian",
+    "AgeYear": 49,
+    "GenderID": 2
+  },
+  {
+    "AccusedMasterID": 731,
+    "CaseMasterID": 426,
+    "PersonID": "P_0731",
+    "AccusedName": "Chandan D'Souza",
+    "AgeYear": 53,
+    "GenderID": 2
+  },
+  {
+    "AccusedMasterID": 732,
+    "CaseMasterID": 138,
+    "PersonID": "P_0732",
+    "AccusedName": "Chandan D'Souza",
+    "AgeYear": 57,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 733,
+    "CaseMasterID": 319,
+    "PersonID": "P_0733",
+    "AccusedName": "Joseph Salian",
+    "AgeYear": 49,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 734,
+    "CaseMasterID": 132,
+    "PersonID": "P_0734",
+    "AccusedName": "Bhagya Mendes",
+    "AgeYear": 61,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 735,
+    "CaseMasterID": 980,
+    "PersonID": "P_0735",
+    "AccusedName": "Rashmi Sheikh",
+    "AgeYear": 61,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 736,
+    "CaseMasterID": 490,
+    "PersonID": "P_0736",
+    "AccusedName": "Harish Khan",
+    "AgeYear": 55,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 737,
+    "CaseMasterID": 129,
+    "PersonID": "P_0737",
+    "AccusedName": "Sudha Achar",
+    "AgeYear": 51,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 738,
+    "CaseMasterID": 825,
+    "PersonID": "P_0738",
+    "AccusedName": "Maria Reddy",
+    "AgeYear": 33,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 739,
+    "CaseMasterID": 762,
+    "PersonID": "P_0739",
+    "AccusedName": "Roopa Bhat",
+    "AgeYear": 44,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 740,
+    "CaseMasterID": 909,
+    "PersonID": "P_0740",
+    "AccusedName": "Rashmi Sheikh",
+    "AgeYear": 25,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 741,
+    "CaseMasterID": 232,
+    "PersonID": "P_0741",
+    "AccusedName": "Deepa Kulkarni",
+    "AgeYear": 30,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 742,
+    "CaseMasterID": 337,
+    "PersonID": "P_0742",
+    "AccusedName": "Nagesh Pinto",
+    "AgeYear": 48,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 743,
+    "CaseMasterID": 779,
+    "PersonID": "P_0743",
+    "AccusedName": "Nataraj Sequeira",
+    "AgeYear": 27,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 744,
+    "CaseMasterID": 433,
+    "PersonID": "P_0744",
+    "AccusedName": "Naseema Rao",
+    "AgeYear": 61,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 745,
+    "CaseMasterID": 594,
+    "PersonID": "P_0745",
+    "AccusedName": "Antony Pinto",
+    "AgeYear": 21,
+    "GenderID": 2
+  },
+  {
+    "AccusedMasterID": 746,
+    "CaseMasterID": 648,
+    "PersonID": "P_0746",
+    "AccusedName": "Roopa Hegde",
+    "AgeYear": 31,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 747,
+    "CaseMasterID": 15,
+    "PersonID": "P_0747",
+    "AccusedName": "Maria Reddy",
+    "AgeYear": 59,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 748,
+    "CaseMasterID": 856,
+    "PersonID": "P_0748",
+    "AccusedName": "Iqbal Patil",
+    "AgeYear": 34,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 749,
+    "CaseMasterID": 407,
+    "PersonID": "P_0749",
+    "AccusedName": "Bhagya Mendes",
+    "AgeYear": 19,
+    "GenderID": 2
+  },
+  {
+    "AccusedMasterID": 750,
+    "CaseMasterID": 496,
+    "PersonID": "P_0750",
+    "AccusedName": "Chandan D'Souza",
+    "AgeYear": 41,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 751,
+    "CaseMasterID": 644,
+    "PersonID": "P_0751",
+    "AccusedName": "Joseph Kulkarni",
+    "AgeYear": 55,
+    "GenderID": 2
+  },
+  {
+    "AccusedMasterID": 752,
+    "CaseMasterID": 463,
+    "PersonID": "P_0752",
+    "AccusedName": "Anitha Pinto",
+    "AgeYear": 48,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 753,
+    "CaseMasterID": 559,
+    "PersonID": "P_0753",
+    "AccusedName": "Vinay Chavan",
+    "AgeYear": 26,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 754,
+    "CaseMasterID": 672,
+    "PersonID": "P_0754",
+    "AccusedName": "Sowmya Naik",
+    "AgeYear": 51,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 755,
+    "CaseMasterID": 346,
+    "PersonID": "P_0755",
+    "AccusedName": "Deepa Desai",
+    "AgeYear": 30,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 756,
+    "CaseMasterID": 350,
+    "PersonID": "P_0756",
+    "AccusedName": "Sridhar D'Souza",
+    "AgeYear": 50,
+    "GenderID": 2
+  },
+  {
+    "AccusedMasterID": 757,
+    "CaseMasterID": 680,
+    "PersonID": "P_0757",
+    "AccusedName": "Roopa Bhat",
+    "AgeYear": 61,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 758,
+    "CaseMasterID": 782,
+    "PersonID": "P_0758",
+    "AccusedName": "Chandan Pujari",
+    "AgeYear": 35,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 759,
+    "CaseMasterID": 801,
+    "PersonID": "P_0759",
+    "AccusedName": "Nandini Pujari",
+    "AgeYear": 46,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 760,
+    "CaseMasterID": 988,
+    "PersonID": "P_0760",
+    "AccusedName": "Vishwanath Fernandes",
+    "AgeYear": 27,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 761,
+    "CaseMasterID": 233,
+    "PersonID": "P_0761",
+    "AccusedName": "Pooja Gowda",
+    "AgeYear": 26,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 762,
+    "CaseMasterID": 564,
+    "PersonID": "P_0762",
+    "AccusedName": "Imran Jadhav",
+    "AgeYear": 37,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 763,
+    "CaseMasterID": 895,
+    "PersonID": "P_0763",
+    "AccusedName": "Basavaraj Shetty",
+    "AgeYear": 38,
+    "GenderID": 2
+  },
+  {
+    "AccusedMasterID": 764,
+    "CaseMasterID": 447,
+    "PersonID": "P_0764",
+    "AccusedName": "Ravi Rathod",
+    "AgeYear": 24,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 765,
+    "CaseMasterID": 408,
+    "PersonID": "P_0765",
+    "AccusedName": "Vidya Naik",
+    "AgeYear": 51,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 766,
+    "CaseMasterID": 146,
+    "PersonID": "P_0766",
+    "AccusedName": "Shweta Chavan",
+    "AgeYear": 62,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 767,
+    "CaseMasterID": 795,
+    "PersonID": "P_0767",
+    "AccusedName": "Suresh Kotian",
+    "AgeYear": 31,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 768,
+    "CaseMasterID": 539,
+    "PersonID": "P_0768",
+    "AccusedName": "Manjula Fernandes",
+    "AgeYear": 28,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 769,
+    "CaseMasterID": 820,
+    "PersonID": "P_0769",
+    "AccusedName": "Rekha Salian",
+    "AgeYear": 42,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 770,
+    "CaseMasterID": 711,
+    "PersonID": "P_0770",
+    "AccusedName": "Imran Sheikh",
+    "AgeYear": 29,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 771,
+    "CaseMasterID": 163,
+    "PersonID": "P_0771",
+    "AccusedName": "Roopa Bhat",
+    "AgeYear": 62,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 772,
+    "CaseMasterID": 651,
+    "PersonID": "P_0772",
+    "AccusedName": "Sudha Reddy",
+    "AgeYear": 58,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 773,
+    "CaseMasterID": 864,
+    "PersonID": "P_0773",
+    "AccusedName": "Vidya Shetty",
+    "AgeYear": 28,
+    "GenderID": 2
+  },
+  {
+    "AccusedMasterID": 774,
+    "CaseMasterID": 879,
+    "PersonID": "P_0774",
+    "AccusedName": "Sandra Jadhav",
+    "AgeYear": 36,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 775,
+    "CaseMasterID": 983,
+    "PersonID": "P_0775",
+    "AccusedName": "Vinay Sheikh",
+    "AgeYear": 37,
+    "GenderID": 2
+  },
+  {
+    "AccusedMasterID": 776,
+    "CaseMasterID": 923,
+    "PersonID": "P_0776",
+    "AccusedName": "Chandan Pujari",
+    "AgeYear": 45,
+    "GenderID": 2
+  },
+  {
+    "AccusedMasterID": 777,
+    "CaseMasterID": 480,
+    "PersonID": "P_0777",
+    "AccusedName": "Bhagya Mendes",
+    "AgeYear": 27,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 778,
+    "CaseMasterID": 1,
+    "PersonID": "P_0778",
+    "AccusedName": "Xavier Sequeira",
+    "AgeYear": 35,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 779,
+    "CaseMasterID": 214,
+    "PersonID": "P_0779",
+    "AccusedName": "Sandra Setty",
+    "AgeYear": 58,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 780,
+    "CaseMasterID": 61,
+    "PersonID": "P_0780",
+    "AccusedName": "Vidya Shetty",
+    "AgeYear": 45,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 781,
+    "CaseMasterID": 148,
+    "PersonID": "P_0781",
+    "AccusedName": "Mahmood Prabhu",
+    "AgeYear": 29,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 782,
+    "CaseMasterID": 401,
+    "PersonID": "P_0782",
+    "AccusedName": "Nataraj D'Souza",
+    "AgeYear": 29,
+    "GenderID": 2
+  },
+  {
+    "AccusedMasterID": 783,
+    "CaseMasterID": 401,
+    "PersonID": "P_0783",
+    "AccusedName": "Mahmood Naik",
+    "AgeYear": 31,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 784,
+    "CaseMasterID": 855,
+    "PersonID": "P_0784",
+    "AccusedName": "Basavaraj Shetty",
+    "AgeYear": 23,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 785,
+    "CaseMasterID": 987,
+    "PersonID": "P_0785",
+    "AccusedName": "Rajesh Gowda",
+    "AgeYear": 27,
+    "GenderID": 2
+  },
+  {
+    "AccusedMasterID": 786,
+    "CaseMasterID": 127,
+    "PersonID": "P_0786",
+    "AccusedName": "Pooja Kotian",
+    "AgeYear": 56,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 787,
+    "CaseMasterID": 211,
+    "PersonID": "P_0787",
+    "AccusedName": "Vinay Chavan",
+    "AgeYear": 28,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 788,
+    "CaseMasterID": 779,
+    "PersonID": "P_0788",
+    "AccusedName": "Bhagya Mendes",
+    "AgeYear": 19,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 789,
+    "CaseMasterID": 534,
+    "PersonID": "P_0789",
+    "AccusedName": "Rekha Kulkarni",
+    "AgeYear": 52,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 790,
+    "CaseMasterID": 791,
+    "PersonID": "P_0790",
+    "AccusedName": "Gopal Fernandes",
+    "AgeYear": 57,
+    "GenderID": 2
+  },
+  {
+    "AccusedMasterID": 791,
+    "CaseMasterID": 238,
+    "PersonID": "P_0791",
+    "AccusedName": "Sudha Kamath",
+    "AgeYear": 47,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 792,
+    "CaseMasterID": 842,
+    "PersonID": "P_0792",
+    "AccusedName": "Imran Patil",
+    "AgeYear": 53,
+    "GenderID": 2
+  },
+  {
+    "AccusedMasterID": 793,
+    "CaseMasterID": 158,
+    "PersonID": "P_0793",
+    "AccusedName": "Xavier Sequeira",
+    "AgeYear": 40,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 794,
+    "CaseMasterID": 973,
+    "PersonID": "P_0794",
+    "AccusedName": "Bhagya Bhat",
+    "AgeYear": 43,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 795,
+    "CaseMasterID": 116,
+    "PersonID": "P_0795",
+    "AccusedName": "Gopal Fernandes",
+    "AgeYear": 48,
+    "GenderID": 2
+  },
+  {
+    "AccusedMasterID": 796,
+    "CaseMasterID": 600,
+    "PersonID": "P_0796",
+    "AccusedName": "Yallappa Mendes",
+    "AgeYear": 50,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 797,
+    "CaseMasterID": 231,
+    "PersonID": "P_0797",
+    "AccusedName": "Chandan Pujari",
+    "AgeYear": 25,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 798,
+    "CaseMasterID": 750,
+    "PersonID": "P_0798",
+    "AccusedName": "Arjun Bhat",
+    "AgeYear": 57,
+    "GenderID": 1
+  },
+  {
+    "AccusedMasterID": 799,
+    "CaseMasterID": 248,
+    "PersonID": "P_0799",
+    "AccusedName": "Joseph Kulkarni",
+    "AgeYear": 61,
+    "GenderID": 2
+  },
+  {
+    "AccusedMasterID": 800,
+    "CaseMasterID": 857,
+    "PersonID": "P_0800",
+    "AccusedName": "Vijayalakshmi Desai",
+    "AgeYear": 46,
+    "GenderID": 2
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "district": "Bengaluru City",
+    "incident_count": 203,
+    "risk_tier": "Medium",
+    "active_hotspots": 0
+  },
+  {
+    "district": "Mysuru City",
+    "incident_count": 205,
+    "risk_tier": "Medium",
+    "active_hotspots": 0
+  },
+  {
+    "district": "Mangaluru City",
+    "incident_count": 198,
+    "risk_tier": "Medium",
+    "active_hotspots": 0
+  },
+  {
+    "district": "Hubballi-Dharwad",
+    "incident_count": 181,
+    "risk_tier": "Medium",
+    "active_hotspots": 1
+  },
+  {
+    "district": "Belagavi",
+    "incident_count": 213,
+    "risk_tier": "Medium",
+    "active_hotspots": 1
+  }
+]

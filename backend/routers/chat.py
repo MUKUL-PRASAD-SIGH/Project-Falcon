@@ -57,6 +57,7 @@ def _is_safety_response(text: str) -> bool:
 class ChatRequest(BaseModel):
     query: str
     session_id: Optional[str] = None
+    language: Optional[str] = "EN"
     use_rag: Optional[bool] = True
 
 class ChatResponse(BaseModel):

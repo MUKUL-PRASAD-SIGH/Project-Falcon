@@ -1,0 +1,938 @@
+[
+  {
+    "CaseMasterID": 6,
+    "CrimeNo": "FIR/2025/314",
+    "anomaly_score": 0.85,
+    "is_anomaly": true,
+    "registered_date": "2025-10-12 01:40:38.993972",
+    "district_id": 1,
+    "reasons": [
+      "Temporal Anomaly: Crime registered at 1:00 AM",
+      "High Severity Anomaly: CrimeHead ID 7"
+    ]
+  },
+  {
+    "CaseMasterID": 16,
+    "CrimeNo": "FIR/2026/640",
+    "anomaly_score": 0.85,
+    "is_anomaly": true,
+    "registered_date": "2026-03-17 02:42:38.993972",
+    "district_id": 4,
+    "reasons": [
+      "Temporal Anomaly: Crime registered at 2:00 AM",
+      "High Severity Anomaly: CrimeHead ID 7"
+    ]
+  },
+  {
+    "CaseMasterID": 23,
+    "CrimeNo": "FIR/2025/510",
+    "anomaly_score": 0.85,
+    "is_anomaly": true,
+    "registered_date": "2025-11-23 04:26:38.993972",
+    "district_id": 5,
+    "reasons": [
+      "Temporal Anomaly: Crime registered at 4:00 AM",
+      "High Severity Anomaly: CrimeHead ID 7"
+    ]
+  },
+  {
+    "CaseMasterID": 49,
+    "CrimeNo": "FIR/2025/830",
+    "anomaly_score": 0.85,
+    "is_anomaly": true,
+    "registered_date": "2025-02-05 03:40:38.994974",
+    "district_id": 3,
+    "reasons": [
+      "Temporal Anomaly: Crime registered at 3:00 AM",
+      "High Severity Anomaly: CrimeHead ID 7"
+    ]
+  },
+  {
+    "CaseMasterID": 57,
+    "CrimeNo": "FIR/2026/816",
+    "anomaly_score": 0.85,
+    "is_anomaly": true,
+    "registered_date": "2026-03-16 02:42:38.994974",
+    "district_id": 2,
+    "reasons": [
+      "Temporal Anomaly: Crime registered at 2:00 AM",
+      "High Severity Anomaly: CrimeHead ID 7"
+    ]
+  },
+  {
+    "CaseMasterID": 58,
+    "CrimeNo": "FIR/2026/689",
+    "anomaly_score": 0.85,
+    "is_anomaly": true,
+    "registered_date": "2026-03-28 04:19:38.994974",
+    "district_id": 3,
+    "reasons": [
+      "Temporal Anomaly: Crime registered at 4:00 AM",
+      "High Severity Anomaly: CrimeHead ID 7"
+    ]
+  },
+  {
+    "CaseMasterID": 62,
+    "CrimeNo": "FIR/2025/972",
+    "anomaly_score": 0.85,
+    "is_anomaly": true,
+    "registered_date": "2025-01-18 02:29:38.994974",
+    "district_id": 5,
+    "reasons": [
+      "Temporal Anomaly: Crime registered at 2:00 AM",
+      "High Severity Anomaly: CrimeHead ID 6"
+    ]
+  },
+  {
+    "CaseMasterID": 72,
+    "CrimeNo": "FIR/2025/733",
+    "anomaly_score": 0.85,
+    "is_anomaly": true,
+    "registered_date": "2025-11-11 01:35:38.995976",
+    "district_id": 2,
+    "reasons": [
+      "Temporal Anomaly: Crime registered at 1:00 AM",
+      "High Severity Anomaly: CrimeHead ID 7"
+    ]
+  },
+  {
+    "CaseMasterID": 73,
+    "CrimeNo": "FIR/2025/161",
+    "anomaly_score": 0.85,
+    "is_anomaly": true,
+    "registered_date": "2025-04-26 02:55:38.995976",
+    "district_id": 2,
+    "reasons": [
+      "Temporal Anomaly: Crime registered at 2:00 AM",
+      "High Severity Anomaly: CrimeHead ID 7"
+    ]
+  },
+  {
+    "CaseMasterID": 87,
+    "CrimeNo": "FIR/2025/389",
+    "anomaly_score": 0.85,
+    "is_anomaly": true,
+    "registered_date": "2025-05-25 04:59:38.995976",
+    "district_id": 2,
+    "reasons": [
+      "Temporal Anomaly: Crime registered at 4:00 AM",
+      "High Severity Anomaly: CrimeHead ID 7"
+    ]
+  },
+  {
+    "CaseMasterID": 88,
+    "CrimeNo": "FIR/2025/665",
+    "anomaly_score": 0.85,
+    "is_anomaly": true,
+    "registered_date": "2025-03-09 03:28:38.995976",
+    "district_id": 3,
+    "reasons": [
+      "Temporal Anomaly: Crime registered at 3:00 AM",
+      "High Severity Anomaly: CrimeHead ID 7"
+    ]
+  },
+  {
+    "CaseMasterID": 95,
+    "CrimeNo": "FIR/2025/911",
+    "anomaly_score": 0.85,
+    "is_anomaly": true,
+    "registered_date": "2025-05-08 03:15:38.995976",
+    "district_id": 3,
+    "reasons": [
+      "Temporal Anomaly: Crime registered at 3:00 AM",
+      "High Severity Anomaly: CrimeHead ID 7"
+    ]
+  },
+  {
+    "CaseMasterID": 97,
+    "CrimeNo": "FIR/2025/754",
+    "anomaly_score": 0.85,
+    "is_anomaly": true,
+    "registered_date": "2025-01-10 04:04:38.995976",
+    "district_id": 1,
+    "reasons": [
+      "Temporal Anomaly: Crime registered at 4:00 AM",
+      "High Severity Anomaly: CrimeHead ID 7"
+    ]
+  },
+  {
+    "CaseMasterID": 101,
+    "CrimeNo": "FIR/2024/907",
+    "anomaly_score": 0.85,
+    "is_anomaly": true,
+    "registered_date": "2024-08-25 02:40:38.996976",
+    "district_id": 3,
+    "reasons": [
+      "Temporal Anomaly: Crime registered at 2:00 AM",
+      "High Severity Anomaly: CrimeHead ID 6"
+    ]
+  },
+  {
+    "CaseMasterID": 113,
+    "CrimeNo": "FIR/2026/615",
+    "anomaly_score": 0.85,
+    "is_anomaly": true,
+    "registered_date": "2026-05-19 02:28:38.996976",
+    "district_id": 2,
+    "reasons": [
+      "Temporal Anomaly: Crime registered at 2:00 AM",
+      "High Severity Anomaly: CrimeHead ID 6"
+    ]
+  },
+  {
+    "CaseMasterID": 118,
+    "CrimeNo": "FIR/2026/256",
+    "anomaly_score": 0.85,
+    "is_anomaly": true,
+    "registered_date": "2026-04-17 03:27:38.996976",
+    "district_id": 3,
+    "reasons": [
+      "Temporal Anomaly: Crime registered at 3:00 AM",
+      "High Severity Anomaly: CrimeHead ID 7"
+    ]
+  },
+  {
+    "CaseMasterID": 140,
+    "CrimeNo": "FIR/2024/778",
+    "anomaly_score": 0.85,
+    "is_anomaly": true,
+    "registered_date": "2024-09-12 03:58:38.996976",
+    "district_id": 5,
+    "reasons": [
+      "Temporal Anomaly: Crime registered at 3:00 AM",
+      "High Severity Anomaly: CrimeHead ID 7"
+    ]
+  },
+  {
+    "CaseMasterID": 167,
+    "CrimeNo": "FIR/2025/912",
+    "anomaly_score": 0.85,
+    "is_anomaly": true,
+    "registered_date": "2025-01-14 01:57:38.997978",
+    "district_id": 3,
+    "reasons": [
+      "Temporal Anomaly: Crime registered at 1:00 AM",
+      "High Severity Anomaly: CrimeHead ID 6"
+    ]
+  },
+  {
+    "CaseMasterID": 171,
+    "CrimeNo": "FIR/2026/390",
+    "anomaly_score": 0.85,
+    "is_anomaly": true,
+    "registered_date": "2026-02-05 04:20:38.997978",
+    "district_id": 1,
+    "reasons": [
+      "Temporal Anomaly: Crime registered at 4:00 AM",
+      "High Severity Anomaly: CrimeHead ID 7"
+    ]
+  },
+  {
+    "CaseMasterID": 178,
+    "CrimeNo": "FIR/2026/881",
+    "anomaly_score": 0.85,
+    "is_anomaly": true,
+    "registered_date": "2026-02-10 03:59:38.997978",
+    "district_id": 4,
+    "reasons": [
+      "Temporal Anomaly: Crime registered at 3:00 AM",
+      "High Severity Anomaly: CrimeHead ID 7"
+    ]
+  },
+  {
+    "CaseMasterID": 183,
+    "CrimeNo": "FIR/2025/141",
+    "anomaly_score": 0.85,
+    "is_anomaly": true,
+    "registered_date": "2025-07-14 03:12:38.997978",
+    "district_id": 3,
+    "reasons": [
+      "Temporal Anomaly: Crime registered at 3:00 AM",
+      "High Severity Anomaly: CrimeHead ID 7"
+    ]
+  },
+  {
+    "CaseMasterID": 202,
+    "CrimeNo": "FIR/2025/754",
+    "anomaly_score": 0.85,
+    "is_anomaly": true,
+    "registered_date": "2025-04-03 02:10:38.997978",
+    "district_id": 3,
+    "reasons": [
+      "Temporal Anomaly: Crime registered at 2:00 AM",
+      "High Severity Anomaly: CrimeHead ID 6"
+    ]
+  },
+  {
+    "CaseMasterID": 216,
+    "CrimeNo": "FIR/2025/584",
+    "anomaly_score": 0.85,
+    "is_anomaly": true,
+    "registered_date": "2025-05-31 03:19:38.998975",
+    "district_id": 4,
+    "reasons": [
+      "Temporal Anomaly: Crime registered at 3:00 AM",
+      "High Severity Anomaly: CrimeHead ID 7"
+    ]
+  },
+  {
+    "CaseMasterID": 217,
+    "CrimeNo": "FIR/2026/670",
+    "anomaly_score": 0.85,
+    "is_anomaly": true,
+    "registered_date": "2026-02-26 01:58:38.998975",
+    "district_id": 2,
+    "reasons": [
+      "Temporal Anomaly: Crime registered at 1:00 AM",
+      "High Severity Anomaly: CrimeHead ID 7"
+    ]
+  },
+  {
+    "CaseMasterID": 225,
+    "CrimeNo": "FIR/2025/134",
+    "anomaly_score": 0.85,
+    "is_anomaly": true,
+    "registered_date": "2025-01-10 03:11:38.998975",
+    "district_id": 2,
+    "reasons": [
+      "Temporal Anomaly: Crime registered at 3:00 AM",
+      "High Severity Anomaly: CrimeHead ID 6"
+    ]
+  },
+  {
+    "CaseMasterID": 226,
+    "CrimeNo": "FIR/2025/254",
+    "anomaly_score": 0.85,
+    "is_anomaly": true,
+    "registered_date": "2025-05-27 02:53:38.998975",
+    "district_id": 1,
+    "reasons": [
+      "Temporal Anomaly: Crime registered at 2:00 AM",
+      "High Severity Anomaly: CrimeHead ID 7"
+    ]
+  },
+  {
+    "CaseMasterID": 250,
+    "CrimeNo": "FIR/2026/951",
+    "anomaly_score": 0.85,
+    "is_anomaly": true,
+    "registered_date": "2026-06-28 02:06:38.998975",
+    "district_id": 5,
+    "reasons": [
+      "Temporal Anomaly: Crime registered at 2:00 AM",
+      "High Severity Anomaly: CrimeHead ID 6"
+    ]
+  },
+  {
+    "CaseMasterID": 269,
+    "CrimeNo": "FIR/2025/750",
+    "anomaly_score": 0.85,
+    "is_anomaly": true,
+    "registered_date": "2025-03-11 03:37:38.999975",
+    "district_id": 3,
+    "reasons": [
+      "Temporal Anomaly: Crime registered at 3:00 AM",
+      "High Severity Anomaly: CrimeHead ID 6"
+    ]
+  },
+  {
+    "CaseMasterID": 292,
+    "CrimeNo": "FIR/2025/903",
+    "anomaly_score": 0.85,
+    "is_anomaly": true,
+    "registered_date": "2025-01-03 01:00:38.999975",
+    "district_id": 3,
+    "reasons": [
+      "Temporal Anomaly: Crime registered at 1:00 AM",
+      "High Severity Anomaly: CrimeHead ID 7"
+    ]
+  },
+  {
+    "CaseMasterID": 293,
+    "CrimeNo": "FIR/2024/106",
+    "anomaly_score": 0.85,
+    "is_anomaly": true,
+    "registered_date": "2024-11-25 03:49:38.999975",
+    "district_id": 3,
+    "reasons": [
+      "Temporal Anomaly: Crime registered at 3:00 AM",
+      "High Severity Anomaly: CrimeHead ID 6"
+    ]
+  },
+  {
+    "CaseMasterID": 297,
+    "CrimeNo": "FIR/2024/307",
+    "anomaly_score": 0.85,
+    "is_anomaly": true,
+    "registered_date": "2024-08-05 03:20:38.999975",
+    "district_id": 3,
+    "reasons": [
+      "Temporal Anomaly: Crime registered at 3:00 AM",
+      "High Severity Anomaly: CrimeHead ID 7"
+    ]
+  },
+  {
+    "CaseMasterID": 298,
+    "CrimeNo": "FIR/2026/648",
+    "anomaly_score": 0.85,
+    "is_anomaly": true,
+    "registered_date": "2026-04-06 04:28:38.999975",
+    "district_id": 2,
+    "reasons": [
+      "Temporal Anomaly: Crime registered at 4:00 AM",
+      "High Severity Anomaly: CrimeHead ID 7"
+    ]
+  },
+  {
+    "CaseMasterID": 299,
+    "CrimeNo": "FIR/2025/946",
+    "anomaly_score": 0.85,
+    "is_anomaly": true,
+    "registered_date": "2025-10-25 01:05:38.999975",
+    "district_id": 3,
+    "reasons": [
+      "Temporal Anomaly: Crime registered at 1:00 AM",
+      "High Severity Anomaly: CrimeHead ID 7"
+    ]
+  },
+  {
+    "CaseMasterID": 330,
+    "CrimeNo": "FIR/2025/696",
+    "anomaly_score": 0.85,
+    "is_anomaly": true,
+    "registered_date": "2025-05-20 01:26:39.000975",
+    "district_id": 1,
+    "reasons": [
+      "Temporal Anomaly: Crime registered at 1:00 AM",
+      "High Severity Anomaly: CrimeHead ID 7"
+    ]
+  },
+  {
+    "CaseMasterID": 338,
+    "CrimeNo": "FIR/2025/192",
+    "anomaly_score": 0.85,
+    "is_anomaly": true,
+    "registered_date": "2025-08-05 04:53:39.000975",
+    "district_id": 2,
+    "reasons": [
+      "Temporal Anomaly: Crime registered at 4:00 AM",
+      "High Severity Anomaly: CrimeHead ID 7"
+    ]
+  },
+  {
+    "CaseMasterID": 368,
+    "CrimeNo": "FIR/2024/147",
+    "anomaly_score": 0.85,
+    "is_anomaly": true,
+    "registered_date": "2024-08-22 02:30:39.000975",
+    "district_id": 4,
+    "reasons": [
+      "Temporal Anomaly: Crime registered at 2:00 AM",
+      "High Severity Anomaly: CrimeHead ID 7"
+    ]
+  },
+  {
+    "CaseMasterID": 377,
+    "CrimeNo": "FIR/2025/292",
+    "anomaly_score": 0.85,
+    "is_anomaly": true,
+    "registered_date": "2025-03-06 02:52:39.000975",
+    "district_id": 3,
+    "reasons": [
+      "Temporal Anomaly: Crime registered at 2:00 AM",
+      "High Severity Anomaly: CrimeHead ID 6"
+    ]
+  },
+  {
+    "CaseMasterID": 395,
+    "CrimeNo": "FIR/2025/403",
+    "anomaly_score": 0.85,
+    "is_anomaly": true,
+    "registered_date": "2025-07-05 04:51:39.000975",
+    "district_id": 5,
+    "reasons": [
+      "Temporal Anomaly: Crime registered at 4:00 AM",
+      "High Severity Anomaly: CrimeHead ID 6"
+    ]
+  },
+  {
+    "CaseMasterID": 402,
+    "CrimeNo": "FIR/2024/668",
+    "anomaly_score": 0.85,
+    "is_anomaly": true,
+    "registered_date": "2024-10-12 03:19:39.000975",
+    "district_id": 4,
+    "reasons": [
+      "Temporal Anomaly: Crime registered at 3:00 AM",
+      "High Severity Anomaly: CrimeHead ID 7"
+    ]
+  },
+  {
+    "CaseMasterID": 430,
+    "CrimeNo": "FIR/2024/265",
+    "anomaly_score": 0.85,
+    "is_anomaly": true,
+    "registered_date": "2024-09-16 01:47:39.001973",
+    "district_id": 3,
+    "reasons": [
+      "Temporal Anomaly: Crime registered at 1:00 AM",
+      "High Severity Anomaly: CrimeHead ID 7"
+    ]
+  },
+  {
+    "CaseMasterID": 435,
+    "CrimeNo": "FIR/2026/785",
+    "anomaly_score": 0.85,
+    "is_anomaly": true,
+    "registered_date": "2026-07-23 04:05:39.001973",
+    "district_id": 2,
+    "reasons": [
+      "Temporal Anomaly: Crime registered at 4:00 AM",
+      "High Severity Anomaly: CrimeHead ID 6"
+    ]
+  },
+  {
+    "CaseMasterID": 439,
+    "CrimeNo": "FIR/2024/169",
+    "anomaly_score": 0.85,
+    "is_anomaly": true,
+    "registered_date": "2024-08-25 01:57:39.001973",
+    "district_id": 2,
+    "reasons": [
+      "Temporal Anomaly: Crime registered at 1:00 AM",
+      "High Severity Anomaly: CrimeHead ID 7"
+    ]
+  },
+  {
+    "CaseMasterID": 482,
+    "CrimeNo": "FIR/2026/842",
+    "anomaly_score": 0.85,
+    "is_anomaly": true,
+    "registered_date": "2026-05-12 02:04:39.001973",
+    "district_id": 1,
+    "reasons": [
+      "Temporal Anomaly: Crime registered at 2:00 AM",
+      "High Severity Anomaly: CrimeHead ID 7"
+    ]
+  },
+  {
+    "CaseMasterID": 503,
+    "CrimeNo": "FIR/2026/353",
+    "anomaly_score": 0.85,
+    "is_anomaly": true,
+    "registered_date": "2026-01-01 04:29:39.002973",
+    "district_id": 4,
+    "reasons": [
+      "Temporal Anomaly: Crime registered at 4:00 AM",
+      "High Severity Anomaly: CrimeHead ID 7"
+    ]
+  },
+  {
+    "CaseMasterID": 510,
+    "CrimeNo": "FIR/2025/126",
+    "anomaly_score": 0.85,
+    "is_anomaly": true,
+    "registered_date": "2025-10-16 03:49:39.002973",
+    "district_id": 4,
+    "reasons": [
+      "Temporal Anomaly: Crime registered at 3:00 AM",
+      "High Severity Anomaly: CrimeHead ID 6"
+    ]
+  },
+  {
+    "CaseMasterID": 542,
+    "CrimeNo": "FIR/2026/379",
+    "anomaly_score": 0.85,
+    "is_anomaly": true,
+    "registered_date": "2026-01-07 01:17:39.002973",
+    "district_id": 3,
+    "reasons": [
+      "Temporal Anomaly: Crime registered at 1:00 AM",
+      "High Severity Anomaly: CrimeHead ID 6"
+    ]
+  },
+  {
+    "CaseMasterID": 570,
+    "CrimeNo": "FIR/2025/408",
+    "anomaly_score": 0.85,
+    "is_anomaly": true,
+    "registered_date": "2025-10-26 01:03:39.003973",
+    "district_id": 5,
+    "reasons": [
+      "Temporal Anomaly: Crime registered at 1:00 AM",
+      "High Severity Anomaly: CrimeHead ID 6"
+    ]
+  },
+  {
+    "CaseMasterID": 574,
+    "CrimeNo": "FIR/2025/951",
+    "anomaly_score": 0.85,
+    "is_anomaly": true,
+    "registered_date": "2025-02-06 04:43:39.003973",
+    "district_id": 2,
+    "reasons": [
+      "Temporal Anomaly: Crime registered at 4:00 AM",
+      "High Severity Anomaly: CrimeHead ID 6"
+    ]
+  },
+  {
+    "CaseMasterID": 598,
+    "CrimeNo": "FIR/2025/650",
+    "anomaly_score": 0.85,
+    "is_anomaly": true,
+    "registered_date": "2025-11-08 04:39:39.003973",
+    "district_id": 1,
+    "reasons": [
+      "Temporal Anomaly: Crime registered at 4:00 AM",
+      "High Severity Anomaly: CrimeHead ID 6"
+    ]
+  },
+  {
+    "CaseMasterID": 608,
+    "CrimeNo": "FIR/2024/376",
+    "anomaly_score": 0.85,
+    "is_anomaly": true,
+    "registered_date": "2024-08-15 04:33:39.003973",
+    "district_id": 1,
+    "reasons": [
+      "Temporal Anomaly: Crime registered at 4:00 AM",
+      "High Severity Anomaly: CrimeHead ID 7"
+    ]
+  },
+  {
+    "CaseMasterID": 622,
+    "CrimeNo": "FIR/2024/794",
+    "anomaly_score": 0.85,
+    "is_anomaly": true,
+    "registered_date": "2024-08-17 01:46:39.003973",
+    "district_id": 5,
+    "reasons": [
+      "Temporal Anomaly: Crime registered at 1:00 AM",
+      "High Severity Anomaly: CrimeHead ID 6"
+    ]
+  },
+  {
+    "CaseMasterID": 635,
+    "CrimeNo": "FIR/2025/919",
+    "anomaly_score": 0.85,
+    "is_anomaly": true,
+    "registered_date": "2025-01-13 03:55:39.003973",
+    "district_id": 2,
+    "reasons": [
+      "Temporal Anomaly: Crime registered at 3:00 AM",
+      "High Severity Anomaly: CrimeHead ID 7"
+    ]
+  },
+  {
+    "CaseMasterID": 666,
+    "CrimeNo": "FIR/2025/511",
+    "anomaly_score": 0.85,
+    "is_anomaly": true,
+    "registered_date": "2025-02-22 02:27:39.004976",
+    "district_id": 3,
+    "reasons": [
+      "Temporal Anomaly: Crime registered at 2:00 AM",
+      "High Severity Anomaly: CrimeHead ID 7"
+    ]
+  },
+  {
+    "CaseMasterID": 672,
+    "CrimeNo": "FIR/2026/716",
+    "anomaly_score": 0.85,
+    "is_anomaly": true,
+    "registered_date": "2026-06-10 03:50:39.004976",
+    "district_id": 3,
+    "reasons": [
+      "Temporal Anomaly: Crime registered at 3:00 AM",
+      "High Severity Anomaly: CrimeHead ID 6"
+    ]
+  },
+  {
+    "CaseMasterID": 679,
+    "CrimeNo": "FIR/2024/108",
+    "anomaly_score": 0.85,
+    "is_anomaly": true,
+    "registered_date": "2024-08-21 01:34:39.004976",
+    "district_id": 3,
+    "reasons": [
+      "Temporal Anomaly: Crime registered at 1:00 AM",
+      "High Severity Anomaly: CrimeHead ID 6"
+    ]
+  },
+  {
+    "CaseMasterID": 681,
+    "CrimeNo": "FIR/2025/532",
+    "anomaly_score": 0.85,
+    "is_anomaly": true,
+    "registered_date": "2025-03-07 02:47:39.004976",
+    "district_id": 4,
+    "reasons": [
+      "Temporal Anomaly: Crime registered at 2:00 AM",
+      "High Severity Anomaly: CrimeHead ID 7"
+    ]
+  },
+  {
+    "CaseMasterID": 684,
+    "CrimeNo": "FIR/2026/911",
+    "anomaly_score": 0.85,
+    "is_anomaly": true,
+    "registered_date": "2026-04-01 04:15:39.004976",
+    "district_id": 2,
+    "reasons": [
+      "Temporal Anomaly: Crime registered at 4:00 AM",
+      "High Severity Anomaly: CrimeHead ID 6"
+    ]
+  },
+  {
+    "CaseMasterID": 718,
+    "CrimeNo": "FIR/2026/337",
+    "anomaly_score": 0.85,
+    "is_anomaly": true,
+    "registered_date": "2026-07-02 04:18:39.005976",
+    "district_id": 5,
+    "reasons": [
+      "Temporal Anomaly: Crime registered at 4:00 AM",
+      "High Severity Anomaly: CrimeHead ID 6"
+    ]
+  },
+  {
+    "CaseMasterID": 737,
+    "CrimeNo": "FIR/2026/200",
+    "anomaly_score": 0.85,
+    "is_anomaly": true,
+    "registered_date": "2026-04-07 03:33:39.005976",
+    "district_id": 2,
+    "reasons": [
+      "Temporal Anomaly: Crime registered at 3:00 AM",
+      "High Severity Anomaly: CrimeHead ID 6"
+    ]
+  },
+  {
+    "CaseMasterID": 740,
+    "CrimeNo": "FIR/2026/821",
+    "anomaly_score": 0.85,
+    "is_anomaly": true,
+    "registered_date": "2026-02-26 04:08:39.005976",
+    "district_id": 4,
+    "reasons": [
+      "Temporal Anomaly: Crime registered at 4:00 AM",
+      "High Severity Anomaly: CrimeHead ID 6"
+    ]
+  },
+  {
+    "CaseMasterID": 741,
+    "CrimeNo": "FIR/2025/716",
+    "anomaly_score": 0.85,
+    "is_anomaly": true,
+    "registered_date": "2025-04-13 02:02:39.005976",
+    "district_id": 5,
+    "reasons": [
+      "Temporal Anomaly: Crime registered at 2:00 AM",
+      "High Severity Anomaly: CrimeHead ID 7"
+    ]
+  },
+  {
+    "CaseMasterID": 745,
+    "CrimeNo": "FIR/2026/559",
+    "anomaly_score": 0.85,
+    "is_anomaly": true,
+    "registered_date": "2026-03-04 04:40:39.005976",
+    "district_id": 4,
+    "reasons": [
+      "Temporal Anomaly: Crime registered at 4:00 AM",
+      "High Severity Anomaly: CrimeHead ID 7"
+    ]
+  },
+  {
+    "CaseMasterID": 761,
+    "CrimeNo": "FIR/2024/116",
+    "anomaly_score": 0.85,
+    "is_anomaly": true,
+    "registered_date": "2024-09-13 03:21:39.005976",
+    "district_id": 3,
+    "reasons": [
+      "Temporal Anomaly: Crime registered at 3:00 AM",
+      "High Severity Anomaly: CrimeHead ID 7"
+    ]
+  },
+  {
+    "CaseMasterID": 796,
+    "CrimeNo": "FIR/2025/333",
+    "anomaly_score": 0.85,
+    "is_anomaly": true,
+    "registered_date": "2025-09-25 04:32:39.006977",
+    "district_id": 3,
+    "reasons": [
+      "Temporal Anomaly: Crime registered at 4:00 AM",
+      "High Severity Anomaly: CrimeHead ID 6"
+    ]
+  },
+  {
+    "CaseMasterID": 809,
+    "CrimeNo": "FIR/2025/573",
+    "anomaly_score": 0.85,
+    "is_anomaly": true,
+    "registered_date": "2025-01-31 04:58:39.006977",
+    "district_id": 1,
+    "reasons": [
+      "Temporal Anomaly: Crime registered at 4:00 AM",
+      "High Severity Anomaly: CrimeHead ID 7"
+    ]
+  },
+  {
+    "CaseMasterID": 815,
+    "CrimeNo": "FIR/2025/243",
+    "anomaly_score": 0.85,
+    "is_anomaly": true,
+    "registered_date": "2025-04-04 03:29:39.006977",
+    "district_id": 1,
+    "reasons": [
+      "Temporal Anomaly: Crime registered at 3:00 AM",
+      "High Severity Anomaly: CrimeHead ID 6"
+    ]
+  },
+  {
+    "CaseMasterID": 828,
+    "CrimeNo": "FIR/2025/920",
+    "anomaly_score": 0.85,
+    "is_anomaly": true,
+    "registered_date": "2025-12-01 04:21:39.006977",
+    "district_id": 4,
+    "reasons": [
+      "Temporal Anomaly: Crime registered at 4:00 AM",
+      "High Severity Anomaly: CrimeHead ID 6"
+    ]
+  },
+  {
+    "CaseMasterID": 862,
+    "CrimeNo": "FIR/2024/794",
+    "anomaly_score": 0.85,
+    "is_anomaly": true,
+    "registered_date": "2024-09-16 04:01:39.007974",
+    "district_id": 2,
+    "reasons": [
+      "Temporal Anomaly: Crime registered at 4:00 AM",
+      "High Severity Anomaly: CrimeHead ID 7"
+    ]
+  },
+  {
+    "CaseMasterID": 892,
+    "CrimeNo": "FIR/2026/102",
+    "anomaly_score": 0.85,
+    "is_anomaly": true,
+    "registered_date": "2026-03-25 01:19:39.007974",
+    "district_id": 2,
+    "reasons": [
+      "Temporal Anomaly: Crime registered at 1:00 AM",
+      "High Severity Anomaly: CrimeHead ID 7"
+    ]
+  },
+  {
+    "CaseMasterID": 899,
+    "CrimeNo": "FIR/2025/911",
+    "anomaly_score": 0.85,
+    "is_anomaly": true,
+    "registered_date": "2025-06-09 04:46:39.007974",
+    "district_id": 4,
+    "reasons": [
+      "Temporal Anomaly: Crime registered at 4:00 AM",
+      "High Severity Anomaly: CrimeHead ID 7"
+    ]
+  },
+  {
+    "CaseMasterID": 902,
+    "CrimeNo": "FIR/2026/975",
+    "anomaly_score": 0.85,
+    "is_anomaly": true,
+    "registered_date": "2026-01-01 02:45:39.007974",
+    "district_id": 3,
+    "reasons": [
+      "Temporal Anomaly: Crime registered at 2:00 AM",
+      "High Severity Anomaly: CrimeHead ID 6"
+    ]
+  },
+  {
+    "CaseMasterID": 910,
+    "CrimeNo": "FIR/2026/998",
+    "anomaly_score": 0.85,
+    "is_anomaly": true,
+    "registered_date": "2026-06-09 02:12:39.007974",
+    "district_id": 4,
+    "reasons": [
+      "Temporal Anomaly: Crime registered at 2:00 AM",
+      "High Severity Anomaly: CrimeHead ID 7"
+    ]
+  },
+  {
+    "CaseMasterID": 913,
+    "CrimeNo": "FIR/2025/721",
+    "anomaly_score": 0.85,
+    "is_anomaly": true,
+    "registered_date": "2025-05-01 04:24:39.007974",
+    "district_id": 5,
+    "reasons": [
+      "Temporal Anomaly: Crime registered at 4:00 AM",
+      "High Severity Anomaly: CrimeHead ID 7"
+    ]
+  },
+  {
+    "CaseMasterID": 928,
+    "CrimeNo": "FIR/2024/611",
+    "anomaly_score": 0.85,
+    "is_anomaly": true,
+    "registered_date": "2024-08-19 02:39:39.007974",
+    "district_id": 2,
+    "reasons": [
+      "Temporal Anomaly: Crime registered at 2:00 AM",
+      "High Severity Anomaly: CrimeHead ID 6"
+    ]
+  },
+  {
+    "CaseMasterID": 973,
+    "CrimeNo": "FIR/2025/425",
+    "anomaly_score": 0.85,
+    "is_anomaly": true,
+    "registered_date": "2025-05-10 02:40:39.008980",
+    "district_id": 4,
+    "reasons": [
+      "Temporal Anomaly: Crime registered at 2:00 AM",
+      "High Severity Anomaly: CrimeHead ID 7"
+    ]
+  },
+  {
+    "CaseMasterID": 977,
+    "CrimeNo": "FIR/2026/205",
+    "anomaly_score": 0.85,
+    "is_anomaly": true,
+    "registered_date": "2026-04-30 03:40:39.008980",
+    "district_id": 4,
+    "reasons": [
+      "Temporal Anomaly: Crime registered at 3:00 AM",
+      "High Severity Anomaly: CrimeHead ID 7"
+    ]
+  },
+  {
+    "CaseMasterID": 985,
+    "CrimeNo": "FIR/2025/378",
+    "anomaly_score": 0.85,
+    "is_anomaly": true,
+    "registered_date": "2025-12-25 03:27:39.008980",
+    "district_id": 5,
+    "reasons": [
+      "Temporal Anomaly: Crime registered at 3:00 AM",
+      "High Severity Anomaly: CrimeHead ID 7"
+    ]
+  },
+  {
+    "CaseMasterID": 993,
+    "CrimeNo": "FIR/2026/646",
+    "anomaly_score": 0.85,
+    "is_anomaly": true,
+    "registered_date": "2026-07-19 01:18:39.008980",
+    "district_id": 1,
+    "reasons": [
+      "Temporal Anomaly: Crime registered at 1:00 AM",
+      "High Severity Anomaly: CrimeHead ID 6"
+    ]
+  }
+]
