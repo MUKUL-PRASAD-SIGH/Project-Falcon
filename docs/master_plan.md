@@ -1075,21 +1075,21 @@ The data pipeline strictly enforces separation of concerns:
 > P2 configures QuickML. P1 hosts the endpoint. P3 calls it from the chat UI.
 
 #### 🤖 AI Can Do
-- [ ] Generate schema-aware system prompt with all 28 table names, FKs, and 10+ NL→SQL examples covering CaseMaster, Accused, District joins
-- [ ] Generate SQL validator (SELECT-only gate, injection pattern sanitizer)
-- [ ] Generate plain-English explanation prompt to run alongside each SQL query
-- [ ] Generate QuickML API call wrapper for NL-to-SQL inference
+- [x] Generate schema-aware system prompt with all 28 table names, FKs, and 10+ NL→SQL examples covering CaseMaster, Accused, District joins
+- [x] Generate SQL validator (SELECT-only gate, injection pattern sanitizer)
+- [x] Generate plain-English explanation prompt to run alongside each SQL query
+- [x] Generate QuickML API call wrapper for NL-to-SQL inference
 
 #### 👤 P2 Human Must Do
-- [ ] Open Catalyst console → **QuickML** → Configure LLM endpoint
-- [ ] Paste the generated schema-aware system prompt into the QuickML system config
-- [ ] Test 10 sample NL queries:
+- [x] Open Catalyst console → **QuickML** → Configure LLM endpoint
+- [x] Paste the generated schema-aware system prompt into the QuickML system config
+- [x] Test 10 sample NL queries:
 - \*"How many robberies in Bengaluru last month?"\*
 - \*"List accused with more than 3 FIRs in Mysore"\*
 - \*"Which districts have the highest Heinous offences?"\*
-- [ ] Run each generated SQL against DataStore → verify correct rows returned
-- [ ] Fix table/column hallucinations by updating the system prompt
-- [ ] Test at least 1 Kannada query end-to-end
+- [x] Run each generated SQL against DataStore → verify correct rows returned
+- [x] Fix table/column hallucinations by updating the system prompt
+- [x] Test at least 1 Kannada query end-to-end
 
 📤 `git push dev: backend/llm/nl_to_sql.py, backend/llm/prompts.py`
 
@@ -1119,16 +1119,16 @@ The data pipeline strictly enforces separation of concerns:
 > All generative AI answers must be grounded in DataStore to prevent hallucination.
 
 #### 🤖 AI Can Do
-- [ ] Generate BriefFacts chunking script: 200-token chunks, 20-token overlap
-- [ ] Generate batch indexing script for QuickML vector store
-- [ ] Generate RAG retrieval function: top-5 chunks by cosine similarity + FIR citation extraction
+- [x] Generate BriefFacts chunking script: 200-token chunks, 20-token overlap
+- [x] Generate batch indexing script for QuickML vector store
+- [x] Generate RAG retrieval function: top-5 chunks by cosine similarity + FIR citation extraction
 
 #### 👤 P2 Human Must Do
-- [ ] Run chunking script on full BriefFacts corpus → output `chunks.jsonl`
-- [ ] Run batch indexing: upload `chunks.jsonl` to QuickML vector store (slow for 10K+ FIRs - start early)
-- [ ] Test RAG retrieval: query \*"robbery on MG Road"\* → verify relevant FIR BriefFacts chunks returned
-- [ ] Verify: FIR citation (`CaseMasterID`) is included in every retrieved chunk
-- [ ] Compare LLM answers with/without RAG context → confirm quality improvement and reduced hallucination
+- [x] Run chunking script on full BriefFacts corpus → output `chunks.jsonl`
+- [x] Run batch indexing: upload `chunks.jsonl` to QuickML vector store (slow for 10K+ FIRs - start early)
+- [x] Test RAG retrieval: query \*"robbery on MG Road"\* → verify relevant FIR BriefFacts chunks returned
+- [x] Verify: FIR citation (`CaseMasterID`) is included in every retrieved chunk
+- [x] Compare LLM answers with/without RAG context → confirm quality improvement and reduced hallucination
 
 📤 `git push dev: backend/llm/rag_engine.py, data/scripts/index_rag.py`
 
@@ -1158,14 +1158,14 @@ The data pipeline strictly enforces separation of concerns:
 > Enables follow-up queries like \*"Show those on a map"\* by retaining prior context.
 
 #### 🤖 AI Can Do
-- [ ] Generate Catalyst NoSQL session manager (get/set/append by `session_id`)
-- [ ] Generate context window builder (last 5 turns formatted for QuickML system prompt)
-- [ ] Generate \*"Show those on a map"\* co-reference resolver using previous query's GPS results
+- [x] Generate Catalyst NoSQL session manager (get/set/append by `session_id`)
+- [x] Generate context window builder (last 5 turns formatted for QuickML system prompt)
+- [x] Generate \*"Show those on a map"\* co-reference resolver using previous query's GPS results
 
 #### 👤 P1 Human Must Do
-- [ ] Open Catalyst console → **NoSQL** → Create collection: `chat_sessions`
-- [ ] Multi-turn test: Q1=\*"Show robberies in Whitefield"\* → Q2=\*"Show them on a map"\* → context must resolve to same GPS points
-- [ ] Verify: sessions auto-expire (set TTL = 2 hours in NoSQL config or Cron cleanup)
+- [x] Open Catalyst console → **NoSQL** → Create collection: `chat_sessions`
+- [x] Multi-turn test: Q1=\*"Show robberies in Whitefield"\* → Q2=\*"Show them on a map"\* → context must resolve to same GPS points
+- [x] Verify: sessions auto-expire (set TTL = 2 hours in NoSQL config or Cron cleanup)
 
 📤 `git push dev: backend/llm/session_manager.py`
 
@@ -1194,18 +1194,18 @@ The data pipeline strictly enforces separation of concerns:
 > ⚠️ **No Google Translate. No fallback to third-party services.** Zia Services exclusively.
 
 #### 🤖 AI Can Do
-- [ ] Generate Catalyst Zia STT API wrapper (Kannada + English audio input)
-- [ ] Generate Zia Translation wrapper: Kannada query → English for QuickML → Kannada response for UI
-- [ ] Generate Zia TTS response wrapper (English + Kannada audio output)
-- [ ] Generate language auto-detection logic (Kannada vs English character range detection)
+- [x] Generate Catalyst Zia STT API wrapper (Kannada + English audio input)
+- [x] Generate Zia Translation wrapper: Kannada query → English for QuickML → Kannada response for UI
+- [x] Generate Zia TTS response wrapper (English + Kannada audio output)
+- [x] Generate language auto-detection logic (Kannada vs English character range detection)
 
 #### 👤 P1 Human Must Do
-- [ ] Open Catalyst console → **Zia Services** → Enable STT, TTS, Translation → get API credentials
-- [ ] Add Zia API credentials to `.env`
-- [ ] Test Zia STT: record Kannada speech → verify transcription output in Kannada script
-- [ ] Test Zia Translation: Kannada transcription → English → verify LLM processes correctly
-- [ ] Test Zia TTS: English LLM answer → Kannada audio → verify it plays in browser
-- [ ] **If Zia Kannada quality is below acceptable:** document it as a known limitation, do NOT fall back to Google - use text-only Kannada input as the live demo fallback instead
+- [x] Open Catalyst console → **Zia Services** → Enable STT, TTS, Translation → get API credentials
+- [x] Add Zia API credentials to `.env`
+- [x] Test Zia STT: record Kannada speech → verify transcription output in Kannada script
+- [x] Test Zia Translation: Kannada transcription → English → verify LLM processes correctly
+- [x] Test Zia TTS: English LLM answer → Kannada audio → verify it plays in browser
+- [x] **If Zia Kannada quality is below acceptable:** document it as a known limitation, do NOT fall back to Google - use text-only Kannada input as the live demo fallback instead
 
 📤 `git push dev: backend/services/voice.py, backend/services/translation.py`
 
@@ -1235,16 +1235,16 @@ The data pipeline strictly enforces separation of concerns:
 > **REPLACES custom Python orchestrator.** Catalyst Circuits handles all intent routing as a managed workflow.
 
 #### 🤖 AI Can Do
-- [ ] Generate Catalyst Circuits workflow YAML defining the full query pipeline
-- [ ] Generate intent classifier prompt for QuickML (outputs: `map | network | trend | forecast | person | generic`)
-- [ ] Generate Circuits branch condition logic per intent type
-- [ ] Generate Evidence Trail aggregator step (collect FIR IDs from RAG + SQL results)
-- [ ] Generate final response merger step (SQL + ML score + RAG context + map trigger)
+- [x] Generate Catalyst Circuits workflow YAML defining the full query pipeline
+- [x] Generate intent classifier prompt for QuickML (outputs: `map | network | trend | forecast | person | generic`)
+- [x] Generate Circuits branch condition logic per intent type
+- [x] Generate Evidence Trail aggregator step (collect FIR IDs from RAG + SQL results)
+- [x] Generate final response merger step (SQL + ML score + RAG context + map trigger)
 
 #### 👤 P1 + P2 Human Must Do
-- [ ] Open Catalyst console → **Circuits** → Create new workflow: `crimegpt_query_pipeline`
-- [ ] Configure trigger: POST `/api/query` from API Gateway → starts Circuit
-- [ ] Add circuit steps:
+- [x] Open Catalyst console → **Circuits** → Create new workflow: `crimegpt_query_pipeline`
+- [x] Configure trigger: POST `/api/query` from API Gateway → starts Circuit
+- [x] Add circuit steps:
 
 1\. **classify_intent**: call QuickML with intent classifier prompt
 
@@ -1263,9 +1263,9 @@ The data pipeline strictly enforces separation of concerns:
 8\. **build_evidence_trail**: extract all FIR IDs cited → append to response
 
 9\. **log_audit**: write to `audit_log` DataStore table
-- [ ] Test Circuits with query: \*"Robbery hotspots in Electronic City last 6 months"\* → must trigger route_geo + route_risk + fetch_rag simultaneously
-- [ ] Verify: every Circuit response includes at least one FIR citation in the Evidence Trail
-- [ ] Save Circuits workflow definition to `/circuits/query_pipeline.yaml`
+- [x] Test Circuits with query: \*"Robbery hotspots in Electronic City last 6 months"\* → must trigger route_geo + route_risk + fetch_rag simultaneously
+- [x] Verify: every Circuit response includes at least one FIR citation in the Evidence Trail
+- [x] Save Circuits workflow definition to `/circuits/query_pipeline.yaml`
 
 📤 `git push dev: circuits/query_pipeline.yaml`
 
@@ -1296,18 +1296,18 @@ The data pipeline strictly enforces separation of concerns:
 > **NEW in v2.** When Zia AutoML detects a spike, a Signal triggers Push Notification to the UI - no page refresh.
 
 #### 🤖 AI Can Do
-- [ ] Generate Catalyst Signals configuration for the `anomaly_spike` event type
-- [ ] Generate AppSail code to publish a Signal when Zia AutoML anomaly score > threshold
-- [ ] Generate Catalyst Push Notification payload for real-time UI alert
-- [ ] Generate Catalyst Mail template for investigator email alert
+- [x] Generate Catalyst Signals configuration for the `anomaly_spike` event type
+- [x] Generate AppSail code to publish a Signal when Zia AutoML anomaly score > threshold
+- [x] Generate Catalyst Push Notification payload for real-time UI alert
+- [x] Generate Catalyst Mail template for investigator email alert
 
 #### 👤 P1 Human Must Do
-- [ ] Open Catalyst console → **Signals** → Create signal: `anomaly_spike`
-- [ ] Connect Signal subscriber: `anomaly_spike` → trigger **Push Notification**
-- [ ] Open Catalyst console → **Push Notifications** → Configure web push for Slate domain
-- [ ] Open Catalyst console → **Mail** → Create alert email template: "High-Risk Spike Detected in {district}"
-- [ ] Test end-to-end: insert a high-anomaly FIR → verify UI receives Push alert without page refresh
-- [ ] Test Mail: verify <investigator@test.com> receives alert email
+- [x] Open Catalyst console → **Signals** → Create signal: `anomaly_spike`
+- [x] Connect Signal subscriber: `anomaly_spike` → trigger **Push Notification**
+- [x] Open Catalyst console → **Push Notifications** → Configure web push for Slate domain
+- [x] Open Catalyst console → **Mail** → Create alert email template: "High-Risk Spike Detected in {district}"
+- [x] Test end-to-end: insert a high-anomaly FIR → verify UI receives Push alert without page refresh
+- [x] Test Mail: verify <investigator@test.com> receives alert email
 
 📤 `git push dev: backend/services/signals.py, backend/services/alerts.py`
 
@@ -1692,16 +1692,16 @@ The data pipeline strictly enforces separation of concerns:
 > Must be done before P3 can wire real API calls.
 
 #### 🤖 AI Can Do
-- [ ] Generate Catalyst API Gateway config: 100 req/min rate limit, JWT header validation
-- [ ] Generate FastAPI CORS middleware: allow only the Catalyst Slate production domain
-- [ ] Generate rate limit 429 error response format
+- [x] Generate Catalyst API Gateway config: 100 req/min rate limit, JWT header validation
+- [x] Generate FastAPI CORS middleware: allow only the Catalyst Slate production domain
+- [x] Generate rate limit 429 error response format
 
 #### 👤 P1 Human Must Do
-- [ ] Open Catalyst console → **API Gateway** → Configure rate limit: 100 req/min
-- [ ] Enable JWT validation on all routes except `/health`
-- [ ] Add CORS origins to FastAPI: allow only `<https://your-app.catalystappsail.com`> and Slate domain
-- [ ] Test from P3's browser: zero CORS errors on any API call
-- [ ] Verify JWT rejected properly on protected endpoints
+- [x] Open Catalyst console → **API Gateway** → Configure rate limit: 100 req/min
+- [x] Enable JWT validation on all routes except `/health`
+- [x] Add CORS origins to FastAPI: allow only `<https://your-app.catalystappsail.com`> and Slate domain
+- [x] Test from P3's browser: zero CORS errors on any API call
+- [x] Verify JWT rejected properly on protected endpoints
 
 📤 `git push dev: backend/middleware/gateway.py`
 
@@ -1731,18 +1731,18 @@ The data pipeline strictly enforces separation of concerns:
 > Get AppSail URL from P1 before starting. Replace every hardcoded dataset.
 
 #### 🤖 AI Can Do
-- [ ] Generate Axios API client with base URL config and JWT interceptor
-- [ ] Generate loading skeleton for each async section
-- [ ] Generate error boundary component with retry button
-- [ ] Generate empty-state components per section
+- [x] Generate Axios API client with base URL config and JWT interceptor
+- [x] Generate loading skeleton for each async section
+- [x] Generate error boundary component with retry button
+- [x] Generate empty-state components per section
 
 #### 👤 P3 Human Must Do
-- [ ] Get live AppSail backend URL from P1
-- [ ] Set `VITE_API_BASE_URL=&lt;AppSail URL&gt;` in `frontend/.env.local`
-- [ ] Replace every mock dataset with Axios calls to real endpoints
-- [ ] Test every component end-to-end: chat → map → graph → dashboard → auth → push alerts
-- [ ] Check browser Network tab: all API calls returning 200
-- [ ] Verify error states display cleanly when API is slow or down
+- [x] Get live AppSail backend URL from P1
+- [x] Set `VITE_API_BASE_URL=&lt;AppSail URL&gt;` in `frontend/.env.local`
+- [x] Replace every mock dataset with Axios calls to real endpoints
+- [x] Test every component end-to-end: chat → map → graph → dashboard → auth → push alerts
+- [x] Check browser Network tab: all API calls returning 200
+- [x] Verify error states display cleanly when API is slow or down
 
 📤 `git push dev: frontend/src/api/, all updated components`
 
@@ -1771,18 +1771,18 @@ The data pipeline strictly enforces separation of concerns:
 > Audit logs are PS2 Requirement #10. Show them live in the Admin demo.
 
 #### 🤖 AI Can Do
-- [ ] Generate `AuditLog` table SQL: `user_id, query_string, timestamp, result_count, request_IP`
-- [ ] Generate FastAPI audit logging decorator for all protected routes
-- [ ] Generate victim data masking middleware: mask `VictimName`, `VictimPolice`, `ComplainantName` for non-admin
-- [ ] Generate admin-only `/api/admin/users` and `/api/admin/audit` endpoints
+- [x] Generate `AuditLog` table SQL: `user_id, query_string, timestamp, result_count, request_IP`
+- [x] Generate FastAPI audit logging decorator for all protected routes
+- [x] Generate victim data masking middleware: mask `VictimName`, `VictimPolice`, `ComplainantName` for non-admin
+- [x] Generate admin-only `/api/admin/users` and `/api/admin/audit` endpoints
 
 #### 👤 P1 Human Must Do
-- [ ] Create `AuditLog` table in Catalyst DataStore
-- [ ] Make a query as investigator → verify `AuditLog` entry created with correct `user_id` and `query_string`
-- [ ] Test admin can view all audit logs via `/api/admin/audit`
-- [ ] Test analyst receives 403 on `/api/admin/audit`
-- [ ] Verify victim name/address masked in API response for non-admin roles
-- [ ] Document RBAC matrix in README
+- [x] Create `AuditLog` table in Catalyst DataStore
+- [x] Make a query as investigator → verify `AuditLog` entry created with correct `user_id` and `query_string`
+- [x] Test admin can view all audit logs via `/api/admin/audit`
+- [x] Test analyst receives 403 on `/api/admin/audit`
+- [x] Verify victim name/address masked in API response for non-admin roles
+- [x] Document RBAC matrix in README
 
 📤 `git push dev: backend/middleware/auth.py, backend/routers/admin.py`
 
@@ -1812,17 +1812,17 @@ The data pipeline strictly enforces separation of concerns:
 > Share live AppSail URL with P2 and P3 immediately after successful deploy.
 
 #### 🤖 AI Can Do
-- [ ] Generate production Dockerfile (multi-stage build, non-root user)
-- [ ] Generate `.dockerignore`
-- [ ] Generate AppSail deployment config (`appSail.json`)
+- [x] Generate production Dockerfile (multi-stage build, non-root user)
+- [x] Generate `.dockerignore`
+- [x] Generate AppSail deployment config (`appSail.json`)
 
 #### 👤 P1 Human Must Do
-- [ ] `docker build -t crimegpt-backend .` → fix any build errors
-- [ ] `catalyst appSail deploy` → follow CLI prompts
-- [ ] Open Catalyst AppSail console → verify container: **RUNNING**
-- [ ] `curl <https://your-app.catalystappsail.com/health`> → must return `{"status":"ok"}`
-- [ ] Verify all environment variables are set in AppSail console (Zia API keys, QuickML, DataStore connection)
-- [ ] Share live AppSail URL with P2 and P3
+- [x] `docker build -t crimegpt-backend .` → fix any build errors
+- [x] `catalyst appSail deploy` → follow CLI prompts
+- [x] Open Catalyst AppSail console → verify container: **RUNNING**
+- [x] `curl <https://your-app.catalystappsail.com/health`> → must return `{"status":"ok"}`
+- [x] Verify all environment variables are set in AppSail console (Zia API keys, QuickML, DataStore connection)
+- [x] Share live AppSail URL with P2 and P3
 
 📤 `git push dev: Dockerfile, .dockerignore, appSail.json`
 
@@ -1852,16 +1852,16 @@ The data pipeline strictly enforces separation of concerns:
 > Set production API env var before building. CORS on AppSail must match Slate domain.
 
 #### 🤖 AI Can Do
-- [ ] Generate vite production build config with `VITE_API_BASE_URL` injection
-- [ ] Generate Catalyst Slate hosting config (`hosting.json`)
+- [x] Generate vite production build config with `VITE_API_BASE_URL` injection
+- [x] Generate Catalyst Slate hosting config (`hosting.json`)
 
 #### 👤 P1 Human Must Do
-- [ ] Set `VITE_API_BASE_URL=&lt;AppSail URL&gt;` in `frontend/.env.production`
-- [ ] `npm run build` → verify `dist/` folder created with zero errors
-- [ ] `catalyst hosting deploy dist/` (Catalyst Slate CLI command)
-- [ ] Open Slate URL in browser → verify full app loads and all assets render
-- [ ] Run one complete user flow end-to-end on the production Slate URL
-- [ ] Add Slate production domain to FastAPI CORS allowlist → redeploy AppSail
+- [x] Set `VITE_API_BASE_URL=&lt;AppSail URL&gt;` in `frontend/.env.production`
+- [x] `npm run build` → verify `dist/` folder created with zero errors
+- [x] `catalyst hosting deploy dist/` (Catalyst Slate CLI command)
+- [x] Open Slate URL in browser → verify full app loads and all assets render
+- [x] Run one complete user flow end-to-end on the production Slate URL
+- [x] Add Slate production domain to FastAPI CORS allowlist → redeploy AppSail
 
 📤 `git push dev: frontend/.env.production, hosting.json`
 
@@ -1891,15 +1891,15 @@ The data pipeline strictly enforces separation of concerns:
 > Auto-deploy on every push to `main`. Required for clean final submission flow.
 
 #### 🤖 AI Can Do
-- [ ] Generate Catalyst Pipelines workflow: push to `main` → `npm run build` → `catalyst hosting deploy`
-- [ ] Generate AppSail pipeline: push to `main` → `docker build` → `catalyst appSail deploy`
+- [x] Generate Catalyst Pipelines workflow: push to `main` → `npm run build` → `catalyst hosting deploy`
+- [x] Generate AppSail pipeline: push to `main` → `docker build` → `catalyst appSail deploy`
 
 #### 👤 P1 Human Must Do
-- [ ] Open Catalyst console → **Pipelines** → Create frontend pipeline → link to `main` branch
-- [ ] Create backend pipeline → link to `main` branch
-- [ ] Test: push a small change to `main` → verify both pipelines trigger and complete
-- [ ] Verify HTTPS/SSL is active on both AppSail and Slate URLs
-- [ ] Screenshot Catalyst dashboard showing all 16+ required services active → save for submission
+- [x] Open Catalyst console → **Pipelines** → Create frontend pipeline → link to `main` branch
+- [x] Create backend pipeline → link to `main` branch
+- [x] Test: push a small change to `main` → verify both pipelines trigger and complete
+- [x] Verify HTTPS/SSL is active on both AppSail and Slate URLs
+- [x] Screenshot Catalyst dashboard showing all 16+ required services active → save for submission
 
 📤 `git push main: catalyst-pipeline-frontend.yaml, catalyst-pipeline-backend.yaml`
 
@@ -1929,15 +1929,15 @@ The data pipeline strictly enforces separation of concerns:
 > **NEW in v2.** When Zia AutoML detects a spike, Mail alerts the responsible district investigator.
 
 #### 🤖 AI Can Do
-- [ ] Generate Catalyst Mail template: "High-Risk Crime Spike in {DistrictName}"
-- [ ] Generate AppSail service call to send Mail when anomaly score > threshold
-- [ ] Generate Cron job to send daily district summary emails
+- [x] Generate Catalyst Mail template: "High-Risk Crime Spike in {DistrictName}"
+- [x] Generate AppSail service call to send Mail when anomaly score > threshold
+- [x] Generate Cron job to send daily district summary emails
 
 #### 👤 P1 Human Must Do
-- [ ] Open Catalyst console → **Mail** → Configure SMTP settings
-- [ ] Create mail template with `DistrictName`, `CrimeGroupName`, `FIR count`, `timestamp` variables
-- [ ] Test: trigger anomaly → verify email received by `<admin@test.com>`
-- [ ] Configure Cron: daily at 6 AM → send district summary to all investigator accounts
+- [x] Open Catalyst console → **Mail** → Configure SMTP settings
+- [x] Create mail template with `DistrictName`, `CrimeGroupName`, `FIR count`, `timestamp` variables
+- [x] Test: trigger anomaly → verify email received by `<admin@test.com>`
+- [x] Configure Cron: daily at 6 AM → send district summary to all investigator accounts
 
 📤 `git push dev: backend/services/mail.py, backend/cron/daily_summary.py`
 
@@ -1966,17 +1966,17 @@ The data pipeline strictly enforces separation of concerns:
 > Fix any bottleneck now - not during the live judge demo.
 
 #### 🤖 AI Can Do
-- [ ] Generate k6 or Locust load test script for 50 concurrent Circuits query calls
-- [ ] Generate Zia AutoML inference latency benchmark script
-- [ ] Generate performance report template
+- [x] Generate k6 or Locust load test script for 50 concurrent Circuits query calls
+- [x] Generate Zia AutoML inference latency benchmark script
+- [x] Generate performance report template
 
 #### 👤 All 3 Human Must Do
-- [ ] **P1:** Run load test → 50 concurrent users on Circuits → AppSail must not crash
-- [ ] **P1:** Hit `/api/districts` 100 times → verify Catalyst Cache serving → p95 < 500ms
-- [ ] **P2:** Trigger Zia AutoML inference 100 times → verify p95 < 500ms
-- [ ] **P3:** Load Leaflet heatmap with 10K GPS points → render < 2 seconds in Chrome
-- [ ] **P3:** Open Cytoscape graph with 5K nodes → no browser freeze
-- [ ] ALL: Fix any bottleneck → re-test after fix
+- [x] **P1:** Run load test → 50 concurrent users on Circuits → AppSail must not crash
+- [x] **P1:** Hit `/api/districts` 100 times → verify Catalyst Cache serving → p95 < 500ms
+- [x] **P2:** Trigger Zia AutoML inference 100 times → verify p95 < 500ms
+- [x] **P3:** Load Leaflet heatmap with 10K GPS points → render < 2 seconds in Chrome
+- [x] **P3:** Open Cytoscape graph with 5K nodes → no browser freeze
+- [x] ALL: Fix any bottleneck → re-test after fix
 
 📤 `git push dev: scripts/loadtest/`
 
@@ -2013,16 +2013,16 @@ The data pipeline strictly enforces separation of concerns:
 > Run on PRODUCTION DataStore - not local. Rich Bengaluru heatmap = better visual demo.
 
 #### 🤖 AI Can Do
-- [ ] Generate concentrated synthetic FIRs for Bengaluru (Electronic City, MG Road, Whitefield, Koramangala), Mysore, Mangaluru
-- [ ] Generate pre-linked gang network with distinct Louvain communities visible in graph
-- [ ] Generate high-risk offender profiles (Zia AutoML-ready features) for demo leaderboard
+- [x] Generate concentrated synthetic FIRs for Bengaluru (Electronic City, MG Road, Whitefield, Koramangala), Mysore, Mangaluru
+- [x] Generate pre-linked gang network with distinct Louvain communities visible in graph
+- [x] Generate high-risk offender profiles (Zia AutoML-ready features) for demo leaderboard
 
 #### 👤 P2 Human Must Do
-- [ ] Run seed script targeting **PRODUCTION** DataStore - not local
-- [ ] Open live Slate app → heatmap shows rich crime clusters in Bengaluru
-- [ ] Open network graph → at least one dense gang community visible
-- [ ] Open dashboard → offender leaderboard has 10+ entries with varied risk scores
-- [ ] Trigger Zia AutoML retraining if new seed data changes distribution significantly
+- [x] Run seed script targeting **PRODUCTION** DataStore - not local
+- [x] Open live Slate app → heatmap shows rich crime clusters in Bengaluru
+- [x] Open network graph → at least one dense gang community visible
+- [x] Open dashboard → offender leaderboard has 10+ entries with varied risk scores
+- [x] Trigger Zia AutoML retraining if new seed data changes distribution significantly
 
 📤 `git push dev: data/scripts/seed_demo.py`
 
@@ -2052,18 +2052,18 @@ The data pipeline strictly enforces separation of concerns:
 > Rehearse on production Slate URL. Assign who presents each scenario before the judges arrive.
 
 #### 🤖 AI Can Do
-- [ ] Draft 3-scenario demo script with exact Circuits queries to type or speak
-- [ ] Generate talking points for all 10 PS2 requirements (1-10)
-- [ ] Generate one-liner Catalyst service explanations for judge Q&A
-- [ ] Generate response to \*"Why Catalyst over other platforms?"\*
+- [x] Draft 3-scenario demo script with exact Circuits queries to type or speak
+- [x] Generate talking points for all 10 PS2 requirements (1-10)
+- [x] Generate one-liner Catalyst service explanations for judge Q&A
+- [x] Generate response to \*"Why Catalyst over other platforms?"\*
 
 #### 👤 All 3 Human Must Do
-- [ ] ALL: 30-min rehearsal on the production Slate URL
-- [ ] **Scenario 1 - The Voice Lead** \*(P3 demos)\*: Speak Kannada into mic: \*"Show me robbery hotspots in Electronic City"\* → Zia STT + Circuits → pulsing heatmap renders
-- [ ] **Scenario 2 - The Gang Deep-Dive** \*(P2 demos)\*: Type: \*"Show gang network for accused ID X"\* → Circuits routes to graph engine → Cytoscape loads with Louvain communities
-- [ ] **Scenario 3 - Live Role-Switch** \*(P1 demos)\*: Switch from Investigator to Admin role → show Audit Log trail live → show victim data unmasking
-- [ ] Time the full run: must fit within judges' allocated slot
-- [ ] Prepare answer: \*"How is the Evidence Trail implemented?"\* → Circuits step 8 builds FIR citation list from RAG retrieval
+- [x] ALL: 30-min rehearsal on the production Slate URL
+- [x] **Scenario 1 - The Voice Lead** \*(P3 demos)\*: Speak Kannada into mic: \*"Show me robbery hotspots in Electronic City"\* → Zia STT + Circuits → pulsing heatmap renders
+- [x] **Scenario 2 - The Gang Deep-Dive** \*(P2 demos)\*: Type: \*"Show gang network for accused ID X"\* → Circuits routes to graph engine → Cytoscape loads with Louvain communities
+- [x] **Scenario 3 - Live Role-Switch** \*(P1 demos)\*: Switch from Investigator to Admin role → show Audit Log trail live → show victim data unmasking
+- [x] Time the full run: must fit within judges' allocated slot
+- [x] Prepare answer: \*"How is the Evidence Trail implemented?"\* → Circuits step 8 builds FIR citation list from RAG retrieval
 
 ---
 
@@ -2090,14 +2090,14 @@ The data pipeline strictly enforces separation of concerns:
 **Owner: P3**
 
 #### 🤖 AI Can Do
-- [ ] Generate narration script covering all 10 PS2 requirements in 3 minutes
+- [x] Generate narration script covering all 10 PS2 requirements in 3 minutes
 
 #### 👤 P3 Human Must Do
-- [ ] Open OBS Studio or Loom for screen recording
-- [ ] Record all 3 demo scenarios with narration
-- [ ] Edit: trim to 3 min, add text overlays labelling each PS2 requirement covered
-- [ ] Export as MP4 at 1080p
-- [ ] Upload to Google Drive or YouTube → copy shareable link
+- [x] Open OBS Studio or Loom for screen recording
+- [x] Record all 3 demo scenarios with narration
+- [x] Edit: trim to 3 min, add text overlays labelling each PS2 requirement covered
+- [x] Export as MP4 at 1080p
+- [x] Upload to Google Drive or YouTube → copy shareable link
 
 ---
 
@@ -2123,19 +2123,19 @@ The data pipeline strictly enforces separation of concerns:
 > Never submit at the last minute. Submit 1 hour early to handle portal issues.
 
 #### 🤖 AI Can Do
-- [ ] Verify all 10 PS2 requirements are demonstrable in the live Slate app
-- [ ] Generate 500-word project description emphasizing 100% Catalyst-native architecture
+- [x] Verify all 10 PS2 requirements are demonstrable in the live Slate app
+- [x] Generate 500-word project description emphasizing 100% Catalyst-native architecture
 
 #### 👤 All 3 Human Must Do
-- [ ] Open hackathon submission portal
-- [ ] Submit: live app URL (Catalyst Slate deployment)
-- [ ] Submit: GitHub repo URL (make public if required)
-- [ ] Submit: 3-min video link
-- [ ] Submit: AI-generated project description (500 words, emphasising Catalyst services)
-- [ ] Submit: team member details
-- [ ] **P1:** Screenshot Catalyst console showing all 16+ services active → attach to submission
-- [ ] Confirm submission confirmation email received by all 3
-- [ ] Group screenshot of the confirmation screen
+- [x] Open hackathon submission portal
+- [x] Submit: live app URL (Catalyst Slate deployment)
+- [x] Submit: GitHub repo URL (make public if required)
+- [x] Submit: 3-min video link
+- [x] Submit: AI-generated project description (500 words, emphasising Catalyst services)
+- [x] Submit: team member details
+- [x] **P1:** Screenshot Catalyst console showing all 16+ services active → attach to submission
+- [x] Confirm submission confirmation email received by all 3
+- [x] Group screenshot of the confirmation screen
 
 📤 `git tag v1.0-submission && git push origin v1.0-submission`
 

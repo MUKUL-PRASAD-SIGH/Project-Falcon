@@ -1,4 +1,5 @@
 import { useState, useEffect, useRef } from 'react'
+import { useNavigate } from 'react-router-dom'
 import { MapContainer, TileLayer, CircleMarker, Popup, useMap } from 'react-leaflet'
 import L from 'leaflet'
 import 'leaflet/dist/leaflet.css'
@@ -20,14 +21,14 @@ const CRIME_HEADS      = ['All', 'Crimes Against Body', 'Property', 'Public Orde
 const RISK_COLORS      = { High: '#D8503A', Medium: '#C9A227', Low: '#4A9EDB' }
 
 const MOCK_CLUSTERS = [
-  { id: 'C001', lat: 12.95, lng: 77.64, risk: 'High',   label: 'Electronic City',   count: 47, fir: '104430006202600231', crimeHead: 'Property' },
-  { id: 'C002', lat: 12.98, lng: 77.59, risk: 'High',   label: 'Whitefield',        count: 38, fir: '104430006202600198', crimeHead: 'Property' },
-  { id: 'C003', lat: 12.97, lng: 77.56, risk: 'High',   label: 'MG Road',           count: 31, fir: '104430006202600155', crimeHead: 'Crimes Against Body' },
-  { id: 'C004', lat: 12.30, lng: 76.65, risk: 'Medium', label: 'Mysuru Central',    count: 22, fir: '104430006202600210', crimeHead: 'Public Order' },
-  { id: 'C005', lat: 12.91, lng: 74.86, risk: 'Medium', label: 'Mangaluru Port',    count: 18, fir: '104430006202600175', crimeHead: 'Cyber' },
-  { id: 'C006', lat: 15.86, lng: 74.50, risk: 'Low',    label: 'Belagavi Market',   count: 11, fir: '104430006202600190', crimeHead: 'Property' },
-  { id: 'C007', lat: 17.33, lng: 76.82, risk: 'Low',    label: 'Kalaburagi North',  count: 8,  fir: '104430006202600201', crimeHead: 'Crimes Against Body' },
-  { id: 'C008', lat: 13.32, lng: 77.10, risk: 'High',   label: 'Tumakuru Bypass',   count: 29, fir: '104430006202600220', crimeHead: 'Property' }
+  { id: 'C001', lat: 12.95, lng: 77.64, risk: 'High',   label: 'Electronic City',   count: 47, firs: [42, 52, 207],   crimeHead: 'Property' },
+  { id: 'C002', lat: 12.98, lng: 77.59, risk: 'High',   label: 'Whitefield',        count: 38, firs: [75, 94, 16],    crimeHead: 'Property' },
+  { id: 'C003', lat: 12.97, lng: 77.56, risk: 'High',   label: 'MG Road',           count: 31, firs: [27, 34, 56],    crimeHead: 'Crimes Against Body' },
+  { id: 'C004', lat: 12.30, lng: 76.65, risk: 'Medium', label: 'Mysuru Central',    count: 22, firs: [104, 46, 83],   crimeHead: 'Public Order' },
+  { id: 'C005', lat: 12.91, lng: 74.86, risk: 'Medium', label: 'Mangaluru Port',    count: 18, firs: [22, 45, 62],    crimeHead: 'Cyber' },
+  { id: 'C006', lat: 15.86, lng: 74.50, risk: 'Low',    label: 'Belagavi Market',   count: 11, firs: [87, 69, 70],    crimeHead: 'Property' },
+  { id: 'C007', lat: 17.33, lng: 76.82, risk: 'Low',    label: 'Kalaburagi North',  count: 8,  firs: [500, 28, 44],   crimeHead: 'Crimes Against Body' },
+  { id: 'C008', lat: 13.32, lng: 77.10, risk: 'High',   label: 'Tumakuru Bypass',   count: 29, firs: [40, 94, 55],    crimeHead: 'Property' }
 ]
 
 function FlyTo({ target }) {
@@ -37,6 +38,7 @@ function FlyTo({ target }) {
 }
 
 export default function CrimeMap() {
+  const navigate = useNavigate()
   const [activeTime,    setActiveTime]    = useState('All')
   const [activeHeads,   setActiveHeads]   = useState(new Set(['All']))
   const [clusters,      setClusters]      = useState(MOCK_CLUSTERS)
@@ -143,32 +145,78 @@ export default function CrimeMap() {
             </MapContainer>
           )}
 
-          {/* Drill-down card — floating over the map bottom-left */}
+          {/* ── Hotspot FIR Inspector Drawer — floating over the map bottom-left ── */}
           {drillDistrict && (
             <div
-              className="absolute bottom-6 left-4 z-[500] rounded-xl p-4 min-w-[210px] max-w-[260px]"
+              className="absolute bottom-6 left-4 z-[500] rounded-xl p-5 w-80 shadow-2xl space-y-4"
               style={{
-                background: 'rgba(4,9,20,0.88)',
-                border: `1px solid ${RISK_COLORS[drillDistrict.risk]}55`,
+                background: 'rgba(4,9,20,0.92)',
+                border: `1px solid ${RISK_COLORS[drillDistrict.risk]}77`,
                 backdropFilter: 'blur(16px)',
               }}
             >
-              <div className="flex items-start justify-between gap-2">
+              <div className="flex items-start justify-between gap-2 border-b border-[rgba(255,255,255,0.08)] pb-3">
                 <div>
-                  <div className="text-sm font-semibold text-white">{drillDistrict.label}</div>
+                  <span className="text-[9px] font-mono uppercase px-2 py-0.5 rounded bg-[rgba(255,255,255,0.08)] text-amber-400">
+                    Hotspot Cluster #{drillDistrict.id}
+                  </span>
+                  <h3 className="text-base font-bold text-white mt-1">{drillDistrict.label}</h3>
                   <div className="text-xs text-gray-400 mt-0.5">{drillDistrict.crimeHead}</div>
-                  <div
-                    className="text-xs font-mono font-semibold mt-2 px-2 py-0.5 rounded inline-block"
-                    style={{ color: RISK_COLORS[drillDistrict.risk], background: `${RISK_COLORS[drillDistrict.risk]}20` }}
-                  >
-                    {drillDistrict.risk} Risk &mdash; {drillDistrict.count} FIRs
-                  </div>
-                  <div className="mt-2"><CitationChip firId={drillDistrict.fir} /></div>
                 </div>
                 <button
+                  type="button"
                   onClick={() => setDrillDistrict(null)}
-                  className="text-gray-500 hover:text-white text-xs font-mono mt-0.5"
-                >✕</button>
+                  className="text-gray-400 hover:text-white text-xs font-mono"
+                >
+                  ✕
+                </button>
+              </div>
+
+              {/* Cluster stats */}
+              <div className="grid grid-cols-2 gap-2 text-xs font-mono">
+                <div className="p-2 rounded bg-[rgba(255,255,255,0.03)] border border-[rgba(255,255,255,0.06)]">
+                  <div className="text-[10px] text-gray-400">FIR Count</div>
+                  <div className="text-sm font-bold text-cyan-400 mt-0.5">{drillDistrict.count} cases</div>
+                </div>
+                <div className="p-2 rounded bg-[rgba(255,255,255,0.03)] border border-[rgba(255,255,255,0.06)]">
+                  <div className="text-[10px] text-gray-400">Risk Severity</div>
+                  <div className="text-sm font-bold" style={{ color: RISK_COLORS[drillDistrict.risk] }}>
+                    {drillDistrict.risk}
+                  </div>
+                </div>
+              </div>
+
+              {/* Linked FIR Citations */}
+              <div>
+                <div className="text-[10px] font-mono text-gray-400 mb-1.5 uppercase tracking-wider">
+                  Linked FIR Records
+                </div>
+                <div className="flex gap-1.5 flex-wrap">
+                  {(drillDistrict.firs || []).map(id => (
+                    <CitationChip key={id} firId={String(id)} />
+                  ))}
+                </div>
+              </div>
+
+              {/* Navigation Shortcuts */}
+              <div className="pt-2 border-t border-[rgba(255,255,255,0.08)] flex gap-2">
+                <button
+                  type="button"
+                  onClick={() => {
+                    const firstFir = drillDistrict.firs?.[0] ?? 42
+                    navigate(`/profiles?tab=cases&case=${firstFir}`)
+                  }}
+                  className="btn-gold text-[11px] py-1.5 px-3 flex-1 text-center"
+                >
+                  📂 Inspect Case Matches
+                </button>
+                <button
+                  type="button"
+                  onClick={() => navigate('/chat')}
+                  className="btn-ghost text-[11px] py-1.5 px-3 flex-1 text-center"
+                >
+                  💬 Query AI
+                </button>
               </div>
             </div>
           )}

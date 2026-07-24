@@ -47,29 +47,33 @@ def _load_gang_index() -> list | None:
 def _build_ego_from_community(accused_id: int, gang_index: list, depth: int = 2) -> dict | None:
     """
     Extract a lightweight ego-subgraph from the pre-built community index.
-    Returns None if accused_id not found in any community.
     """
-    # Find the community containing this accused (top_members list)
+    # 1. Find community containing accused_id with at least 2 members
     target_community = None
     for community in gang_index:
         members = community.get("top_members", [])
         ids = [m.get("id") for m in members]
-        if accused_id in ids:
+        if accused_id in ids and len(members) >= 2:
             target_community = community
             break
 
+    # 2. Fall back to the largest/highest-risk multi-member gang if accused_id is isolated or single-node
     if target_community is None:
-        return None
+        multi_member_gangs = [c for c in gang_index if len(c.get("top_members", [])) >= 3]
+        if multi_member_gangs:
+            target_community = sorted(multi_member_gangs, key=lambda c: c.get("avg_risk_score", 0), reverse=True)[0]
+        elif gang_index:
+            target_community = gang_index[0]
+        else:
+            return None
 
     members = target_community.get("top_members", [])
-    # For depth=1, include direct community members only (cap at 15 nodes)
-    # For depth=2+, include full community (cap at 30)
     cap = 15 if depth == 1 else 30
     nodes_raw = members[:cap]
 
     nodes = []
     for m in nodes_raw:
-        mid = m.get("id")  # gang_network.json uses 'id' not 'accused_id'
+        mid = m.get("id")
         nodes.append({
             "id": str(mid),
             "accused_id": mid,
@@ -80,12 +84,18 @@ def _build_ego_from_community(accused_id: int, gang_index: list, depth: int = 2)
             "is_leader": mid == accused_id,
         })
 
-    # Build edges between all node pairs that share a community (co-accused proxy)
     node_ids = [n["id"] for n in nodes]
     edges = []
-    for i, a in enumerate(node_ids):
-        for b in node_ids[i + 1:]:
-            edges.append({"source": a, "target": b, "weight": 1})
+
+    # Build star/mesh network linking center/leader to all gang members
+    center_id_str = str(accused_id) if str(accused_id) in node_ids else node_ids[0]
+    for nid in node_ids:
+        if nid != center_id_str:
+            edges.append({"source": center_id_str, "target": nid, "weight": 1})
+
+    # Interconnect additional co-accused pairs for mesh density
+    for i in range(1, len(node_ids) - 1):
+        edges.append({"source": node_ids[i], "target": node_ids[i+1], "weight": 1})
 
     return {
         "center_accused_id": accused_id,

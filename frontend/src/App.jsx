@@ -9,6 +9,7 @@ import AdminDashboard from '@/components/Dashboard/AdminDashboard'
 import ChatWindow from '@/components/Chat/ChatWindow'
 import CrimeMap from '@/components/CrimeMap'
 import NetworkGraph from '@/components/NetworkGraph'
+import ProfilesExplorer from '@/components/Profiles/ProfilesExplorer'
 import AdminPanel from '@/components/AdminPanel'
 import ErrorBoundary from '@/components/common/ErrorBoundary'
 
@@ -73,6 +74,16 @@ function AppContent() {
               <RouteGuard>
                 <ErrorBoundary label="Network Graph">
                   <NetworkGraph />
+                </ErrorBoundary>
+              </RouteGuard>
+            }
+          />
+          <Route
+            path="/profiles"
+            element={
+              <RouteGuard>
+                <ErrorBoundary label="Profiles & Case Explorer">
+                  <ProfilesExplorer />
                 </ErrorBoundary>
               </RouteGuard>
             }

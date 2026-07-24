@@ -28,6 +28,7 @@ const INVESTIGATOR = {
     '/chat':    'Ask Falcon',
     '/map':     'Crime Map',
     '/network': 'Connections',
+    '/profiles': 'Profiles & Cases',
     '/admin':   'Admin',
   },
 
@@ -80,6 +81,7 @@ const ANALYST = {
     '/chat':    'Intelligence Chat',
     '/map':     'Crime Map',
     '/network': 'Network Graph',
+    '/profiles': 'Profiles & Cases',
     '/admin':   'Audit & Access',
   },
 

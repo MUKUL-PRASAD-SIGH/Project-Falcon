@@ -12,7 +12,7 @@ from fastapi.middleware.cors import CORSMiddleware
 BASE_DIR = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(BASE_DIR))
 
-from backend.routers import geo, similarity, graph, forecast, risk, stats, admin, forensics
+from backend.routers import geo, similarity, graph, forecast, risk, stats, admin, forensics, chat
 from backend.middleware.cache import set_cached, cache_stats
 
 # ── Output asset paths ──────────────────────────────────────────────────────
@@ -114,6 +114,7 @@ app.include_router(risk.router)         # /api/offender/risk/{id}, /api/anomalie
 app.include_router(stats.router)        # /api/stats
 app.include_router(admin.router)        # /api/admin/*
 app.include_router(forensics.router)    # /api/forensics/*
+app.include_router(chat.router)         # /api/chat/query, /api/chat/health
 
 
 @app.get("/")

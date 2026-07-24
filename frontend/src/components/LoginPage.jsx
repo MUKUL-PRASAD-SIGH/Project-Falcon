@@ -120,14 +120,14 @@ export default function LoginPage() {
           <div className="mb-1">
             <h2 className="font-display text-xl font-bold">Sign in</h2>
             <p className="text-sm text-ink-dim mt-0.5">
-              {isSdkAvailable
+              {(isSdkAvailable && !isLocalhost)
                 ? 'Use your Zoho Catalyst credentials to continue.'
                 : 'Select a profile to enter the console.'}
             </p>
           </div>
 
-          {/* ── Catalyst SDK auth form ──────────────────────── */}
-          {isSdkAvailable ? (
+          {/* ── Catalyst SDK auth form (when hosted on Catalyst domain) ── */}
+          {(isSdkAvailable && !isLocalhost) ? (
             <div className="space-y-4">
               <div
                 id="loginDivElementId"
@@ -144,7 +144,7 @@ export default function LoginPage() {
                 className="px-3 py-2 rounded-md text-[10px] font-mono uppercase tracking-wider text-center"
                 style={{ background: 'rgba(255,255,255,0.03)', border: '1px solid rgba(255,255,255,0.07)', color: '#93A0B8' }}
               >
-                Developer Mode — Catalyst SDK not detected
+                Local Development Mode — Select a Profile
               </div>
 
               {roles.map(({ role, title, desc, accent, accentDim }) => (

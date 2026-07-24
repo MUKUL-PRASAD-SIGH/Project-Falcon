@@ -11,6 +11,17 @@ PROCESSED_CSV = BASE_DIR / "data" / "processed" / "accused_features.csv"
 
 OUTPUTS_DIR = BASE_DIR / "ml" / "outputs"
 SCRIPTS_OUT = BASE_DIR / "ml" / "scripts"
+PROCESSED_DIR = BASE_DIR / "data" / "processed"
+
+CRIME_HEAD_MAP = {
+    1: {"name": "Theft", "severity": 1},
+    2: {"name": "Robbery", "severity": 4},
+    3: {"name": "Assault", "severity": 3},
+    4: {"name": "Cybercrime", "severity": 3},
+    5: {"name": "Fraud", "severity": 2},
+    6: {"name": "Narcotics", "severity": 4},
+    7: {"name": "Homicide", "severity": 5}
+}
 
 class QuickMLRiskAndAnomalyEngine:
     def __init__(self):
@@ -63,6 +74,9 @@ class QuickMLRiskAndAnomalyEngine:
                 "district": str(row['district']),
                 "crime_head": str(row['crime_head']),
                 "prior_offense_count": int(row['prior_offense_count']),
+                "recency_days": int(row['recency_days']),
+                "max_crime_severity": int(row['max_crime_severity']),
+                "co_accused_count": int(row['co_accused_count']),
                 "factors": factors
             }
             
@@ -79,10 +93,14 @@ class QuickMLRiskAndAnomalyEngine:
         
         # Flag night time / temporal outliers & rare crime heads
         anomalies_list = []
+        anomaly_features = []
+        
         for _, row in firs_df.iterrows():
             case_id = int(row['CaseMasterID'])
             hour = int(row['hour'])
             crime_head_id = int(row['CrimeHeadID'])
+            severity = CRIME_HEAD_MAP.get(crime_head_id, {}).get("severity", 1)
+            facts_len = len(str(row['BriefFacts']))
             
             # Anomaly scoring logic (late night + severe crime = high anomaly score)
             score = 0.1
@@ -94,7 +112,7 @@ class QuickMLRiskAndAnomalyEngine:
             if crime_head_id in [6, 7]: # Narcotics, Homicide
                 score += 0.35
                 reasons.append(f"High Severity Anomaly: CrimeHead ID {crime_head_id}")
-            if len(str(row['BriefFacts'])) < 40:
+            if facts_len < 40:
                 score += 0.15
                 reasons.append("Data Anomaly: Extremely brief FIR description")
                 
@@ -111,11 +129,23 @@ class QuickMLRiskAndAnomalyEngine:
                     "reasons": reasons
                 })
                 
+            # Compile numeric features for QuickML unsupervised anomaly detection
+            anomaly_features.append({
+                "CaseMasterID": case_id,
+                "hour": hour,
+                "severity": severity,
+                "facts_length": facts_len,
+                "latitude": float(row['latitude']),
+                "longitude": float(row['longitude'])
+            })
+            
         # Sort by highest anomaly score
         self.anomalies = sorted(anomalies_list, key=lambda x: x['anomaly_score'], reverse=True)
+        self.anomaly_features_df = pd.DataFrame(anomaly_features)
         print(f"Flagged {len(self.anomalies)} FIR anomalies out of {len(firs_df)} total records.")
 
     def export_all(self):
+        PROCESSED_DIR.mkdir(parents=True, exist_ok=True)
         OUTPUTS_DIR.mkdir(parents=True, exist_ok=True)
         SCRIPTS_OUT.mkdir(parents=True, exist_ok=True)
         
@@ -131,7 +161,13 @@ class QuickMLRiskAndAnomalyEngine:
         with open(SCRIPTS_OUT / "fir_anomalies.json", 'w') as f:
             json.dump(self.anomalies, f, indent=2)
             
-        print("Exported offender_risk_scores.json and fir_anomalies.json successfully.")
+        # Export anomaly features CSV
+        anomaly_csv_processed = PROCESSED_DIR / "anomaly_features.csv"
+        anomaly_csv_outputs = OUTPUTS_DIR / "anomaly_features.csv"
+        self.anomaly_features_df.to_csv(anomaly_csv_processed, index=False)
+        self.anomaly_features_df.to_csv(anomaly_csv_outputs, index=False)
+            
+        print("Exported offender_risk_scores.json, fir_anomalies.json, and anomaly_features.csv successfully.")
 
 def build_quickml_models():
     engine = QuickMLRiskAndAnomalyEngine()

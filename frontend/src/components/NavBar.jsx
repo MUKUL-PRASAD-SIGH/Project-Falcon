@@ -5,7 +5,7 @@ import { useRoleVoice } from '@/hooks/useRoleVoice'
 import policeEmblem from '@/assets/police.png'
 import otherPhoto from '@/assets/other.png'
 
-const ALL_PATHS = ['/', '/chat', '/map', '/network', '/admin']
+const ALL_PATHS = ['/', '/chat', '/map', '/network', '/profiles', '/admin']
 const DEV_ROLES = ['Investigator', 'Analyst', 'Admin']
 
 /** Kannada role labels */

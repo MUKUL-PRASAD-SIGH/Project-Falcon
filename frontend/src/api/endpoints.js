@@ -55,7 +55,7 @@ export const fetchGangs = () =>
 
 /** GET /api/offender/risk/{accusedId} — QuickML 0-100 risk score */
 export const fetchRiskScore = (accusedId) =>
-  client.get(`/api/offender/risk/${accusedId}`).then((r) => r.data)
+  client.get(`/api/offender/risk/${accusedId}`).then((r) => r.data?.data ?? r.data)
 
 /* ── Case Similarity ────────────────────────────────────────────── */
 
@@ -63,14 +63,19 @@ export const fetchRiskScore = (accusedId) =>
 export const fetchSimilarCases = (caseId) =>
   client.get('/api/cases/similar', { params: { case_id: caseId } }).then((r) => r.data)
 
-/* ── Intelligence Chat ──────────────────────────────────────────── */
-
 /**
- * POST /api/query — Catalyst Circuits pipeline.
- * Returns: { answer, citations: string[], intent, map_trigger, graph_trigger }
+ * POST /api/chat/query — FALCON AI Circuits (RAG + GLM-4.7-Flash).
+ * Returns: { answer, citations: string[], is_live, model }
  */
 export const postQuery = (text, sessionId, language = 'EN') =>
-  client.post('/api/query', { text, session_id: sessionId, language }).then((r) => r.data)
+  client
+    .post('/api/chat/query', { query: text, session_id: sessionId })
+    .then((r) => ({
+      answer:    r.data.response ?? 'No response received.',
+      citations: (r.data.retrieved_nodes ?? []).map((n) => n.document_id ?? n.document_title),
+      is_live:   r.data.is_live ?? false,
+      model:     r.data.model ?? 'offline',
+    }))
 
 /* ── Forensic Evidence Verification (Kapoun Criteria) ───────────── */
 

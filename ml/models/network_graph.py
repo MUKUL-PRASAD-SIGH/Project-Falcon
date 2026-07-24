@@ -170,7 +170,7 @@ class CriminalNetworkGraph:
                 "member_count": len(node_set),
                 "key_leader": leader,
                 "avg_risk_score": round(np.mean([m['risk_score'] for m in members]), 1) if members else 50.0,
-                "top_members": members_sorted[:5]
+                "top_members": members_sorted
             })
             
         with open(OUTPUTS_DIR / "gang_network.json", 'w') as f:

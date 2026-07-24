@@ -71,9 +71,10 @@ def build_feature_table():
     # Group by Accused Person/Name to aggregate repeat history
     features = []
     
-    # Grouping by AccusedName to consolidate repeat offender records across cases
-    for accused_name, group in merged.groupby('AccusedName'):
-        accused_master_id = int(group['AccusedMasterID'].iloc[0])
+    # Group by AccusedMasterID to build individual accused feature profiles
+    for accused_master_id, group in merged.groupby('AccusedMasterID'):
+        accused_master_id = int(accused_master_id)
+        accused_name = group['AccusedName'].iloc[0]
         person_id = group['PersonID'].iloc[0]
         age = int(group['AgeYear'].mean())
         gender = int(group['GenderID'].iloc[0])
