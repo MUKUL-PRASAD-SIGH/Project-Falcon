@@ -27,6 +27,10 @@ pip-log.txt
 pip-delete-this-directory.txt
 
 # Tests
+backend/test_*.py
+backend/test/*.py
+ml/test_*.py
+ml/test/*.py
 test_*.py
 *_test.py
 tests/
@@ -34,6 +38,13 @@ test/
 .pytest_cache/
 .coverage
 htmlcov/
+
+# Explicit repo test files
+backend/test_endpoints.py
+backend/test_phase2.py
+ml/test_p2_outputs.py
+test_apis.py
+test_e2e.py
 
 # Catalyst specific
 .catalyst/
