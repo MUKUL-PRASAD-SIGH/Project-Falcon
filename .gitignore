@@ -26,6 +26,15 @@ env/
 pip-log.txt
 pip-delete-this-directory.txt
 
+# Tests
+test_*.py
+*_test.py
+tests/
+test/
+.pytest_cache/
+.coverage
+htmlcov/
+
 # Catalyst specific
 .catalyst/
 catalyst.log
