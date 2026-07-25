@@ -301,7 +301,7 @@ export default function ProfilesExplorer() {
                   <div className="flex gap-3 pt-3 flex-wrap">
                     <button
                       type="button"
-                      onClick={() => navigate('/network')}
+                      onClick={() => navigate(`/network?accusedId=${selectedAccusedId}`)}
                       className="btn-gold text-xs px-4 py-2 flex items-center gap-2"
                     >
                       <span>🕸️ View Co-Accused Network Graph</span>
