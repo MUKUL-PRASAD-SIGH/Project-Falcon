@@ -301,15 +301,6 @@
       "BriefFacts": "Acting on a tip-off, police intercepted Harish Fernandes near Saraswathipuram, Mysuru City, and seized 75 grams of heroin being transported on an auto-rickshaw. The accused was unable to produce valid documents for possession and has been taken into custody. Further investigation is underway to trace the source and intended buyers."
     },
     {
-      "CaseMasterID": 167,
-      "CrimeNo": "FIR/2025/912",
-      "similarity_score": 0.7633,
-      "CrimeRegisteredDate": "2025-01-14T01:57:38.997978",
-      "District": "Mangaluru City",
-      "CrimeHead": "Narcotics",
-      "BriefFacts": "Acting on a tip-off, police intercepted Suresh Sheikh near Kodialbail, Mangaluru City, and seized 75 grams of brown sugar being transported on an auto-rickshaw. The accused was unable to produce valid documents for possession and has been taken into custody. Further investigation is underway to trace the source and intended buyers."
-    },
-    {
       "CaseMasterID": 890,
       "CrimeNo": "FIR/2026/176",
       "similarity_score": 0.7579,
@@ -317,6 +308,15 @@
       "District": "Belagavi",
       "CrimeHead": "Narcotics",
       "BriefFacts": "Acting on a tip-off, police intercepted Nataraj Sequeira near Nehru Nagar, Belagavi, and seized 75 grams of heroin being transported on an auto-rickshaw. The accused was unable to produce valid documents for possession and has been taken into custody. Further investigation is underway to trace the source and intended buyers."
+    },
+    {
+      "CaseMasterID": 167,
+      "CrimeNo": "FIR/2025/912",
+      "similarity_score": 0.7507,
+      "CrimeRegisteredDate": "2025-01-14T01:57:38.997978",
+      "District": "Mangaluru City",
+      "CrimeHead": "Narcotics",
+      "BriefFacts": "Acting on a tip-off, police intercepted Suresh Sheikh near Kodialbail, Mangaluru City, and seized 75 grams of brown sugar being transported on an auto-rickshaw. The accused was unable to produce valid documents for possession and has been taken into custody. Further investigation is underway to trace the source and intended buyers."
     },
     {
       "CaseMasterID": 788,
@@ -330,27 +330,27 @@
   ],
   "8": [
     {
-      "CaseMasterID": 950,
-      "CrimeNo": "FIR/2026/827",
-      "similarity_score": 0.9017,
-      "CrimeRegisteredDate": "2026-05-15T00:36:39.008980",
-      "District": "Hubballi-Dharwad",
-      "CrimeHead": "Assault",
-      "BriefFacts": "A complaint was lodged by Vijay Rathod against Prakash Rathod and associates, residents of Unkal, Hubballi-Dharwad, alleging that they were assaulted with a countrymade pistol following a dispute over land boundary. The complainant sustained injuries and was treated at the local government hospital. Cross-complaints are being examined and further legal action is under process."
-    },
-    {
       "CaseMasterID": 670,
       "CrimeNo": "FIR/2025/296",
-      "similarity_score": 0.8838,
+      "similarity_score": 0.8992,
       "CrimeRegisteredDate": "2025-11-03T15:38:39.004976",
       "District": "Hubballi-Dharwad",
       "CrimeHead": "Assault",
       "BriefFacts": "A complaint was lodged by Vinay Sheikh against Rashmi Pinto and associates, residents of Vidyagiri, Hubballi-Dharwad, alleging that they were assaulted with a countrymade pistol following a dispute over land boundary. The complainant sustained injuries and was treated at the local government hospital. Cross-complaints are being examined and further legal action is under process."
     },
     {
+      "CaseMasterID": 950,
+      "CrimeNo": "FIR/2026/827",
+      "similarity_score": 0.8984,
+      "CrimeRegisteredDate": "2026-05-15T00:36:39.008980",
+      "District": "Hubballi-Dharwad",
+      "CrimeHead": "Assault",
+      "BriefFacts": "A complaint was lodged by Vijay Rathod against Prakash Rathod and associates, residents of Unkal, Hubballi-Dharwad, alleging that they were assaulted with a countrymade pistol following a dispute over land boundary. The complainant sustained injuries and was treated at the local government hospital. Cross-complaints are being examined and further legal action is under process."
+    },
+    {
       "CaseMasterID": 751,
       "CrimeNo": "FIR/2025/414",
-      "similarity_score": 0.8724,
+      "similarity_score": 0.8876,
       "CrimeRegisteredDate": "2025-01-15T04:18:39.005976",
       "District": "Hubballi-Dharwad",
       "CrimeHead": "Assault",
@@ -359,7 +359,7 @@
     {
       "CaseMasterID": 636,
       "CrimeNo": "FIR/2026/630",
-      "similarity_score": 0.7175,
+      "similarity_score": 0.7301,
       "CrimeRegisteredDate": "2026-04-16T06:37:39.004976",
       "District": "Mangaluru City",
       "CrimeHead": "Assault",
@@ -368,7 +368,7 @@
     {
       "CaseMasterID": 390,
       "CrimeNo": "FIR/2025/430",
-      "similarity_score": 0.7059,
+      "similarity_score": 0.7183,
       "CrimeRegisteredDate": "2025-11-04T18:21:39.000975",
       "District": "Belagavi",
       "CrimeHead": "Assault",
@@ -433,22 +433,22 @@
       "BriefFacts": "Acting on a tip-off, police intercepted Maria Reddy near Navanagar, Hubballi-Dharwad, and seized 150 grams of ganja (cannabis) being transported on a Mahindra Bolero pickup. The accused was unable to produce valid documents for possession and has been taken into custody. Further investigation is underway to trace the source and intended buyers."
     },
     {
-      "CaseMasterID": 898,
-      "CrimeNo": "FIR/2024/663",
-      "similarity_score": 0.8136,
-      "CrimeRegisteredDate": "2024-09-09T19:30:39.007974",
-      "District": "Hubballi-Dharwad",
-      "CrimeHead": "Narcotics",
-      "BriefFacts": "Acting on a tip-off, police intercepted Imran Patil near Deshpande Nagar, Hubballi-Dharwad, and seized 150 grams of ganja (cannabis) being transported on a Tata Ace goods carrier. The accused was unable to produce valid documents for possession and has been taken into custody. Further investigation is underway to trace the source and intended buyers."
-    },
-    {
       "CaseMasterID": 651,
       "CrimeNo": "FIR/2024/596",
-      "similarity_score": 0.7879,
+      "similarity_score": 0.807,
       "CrimeRegisteredDate": "2024-12-05T09:17:39.004976",
       "District": "Hubballi-Dharwad",
       "CrimeHead": "Narcotics",
       "BriefFacts": "Acting on a tip-off, police intercepted Vijay Rathod near Rayapur, Hubballi-Dharwad, and seized 1.2 kg of ganja (cannabis) being transported on a Mahindra Bolero pickup. The accused was unable to produce valid documents for possession and has been taken into custody. Further investigation is underway to trace the source and intended buyers."
+    },
+    {
+      "CaseMasterID": 898,
+      "CrimeNo": "FIR/2024/663",
+      "similarity_score": 0.7949,
+      "CrimeRegisteredDate": "2024-09-09T19:30:39.007974",
+      "District": "Hubballi-Dharwad",
+      "CrimeHead": "Narcotics",
+      "BriefFacts": "Acting on a tip-off, police intercepted Imran Patil near Deshpande Nagar, Hubballi-Dharwad, and seized 150 grams of ganja (cannabis) being transported on a Tata Ace goods carrier. The accused was unable to produce valid documents for possession and has been taken into custody. Further investigation is underway to trace the source and intended buyers."
     },
     {
       "CaseMasterID": 411,
@@ -460,13 +460,13 @@
       "BriefFacts": "Acting on a tip-off, police intercepted Vijayalakshmi Bhat near Deshpande Nagar, Hubballi-Dharwad, and seized 1.2 kg of ganja (cannabis) being transported on a KSRTC bus. The accused was unable to produce valid documents for possession and has been taken into custody. Further investigation is underway to trace the source and intended buyers."
     },
     {
-      "CaseMasterID": 752,
-      "CrimeNo": "FIR/2025/427",
-      "similarity_score": 0.7409,
-      "CrimeRegisteredDate": "2025-08-24T18:01:39.005976",
+      "CaseMasterID": 98,
+      "CrimeNo": "FIR/2026/685",
+      "similarity_score": 0.7364,
+      "CrimeRegisteredDate": "2026-01-01T20:54:38.995976",
       "District": "Hubballi-Dharwad",
       "CrimeHead": "Narcotics",
-      "BriefFacts": "Acting on a tip-off, police intercepted Harish Fernandes near Gokul Road, Hubballi-Dharwad, and seized 150 grams of ganja (cannabis) being transported on a Royal Enfield motorcycle. The accused was unable to produce valid documents for possession and has been taken into custody. Further investigation is underway to trace the source and intended buyers."
+      "BriefFacts": "Acting on a tip-off, police intercepted Pushpa Kulkarni near Saptapur, Hubballi-Dharwad, and seized 75 grams of heroin being transported on a Mahindra Bolero pickup. The accused was unable to produce valid documents for possession and has been taken into custody. Further investigation is underway to trace the source and intended buyers."
     }
   ],
   "11": [
@@ -498,18 +498,18 @@
       "BriefFacts": "Vinay Chavan of Indiranagar, Bengaluru City, was intercepted by a group of four persons armed with sticks who threatened him/her with an iron rod and forcibly took away cash and valuables worth Rs. 180,000, during the intervening night. The accused fled on a Tata Ace goods carrier towards Kolar road. A case has been registered and search is on to nab the culprits."
     },
     {
-      "CaseMasterID": 525,
-      "CrimeNo": "FIR/2026/788",
-      "similarity_score": 0.6688,
-      "CrimeRegisteredDate": "2026-02-25T20:42:39.002973",
+      "CaseMasterID": 710,
+      "CrimeNo": "FIR/2024/275",
+      "similarity_score": 0.6717,
+      "CrimeRegisteredDate": "2024-11-12T23:55:39.005976",
       "District": "Mysuru City",
       "CrimeHead": "Robbery",
-      "BriefFacts": "Puneeth Bhat of N.R. Mohalla, Mysuru City, was intercepted by a group of four persons armed with sticks who threatened him/her with a knife and forcibly took away cash and valuables worth Rs. 40,000, during a power outage at night. The accused fled on an auto-rickshaw towards Shivamogga road. A case has been registered and search is on to nab the culprits."
+      "BriefFacts": "Santosh Kotian of Kuvempunagar, Mysuru City, was intercepted by a group of four persons armed with sticks who threatened him/her with a knife and forcibly took away cash and valuables worth Rs. 850,000, during a power outage at night. The accused fled on a Royal Enfield motorcycle towards Davangere road. A case has been registered and search is on to nab the culprits."
     },
     {
       "CaseMasterID": 548,
       "CrimeNo": "FIR/2025/389",
-      "similarity_score": 0.662,
+      "similarity_score": 0.6701,
       "CrimeRegisteredDate": "2025-08-25T01:31:39.002973",
       "District": "Hubballi-Dharwad",
       "CrimeHead": "Robbery",
@@ -706,27 +706,27 @@
   ],
   "16": [
     {
-      "CaseMasterID": 874,
-      "CrimeNo": "FIR/2024/971",
-      "similarity_score": 0.8066,
-      "CrimeRegisteredDate": "2024-12-12T20:41:39.007974",
-      "District": "Hubballi-Dharwad",
-      "CrimeHead": "Homicide",
-      "BriefFacts": "The body of Prakash Rathod, a resident of Vidyanagar, Hubballi-Dharwad, was found with injuries suspected to be caused by a sickle. Investigation suggests the incident may be linked to an honour-related dispute. The body has been sent for post-mortem examination and a case of murder has been registered. A team has been formed to trace the absconding accused."
-    },
-    {
       "CaseMasterID": 910,
       "CrimeNo": "FIR/2026/998",
-      "similarity_score": 0.8013,
+      "similarity_score": 0.8078,
       "CrimeRegisteredDate": "2026-06-09T02:12:39.007974",
       "District": "Hubballi-Dharwad",
       "CrimeHead": "Homicide",
       "BriefFacts": "The body of Ravi Rathod, a resident of Rayapur, Hubballi-Dharwad, was found with injuries suspected to be caused by a wooden club (lathi). Investigation suggests the incident may be linked to an honour-related dispute. The body has been sent for post-mortem examination and a case of murder has been registered. A team has been formed to trace the absconding accused."
     },
     {
+      "CaseMasterID": 874,
+      "CrimeNo": "FIR/2024/971",
+      "similarity_score": 0.7929,
+      "CrimeRegisteredDate": "2024-12-12T20:41:39.007974",
+      "District": "Hubballi-Dharwad",
+      "CrimeHead": "Homicide",
+      "BriefFacts": "The body of Prakash Rathod, a resident of Vidyanagar, Hubballi-Dharwad, was found with injuries suspected to be caused by a sickle. Investigation suggests the incident may be linked to an honour-related dispute. The body has been sent for post-mortem examination and a case of murder has been registered. A team has been formed to trace the absconding accused."
+    },
+    {
       "CaseMasterID": 764,
       "CrimeNo": "FIR/2024/109",
-      "similarity_score": 0.7587,
+      "similarity_score": 0.7458,
       "CrimeRegisteredDate": "2024-08-09T18:07:39.005976",
       "District": "Hubballi-Dharwad",
       "CrimeHead": "Homicide",
@@ -735,7 +735,7 @@
     {
       "CaseMasterID": 61,
       "CrimeNo": "FIR/2025/280",
-      "similarity_score": 0.7495,
+      "similarity_score": 0.7367,
       "CrimeRegisteredDate": "2025-07-18T12:57:38.994974",
       "District": "Hubballi-Dharwad",
       "CrimeHead": "Homicide",
@@ -744,7 +744,7 @@
     {
       "CaseMasterID": 425,
       "CrimeNo": "FIR/2025/588",
-      "similarity_score": 0.7195,
+      "similarity_score": 0.7072,
       "CrimeRegisteredDate": "2025-07-30T09:51:39.001973",
       "District": "Mysuru City",
       "CrimeHead": "Homicide",
@@ -867,7 +867,7 @@
     {
       "CaseMasterID": 107,
       "CrimeNo": "FIR/2025/860",
-      "similarity_score": 0.5968,
+      "similarity_score": 0.5883,
       "CrimeRegisteredDate": "2025-03-06T01:06:38.996976",
       "District": "Bengaluru City",
       "CrimeHead": "Robbery",
@@ -905,7 +905,7 @@
     {
       "CaseMasterID": 538,
       "CrimeNo": "FIR/2025/306",
-      "similarity_score": 0.7753,
+      "similarity_score": 0.7905,
       "CrimeRegisteredDate": "2025-09-17T18:07:39.002973",
       "District": "Hubballi-Dharwad",
       "CrimeHead": "Homicide",
@@ -914,7 +914,7 @@
     {
       "CaseMasterID": 977,
       "CrimeNo": "FIR/2026/205",
-      "similarity_score": 0.7629,
+      "similarity_score": 0.7774,
       "CrimeRegisteredDate": "2026-04-30T03:40:39.008980",
       "District": "Hubballi-Dharwad",
       "CrimeHead": "Homicide",
@@ -923,7 +923,7 @@
     {
       "CaseMasterID": 402,
       "CrimeNo": "FIR/2024/668",
-      "similarity_score": 0.7554,
+      "similarity_score": 0.7695,
       "CrimeRegisteredDate": "2024-10-12T03:19:39.000975",
       "District": "Hubballi-Dharwad",
       "CrimeHead": "Homicide",
@@ -932,7 +932,7 @@
     {
       "CaseMasterID": 712,
       "CrimeNo": "FIR/2026/127",
-      "similarity_score": 0.7424,
+      "similarity_score": 0.7557,
       "CrimeRegisteredDate": "2026-07-09T19:07:39.005976",
       "District": "Hubballi-Dharwad",
       "CrimeHead": "Homicide",
@@ -943,7 +943,7 @@
     {
       "CaseMasterID": 598,
       "CrimeNo": "FIR/2025/650",
-      "similarity_score": 0.8051,
+      "similarity_score": 0.7818,
       "CrimeRegisteredDate": "2025-11-08T04:39:39.003973",
       "District": "Bengaluru City",
       "CrimeHead": "Narcotics",
@@ -952,7 +952,7 @@
     {
       "CaseMasterID": 231,
       "CrimeNo": "FIR/2025/143",
-      "similarity_score": 0.7919,
+      "similarity_score": 0.769,
       "CrimeRegisteredDate": "2025-05-05T13:50:38.998975",
       "District": "Bengaluru City",
       "CrimeHead": "Narcotics",
@@ -961,7 +961,7 @@
     {
       "CaseMasterID": 830,
       "CrimeNo": "FIR/2026/619",
-      "similarity_score": 0.757,
+      "similarity_score": 0.7669,
       "CrimeRegisteredDate": "2026-03-17T23:11:39.006977",
       "District": "Bengaluru City",
       "CrimeHead": "Narcotics",
@@ -970,7 +970,7 @@
     {
       "CaseMasterID": 688,
       "CrimeNo": "FIR/2025/982",
-      "similarity_score": 0.7398,
+      "similarity_score": 0.7625,
       "CrimeRegisteredDate": "2025-04-15T15:31:39.004976",
       "District": "Bengaluru City",
       "CrimeHead": "Narcotics",
@@ -979,7 +979,7 @@
     {
       "CaseMasterID": 534,
       "CrimeNo": "FIR/2025/955",
-      "similarity_score": 0.703,
+      "similarity_score": 0.7167,
       "CrimeRegisteredDate": "2025-04-08T06:57:39.002973",
       "District": "Bengaluru City",
       "CrimeHead": "Narcotics",
@@ -1118,33 +1118,24 @@
       "BriefFacts": "Lawrence Prabhu of Mysuru Palace vicinity, Mysuru City, was intercepted by an unidentified motorcycle-borne duo who threatened him/her with an iron rod and forcibly took away cash and valuables worth Rs. 150,000, in the evening around dusk. The accused fled on a Hero Splendor motorcycle towards Bidar road. A case has been registered and search is on to nab the culprits."
     },
     {
-      "CaseMasterID": 805,
-      "CrimeNo": "FIR/2025/636",
-      "similarity_score": 0.64,
-      "CrimeRegisteredDate": "2025-03-10T19:11:39.006977",
-      "District": "Belagavi",
+      "CaseMasterID": 803,
+      "CrimeNo": "FIR/2025/495",
+      "similarity_score": 0.6416,
+      "CrimeRegisteredDate": "2025-08-19T08:40:39.006977",
+      "District": "Bengaluru City",
       "CrimeHead": "Robbery",
-      "BriefFacts": "Rashmi Hegde of Godbole Nagar, Belagavi, was intercepted by three masked individuals who threatened him/her with an iron rod and forcibly took away cash and valuables worth Rs. 180,000, in the evening around dusk. The accused fled on a Hero Splendor motorcycle towards Bidar road. A case has been registered and search is on to nab the culprits."
+      "BriefFacts": "Roopa Achar of Marathahalli, Bengaluru City, was intercepted by two unidentified men on a motorcycle who threatened him/her with an iron rod and forcibly took away cash and valuables worth Rs. 180,000, during a power outage at night. The accused fled on a Royal Enfield motorcycle towards Udupi road. A case has been registered and search is on to nab the culprits."
     }
   ],
   "25": [
     {
       "CaseMasterID": 903,
       "CrimeNo": "FIR/2026/118",
-      "similarity_score": 0.801,
+      "similarity_score": 0.7873,
       "CrimeRegisteredDate": "2026-03-10T21:02:39.007974",
       "District": "Belagavi",
       "CrimeHead": "Narcotics",
       "BriefFacts": "Acting on a tip-off, police intercepted Xavier Setty near Tilakwadi, Belagavi, and seized 75 grams of brown sugar being transported on a Mahindra Bolero pickup. The accused was unable to produce valid documents for possession and has been taken into custody. Further investigation is underway to trace the source and intended buyers."
-    },
-    {
-      "CaseMasterID": 675,
-      "CrimeNo": "FIR/2025/381",
-      "similarity_score": 0.7774,
-      "CrimeRegisteredDate": "2025-11-24T23:13:39.004976",
-      "District": "Belagavi",
-      "CrimeHead": "Narcotics",
-      "BriefFacts": "Acting on a tip-off, police intercepted Pushpa Kulkarni near Ramdev Galli, Belagavi, and seized 75 grams of brown sugar being transported on a Bajaj Pulsar motorcycle. The accused was unable to produce valid documents for possession and has been taken into custody. Further investigation is underway to trace the source and intended buyers."
     },
     {
       "CaseMasterID": 288,
@@ -1154,6 +1145,15 @@
       "District": "Belagavi",
       "CrimeHead": "Narcotics",
       "BriefFacts": "Acting on a tip-off, police intercepted Naseema Rao near Ramdev Galli, Belagavi, and seized 75 grams of brown sugar being transported on a Hero Splendor motorcycle. The accused was unable to produce valid documents for possession and has been taken into custody. Further investigation is underway to trace the source and intended buyers."
+    },
+    {
+      "CaseMasterID": 675,
+      "CrimeNo": "FIR/2025/381",
+      "similarity_score": 0.7649,
+      "CrimeRegisteredDate": "2025-11-24T23:13:39.004976",
+      "District": "Belagavi",
+      "CrimeHead": "Narcotics",
+      "BriefFacts": "Acting on a tip-off, police intercepted Pushpa Kulkarni near Ramdev Galli, Belagavi, and seized 75 grams of brown sugar being transported on a Bajaj Pulsar motorcycle. The accused was unable to produce valid documents for possession and has been taken into custody. Further investigation is underway to trace the source and intended buyers."
     },
     {
       "CaseMasterID": 756,
@@ -1178,7 +1178,7 @@
     {
       "CaseMasterID": 743,
       "CrimeNo": "FIR/2025/287",
-      "similarity_score": 0.8714,
+      "similarity_score": 0.8757,
       "CrimeRegisteredDate": "2025-05-18T21:59:39.005976",
       "District": "Bengaluru City",
       "CrimeHead": "Homicide",
@@ -1187,7 +1187,7 @@
     {
       "CaseMasterID": 491,
       "CrimeNo": "FIR/2025/865",
-      "similarity_score": 0.8426,
+      "similarity_score": 0.8286,
       "CrimeRegisteredDate": "2025-05-05T22:59:39.002973",
       "District": "Bengaluru City",
       "CrimeHead": "Homicide",
@@ -1196,7 +1196,7 @@
     {
       "CaseMasterID": 117,
       "CrimeNo": "FIR/2024/523",
-      "similarity_score": 0.8029,
+      "similarity_score": 0.7895,
       "CrimeRegisteredDate": "2024-09-25T07:46:38.996976",
       "District": "Bengaluru City",
       "CrimeHead": "Homicide",
@@ -1205,7 +1205,7 @@
     {
       "CaseMasterID": 999,
       "CrimeNo": "FIR/2025/691",
-      "similarity_score": 0.7798,
+      "similarity_score": 0.7669,
       "CrimeRegisteredDate": "2025-05-26T12:28:39.008980",
       "District": "Mangaluru City",
       "CrimeHead": "Homicide",
@@ -1214,7 +1214,7 @@
     {
       "CaseMasterID": 664,
       "CrimeNo": "FIR/2025/739",
-      "similarity_score": 0.7774,
+      "similarity_score": 0.7645,
       "CrimeRegisteredDate": "2025-10-25T21:19:39.004976",
       "District": "Bengaluru City",
       "CrimeHead": "Homicide",
@@ -1281,7 +1281,7 @@
     {
       "CaseMasterID": 480,
       "CrimeNo": "FIR/2025/313",
-      "similarity_score": 0.7157,
+      "similarity_score": 0.726,
       "CrimeRegisteredDate": "2025-06-21T14:31:39.001973",
       "District": "Hubballi-Dharwad",
       "CrimeHead": "Robbery",
@@ -1364,27 +1364,27 @@
   ],
   "30": [
     {
-      "CaseMasterID": 120,
-      "CrimeNo": "FIR/2024/206",
-      "similarity_score": 0.7565,
-      "CrimeRegisteredDate": "2024-09-10T23:55:38.996976",
-      "District": "Belagavi",
-      "CrimeHead": "Assault",
-      "BriefFacts": "A complaint was lodged by Ganesh Shetty against Arjun Bhat and associates, residents of Khade Bazaar, Belagavi, alleging that they were assaulted with an iron rod following an old enmity between families. The complainant sustained injuries and was treated at the local government hospital. Cross-complaints are being examined and further legal action is under process."
-    },
-    {
       "CaseMasterID": 484,
       "CrimeNo": "FIR/2025/773",
-      "similarity_score": 0.7438,
+      "similarity_score": 0.752,
       "CrimeRegisteredDate": "2025-05-12T00:10:39.001973",
       "District": "Belagavi",
       "CrimeHead": "Assault",
       "BriefFacts": "A complaint was lodged by Ravi Rathod against Vinay Sheikh and associates, residents of Ramdev Galli, Belagavi, alleging that they were assaulted with a sickle following an old enmity between families. The complainant sustained injuries and was treated at the local government hospital. Cross-complaints are being examined and further legal action is under process."
     },
     {
+      "CaseMasterID": 120,
+      "CrimeNo": "FIR/2024/206",
+      "similarity_score": 0.7444,
+      "CrimeRegisteredDate": "2024-09-10T23:55:38.996976",
+      "District": "Belagavi",
+      "CrimeHead": "Assault",
+      "BriefFacts": "A complaint was lodged by Ganesh Shetty against Arjun Bhat and associates, residents of Khade Bazaar, Belagavi, alleging that they were assaulted with an iron rod following an old enmity between families. The complainant sustained injuries and was treated at the local government hospital. Cross-complaints are being examined and further legal action is under process."
+    },
+    {
       "CaseMasterID": 730,
       "CrimeNo": "FIR/2024/108",
-      "similarity_score": 0.7307,
+      "similarity_score": 0.7321,
       "CrimeRegisteredDate": "2024-08-05T07:55:39.005976",
       "District": "Belagavi",
       "CrimeHead": "Assault",
@@ -1393,7 +1393,7 @@
     {
       "CaseMasterID": 929,
       "CrimeNo": "FIR/2026/251",
-      "similarity_score": 0.7239,
+      "similarity_score": 0.7123,
       "CrimeRegisteredDate": "2026-05-06T18:55:39.007974",
       "District": "Mangaluru City",
       "CrimeHead": "Assault",
@@ -1402,7 +1402,7 @@
     {
       "CaseMasterID": 448,
       "CrimeNo": "FIR/2025/561",
-      "similarity_score": 0.7162,
+      "similarity_score": 0.7048,
       "CrimeRegisteredDate": "2025-12-20T22:44:39.001973",
       "District": "Belagavi",
       "CrimeHead": "Assault",
@@ -1494,13 +1494,13 @@
       "BriefFacts": "The body of Rajesh Gowda, a resident of Falnir Road, Mangaluru City, was found with injuries suspected to be caused by a chopper. Investigation suggests the incident may be linked to a money-lending dispute. The body has been sent for post-mortem examination and a case of murder has been registered. A team has been formed to trace the absconding accused."
     },
     {
-      "CaseMasterID": 455,
-      "CrimeNo": "FIR/2025/265",
-      "similarity_score": 0.7586,
-      "CrimeRegisteredDate": "2025-08-12T22:40:39.001973",
-      "District": "Mysuru City",
+      "CaseMasterID": 785,
+      "CrimeNo": "FIR/2026/668",
+      "similarity_score": 0.7576,
+      "CrimeRegisteredDate": "2026-01-16T18:23:39.006977",
+      "District": "Mangaluru City",
       "CrimeHead": "Homicide",
-      "BriefFacts": "The body of Suresh Sheikh, a resident of Chamundipuram, Mysuru City, was found with injuries suspected to be caused by a knife. Investigation suggests the incident may be linked to a money-lending dispute. The body has been sent for post-mortem examination and a case of murder has been registered. A team has been formed to trace the absconding accused."
+      "BriefFacts": "The body of Xavier Sequeira, a resident of Bunder, Mangaluru City, was found with injuries suspected to be caused by a countrymade pistol. Investigation suggests the incident may be linked to a money-lending dispute. The body has been sent for post-mortem examination and a case of murder has been registered. A team has been formed to trace the absconding accused."
     }
   ],
   "33": [
@@ -1563,7 +1563,7 @@
     {
       "CaseMasterID": 167,
       "CrimeNo": "FIR/2025/912",
-      "similarity_score": 0.8142,
+      "similarity_score": 0.8008,
       "CrimeRegisteredDate": "2025-01-14T01:57:38.997978",
       "District": "Mangaluru City",
       "CrimeHead": "Narcotics",
@@ -1590,7 +1590,7 @@
     {
       "CaseMasterID": 223,
       "CrimeNo": "FIR/2024/437",
-      "similarity_score": 0.7632,
+      "similarity_score": 0.751,
       "CrimeRegisteredDate": "2024-12-02T09:46:38.998975",
       "District": "Mysuru City",
       "CrimeHead": "Narcotics",
@@ -1601,7 +1601,7 @@
     {
       "CaseMasterID": 997,
       "CrimeNo": "FIR/2025/411",
-      "similarity_score": 0.7544,
+      "similarity_score": 0.7466,
       "CrimeRegisteredDate": "2025-01-19T18:59:39.008980",
       "District": "Bengaluru City",
       "CrimeHead": "Robbery",
@@ -1610,34 +1610,34 @@
     {
       "CaseMasterID": 786,
       "CrimeNo": "FIR/2024/447",
-      "similarity_score": 0.6759,
+      "similarity_score": 0.6864,
       "CrimeRegisteredDate": "2024-12-01T19:02:39.006977",
       "District": "Bengaluru City",
       "CrimeHead": "Robbery",
       "BriefFacts": "Sandra Jadhav of Electronic City, Bengaluru City, was intercepted by three masked individuals who threatened him/her with an iron rod and forcibly took away cash and valuables worth Rs. 90,000, in the evening around dusk. The accused fled on a Hero Splendor motorcycle towards Shivamogga road. A case has been registered and search is on to nab the culprits."
     },
     {
-      "CaseMasterID": 803,
-      "CrimeNo": "FIR/2025/495",
-      "similarity_score": 0.6521,
-      "CrimeRegisteredDate": "2025-08-19T08:40:39.006977",
-      "District": "Bengaluru City",
-      "CrimeHead": "Robbery",
-      "BriefFacts": "Roopa Achar of Marathahalli, Bengaluru City, was intercepted by two unidentified men on a motorcycle who threatened him/her with an iron rod and forcibly took away cash and valuables worth Rs. 180,000, during a power outage at night. The accused fled on a Royal Enfield motorcycle towards Udupi road. A case has been registered and search is on to nab the culprits."
-    },
-    {
       "CaseMasterID": 931,
       "CrimeNo": "FIR/2025/528",
-      "similarity_score": 0.642,
+      "similarity_score": 0.652,
       "CrimeRegisteredDate": "2025-08-31T03:27:39.007974",
       "District": "Mangaluru City",
       "CrimeHead": "Robbery",
       "BriefFacts": "Nandini Setty of Kankanady, Mangaluru City, was intercepted by three masked individuals who threatened him/her with an iron rod and forcibly took away cash and valuables worth Rs. 180,000, during the intervening night. The accused fled on a Bajaj Pulsar motorcycle towards Vijayapura road. A case has been registered and search is on to nab the culprits."
     },
     {
+      "CaseMasterID": 803,
+      "CrimeNo": "FIR/2025/495",
+      "similarity_score": 0.6416,
+      "CrimeRegisteredDate": "2025-08-19T08:40:39.006977",
+      "District": "Bengaluru City",
+      "CrimeHead": "Robbery",
+      "BriefFacts": "Roopa Achar of Marathahalli, Bengaluru City, was intercepted by two unidentified men on a motorcycle who threatened him/her with an iron rod and forcibly took away cash and valuables worth Rs. 180,000, during a power outage at night. The accused fled on a Royal Enfield motorcycle towards Udupi road. A case has been registered and search is on to nab the culprits."
+    },
+    {
       "CaseMasterID": 75,
       "CrimeNo": "FIR/2024/803",
-      "similarity_score": 0.615,
+      "similarity_score": 0.6245,
       "CrimeRegisteredDate": "2024-11-22T02:18:38.995976",
       "District": "Bengaluru City",
       "CrimeHead": "Robbery",
@@ -1704,7 +1704,7 @@
     {
       "CaseMasterID": 375,
       "CrimeNo": "FIR/2025/833",
-      "similarity_score": 0.7543,
+      "similarity_score": 0.7391,
       "CrimeRegisteredDate": "2025-12-07T01:21:39.000975",
       "District": "Hubballi-Dharwad",
       "CrimeHead": "Assault",
@@ -1713,20 +1713,11 @@
     {
       "CaseMasterID": 484,
       "CrimeNo": "FIR/2025/773",
-      "similarity_score": 0.7477,
+      "similarity_score": 0.7353,
       "CrimeRegisteredDate": "2025-05-12T00:10:39.001973",
       "District": "Belagavi",
       "CrimeHead": "Assault",
       "BriefFacts": "A complaint was lodged by Ravi Rathod against Vinay Sheikh and associates, residents of Ramdev Galli, Belagavi, alleging that they were assaulted with a sickle following an old enmity between families. The complainant sustained injuries and was treated at the local government hospital. Cross-complaints are being examined and further legal action is under process."
-    },
-    {
-      "CaseMasterID": 863,
-      "CrimeNo": "FIR/2025/199",
-      "similarity_score": 0.7175,
-      "CrimeRegisteredDate": "2025-01-29T01:18:39.007974",
-      "District": "Hubballi-Dharwad",
-      "CrimeHead": "Assault",
-      "BriefFacts": "A complaint was lodged by Vijayalakshmi Desai against Lawrence Prabhu and associates, residents of Vidyagiri, Hubballi-Dharwad, alleging that they were assaulted with a sickle following a financial dispute over a loan. The complainant sustained injuries and was treated at the local government hospital. Cross-complaints are being examined and further legal action is under process."
     },
     {
       "CaseMasterID": 927,
@@ -1736,6 +1727,15 @@
       "District": "Belagavi",
       "CrimeHead": "Assault",
       "BriefFacts": "A complaint was lodged by Roopa Salian against Santosh Kotian and associates, residents of Ramdev Galli, Belagavi, alleging that they were assaulted with a sickle following an old enmity between families. The complainant sustained injuries and was treated at the local government hospital. Cross-complaints are being examined and further legal action is under process."
+    },
+    {
+      "CaseMasterID": 863,
+      "CrimeNo": "FIR/2025/199",
+      "similarity_score": 0.703,
+      "CrimeRegisteredDate": "2025-01-29T01:18:39.007974",
+      "District": "Hubballi-Dharwad",
+      "CrimeHead": "Assault",
+      "BriefFacts": "A complaint was lodged by Vijayalakshmi Desai against Lawrence Prabhu and associates, residents of Vidyagiri, Hubballi-Dharwad, alleging that they were assaulted with a sickle following a financial dispute over a loan. The complainant sustained injuries and was treated at the local government hospital. Cross-complaints are being examined and further legal action is under process."
     }
   ],
   "38": [
@@ -1789,7 +1789,7 @@
     {
       "CaseMasterID": 190,
       "CrimeNo": "FIR/2025/595",
-      "similarity_score": 0.8214,
+      "similarity_score": 0.8347,
       "CrimeRegisteredDate": "2025-04-09T06:21:38.997978",
       "District": "Hubballi-Dharwad",
       "CrimeHead": "Fraud",
@@ -1798,7 +1798,7 @@
     {
       "CaseMasterID": 966,
       "CrimeNo": "FIR/2026/546",
-      "similarity_score": 0.7884,
+      "similarity_score": 0.8144,
       "CrimeRegisteredDate": "2026-01-24T01:27:39.008980",
       "District": "Hubballi-Dharwad",
       "CrimeHead": "Fraud",
@@ -1807,7 +1807,7 @@
     {
       "CaseMasterID": 207,
       "CrimeNo": "FIR/2025/174",
-      "similarity_score": 0.7653,
+      "similarity_score": 0.7777,
       "CrimeRegisteredDate": "2025-09-11T19:25:38.998975",
       "District": "Hubballi-Dharwad",
       "CrimeHead": "Fraud",
@@ -1816,7 +1816,7 @@
     {
       "CaseMasterID": 750,
       "CrimeNo": "FIR/2025/424",
-      "similarity_score": 0.7137,
+      "similarity_score": 0.7253,
       "CrimeRegisteredDate": "2025-03-07T19:21:39.005976",
       "District": "Belagavi",
       "CrimeHead": "Fraud",
@@ -1825,7 +1825,7 @@
     {
       "CaseMasterID": 99,
       "CrimeNo": "FIR/2026/863",
-      "similarity_score": 0.7009,
+      "similarity_score": 0.7123,
       "CrimeRegisteredDate": "2026-07-01T14:25:38.996976",
       "District": "Mangaluru City",
       "CrimeHead": "Fraud",
@@ -1836,7 +1836,7 @@
     {
       "CaseMasterID": 62,
       "CrimeNo": "FIR/2025/972",
-      "similarity_score": 0.8625,
+      "similarity_score": 0.848,
       "CrimeRegisteredDate": "2025-01-18T02:29:38.994974",
       "District": "Belagavi",
       "CrimeHead": "Narcotics",
@@ -1845,20 +1845,20 @@
     {
       "CaseMasterID": 889,
       "CrimeNo": "FIR/2026/856",
-      "similarity_score": 0.7853,
+      "similarity_score": 0.7716,
       "CrimeRegisteredDate": "2026-01-10T18:45:39.007974",
       "District": "Belagavi",
       "CrimeHead": "Narcotics",
       "BriefFacts": "Acting on a tip-off, police intercepted Vijayalakshmi Desai near Shahapur, Belagavi, and seized 900 grams of MDMA tablets being transported on a Bajaj Pulsar motorcycle. The accused was unable to produce valid documents for possession and has been taken into custody. Further investigation is underway to trace the source and intended buyers."
     },
     {
-      "CaseMasterID": 885,
-      "CrimeNo": "FIR/2025/794",
-      "similarity_score": 0.7497,
-      "CrimeRegisteredDate": "2025-07-01T08:47:39.007974",
+      "CaseMasterID": 632,
+      "CrimeNo": "FIR/2025/624",
+      "similarity_score": 0.7548,
+      "CrimeRegisteredDate": "2025-05-03T23:40:39.003973",
       "District": "Belagavi",
       "CrimeHead": "Narcotics",
-      "BriefFacts": "Acting on a tip-off, police intercepted Roopa Hegde near Tilakwadi, Belagavi, and seized 900 grams of MDMA tablets being transported on a Bajaj Pulsar motorcycle. The accused was unable to produce valid documents for possession and has been taken into custody. Further investigation is underway to trace the source and intended buyers."
+      "BriefFacts": "Acting on a tip-off, police intercepted Nandini Setty near Camp area, Belagavi, and seized 500 grams of ephedrine-based cough syrup being transported on a white Maruti Swift. The accused was unable to produce valid documents for possession and has been taken into custody. Further investigation is underway to trace the source and intended buyers."
     },
     {
       "CaseMasterID": 760,
@@ -1870,20 +1870,20 @@
       "BriefFacts": "Acting on a tip-off, police intercepted Nandini Khan near Mysuru Palace vicinity, Mysuru City, and seized 900 grams of MDMA tablets being transported on a white Maruti Swift. The accused was unable to produce valid documents for possession and has been taken into custody. Further investigation is underway to trace the source and intended buyers."
     },
     {
-      "CaseMasterID": 632,
-      "CrimeNo": "FIR/2025/624",
-      "similarity_score": 0.7407,
-      "CrimeRegisteredDate": "2025-05-03T23:40:39.003973",
+      "CaseMasterID": 885,
+      "CrimeNo": "FIR/2025/794",
+      "similarity_score": 0.7368,
+      "CrimeRegisteredDate": "2025-07-01T08:47:39.007974",
       "District": "Belagavi",
       "CrimeHead": "Narcotics",
-      "BriefFacts": "Acting on a tip-off, police intercepted Nandini Setty near Camp area, Belagavi, and seized 500 grams of ephedrine-based cough syrup being transported on a white Maruti Swift. The accused was unable to produce valid documents for possession and has been taken into custody. Further investigation is underway to trace the source and intended buyers."
+      "BriefFacts": "Acting on a tip-off, police intercepted Roopa Hegde near Tilakwadi, Belagavi, and seized 900 grams of MDMA tablets being transported on a Bajaj Pulsar motorcycle. The accused was unable to produce valid documents for possession and has been taken into custody. Further investigation is underway to trace the source and intended buyers."
     }
   ],
   "41": [
     {
       "CaseMasterID": 621,
       "CrimeNo": "FIR/2024/918",
-      "similarity_score": 0.8289,
+      "similarity_score": 0.8352,
       "CrimeRegisteredDate": "2024-09-29T17:18:39.003973",
       "District": "Bengaluru City",
       "CrimeHead": "Narcotics",
@@ -1892,34 +1892,34 @@
     {
       "CaseMasterID": 376,
       "CrimeNo": "FIR/2024/634",
-      "similarity_score": 0.8282,
+      "similarity_score": 0.8347,
       "CrimeRegisteredDate": "2024-09-17T21:00:39.000975",
       "District": "Mangaluru City",
       "CrimeHead": "Narcotics",
       "BriefFacts": "Acting on a tip-off, police intercepted Vijay Rathod near Bendoorwell, Mangaluru City, and seized 1.2 kg of MDMA tablets being transported on a KSRTC bus. The accused was unable to produce valid documents for possession and has been taken into custody. Further investigation is underway to trace the source and intended buyers."
     },
     {
-      "CaseMasterID": 410,
-      "CrimeNo": "FIR/2025/652",
-      "similarity_score": 0.799,
-      "CrimeRegisteredDate": "2025-06-04T09:13:39.001973",
-      "District": "Belagavi",
-      "CrimeHead": "Narcotics",
-      "BriefFacts": "Acting on a tip-off, police intercepted Ravi Rathod near Khade Bazaar, Belagavi, and seized 1.2 kg of MDMA tablets being transported on a KSRTC bus. The accused was unable to produce valid documents for possession and has been taken into custody. Further investigation is underway to trace the source and intended buyers."
-    },
-    {
       "CaseMasterID": 329,
       "CrimeNo": "FIR/2025/569",
-      "similarity_score": 0.7986,
+      "similarity_score": 0.8059,
       "CrimeRegisteredDate": "2025-06-21T07:25:38.999975",
       "District": "Mangaluru City",
       "CrimeHead": "Narcotics",
       "BriefFacts": "Acting on a tip-off, police intercepted Bhagya Mendes near Surathkal, Mangaluru City, and seized 1.2 kg of MDMA tablets being transported on a KSRTC bus. The accused was unable to produce valid documents for possession and has been taken into custody. Further investigation is underway to trace the source and intended buyers."
     },
     {
+      "CaseMasterID": 410,
+      "CrimeNo": "FIR/2025/652",
+      "similarity_score": 0.7916,
+      "CrimeRegisteredDate": "2025-06-04T09:13:39.001973",
+      "District": "Belagavi",
+      "CrimeHead": "Narcotics",
+      "BriefFacts": "Acting on a tip-off, police intercepted Ravi Rathod near Khade Bazaar, Belagavi, and seized 1.2 kg of MDMA tablets being transported on a KSRTC bus. The accused was unable to produce valid documents for possession and has been taken into custody. Further investigation is underway to trace the source and intended buyers."
+    },
+    {
       "CaseMasterID": 231,
       "CrimeNo": "FIR/2025/143",
-      "similarity_score": 0.7536,
+      "similarity_score": 0.7535,
       "CrimeRegisteredDate": "2025-05-05T13:50:38.998975",
       "District": "Bengaluru City",
       "CrimeHead": "Narcotics",
@@ -1930,7 +1930,7 @@
     {
       "CaseMasterID": 861,
       "CrimeNo": "FIR/2026/986",
-      "similarity_score": 0.8929,
+      "similarity_score": 0.881,
       "CrimeRegisteredDate": "2026-05-24T04:09:39.007974",
       "District": "Mysuru City",
       "CrimeHead": "Cybercrime",
@@ -1995,7 +1995,7 @@
     {
       "CaseMasterID": 328,
       "CrimeNo": "FIR/2025/364",
-      "similarity_score": 0.6127,
+      "similarity_score": 0.6221,
       "CrimeRegisteredDate": "2025-12-19T19:08:38.999975",
       "District": "Hubballi-Dharwad",
       "CrimeHead": "Robbery",
@@ -2042,7 +2042,7 @@
     {
       "CaseMasterID": 309,
       "CrimeNo": "FIR/2026/342",
-      "similarity_score": 0.8121,
+      "similarity_score": 0.8,
       "CrimeRegisteredDate": "2026-05-27T21:36:38.999975",
       "District": "Mangaluru City",
       "CrimeHead": "Fraud",
@@ -2087,6 +2087,15 @@
       "BriefFacts": "Alphonsa Sheikh of Camp area, Belagavi, was intercepted by two unidentified men on a motorcycle who threatened him/her with a sickle and forcibly took away cash and valuables worth Rs. 850,000, during a power outage at night. The accused fled on a Bajaj Pulsar motorcycle towards Tumakuru road. A case has been registered and search is on to nab the culprits."
     },
     {
+      "CaseMasterID": 803,
+      "CrimeNo": "FIR/2025/495",
+      "similarity_score": 0.6326,
+      "CrimeRegisteredDate": "2025-08-19T08:40:39.006977",
+      "District": "Bengaluru City",
+      "CrimeHead": "Robbery",
+      "BriefFacts": "Roopa Achar of Marathahalli, Bengaluru City, was intercepted by two unidentified men on a motorcycle who threatened him/her with an iron rod and forcibly took away cash and valuables worth Rs. 180,000, during a power outage at night. The accused fled on a Royal Enfield motorcycle towards Udupi road. A case has been registered and search is on to nab the culprits."
+    },
+    {
       "CaseMasterID": 900,
       "CrimeNo": "FIR/2024/591",
       "similarity_score": 0.6274,
@@ -2096,18 +2105,9 @@
       "BriefFacts": "Nagesh Fernandes of Peenya industrial area, Bengaluru City, was intercepted by two unidentified men on a motorcycle who threatened him/her with a sickle and forcibly took away cash and valuables worth Rs. 150,000, during broad daylight. The accused fled on a scooter towards Vijayapura road. A case has been registered and search is on to nab the culprits."
     },
     {
-      "CaseMasterID": 803,
-      "CrimeNo": "FIR/2025/495",
-      "similarity_score": 0.6236,
-      "CrimeRegisteredDate": "2025-08-19T08:40:39.006977",
-      "District": "Bengaluru City",
-      "CrimeHead": "Robbery",
-      "BriefFacts": "Roopa Achar of Marathahalli, Bengaluru City, was intercepted by two unidentified men on a motorcycle who threatened him/her with an iron rod and forcibly took away cash and valuables worth Rs. 180,000, during a power outage at night. The accused fled on a Royal Enfield motorcycle towards Udupi road. A case has been registered and search is on to nab the culprits."
-    },
-    {
       "CaseMasterID": 107,
       "CrimeNo": "FIR/2025/860",
-      "similarity_score": 0.6102,
+      "similarity_score": 0.6016,
       "CrimeRegisteredDate": "2025-03-06T01:06:38.996976",
       "District": "Bengaluru City",
       "CrimeHead": "Robbery",
@@ -2306,7 +2306,7 @@
     {
       "CaseMasterID": 822,
       "CrimeNo": "FIR/2026/934",
-      "similarity_score": 0.7545,
+      "similarity_score": 0.7474,
       "CrimeRegisteredDate": "2026-07-08T21:41:39.006977",
       "District": "Mysuru City",
       "CrimeHead": "Robbery",
@@ -2315,7 +2315,7 @@
     {
       "CaseMasterID": 693,
       "CrimeNo": "FIR/2024/827",
-      "similarity_score": 0.6842,
+      "similarity_score": 0.6747,
       "CrimeRegisteredDate": "2024-12-06T18:16:39.004976",
       "District": "Mangaluru City",
       "CrimeHead": "Robbery",
@@ -2324,7 +2324,7 @@
     {
       "CaseMasterID": 212,
       "CrimeNo": "FIR/2026/134",
-      "similarity_score": 0.6824,
+      "similarity_score": 0.6732,
       "CrimeRegisteredDate": "2026-03-30T20:51:38.998975",
       "District": "Mangaluru City",
       "CrimeHead": "Robbery",
@@ -2333,7 +2333,7 @@
     {
       "CaseMasterID": 974,
       "CrimeNo": "FIR/2026/126",
-      "similarity_score": 0.6803,
+      "similarity_score": 0.6709,
       "CrimeRegisteredDate": "2026-03-16T04:07:39.008980",
       "District": "Belagavi",
       "CrimeHead": "Robbery",
@@ -2342,7 +2342,7 @@
     {
       "CaseMasterID": 317,
       "CrimeNo": "FIR/2025/604",
-      "similarity_score": 0.5914,
+      "similarity_score": 0.5997,
       "CrimeRegisteredDate": "2025-11-03T00:46:38.999975",
       "District": "Mangaluru City",
       "CrimeHead": "Robbery",

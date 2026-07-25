@@ -102,7 +102,16 @@ function CytoscapeCanvas({ elements, onNodeClick }) {
       container: containerRef.current,
       elements: elements,
       style: stylesheet,
-      layout: { name: 'cose', animate: false, padding: 40 },
+      layout: {
+        name: 'cose',
+        animate: false,
+        padding: 60,
+        randomize: true,
+        fit: true,
+        nodeRepulsion: () => 8000,
+        idealEdgeLength: () => 120,
+        gravity: 0.25,
+      },
       boxSelectionEnabled: false,
       autounselectify: false
     })
@@ -153,7 +162,8 @@ export default function NetworkGraph() {
 
     fetchAccusedGraph(activeAccusedId)
       .then((resp) => {
-        const data = resp.data || resp
+        // fetchAccusedGraph already does .then(r => r.data), so resp = { status, source, data: { nodes, edges } }
+        const data = resp?.data || resp
         if (data && data.nodes && data.nodes.length > 0) {
           const cyNodes = data.nodes.map((n) => ({
             data: {
@@ -277,12 +287,14 @@ export default function NetworkGraph() {
 
       {/* ── Main Canvas & Sidebar Area ───────────────────────────────────── */}
       <div className="flex-1 relative overflow-hidden bg-[#04090F]">
-        {loading ? (
-          <div className="absolute inset-0 flex items-center justify-center bg-[rgba(4,9,20,0.8)] z-10">
+        {/* Always keep CytoscapeCanvas mounted so it never loses container dimensions */}
+        <CytoscapeCanvas elements={elements} onNodeClick={handleNodeClick} />
+
+        {/* Loading overlay — sits on top without unmounting the canvas */}
+        {loading && (
+          <div className="absolute inset-0 flex items-center justify-center bg-[rgba(4,9,20,0.75)] z-10 backdrop-blur-sm">
             <LoadingSkeleton className="h-10 w-48" lines={2} />
           </div>
-        ) : (
-          <CytoscapeCanvas elements={elements} onNodeClick={handleNodeClick} />
         )}
 
         {/* ── Legend Overlay (Bottom Left) ────────────────────────────────── */}

@@ -5,6 +5,7 @@ import L from 'leaflet'
 import 'leaflet/dist/leaflet.css'
 import CitationChip from '@/components/Chat/CitationChip'
 import LoadingSkeleton from '@/components/common/LoadingSkeleton'
+import { fetchClusters } from '@/api/endpoints'
 
 // Fix Leaflet default icon paths broken by Vite bundling
 delete L.Icon.Default.prototype._getIconUrl
@@ -48,12 +49,27 @@ export default function CrimeMap() {
   const [sidebarOpen,   setSidebarOpen]   = useState(true)
 
   useEffect(() => {
-    const url = import.meta.env.VITE_STRATUS_CLUSTERS_URL
-    if (!url) return
     setLoading(true)
-    fetch(`${url}${activeTime !== 'All' ? `?time=${activeTime}` : ''}`)
-      .then((r) => r.json())
-      .then((data) => { setClusters(data.features ?? data); setLoading(false) })
+    fetchClusters(activeTime)
+      .then((resp) => {
+        // resp = { status, source, type, features: [...] }
+        const features = resp?.features ?? []
+        if (features.length > 0) {
+          // Map GeoJSON features → internal cluster shape
+          const mapped = features.map((f, idx) => ({
+            id:        f.properties?.cluster_id   ?? `C${idx}`,
+            lat:       f.geometry?.coordinates[1] ?? 14.5,
+            lng:       f.geometry?.coordinates[0] ?? 75.7,
+            risk:      f.properties?.risk_level   ?? 'Medium',
+            label:     f.properties?.district      ?? `Cluster ${idx + 1}`,
+            count:     f.properties?.incident_count ?? 0,
+            firs:      f.properties?.fir_ids        ?? [],
+            crimeHead: f.properties?.crime_type     ?? 'Mixed',
+          }))
+          setClusters(mapped)
+        }
+        setLoading(false)
+      })
       .catch(() => setLoading(false))
   }, [activeTime])
 
@@ -138,7 +154,11 @@ export default function CrimeMap() {
                   <Popup>
                     <div className="text-sm font-semibold">{c.label}</div>
                     <div className="text-xs text-gray-400 mt-0.5">{c.crimeHead} · {c.count} FIRs</div>
-                    <div className="mt-2"><CitationChip firId={c.fir} /></div>
+                    {c.firs?.length > 0 && (
+                      <div className="mt-2 flex gap-1 flex-wrap">
+                        {c.firs.slice(0, 3).map(id => <CitationChip key={id} firId={String(id)} />)}
+                      </div>
+                    )}
                   </Popup>
                 </CircleMarker>
               ))}
