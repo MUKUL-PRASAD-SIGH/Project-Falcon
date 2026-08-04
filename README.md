@@ -16,6 +16,7 @@
     <img src="https://img.shields.io/badge/▶%20Watch%20Project%20Demo-FF0000?style=for-the-badge&logo=youtube&logoColor=white" />
   </a>
 </p>
+
 ## 🌐 Live Deployment
 
 <p align="center">
@@ -26,6 +27,18 @@
 
 <p align="center">
   <strong>🔗 <a href="https://auth-60079106947.development.catalystserverless.in/app/index.html#/login">Open Live Application</a></strong>
+</p>
+
+## 📑 Project Presentation (PPT)
+
+<p align="center">
+  <a href="https://mukul-prasad-sigh.github.io/Project-Falcon/Coder4not4%20-AI-Driven%20Crime%20Analytics%20&%20Visualization%20Platform.pdf" target="_blank">
+    <img src="https://img.shields.io/badge/📊%20View%20Project%20Presentation-FF6F00?style=for-the-badge&logo=microsoftpowerpoint&logoColor=white" alt="Project PPT"/>
+  </a>
+</p>
+
+<p align="center">
+  <strong>📂 <a href="https://mukul-prasad-sigh.github.io/Project-Falcon/Coder4not4%20-AI-Driven%20Crime%20Analytics%20&%20Visualization%20Platform.pdf">Open Project Presentation (PDF)</a></strong>
 </p>
 
 
